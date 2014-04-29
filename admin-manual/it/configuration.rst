@@ -208,8 +208,6 @@ dell'operazione nel database. Tale modalità è dovuta alle limitazioni
 dell'apparato. Nel campo Url si dovrà inserire *l'indirizzo IP del
 Portech*.
 
-.. raw:: mediawiki
-
 .. note:: Se si utilizza il portech modello MV-374 è necessario specificare anche la porta 8023 nel campo Url. Se ad esempio l'IP del dispositivo è 192.168.1.5, l'url deve essere 192.168.1.5:8023
 
 **Modalità d'invio tramite Web:** |product| è stato testato con il
