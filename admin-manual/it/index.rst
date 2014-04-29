@@ -6,13 +6,19 @@ Documentazione |product|
 .. image:: ../_static/logo.png
          :alt: |product|
 
-.. rubric:: |product| è bla bla
+.. rubric::
+|product| è l'applicazione che consente la visualizzazione e il controllo completo in tempo reale dell'intero sistema telefonico attraverso una semplice e intuitiva interfaccia web. 
 
-.. sidebar:: Collegamenti
+Oltre alle funzionalità standard di gestione chiamata da PC, introduce un pannello posto operatore, un accesso alla rubrica centralizzata, notifiche delle chiamate entranti, consultazione delle schede clienti e ulteriori servizi evoluti.
+
+Tali schede possono contenere informazioni recuperate da qualsiasi sistema gestionale e visualizzate in base al profilo utente (commerciale, tecnico, amministrativo, ecc...).
+
+.. sidebar:: Contatti
 
     * `Sito progetto <https://dev.nethesis.it/projects/asterisk-cti/wiki>`_
     * `Bug tracker <https://dev.nethesis.it/projects/asterisk-cti/issues>`_
-    * `Supporto: support@nethesis.it <mailto:support@nethesis.it>`_
+    * `Supporto: supporto@nethesis.it <mailto:supporto@nethesis.it>`_
+
 
 Introduzione
 ------------
