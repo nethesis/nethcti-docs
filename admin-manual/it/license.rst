@@ -28,7 +28,3 @@ Under the following terms:
 
 This is a human-readable summary of (and not a substitute for) the full license available at: http://creativecommons.org/licenses/by-nc-sa/4.0/
 
-
-Architecture documentation is from SME Server project and is licensed under GNU Free Documentation License 1.3 (http://www.gnu.org/copyleft/fdl.html).
-See http://wiki.contribs.org/ for original documentation.
-
