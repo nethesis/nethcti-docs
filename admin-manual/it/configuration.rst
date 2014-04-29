@@ -2,73 +2,64 @@
 Configurazione
 ==============
 
-Il pacchetto che consente di configurare il CTI è nethcti-nethvoice-module e viene installato automaticamente come dipendenza.
+Il pacchetto che consente la configurazione del CTI è |rpm_cti_conf_nethservice| in
+NethService e |rpm_cti_conf_nethserver| in NethServer e viene installato automaticamente
+come dipendenza.
 
-È necessario riconfigurare gli utenti del CTI (si veda la sezione "Server: prima configurazione").
+Al termine dell'installazione è necessario collegarsi alla pagina di configurazione
+di |parent_product| (http://_server_/nethvoice) e cliccare su :dfn:`"Applica modifiche"`.
+Procedere quindi con la configurazione del CTI.
 
+NethCTI2 introduce il concetto di :index:`"Presence"` che ruota attorno all'utente:
+ogni utente ha associati degli endpoint (interni, e-mail, cellulare, chat, ecc) presso
+cui è raggiungibile. Il CTI è in grado di fornire una visione d'insieme dello stato
+dell'utente.
 
+L'autenticazione all'interno di |product| avviene con le credenziali dell'utente di
+sistema. Quindi, ogni utente che deve accedere al CTI, è un utente di sistema.
 
-Al termine dell'installazione è necessario collegarsi alla pagina di configurazione di NethVoice (http://_server_/nethvoice) e cliccare su "Applica modifiche". Procedere quindi con la configurazione del CTI.
-
-NethCTI2 introduce il concetto di ''Presence'' che ruota intorno all'utente: ogni utente ha associati degli endpoint (interni, e-mail, cellulare, chat, ecc) presso cui è raggiungibile. Il CTI è in grado di fornire una visione d'insieme dello stato dell'utente. 
-
-L'autenticazione all'interno di NethCTI avviene con le credenziali dell'utente di sistema. Quindi, ogni utente che deve accedere al CTI, deve essere anche un utente di sistema.
-
-Ciascun utente ha associato un profilo. Un profilo è composto da uno o più permessi che descrivono quello che l'utente può fare all'interno del CTI.
-Ogni utente deve inoltre obbligatoriamente essere associato ad un interno telefonico.
+Ciascun utente ha associato un profilo. Un profilo è composto da uno o più permessi
+che descrivono quello che l'utente può fare all'interno del CTI. Ogni utente deve
+inoltre obbligatoriamente essere associato ad un interno telefonico.
 
 Oltre alla lista sopra citata, ciascun utente ha dei permessi aggiuntivi che comprendono:
+
 * lista delle schede clienti personalizzate
-* lista dei video in streaming (citofoni, ecc)
-* lista dei gruppi utenti
+* lista dei video in streaming (citofoni, ecc...)
+* lista dei gruppi utenti del pannello operatore
 
 Si consiglia di seguire quest'ordine per la configurazione:
-* creazione delle sorgenti di streaming (opzionale)
-* creazione delle customer card personalizzate (opzionale)
-* creazione degli utenti senza profilo associato
-* creazione dei gruppi del pannello operatore
+
 * creazione dei profili comprendenti permessi, schede cliente, streaming e gruppi
 * associazione dei profili a ciascun utente
+* creazione delle sorgenti di streaming (opzionale)
+* creazione delle customer card personalizzate (opzionale)
+* creazione dei gruppi del pannello operatore (opzionale)
+* configurazione della modalità di invio SMS (opzionale)
 
-Infine è possibile configurare la modalità di invio SMS.
-
-
-
-
-Questo modulo per NethVoice consente di configurare il CTI. In
-particolare è possibile definire l'accesso ad ogni funzione del CTI per
-ogni interno. Il modulo contiene sei pagine: *Customer Cards, Etichette
-linee esterne, Gruppi pannello operatore, Permessi, SMS, Streaming.*
-
-Customer Cards
+Schede Cliente
 ==============
 
 Questa pagina consente di creare e modificare delle customer card. Una
 customer card è un modulo che consente di definire una query ad un
 database (locale o remoto) al momento dell'arrivo di una chiamata e di
-mostrare in NethCTI il risultato.
+mostrare in |product| il risultato.
 
--  **Nome**: è il nome della customer card, deve essere diverso da
-   quello di altre customer card salvate. *Default* e *Calls* sono nomi
-   riservati alle customer card di default.
+-  **Nome**: è il nome della customer card, deve essere univoco. *Default*
+   e *Calls* sono nomi riservati alle customer card di default.
 -  **Tipo di database**: è il tipo di database dove verrà effettuata la
    query. Al momento sono supportati *mysql* è *mssql*.
 -  **Porta Database**: è la porta usata per raggiungere il database. Nel
-   caso di database locale su Nethservice è possibile utilizzare una
-   sock al posto della porta (chiusa di default) =>
-   /var/lib/mysql/mysql.sock
+   caso di database locale su NethService è possibile utilizzare una
+   sock al posto della porta (chiusa di default) => /var/lib/mysql/mysql.sock
 -  **Host**: è l'host che ospita il database
--  **Query**: è la query da effettuare
--  **Visibile di default** Se questo campo è abilitato, automaticamente
-   tutti gli interni saranno abilitati a visualizzare la customer card.
-   Sarà comunque possibile ridefinire i permessi per ogni singolo
-   interno nella pagina **Configurazione CTI**
+-  **Query**: è la query da eseguire
 
 Esempio
 -------
 
 L'esempio seguente crea una customer card *"ticket"* che, all'arrivo di
-una chiamata, mostra in NethCTI i risultati di una query effettuata sul
+una chiamata, mostra in |product| i risultati di una query effettuata sul
 database di otrs:
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -91,52 +82,95 @@ database di otrs:
 | **Visibile di default:** True                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-Permessi
+Profili
 ========
 
-Questa pagina mostra tre tabelle. Nella prima tabella è possibile
-definire, per ogni interno, i permessi per ogni funzione del CTI
+Un profilo è composto da un insieme di permessi che descrivono quello che l’utente può fare all’interno del CTI. Di seguito l'elenco dei permessi e il relativo significato.
 
--  **Rubrica** Consente di visualizzare la rubrica
--  **Chiamate in ingresso** Visualizza le chiamate in entrata
--  **Chiamate in uscita** Visualizza le chiamate in uscita
--  **Trasferimento** Consente di abilitare il trasferimento di chiamata
--  **Registra** Permette di registrare le chiamate
--  **Registro chiamate** Permette di visualizzare lo storico delle
-   chiamate
--  **Operatore Base** Permette di utilizzare le funzioni operatore
--  **Operatore Avanzato** Abilita le funzioni operatore più "delicate"
-   (ascolto delle chiamate ed intromissione)
--  **Chat** Permette di utilizzare il client chat integrato
--  **Servizi Telefonici** consente di impostare: avviso di chiamata, non
-   disturbare, inoltro di chiamata, casella vocale
--  **Privacy** se disabilitato, nasconde le ultime cifre dei numeri
--  **SMS** Permette all'utente di inviare sms
--  **Voicemail** Permette di consultare le vocemail, impostare messaggi
-   personalizzati di casella vocale e abilitare/disabilitare la
-   redirezione incondizionata alla casella vocale
+L'utente può:
 
-La seconda tabella consente di definire i permessi delle customer card.
-Di default sono presenti la customer card che ricerca nella rubrica
-(Vcard) e quella che consente la visualizzazione dello storico delle
-chiamate (Log Chiamate). Per definire customer card personalizzate,
-vedere `Configurazione Customer Card <NethCTI_Customer_Card>`__. Dopo
-averle create, verranno mostrate in questa tabella e sarà possibile
-definire i permessi per interno.
-
-La terza tabella, **"Configurazione globale pannello operatore"**
-permette di decidere se saranno visibili le schede *Linee esterne, Code,
-Parcheggio e Interni* nel pannello operatore. Queste opzioni sono
-*globali*, avranno effetto per tutti gli utenti.
+**Spy**
+    ascolare le telefonate di qualsiasi interno telefonico (solo ascolto)
+**DND**
+    configurare il suo stato di "non disturbare"
+**CDR**
+    visionare lo storico delle proprie telefonate
+**SMS**
+    inviare SMS
+    visionare lo storico dei propri SMS inviati
+**Chat**
+    utilizzare il servizio di chat
+**Don't spy**
+    disabilitare l'azione di spy sul proprio utente
+**Post-it**
+    creare/modificare/leggere/eliminare i post-it
+    visionare lo storico dei propri post-it creati
+    creare/modificare/leggere/eliminare le note sui chiamanti
+    visionare lo storico delle proprie note create e quelle pubbliche di altri utenti
+**Trunks**
+    visualizzare tutti i fasci con le relative informazioni di stato
+**Queues**
+    visualizzare le code con le relative informazioni di stato
+    effettuare il logon/logoff su/dalle code in cui i suoi interni sono membri dinamici
+    attivare/disattivare lo stato di pausa sulle code in cui i suoi interni sono membri (statici e dinamici)
+**Intrude**
+    introdursi in una conversazione (ascoltare e parlare)
+**Privacy**
+    vedere offuscate l'identità dei chiamanti/chiamati di comunicazioni relative ad altri utenti
+**Parkings**
+    vedere i parcheggi con il relativo stato
+    effettuare il pick-up di chiamate parcheggiate
+**Admin CDR**
+    visionare lo storico delle telefonate di tutti gli utenti
+**Admin SMS**
+    inviare SMS
+    visionare lo storico degli SMS inviati da qualsiasi utente
+**Admin Queues**
+    visualizzare le code con le relative informazioni di stato
+    effettuare il logon/logoff su/dalle code di tutti gli interni che sono membri dinamici
+    attivare/disattivare lo stato di pausa sulle code di tutti gli interni sono membri (statici e dinamici)
+**Recording**
+    registrare le proprie conversazioni
+    visualizzare/ascoltare/eliminare le proprie registrazioni
+**Phonebook**
+    utilizzare la rubrica e creare nuovi contatti
+**Extensions**
+    visualizzare gli utenti del pannello operatore e il loro relativo stato
+    visualizzare il numero di nuovi messaggi vocali di tutti gli utenti
+**Admin Pick-up**
+    eseguire il pick-up di qualsiasi chiamate che sta squillando su un interno: non dai parcheggi
+**Admin Post-it**
+    creare/modificare/leggere/eliminare i post-it
+    visionare lo storico dei post-it creati da tutti gli utenti
+    creare/modificare/leggere/eliminare le note sui chiamanti
+    visionare lo storico delle proprie note create e quelle pubbliche di altri utenti
+**Admin Hangup**
+    chiudere la conversazione di qualsiasi interno telefonico
+**Admin Transfer**
+    trasferire le chiamate di qualsiasi interno, tramite il trasferimento di tipo cieco
+    trasferire le chiamate in attesa su una qualsiasi coda, tramite il trasferimento di tipo cieco
+    trasferire le chiamate parcheggiate, tramite il trasferimento di tipo cieco
+**Phone Redirect**
+    configurare vari tipi di redirezioni automatiche sul proprio interno telefonico (CF, CFUnconditional, CFBusy, CF_VoiceMail)
+**Admin Recording**
+    registrare le conversazioni di qualsiasi interno telefonico
+    visualizzare/ascoltare/eliminare le registrazioni di qualsiasi utente
+**Attended Transfer**
+    eseguire il trasferimento di chiamata consultativo delle proprie chiamate
+**Streaming Permissions**
+    visualizzare diverse sorgenti video scelte tra quelle create in precedenza
+**Customer Cards Permissions**
+    visualizzare le schede clienti scelte tra quelle create in precedenza. Di default sono abilitate "l'anagrafica" e quella che consente la visualizzazione dello "storico delle ultime chiamate"
+**Operator Group Permissions**
+    visualizzare gruppi di utenti del pannello operatore scelti tra quelli creati in precedenza
 
 SMS
 ===
 
-Questa pagina consente la configurazione della modalità d'invio degli
-SMS.
+Consente la configurazione della modalità d'invio degli SMS.
 
--  **Tipo**: È possibile inviare SMS tramite degli operatori esterni
-   *(http)* o utilizzando il *Portech*. La prima opzione è quella
+-  **Tipo**: È possibile inviare SMS tramite web service di operatori
+   esterni o utilizzando il *Portech*. La prima opzione è quella
    consigliata. Nel menù sono presenti alcuni operatori, con dei
    template di url predefiniti.
 -  **Username**: login richiesto dal tipo d'accesso.
@@ -146,30 +180,26 @@ SMS.
    Quando si configura un server personalizzato è necessario sapere che
    nome devono avere le variabili utente, password, numero e testo.
 
-   -  Per esempio:
-      http://www.smshosting.it/smsMaster/invioSmsHttp.do?user\ =$USER&password=$PASSWORD&numero=$NUMBER&testo=$TEXT&test=N
-      *(In questo caso, il nome utente si chiama "user" e la password
-      "password")*.
-   -  Se un ipotetico servizio di hosting chiamasse l'utente "username"
-      e la password "pass", l'URL risultante sarebbe del tipo:
+   Se un ipotetico servizio di hosting chiamasse l’utente "username" e la password "pass", l’URL risultante sarebbe del tipo: ::
 
-      -  http://servizio.com/pagina.php?username\ =$USER&pass=$PASSWORD&numero=$NUMBER&testo=$TEXT
+     http://www.smshosting.it/smsMaster/invioSmsHttp.do?user=user&password=password&numero=$NUMBER&testo=$TEXT&test=N
 
--  **Metodo**: è il metodo per l'invio dei parametri. Se non è
-   specificato diversamente dall'operatore, è consigliato l'utilizzo di
-   GET.
+-  **Metodo**: è il metodo usato per l'invio dei parametri tramite web
+   service. Se non è specificato diversamente dall'operatore, è consigliato
+   l'utilizzo di GET.
 -  **Prefisso**: è il prefisso internazionale ed è in generale
    obbligatorio (es. 0039 per l'Italia). Una volta configurato, tutti
    gli SMS saranno inviati con tale prefisso (es. in Italia solamente).
    Tuttavia l'utente NethCTI ha la possibilità di specificare un
-   prefisso diverso anteponendolo al numero stesso nel campo
-   "Destinatario" presente nella finestra d'invio.
+   prefisso diverso anteponendolo al numero stesso nel campo di ricerca
+   in rubrica.
 
 -  Alcuni servizi richiedono anche il *mittente* come parametro: è
    sufficiente personalizzare l'URL. Ad esempio se è richiesto il
    parametro *mittente* e voglio che abbia valore *Pippo*, l'URL sarà
-   del tipo:
-   http://servizio.com/pagina.phpusername\ =$USER&pass=$PASSWORD&numero=$NUMBER&testo=$TEXT&mittente=Pippo
+   del tipo: ::
+
+     http://servizio.com/pagina.phpusername=$USER&pass=$PASSWORD&numero=$NUMBER&testo=$TEXT&mittente=Pippo
 
 **Modalità d'invio tramite Portech:** gli SMS non verranno inoltrati
 immediatamente, ma accodati. Ogni cinque minuti uno script si occupa
@@ -180,9 +210,9 @@ Portech*.
 
 .. raw:: mediawiki
 
-   {{Nota|Se si utilizza il portech modello MV-374 è necessario specificare anche la porta 8023 nel campo Url. Se ad esempio l'IP del dispositivo è 192.168.1.5, l'url deve essere 192.168.1.5:8023}}
+.. note:: Se si utilizza il portech modello MV-374 è necessario specificare anche la porta 8023 nel campo Url. Se ad esempio l'IP del dispositivo è 192.168.1.5, l'url deve essere 192.168.1.5:8023
 
-**Modalità d'invio tramite Web:** NethCTI è stato testato con il
+**Modalità d'invio tramite Web:** |product| è stato testato con il
 servizio *smshosting*. A causa della diversa granularità nella gestione
 degli errori da parte dei vari operatori, si garantisce l'esito
 dell'operazione solo con tale servizio. Tuttavia è possibile utilizzare
@@ -199,63 +229,54 @@ generale obbligatorio.*
 
 È possibile configurarlo in due modi:
 
-#. tramite NethCTI, modificando il campo "Destinatario"
-#. nella configurazione lato server che vale per tutti gli utenti
-   NethCTI.
+#. tramite |product|, anteponendolo al numero inserito nel box di ricerca
+#. nella configurazione lato server che vale per tutti gli utenti |product|
 
-**NOTA:** la configurazione tramite il secondo metodo, non preclude la
-possibilità per l'utente, di inviare SMS utilizzando un prefisso
-diverso. Infatti il prefisso inserito nel campo "Destinatario" , ha
-priorità rispetto a quello configurato col metodo due. Se tuttavia
-l'utente inserisce un numero telefonico privo di prefisso, allora verrà
-utilizzato quello del secondo metodo.
+.. note:: la configurazione tramite il secondo metodo, non preclude la possibilità per l'utente, di inviare SMS utilizzando un prefisso diverso. Infatti il prefisso anteposto al numero nel box di ricerca, ha priorità rispetto a quello configurato col metodo due. Se tuttavia l'utente inserisce un numero telefonico privo di prefisso, allora verrà utilizzato quello del secondo metodo.
 
-**Esempio 1:** l'amministratore configura il prefisso *0039* tramite il
-secondo metodo. L'utente Pippo, tramite NethCTI invia un SMS al numero
-*3331234567*. Il risultato è l'inoltro dell'SMS a *00393331234567*.
+Esempio 1
+^^^^^^^^^
 
-**Esempio 2:** l'amministratore configura il prefisso *0039* tramite il
-secondo metodo. L'utente Pippo, tramite NethCTI invia un SMS al numero
-*00303331234567*. Il risultato è l'inoltro dell'SMS a *00303331234567*.
+L'amministratore configura il prefisso *0039* tramite il secondo metodo. L'utente Pippo, tramite NethCTI invia un SMS al numero *3331234567*. Il risultato è l'inoltro dell'SMS a *00393331234567*.
 
-**Esempio 3:** l'amministratore configura il prefisso *vuoto* tramite il
-secondo metodo. L'utente Pippo, tramite NethCTI invia un SMS al numero
-*3331234567*. Il risultato è l'inoltro dell'SMS a *3331234567*.
+Esempio 2
+^^^^^^^^^
+
+L'amministratore configura il prefisso *0039* tramite il secondo metodo. L'utente Pippo, tramite NethCTI invia un SMS al numero *00303331234567*. Il risultato è l'inoltro dell'SMS a *00303331234567*.
+
+Esempio 3
+^^^^^^^^^
+L'amministratore configura il prefisso *vuoto* tramite il secondo metodo. L'utente Pippo, tramite NethCTI invia un SMS al numero *3331234567*. Il risultato è l'inoltro dell'SMS a *3331234567*.
 
 Streaming
 =========
 
-Da questa pagina è possibile definire le sorgenti di streaming che
-verranno poi mostrate in NethCTI. I permessi di ogni sorgente possono
-essere definiti per ogni interno.
+È possibile definire le sorgenti di streaming video che verranno poi mostrate in |product|. I permessi di ogni sorgente possono essere definiti per ogni utente.
 
-I parametri per configurare una sorgente streaming sono:
+I parametri per configurare una sorgente video sono:
 
--  **Nome**: è il nome della telecamera. Deve essere unico.
+-  **Nome**: è il nome della telecamera. Deve essere univoco.
 -  **Descrizione**: è l'etichetta che sarà visibile nel client.
--  **Tipo**: per ora l'unico tipo supportato è 2n Helios IP
+-  **Tipo**: indica il tipo di supporto
 -  **Url**: è l'indirizzo della sorgente video.
 
-   -  Qui vengono definite anche le dimensioni del video:
-      http://INDIRIZZOIP/enu/cameraLARGHEZZAxALTEZZA.jpg
-      LARGHEZZAxALTEZZA può assumere i valori 160x120, 320x240, 352x272,
-      352x288, 640x480 Esempio:
-      http://192.168.1.123/enu/camera640x480.jpg
+   Qui vengono definite anche le dimensioni del video: ::
+
+     http://INDIRIZZOIP/enu/cameraLARGHEZZAxALTEZZA.jpg
+
+   LARGHEZZAxALTEZZA può assumere i valori 160x120, 320x240, 352x272, 352x288, 640x480
+
+   Esempio: ::
+
+     http://192.168.1.123/enu/camera640x480.jpg
 
 -  **Username**
 -  **Password**
 -  **Framerate**: è la frequenza di refresh delle immagini. Questo
    numero rappresenta i frame mostrati ogni 1/1000 (millesimo) di
-   secondo. Per esempio, inserendo 1000 si avrà un frame al secondo, 500
-   è uguale a due frame al secondo ...
--  **Interno**: è l'interno assegnato alla videocamera. Questo campo può
+   secondo. Per esempio, inserendo 1000 si avrà un frame al secondo
+-  **Interno**: è l'interno telefonico assegnato alla videocamera. Questo campo può
    essere omesso.
 -  **Comando di apertura**: è il comando per aprire la porta, nel caso
    alla videocamera sia associato un citofono. Questo campo può essere
    omesso.
--  **Visibile di default**: Abilitando questa checkbox la sorgente verrà
-   di default resa visibile a tutti gli interni. È comunque possibile
-   definire i permessi per ogni singolo utente.
-
-La tabella **Permessi** elenca tutti gli interni. Da qui è possibile per
-ogni interni se la videocamera in questione sarà visibile o meno.
