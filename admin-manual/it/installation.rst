@@ -18,18 +18,16 @@ In caso di aggiornamento eseguire: ::
 
 Dall'interfaccia grafica di configurazione di NethVoice, cliccare il pulsante "Applica cambiamenti", se presente.
 
-
 Aggiornamento
 =============
 
 
      Note di aggiornamento da NethCTI 1.x: 
 
-In caso di aggiornamento dalla release 1.x, è possibile migrare il database dei dati con il seguente comando:
+In caso di aggiornamento dalla release 1.x, è possibile migrare il database dei dati con il seguente comando: ::
+
  /usr/lib/node/nethcti-server/docs/migratedb.js `config getprop nethcti-server DbPasswd`
 
 Durante la fase di aggiornamento i dati del CTI (rubriche, postit, ecc) vengono convertiti automaticamente al nuovo formato.
 
 La configurazione deve essere comunque rifatta a mano.
-
-
