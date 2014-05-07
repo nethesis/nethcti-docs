@@ -3,30 +3,28 @@ Customer card
 =============
 
 Con il termine *customer card* si indica un insieme di informazioni che
-il server fornisce ai client NethCTI ogni volta che si riceve una
+il server fornisce ai client |product| ogni volta che si riceve una
 chiamata o che si fa click su un elemento della rubrica.
 
 Una customer card è costituita da due parti fondamentli:
 
--  una query su un database locale o remoto
--  un template per il rendering dei risultati della query
+-  una :dfn:`query` su un database locale o remoto
+-  un :dfn:`template` per il rendering dei risultati della query
 
 La configurazione di default fornisce già le seguenti customer card:
 
 -  dettagli anagrafici dalla rubrica centralizzata
 -  ultime 10 chiamate associate al cliente
 
-Altri esempi comuni di customer card:
+Altri esempi comuni di customer card sono:
 
 -  ticket di assistenza associati al cliente
 -  insoluti e stato pagamenti
 -  dettagli anagrafici da gestionale
 -  trattative, contratti e altre informazioni estratte da crm
 
-Le query possono essere configurate attraverso l'interfaccia
-tradizionale di NethVoice accedendo alla sezione "CTI". Per informazioni
-generali sulla configurazione del CTI consultare la pagina `NethCTI
-Modulo Nethvoice <NethCTI Modulo Nethvoice>`__
+Le customer cards possono essere configurate attraverso l'interfaccia
+tradizionale di |parent_product| accedendo alla sezione "CTI". Una volta create è possibile abilitarne i permessi relativi tramite la configurazione dei profili utente.
 
 Query
 =====
@@ -39,23 +37,18 @@ Attualmente sono supportati due tipi di database:
 Ogni query è composta dai seguenti campi:
 
 -  **Nome**: è il nome della customer card, deve essere diverso da
-   quello di altre customer card salvate. *Default* e *Calls* sono nomi
+   quello di altre customer card salvate. *identity* e *calls* sono nomi
    riservati alle customer card di default. Il nome della customer card
-   NON può contenere il carattere **\_**.
+   NON può contenere il carattere **"\_"**.
 -  **Tipo di database**: è il tipo di database dove verrà effettuata la
    query
 -  **Porta Database**: è la porta usata per raggiungere il database. Nel
    caso di database locale su Nethservice è possibile utilizzare il
    socket unix */var/lib/mysql/mysql.sock*
 -  **Host**: è l'host che ospita il database
--  **Query**: è la query da effettuare
--  **Visibile di default** Se questo campo è abilitato, automaticamente
-   tutti gli interni saranno abilitati a visualizzare la customer card.
-   Sarà comunque possibile ridefinire i permessi per ogni singolo
-   interno nella pagina **Configurazione CTI**
+-  **Query**: è la query da eseguire. La parola chiave :dfn:`$EXTEN` verrà sostituita con il numero telefonico su cui effettuare la ricerca.
 
 **Esempio query**
-
 
 L'esempio seguente crea una customer card "ticket" che, all'arrivo di
 una chiamata, mostra nel cti i risultati di una query effettuata sul
@@ -78,19 +71,17 @@ database di otrs:
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Query:** SELECT T.title as Titolo, date\_format(T.create\_time,'%d/%m/%Y %H:%i') as c\_time, date\_format(T.change\_time,'%d/%m/%Y %H:%i') as m\_time, concat(U.first\_name,' ',U.last\_name) as gestore, 'Cliente', TS.name as stato from ticket T inner join customer\_user CU on T.customer\_user\_id=CU.login inner join ticket\_state TS on T.ticket\_state\_id=TS.id inner join users U on T.change\_by=U.id where (CU.phone like '%$EXTEN%') limit 10   |
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Visibile di default:** True                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Template
---------
+========
 
 Dopo aver configurato la query, è necessario creare un template per
 effettuare il rendering del risultato. Tutti i template devono essere
-salvati nella directory */home/e-smith/proxycti/template/*'.
+salvati nella directory */home/e-smith/nethcti/templates/customer_card*'.
 
 Il nome del file di ciascun template deve essere nella forma:
 
-``decorator_cc_``\ \ ``_``\ \ ``.ejs``
+``decorator_cc_``\ ``<numero_ordinale>``\ ``_``\ ``<nome_customer_card>``\ ``.ejs``
 
 Il *numero\_ordinale* serve per decidere l'ordine di visualizzazione del
 template, il *nome\_customer\_card* deve coincidere con il nome deciso
@@ -101,12 +92,13 @@ Esempi di nomi di file:
 | ``decorator_cc_25_insoluti.ejs``
 | ``decorator_cc_35_trattative.ejs``
 
+
 I template utilizzano la sintassi **ejs** che, in modo del tutto simile
 a quello che avviene in PHP, permettono di "immergere" codice javascript
 all'interno di una pagina html e di generare in output un documento (o
-un frammento) html intepretabile dai browser. NethCTI fornisce già una
+un frammento) html intepretabile dai browser. |product| fornisce già una
 lista di esempi pronti all'uso nella directory
-**/usr/lib/node/proxycti/examples/**:
+**/usr/lib/node/nethcti-server/docs/custcard_examples**:
 
 -  **base\_table.ejs**: visualizza una tabella molto semplice contenente
    tutte le colonne e le righe del risultato della query
@@ -118,28 +110,36 @@ lista di esempi pronti all'uso nella directory
 -  **one\_result.ejs**: visualizza le prime due colonne del primo
    risultato della query
 
-Se ad esempio, si vuole creare una tabella di visualizzazione per la
+Se ad esempio si vuole creare una tabella di visualizzazione per la
 query sui ticket vista nel paragrafo precedente, eseguire:
 
-| ``cp /usr/lib/node/proxycti/examples/beautiful_table.ejs decorator_cc_30_ticket.ejs``
-| ``signal-event proxycti-update``
+| ``cp /usr/lib/node/nethcti-server/docs/custcard_examples/beautiful_table.ejs /home/e-smith/nethcti/templates/customer_card/decorator_cc_30_ticket.ejs``
+| ``signal-event nethcti-server-update``
 
 Risultati
 ---------
 
 All'interno di ogni template è automaticamente disponibile la variabile
-**results**, un array che contiene tutti i risultati della query. Alla
-fine di ogni record è aggiunto un elemento chiamato *server\_address*
-che contiene l'indirizzo base http del server utile per costruire i path
-delle immagini.
+**results**, un array che contiene tutti i risultati della query. Per inserire
+delle immagini all'interno del template è sufficiente usare il path:
+
+| ``/webrest/static/img/<FILENAME>``
+
+e inserire il file nel path relativo:
+
+| ``/home/e-smith/nethcti/static/img/<FILENAME>``
+
+Si consiglia di creare una sottodirectory per la specifica customer card, ad esempio:
+
+| ``/home/e-smith/nethcti/static/img/ticket/<FILENAME>``
 
 Ogni riga dell'array results è nel formato:
 
-`` ( colonna1 => valore1, colonna2 => valore2 ... colonnaX => valoreX , 'server_address' => '``\ ```http://nomeserver/`` <http://nomeserver/>`__\ ``')``
+`` ( colonna1 => valore1, colonna2 => valore2 ... colonnaX => valoreX )``
 
 Ad esempio, data una query del tipo:
 
-`` select nome,cognome,tipo from rubrica``
+`` SELECT nome, cognome, tipo FROM rubrica``
 
 Con risultato:
 
@@ -179,47 +179,22 @@ Stampa il primo risultato:
 
 | ``Nome: <%= result[0].nome %>``
 | ``Cognome: <%= result[0].cognome %>``
-| ``Tipo: ``\ \ ``/template/images/web.png' />``
+| ``Tipo: <img src='/webrest/static/img/web.png' />``
 
 Output:
 
 | `` Nome: mario``
 | `` Cognome: rossi``
-| `` Tipo:  ``\ 
+| `` Tipo:  <img src='/webrest/static/img/web.png' />``
 
 Stampa tutti i risultati:
 
-| `` <% for(var i=0; i``\ 
+| `` <% for (var i = 0; i < results.length; i++) { %>``
 | ``    Nome:  <%= results[i].nome %>``
 | ``    Cognome: <%= results[i].cognome %>``
-| ``    <%  } %>``
 | `` <% } %>``
 
 Per ulteriori dettagli sulla sintassi di ejs, consultare:
 
 -  https://github.com/visionmedia/ejs
--  http://www.w3schools.com/js/
-
-Test query customer card
-------------------------
-
-All'interno della directory */usr/lib/node/proxycti/test* vi è lo script
-*dstest.js* che consente di effettuare i test sulle query delle customer
-card.
-
-Ad esempio se si vuole testare la query della customer card *ticket*
-(creata precedentemente) relativamente al numero *12345* è necessario
-eseguire il seguente comando
-
-| ``cd /usr/lib/node/proxycti``
-| ``node /usr/lib/node/proxycti/test/dstest.js cc ticket 12345``
-
-Verranno mostrati i risultati ottenuti dal database senza considerare il
-template di rendering.
-
-Lo script fornisce anche un comodo help consultabile in qualsiasi
-momento eseguendo il comando:
-
-| ``cd /usr/lib/node/proxycti``
-| ``node /usr/lib/node/proxycti/test/dstest.js``
-
+-  https://developer.mozilla.org/it/docs/JavaScript

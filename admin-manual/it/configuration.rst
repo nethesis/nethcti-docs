@@ -10,7 +10,7 @@ Al termine dell'installazione è necessario collegarsi alla pagina di configuraz
 di |parent_product| (http://_server_/nethvoice) e cliccare su :dfn:`"Applica modifiche"`.
 Procedere quindi con la configurazione del CTI.
 
-NethCTI2 introduce il concetto di :index:`"Presence"` che ruota attorno all'utente:
+|product| 2 introduce il concetto di :index:`"Presence"` che ruota attorno all'utente:
 ogni utente ha associati degli endpoint (interni, e-mail, cellulare, chat, ecc) presso
 cui è raggiungibile. Il CTI è in grado di fornire una visione d'insieme dello stato
 dell'utente.
@@ -37,20 +37,19 @@ Si consiglia di seguire quest'ordine per la configurazione:
 * creazione dei gruppi del pannello operatore (opzionale)
 * configurazione della modalità di invio SMS (opzionale)
 
-Schede Cliente
+Schede Clienti
 ==============
 
-Questa pagina consente di creare e modificare delle customer card. Una
-customer card è un modulo che consente di definire una query ad un
+Questa pagina consente la creazione e la modifica delle customer cards (schede clienti). Una :dfn:`customer card` è un modulo che consente di definire una query ad un
 database (locale o remoto) al momento dell'arrivo di una chiamata e di
 mostrare in |product| il risultato.
 
--  **Nome**: è il nome della customer card, deve essere univoco. *Default*
-   e *Calls* sono nomi riservati alle customer card di default.
+-  **Nome**: è il nome della customer card, deve essere univoco. "*Identity*"
+   e "*Calls*" sono nomi riservati alle customer card di default.
 -  **Tipo di database**: è il tipo di database dove verrà effettuata la
-   query. Al momento sono supportati *mysql* è *mssql*.
+   query. Al momento sono supportati *mysql* e *mssql*.
 -  **Porta Database**: è la porta usata per raggiungere il database. Nel
-   caso di database locale su NethService è possibile utilizzare una
+   caso di database locale è possibile utilizzare una
    sock al posto della porta (chiusa di default) => /var/lib/mysql/mysql.sock
 -  **Host**: è l'host che ospita il database
 -  **Query**: è la query da eseguire
@@ -75,7 +74,7 @@ database di otrs:
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Database Username:** otrs                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Database Password:**' \*\*\*\*\*\*\*\*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Database Password:** \*\*\*\*\*\*\*\*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Query:** SELECT T.title as Titolo, date\_format(T.create\_time,'%d/%m/%Y %H:%i') as c\_time, date\_format(T.change\_time,'%d/%m/%Y %H:%i') as m\_time, concat(U.first\_name,' ',U.last\_name) as gestore, 'Cliente', TS.name as stato, lp from ticket T inner join customer\_user CU on T.customer\_user\_id=CU.login inner join ticket\_state TS on T.ticket\_state\_id=TS.id inner join users U on T.change\_by=U.id where (CU.phone like '%$EXTEN%' or CU.phone2 like '%$EXTEN%' or CU.phone3 like '%$EXTEN%' or CU.phone4 like '%$EXTEN%' or CU.phone5 like '%$EXTEN%') limit 10;   |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -91,98 +90,148 @@ L'utente può:
 
 **Spy**
     ascolare le telefonate di qualsiasi interno telefonico (solo ascolto)
+
 **DND**
     configurare il suo stato di "non disturbare"
+
 **CDR**
     visionare lo storico delle proprie telefonate
+
 **SMS**
     inviare SMS
+
     visionare lo storico dei propri SMS inviati
+
 **Chat**
     utilizzare il servizio di chat
+
 **Don't spy**
     disabilitare l'azione di spy sul proprio utente
+
 **Post-it**
     creare/modificare/leggere/eliminare i post-it
+
     visionare lo storico dei propri post-it creati
+
     creare/modificare/leggere/eliminare le note sui chiamanti
+
     visionare lo storico delle proprie note create e quelle pubbliche di altri utenti
+
 **Trunks**
     visualizzare tutti i fasci con le relative informazioni di stato
+
 **Queues**
     visualizzare le code con le relative informazioni di stato
+
     effettuare il logon/logoff su/dalle code in cui i suoi interni sono membri dinamici
+
     attivare/disattivare lo stato di pausa sulle code in cui i suoi interni sono membri (statici e dinamici)
+
 **Intrude**
     introdursi in una conversazione (ascoltare e parlare)
+
 **Privacy**
     vedere offuscate l'identità dei chiamanti/chiamati di comunicazioni relative ad altri utenti
+
 **Parkings**
     vedere i parcheggi con il relativo stato
+
     effettuare il pick-up di chiamate parcheggiate
+
 **Admin CDR**
     visionare lo storico delle telefonate di tutti gli utenti
+
 **Admin SMS**
     inviare SMS
+
     visionare lo storico degli SMS inviati da qualsiasi utente
+
 **Admin Queues**
     visualizzare le code con le relative informazioni di stato
+
     effettuare il logon/logoff su/dalle code di tutti gli interni che sono membri dinamici
+
     attivare/disattivare lo stato di pausa sulle code di tutti gli interni sono membri (statici e dinamici)
+
 **Recording**
     registrare le proprie conversazioni
+
     visualizzare/ascoltare/eliminare le proprie registrazioni
+
 **Phonebook**
     utilizzare la rubrica e creare nuovi contatti
+
 **Extensions**
     visualizzare gli utenti del pannello operatore e il loro relativo stato
+
     visualizzare il numero di nuovi messaggi vocali di tutti gli utenti
+
 **Admin Pick-up**
     eseguire il pick-up di qualsiasi chiamate che sta squillando su un interno: non dai parcheggi
+
 **Admin Post-it**
     creare/modificare/leggere/eliminare i post-it
+
     visionare lo storico dei post-it creati da tutti gli utenti
+
     creare/modificare/leggere/eliminare le note sui chiamanti
+
     visionare lo storico delle proprie note create e quelle pubbliche di altri utenti
+
 **Admin Hangup**
     chiudere la conversazione di qualsiasi interno telefonico
+
 **Admin Transfer**
     trasferire le chiamate di qualsiasi interno, tramite il trasferimento di tipo cieco
+
     trasferire le chiamate in attesa su una qualsiasi coda, tramite il trasferimento di tipo cieco
+
     trasferire le chiamate parcheggiate, tramite il trasferimento di tipo cieco
+
 **Phone Redirect**
     configurare vari tipi di redirezioni automatiche sul proprio interno telefonico (CF, CFUnconditional, CFBusy, CF_VoiceMail)
+
 **Admin Recording**
     registrare le conversazioni di qualsiasi interno telefonico
+
     visualizzare/ascoltare/eliminare le registrazioni di qualsiasi utente
+
 **Attended Transfer**
     eseguire il trasferimento di chiamata consultativo delle proprie chiamate
+
 **Streaming Permissions**
     visualizzare diverse sorgenti video scelte tra quelle create in precedenza
+
 **Customer Cards Permissions**
     visualizzare le schede clienti scelte tra quelle create in precedenza. Di default sono abilitate "l'anagrafica" e quella che consente la visualizzazione dello "storico delle ultime chiamate"
+
 **Operator Group Permissions**
     visualizzare gruppi di utenti del pannello operatore scelti tra quelli creati in precedenza
+
+Utenti
+======
+
+Ciascun utente ha associati degli endpoint (interni, e-mail, cellulare, chat, ecc) presso cui è raggiungibile. Questa sezione consente di associarne a piacere, come anche il profilo dei permessi da utilizzare.
 
 SMS
 ===
 
 Consente la configurazione della modalità d'invio degli SMS.
 
--  **Tipo**: È possibile inviare SMS tramite web service di operatori
+-  **Tipo**: è possibile inviare SMS tramite web service di operatori
    esterni o utilizzando il *Portech*. La prima opzione è quella
    consigliata. Nel menù sono presenti alcuni operatori, con dei
    template di url predefiniti.
 -  **Username**: login richiesto dal tipo d'accesso.
 -  **Password**: password richiesta dal tipo d'accesso.
--  **Url**: I parametri necessari all'invio dell'SMS vengono inviati al
+-  **Url**: i parametri necessari all'invio dell'SMS vengono inviati al
    server tramite l'URL (indipendentemente dal metodo GET o POST).
    Quando si configura un server personalizzato è necessario sapere che
    nome devono avere le variabili utente, password, numero e testo.
 
    Se un ipotetico servizio di hosting chiamasse l’utente "username" e la password "pass", l’URL risultante sarebbe del tipo: ::
 
-     http://www.smshosting.it/smsMaster/invioSmsHttp.do?user=user&password=password&numero=$NUMBER&testo=$TEXT&test=N
+     http://www.smshosting.it/smsMaster/invioSmsHttp.do?username=user&pass=password&numero=$NUMBER&testo=$TEXT&test=N
 
 -  **Metodo**: è il metodo usato per l'invio dei parametri tramite web
    service. Se non è specificato diversamente dall'operatore, è consigliato
@@ -190,7 +239,7 @@ Consente la configurazione della modalità d'invio degli SMS.
 -  **Prefisso**: è il prefisso internazionale ed è in generale
    obbligatorio (es. 0039 per l'Italia). Una volta configurato, tutti
    gli SMS saranno inviati con tale prefisso (es. in Italia solamente).
-   Tuttavia l'utente NethCTI ha la possibilità di specificare un
+   Tuttavia l'utente |product| ha la possibilità di specificare un
    prefisso diverso anteponendolo al numero stesso nel campo di ricerca
    in rubrica.
 
@@ -235,16 +284,17 @@ generale obbligatorio.*
 Esempio 1
 ^^^^^^^^^
 
-L'amministratore configura il prefisso *0039* tramite il secondo metodo. L'utente Pippo, tramite NethCTI invia un SMS al numero *3331234567*. Il risultato è l'inoltro dell'SMS a *00393331234567*.
+L'amministratore configura il prefisso *0039* tramite il secondo metodo. L'utente Pippo, tramite |product| invia un SMS al numero *3331234567*. Il risultato è l'inoltro dell'SMS a *00393331234567*.
 
 Esempio 2
 ^^^^^^^^^
 
-L'amministratore configura il prefisso *0039* tramite il secondo metodo. L'utente Pippo, tramite NethCTI invia un SMS al numero *00303331234567*. Il risultato è l'inoltro dell'SMS a *00303331234567*.
+L'amministratore configura il prefisso *0039* tramite il secondo metodo. L'utente Pippo, tramite |product| invia un SMS al numero *00303331234567*. Il risultato è l'inoltro dell'SMS a *00303331234567*.
 
 Esempio 3
 ^^^^^^^^^
-L'amministratore configura il prefisso *vuoto* tramite il secondo metodo. L'utente Pippo, tramite NethCTI invia un SMS al numero *3331234567*. Il risultato è l'inoltro dell'SMS a *3331234567*.
+L'amministratore configura il prefisso *vuoto* tramite il secondo metodo. L'utente Pippo, tramite |product| invia un SMS al numero *3331234567*. Il risultato è l'inoltro dell'SMS a *3331234567*.
+
 
 Streaming
 =========
@@ -268,11 +318,11 @@ I parametri per configurare una sorgente video sono:
 
      http://192.168.1.123/enu/camera640x480.jpg
 
--  **Username**
--  **Password**
+-  **Username**: nome utente per l'accesso al dispositivo.
+-  **Password**: password per l'accesso al dispositivo.
 -  **Framerate**: è la frequenza di refresh delle immagini. Questo
    numero rappresenta i frame mostrati ogni 1/1000 (millesimo) di
-   secondo. Per esempio, inserendo 1000 si avrà un frame al secondo
+   secondo. Per esempio, inserendo 1000 si avrà un frame al secondo.
 -  **Interno**: è l'interno telefonico assegnato alla videocamera. Questo campo può
    essere omesso.
 -  **Comando di apertura**: è il comando per aprire la porta, nel caso
