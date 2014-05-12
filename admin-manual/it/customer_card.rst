@@ -89,8 +89,10 @@ durante la configurazione della query.
 
 Esempi di nomi di file:
 
-| ``decorator_cc_25_insoluti.ejs``
-| ``decorator_cc_35_trattative.ejs``
+::
+
+ decorator_cc_25_insoluti.ejs
+ decorator_cc_35_trattative.ejs
 
 
 I template utilizzano la sintassi **ejs** che, in modo del tutto simile
@@ -113,8 +115,10 @@ lista di esempi pronti all'uso nella directory
 Se ad esempio si vuole creare una tabella di visualizzazione per la
 query sui ticket vista nel paragrafo precedente, eseguire:
 
-| ``cp /usr/lib/node/nethcti-server/docs/custcard_examples/beautiful_table.ejs /home/e-smith/nethcti/templates/customer_card/decorator_cc_30_ticket.ejs``
-| ``signal-event nethcti-server-update``
+::
+
+ cp /usr/lib/node/nethcti-server/docs/custcard_examples/beautiful_table.ejs /home/e-smith/nethcti/templates/customer_card/decorator_cc_30_ticket.ejs``
+ signal-event nethcti-server-update
 
 Risultati
 ---------
@@ -123,37 +127,53 @@ All'interno di ogni template è automaticamente disponibile la variabile
 **results**, un array che contiene tutti i risultati della query. Per inserire
 delle immagini all'interno del template è sufficiente usare il path:
 
-| ``/webrest/static/img/<FILENAME>``
+::
+
+ /webrest/static/img/<FILENAME>
 
 e inserire il file nel path relativo:
 
-| ``/home/e-smith/nethcti/static/img/<FILENAME>``
+::
+
+ /home/e-smith/nethcti/static/img/<FILENAME>
 
 Si consiglia di creare una sottodirectory per la specifica customer card, ad esempio:
 
-| ``/home/e-smith/nethcti/static/img/ticket/<FILENAME>``
+::
+
+ /home/e-smith/nethcti/static/img/ticket/<FILENAME>
 
 Ogni riga dell'array results è nel formato:
 
-`` ( colonna1 => valore1, colonna2 => valore2 ... colonnaX => valoreX )``
+::
+
+ ( colonna1 => valore1, colonna2 => valore2 ... colonnaX => valoreX )
 
 Ad esempio, data una query del tipo:
 
-`` SELECT nome, cognome, tipo FROM rubrica``
+::
+
+ SELECT nome, cognome, tipo FROM rubrica
 
 Con risultato:
 
-| `` mario,rossi,azienda``
-| `` giuseppe,bianchi,privato``
+::
+
+  mario,rossi,azienda
+  giuseppe,bianchi,privato
 
 L'array avrà il formato:
 
-| ``  [0] => { nome: "mario", cognome: "rossi", tipo: 'azienda' }``
-| ``  [1] => { nome: "giuseppe", cognome: "bianchi", tipo: 'privato' }``
+::
+
+   [0] => { nome: "mario", cognome: "rossi", tipo: 'azienda' }
+   [1] => { nome: "giuseppe", cognome: "bianchi", tipo: 'privato' }
 
 Quindi, per accedere ad esempio al cognome del secondo risultato:
 
-`` results[1].cognome        // ritornerà "bianchi"``
+::
+
+ results[1].cognome        // ritornerà "bianchi"
 
 All'interno della variabile **results.length** è contenuto il numero dei
 risultati ottenuti.
@@ -165,34 +185,44 @@ I template ejs utilizzano la sintassi standard di javascript.
 
 Per inserire codice all'interno di un frammento html, si usano i tag:
 
-``<% ...codice... %>``
+::
+
+ <% ...codice... %>
 
 Se si desidera stampare direttamente il valore di una variabile, si può
 usare il formato:
 
-`` <%= nome_variabile %>``
+::
+ 
+ <%= nome_variabile %>
 
 Riportiamo un paio di esempi riprendendo la query vista nel paragrafo
 precedente.
 
 Stampa il primo risultato:
 
-| ``Nome: <%= result[0].nome %>``
-| ``Cognome: <%= result[0].cognome %>``
-| ``Tipo: <img src='/webrest/static/img/web.png' />``
+::
+
+ Nome: <%= result[0].nome %>
+ Cognome: <%= result[0].cognome %>
+ Tipo: <img src='/webrest/static/img/web.png' />
 
 Output:
 
-| `` Nome: mario``
-| `` Cognome: rossi``
-| `` Tipo:  <img src='/webrest/static/img/web.png' />``
+::
+
+ Nome: mario
+ Cognome: rossi
+ Tipo:  <img src='/webrest/static/img/web.png' />
 
 Stampa tutti i risultati:
 
-| `` <% for (var i = 0; i < results.length; i++) { %>``
-| ``    Nome:  <%= results[i].nome %>``
-| ``    Cognome: <%= results[i].cognome %>``
-| `` <% } %>``
+::
+
+  <% for (var i = 0; i < results.length; i++) { %>
+      Nome:  <%= results[i].nome %>
+      Cognome: <%= results[i].cognome %>
+  <% } %>
 
 Per ulteriori dettagli sulla sintassi di ejs, consultare:
 

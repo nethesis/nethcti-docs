@@ -14,11 +14,15 @@ Installazione
 
 Per installare eseguire:
 
-| ``yum --enablerepo=nethupgrade install nethcti``
+::
+
+ yum --enablerepo=nethupgrade install nethcti
 
 Per aggiornare eseguire:
 
-| ``yum --enablerepo=nethupgrade update nethcti``
+::
+
+ yum --enablerepo=nethupgrade update nethcti
 
 
 Prima configurazione
@@ -28,7 +32,9 @@ Prima configurazione
 
 |product| è raggiungibile all'indirizzo:
 
-| ``https://_server_/cti``
+::
+
+ https://_server_/cti
 
 Usare le proprie credenziali di sistema per effettuare il login.
 

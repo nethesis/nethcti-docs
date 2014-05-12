@@ -23,11 +23,15 @@ Installazione e aggiornamento
 
 Per installare eseguire:
 
-| ``yum --enablerepo=nethupgrade install neth-oppanel``
+::
+
+ yum --enablerepo=nethupgrade install neth-oppanel
 
 Per aggiornare la beta eseguire:
 
-| ``yum --enablerepo=nethupgrade update neth-oppanel``
+::
+
+ yum --enablerepo=nethupgrade update neth-oppanel
 
 Configurazione
 ==============
