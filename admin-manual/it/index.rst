@@ -48,6 +48,14 @@ Client
  
    client
 
+Nethifier
+--------
+
+.. toctree::
+   :maxdepth: 2
+
+   nethifier
+
 Click2Call Windows
 ------------------
 
@@ -63,6 +71,14 @@ Pannello operatore
    :maxdepth: 2
 
    operator
+
+Applicazioni di Terze Parti
+------------------------
+
+.. toctree::
+   :maxdepth: 2
+
+   third_party
 
 Appendice
 ---------
