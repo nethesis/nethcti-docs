@@ -48,13 +48,13 @@ Client
  
    client
 
-Nethifier
+Nethefier
 --------
 
 .. toctree::
    :maxdepth: 2
 
-   nethifier
+   nethefier
 
 Click2Call Windows
 ------------------
