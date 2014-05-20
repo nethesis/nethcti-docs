@@ -72,13 +72,13 @@ Pannello operatore
 
    operator
 
-Applicazioni di Terze Parti
+Applicazioni Legacy
 ------------------------
 
 .. toctree::
    :maxdepth: 2
 
-   third_party
+   app_legacy
 
 Appendice
 ---------

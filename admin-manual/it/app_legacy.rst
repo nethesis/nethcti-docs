@@ -1,10 +1,8 @@
 ===========================================
-Integrazione di applicazioni di terze parti
+Integrazione di applicazioni legacy
 ===========================================
 
-È possibile integrare :index:`applicazioni di terze parti` con |product| sfruttando le sue API. Il meccanismo di base delle chiamate REST API prevede una prima fase d'autenticazione tramite le credenziali dell'utente.
-
-Per mantenere compatibilità con le applicazioni già sviluppate che usano le API delle versione 1.x, |product| offre anche la possibilità di fare telefonate invocando una particolare API senza autenticazione. **Questa funzionalità è disabilitata di default per motivi di sicurezza.**
+Per mantenere compatibilità con le :index:`applicazioni legacy` che usano le API della versione 1.x, |product| offre la possibilità di fare telefonate invocando una particolare API senza autenticazione. **Questa funzionalità è disabilitata di default per motivi di sicurezza.**
 
 **Per l'attivazione eseguire:**
 
