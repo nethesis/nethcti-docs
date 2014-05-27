@@ -48,6 +48,14 @@ Client
  
    client
 
+Firefox
+-------
+
+.. toctree::
+   :maxdepth: 2
+
+   firefox
+
 Nethifier
 --------
 
