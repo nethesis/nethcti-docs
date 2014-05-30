@@ -7,23 +7,7 @@ Client
 Requisiti
 =========
 
-Sono supportati i browser Google Chrome e Mozilla Firefox.
-
-Installazione
-=============
-
-Per installare eseguire:
-
-::
-
- yum --enablerepo=nethupgrade install nethcti
-
-Per aggiornare eseguire:
-
-::
-
- yum --enablerepo=nethupgrade update nethcti
-
+Sono supportati i browser Google Chrome e Mozilla Firefox (:doc:`firefox`).
 
 Prima configurazione
 ====================
