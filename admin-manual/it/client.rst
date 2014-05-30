@@ -214,14 +214,16 @@ Opzioni dell'utente
 **Click2Call**
     Se il telefono è supportato è possibile scegliere la modalità automatica, che farà partire automaticamente la telefonata senza la necessità di alzare la cornetta. Molto utile ad esempio con l'utilizzo di un dispositivo dotato di cuffie.
 
-    Il pulsante :dfn:`Testo echo` testa le credenziali inserite, che devono essere quelle configurate nel telefono attraverso l'interfaccia web del dispositivo stesso.
+    Il pulsante :dfn:`Test echo` testa le credenziali, che devono essere quelle configurate nel telefono attraverso l'interfaccia web del dispositivo stesso. Esegue una telefonata al dispositivo stesso.
 
-.. note:: per utilizzare la modalità automatica è necessario configurare il telefono attraverso la sua interfaccia web. Completare il campo *"TrustedActionURIServerList"* (Webpage -> Phone Features -> ip_security -> TrustedActionURIServerList)
+.. note:: Per utilizzare la modalità automatica è necessario configurare il telefono attraverso la sua interfaccia web. Completare il campo *"TrustedActionURIServerList"* (Webpage -> Phone Features -> ip_security -> TrustedActionURIServerList)
    con l'elenco degli indirizzi IP da cui il telefono può ricevere comandi tramite Action URI.
 
    Ad esempio è possibile inserire l'IP della propria rete LAN con l'ultimo campo uguale ad '*' (es. 192.168.5.*) per abilitare il telefono alla ricezione di comandi da qualsiasi pc della propria rete. Altrimenti elencare gli IP separati da virgole.
 
    Il nome del campo potrebbe essere diverso in base alla marca del telefono.
+
+   **La prima volta che si utilizza il click2call automatico è possibile che il telefono mostri un messaggio per accettare la richiesta. In tal caso confermare.**
 
 **Notifiche**
 
