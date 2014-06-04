@@ -277,8 +277,10 @@ Video Streaming
 ---------------
 
 È possibile visualizzare flussi video provenienti da diverse sorgenti
-aggiunte attraverso il modulo di configurazione di |parent_product|. Ad esempio
-videocitofoni o telecamere IP.
+aggiunte attraverso il modulo di configurazione di |parent_product|, ad esempio
+videocitofoni o telecamere IP. È inoltre possibile comandare l'apertura di una porta sel il dispositivo lo supporta.
+
+.. note:: Per comandare l'apertura della porta associata al videocitofono è necessario aver prima risposto alla chiamata, oppure aspettare il termine della stessa.
 
 
 Speed Dial
