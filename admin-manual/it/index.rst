@@ -38,6 +38,7 @@ Server
 
    installation
    configuration
+   manual_configurations
    customer_card
 
 Client
@@ -57,7 +58,7 @@ Firefox
    firefox
 
 Nethifier
---------
+---------
 
 .. toctree::
    :maxdepth: 2
