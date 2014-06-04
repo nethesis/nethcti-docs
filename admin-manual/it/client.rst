@@ -309,3 +309,5 @@ Chat
 ----
 
 Per poter iniziare una conversazione di chat con un utente è sufficiente soffermare il mouse sul contatto della lista di tutti gli utenti e cliccare sull'icona relativa.
+
+.. note:: Per poter utilizzare la chat è necessario essere collegati a |product| usando il nome di dominio del server.
