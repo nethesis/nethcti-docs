@@ -225,6 +225,8 @@ Opzioni dell'utente
 
    **La prima volta che si utilizza il click2call automatico è possibile che il telefono mostri un messaggio per accettare la richiesta. In tal caso confermare.**
 
+   I modelli supportati sono Yealink e Snom.
+
 **Notifiche**
 
     Riguarda le notifiche di tipo :dfn:`offline`, cioè da ricevere quando non si è loggati a |product|. L'utente può ricevere notifiche per nuovi POST-IT e nuovi messaggi vocali. Sono disponibili due tipi di notifiche, *e-mail* ed *sms*. Tale funzionalità richiede che all'utente sia stato associato un endpoint di tipo cellulare e uno di tipo e-mail tramite la `configurazione utenti <configuration.html#utenti>`_.
