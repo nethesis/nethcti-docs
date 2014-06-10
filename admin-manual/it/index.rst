@@ -81,13 +81,13 @@ Pannello operatore
 
    operator
 
-Applicazioni Legacy
+Sviluppo
 ------------------------
 
 .. toctree::
    :maxdepth: 2
 
-   app_legacy
+   development
 
 Appendice
 ---------
