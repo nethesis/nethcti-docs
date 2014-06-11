@@ -2,10 +2,12 @@
 Sviluppo
 ========
 
+.. _authentication-ref-label:
+
 Autenticazione
 ==============
 
-Lo scopo della fase d'autenticazione è creare un *token* che sarà usato per invocare le REST API.
+Lo scopo della fase d'autenticazione è creare un *token* che sarà usato per le operazioni future, quali l'invocazione delle REST API o per creare una connessione permanente (WebSocket o TCP).
 
 Eseguire il login
 -----------------
@@ -22,7 +24,7 @@ specificando lo _username_ e _password_ in formato JSON:
 
  { "username": "pippo", "password": "pluto" }
 
-2. Il client riceve una risposta standard HTTP 401. Se l'autenticazione ha avuto successo la risposta contiene un _nonce_ (un numero) nello header HTTP, altrimenti l'autenticazione è fallita. Un esempio di header è (il nonce è *06d15944d8ece69bdc97742b37c507970e2f6651*):
+2. Il client riceve una risposta standard HTTP 401. Se l'autenticazione ha avuto successo la risposta contiene un *nonce* (una stringa) nello header HTTP, altrimenti l'autenticazione è fallita. Un esempio di header è (il nonce è *06d15944d8ece69bdc97742b37c507970e2f6651*):
 
 ::
 
@@ -60,39 +62,46 @@ Le REST API sono dei Web Services che consentono l'interazione con il server |pr
 
  Questo documento assume che il lettore possegga già una certa familiarità con le più comuni tecniche di programmazione e Web Services.
 
-Caratteristiche comuni
-----------------------
+Come usare una API
+------------------
 
 Di seguito vengono elencate le caratteristiche comuni a tutte le REST API:
 
-* una API viene invocata tramite l'invio di una richiesta HTTP al server |product| che risponde fornendo i dati richiesti o tramite un codice di stato o entrambi.
-* Tutte le risorse sono raggiungibili tramite l'url:
+* una API viene invocata tramite l'invio di una richiesta HTTP[S] al server |product| che risponde fornendo i dati richiesti o tramite un codice di stato o entrambi.
+* I codici di stato delle risposte HTTP sono quelli `standard <http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html>`_.
+* Il formato utilizzato per lo scambio dati è `JSON <http://www.json.org/>`_.
+* Tutte le risorse sono raggiungibili tramite l'urli base:
 
 ::
 
   http[s]://<SERVER>/webrest/
 
-* Per richiedere una API è necessario aggiungere un *path* al baseurl che specifica la risorsa da richiedere. Per esempio:
+* Per richiedere una API è necessario aggiungere un *patì* al baseurl che specifica la risorsa da richiedere. Per esempio:
 
 ::
 
   http[s]://<SERVER>/webrest/phonebook/search
 
-* Ogni richiesta deve contenere i parametri d'autenticazione per il controllo d'accesso.
+* Ogni richiesta deve contenere i parametri d'autenticazione per il controllo d'accesso, specificando lo header HTTP ``Authorization``:
+
+::
+
+ Authorization: username:token
+
 * Ogni richiesta viene *autenticata* e *autorizzata* del server |product|.
 
 
 Autenticazione
 --------------
 
-#. Il client deve eseguire il login e deve creare un token d'autenticazione come descritto `qui <https://dev.nethesis.it/projects/asterisk-cti/wiki/Authentication>`_.
-#. Per ogni richiesta rest api il client deve configurare lo HTTP header:
+#. L'autenticazione di una richiesta REST viene eseguita dal server controllando la validità del token passato. Quindi, come fase preliminare, Il client deve eseguire il login e deve creare un token d'autenticazione come descritto :ref:`qui <authentication-ref-label>`.
+#. Ogni richiesta deve contenere lo header HTTP ``Authorization``:
 
 ::
 
     Authorization: username:token
 
-La validità del token d'autenticazione viene aggiornato ad ogni richiesta, altrimenti scade come descritto `qui <https://dev.nethesis.it/projects/asterisk-cti/wiki/Authentication#How-to-login>`_.
+**La validità del token d'autenticazione viene aggiornato ad ogni richiesta, altrimenti scade dopo un certo intervallo temporale (di default pari a un'ora). Dopo la scadenza è necessaria una nuova fase d'autenticazione.**
 
 
 Autorizzazione
@@ -101,6 +110,54 @@ Autorizzazione
 Ogni richiesta REST API viene autorizzata dal server che controlla i permessi utente configurati dall'amministratore attraverso l'interfaccia di |parent_product|.
 
 
+Elenco delle API |product|
+--------------------------
+
+.. _/astproxy: http://dev.nethesis.it/nethcti/classes/plugin_rest_astproxy.html
+.. _/authentication: http://dev.nethesis.it/nethcti/classes/plugin_rest_authentication.html
+.. _/authorization: http://dev.nethesis.it/nethcti/classes/plugin_rest_authorization.html
+.. _/callernote: http://dev.nethesis.it/nethcti/classes/plugin_rest_callernote.html
+.. _/histcallernote: http://dev.nethesis.it/nethcti/classes/plugin_rest_histcallernote.html
+.. _/all_histcallernote: http://dev.nethesis.it/nethcti/classes/plugin_rest_all_histcallernote.html
+.. _/configmanager: http://dev.nethesis.it/nethcti/classes/plugin_rest_configmanager.html
+.. _/custcard: http://dev.nethesis.it/nethcti/classes/plugin_rest_custcard.html
+.. _/historycall: http://dev.nethesis.it/nethcti/classes/plugin_rest_historycall.html
+.. _/histcallswitch: http://dev.nethesis.it/nethcti/classes/plugin_rest_histcallswitch.html
+.. _/cel: http://dev.nethesis.it/nethcti/classes/plugin_rest_cel.html
+.. _/phonebook: http://dev.nethesis.it/nethcti/classes/plugin_rest_phonebook.html
+.. _/postit: http://dev.nethesis.it/nethcti/classes/plugin_rest_postit.html
+.. _/historypostit: http://dev.nethesis.it/nethcti/classes/plugin_rest_historypostit.html
+.. _/all_historypostit: http://dev.nethesis.it/nethcti/classes/plugin_rest_all_historypostit.html
+.. _/sms: http://dev.nethesis.it/nethcti/classes/plugin_rest_sms.html
+.. _/historysms: http://dev.nethesis.it/nethcti/classes/plugin_rest_historysms.html
+.. _/all_historysms: http://dev.nethesis.it/nethcti/classes/plugin_rest_all_historysms.html
+.. _/streaming: http://dev.nethesis.it/nethcti/classes/plugin_rest_streaming.html
+.. _/voicemail: http://dev.nethesis.it/nethcti/classes/plugin_rest_voicemail.html
+
+====================== ==================================================================================
+Path                   Descrizione
+====================== ==================================================================================
+`/astproxy`_           Interazione con il server Asterisk
+`/authentication`_     Funzionalità d'autenticazione
+`/authorization`_      Funzionalità per i permessi utente
+`/callernote`_         Funzionalità reative alle note sulle chiamate
+`/histcallernote`_     Storico delle note sulle chiamate relative al proprio utente
+`/all_histcallernote`_ Storico delle note sulle chiamate di tutti gli utenti del sistema
+`/configmanager`_      Funzionalità relative alla configurazione degli utenti e di |product|
+`/custcard`_           Funzionalità relative alle schede clienti
+`/historycall`_        Storico delle chiamate del proprio utente
+`/histcallswitch`_     Storico delle chiamate di tutti gli utenti del sistema
+`/cel`_                Consente di recuperare informazioni dettagliate sulle chiamate dal CEL di Asterisk
+`/phonebook`_          Funzionalità relative alle rubriche
+`/postit`_             Funzionalità relative ai POST-IT
+`/historypostit`_      Storico dei POST-IT dell'utente
+`/all_historypostit`_  Storico dei POST-IT di tutti gli utenti del sistema
+`/sms`_                Funzionalità relative agli SMS
+`/historysms`_         Storico degli SMS dell'utente
+`/all_historysms`_     Storico degli SMS di tutti gli utenti del sistema
+`/streaming`_          Funzionalità sulle sorgenti video
+`/voicemail`_          Funzionalità relative alle voicemail
+====================== ==================================================================================
 
 WebSocket
 =========
@@ -111,15 +168,15 @@ Per stabilire una connessione WebSocket col server |product| è necessaria una p
 Eseguire il login
 -----------------
 
-#. Il client esegue il login e crea un nuovo token d'autenticazione come descritto `qui <https://dev.nethesis.it/projects/asterisk-cti/wiki/Authentication>`_.
-#. Il client stabilisce una connessione websocket con il server (la porta di default sicura è la 8181).
-#. Il client invia il messaggio *login* al server attraverso la connessione websocket specificando *username* e *token* in formato JSON:
+1. Il client esegue il login e crea un nuovo token d'autenticazione come descritto :ref:`qui <authentication-ref-label>`.
+2. Il client stabilisce una connessione websocket con il server (la porta di default sicura è la 8181).
+3. Il client invia il messaggio *login* al server attraverso la connessione websocket specificando *username* e *token* in formato JSON:
 
 ::
 
  socket.emit('login', { accessKeyId: username, token: token.toString() });
 
-#. Se il login ha avuto successo il client riceve il messaggio *authe_ok*, altrimenti il messaggio *401* e il client viene disconnesso.
+4. Se il login ha avuto successo il client riceve il messaggio *authe_ok*, altrimenti il messaggio *401* e il client viene disconnesso.
 
 **Una volta completato il login con successo, il token ha validità infinita fino al riavvio del server.**
 
