@@ -6,7 +6,7 @@ Con il termine *customer card* si indica un insieme di informazioni che
 il server fornisce ai client |product| ogni volta che si riceve una
 chiamata o che si fa click su un elemento della rubrica.
 
-Una customer card è costituita da due parti fondamentli:
+Una customer card è costituita da due parti fondamentali:
 
 -  una :dfn:`query` su un database locale o remoto
 -  un :dfn:`template` per il rendering dei risultati della query
@@ -98,7 +98,7 @@ Esempi di nomi di file:
 I template utilizzano la sintassi **ejs** che, in modo del tutto simile
 a quello che avviene in PHP, permettono di "immergere" codice javascript
 all'interno di una pagina html e di generare in output un documento (o
-un frammento) html intepretabile dai browser. |product| fornisce già una
+un frammento) html interpretabile dai browser. |product| fornisce già una
 lista di esempi pronti all'uso nella directory
 **/usr/lib/node/nethcti-server/docs/custcard_examples**:
 

@@ -9,7 +9,7 @@ Prima di richiedere supporto, assicurarsi che tutti i client si colleghino al se
 Tutte le richieste possono essere inoltrate via ticket a supporto@nethesis.it. Ciascuna richiesta dovrà:
 
 * riportare la dicitura :dfn:`"NethCTI2"` nel campo oggetto
-* contenere i dati per l'accesso SSH alla macchina (indispensabile per fornire assitenza)
+* contenere i dati per l'accesso SSH alla macchina (indispensabile per fornire assistenza)
 * indicare le seguenti informazioni sul client utilizzato:
  * `versione del browser`
  * `versione del sistema operativo`

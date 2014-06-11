@@ -186,7 +186,7 @@ Stato interni telefonici
 
 Configura tre modalità di trasferimento di chiamata:
 
-- *incodizionato*: qualsiasi chiamata in ingresso viene redirezionata
+- *incondizionato*: qualsiasi chiamata in ingresso viene redirezionata
 - *non disponibile*: la chiamata in ingresso viene redirezionata dopo un certo timeout
 - *occupato*: la chiamata in ingresso viene redirezionata quando l'interno telefonico è già impegnato in un'altra conversazione
 
@@ -200,7 +200,7 @@ Opzioni dell'utente
     ricerca la scheda cliente sul tipo di numero telefonico selezionato.
 
 **Url parametrizzato**
-    configura l'url parametrizzato da richiedere durante una conversazione tramite il click dell'apposito pulsante prensente nel box di gestione chiamata in alto. Le keywords da inserire nell'url sono:
+    configura l'url parametrizzato da richiedere durante una conversazione tramite il click dell'apposito pulsante presente nel box di gestione chiamata in alto. Le keywords da inserire nell'url sono:
 
     - *$CALLER_NAME*: nome del chiamante
     - *$CALLER_NUMBER*: numero chiamante
@@ -280,7 +280,7 @@ Video Streaming
 
 È possibile visualizzare flussi video provenienti da diverse sorgenti
 aggiunte attraverso il modulo di configurazione di |parent_product|, ad esempio
-videocitofoni o telecamere IP. È inoltre possibile comandare l'apertura di una porta sel il dispositivo lo supporta.
+videocitofoni o telecamere IP. È inoltre possibile comandare l'apertura di una porta sex il dispositivo lo supporta.
 
 .. note:: Per comandare l'apertura della porta associata al videocitofono è necessario aver prima risposto alla chiamata, oppure aspettare il termine della stessa.
 
@@ -294,7 +294,7 @@ di contatti:
 
 **speed dial**
     viene personalizzata dall'utente creando dei propri *contatti privati*
-    nella rubrica |product|. L'utente può inziare una telefonata col contatto
+    nella rubrica |product|. L'utente può inviare una telefonata col contatto
     semplicemente con un click.
 
 **tutti gli utenti**

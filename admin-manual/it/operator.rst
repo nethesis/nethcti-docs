@@ -5,7 +5,7 @@ Posto Operatore
 Modalità Operative
 ==================
 
-Il |product_op| è raggiunigbile all'indirizzo: http://_server_/oppanel
+Il |product_op| è raggiungibile all'indirizzo: http://_server_/oppanel
 
 Il |product_op| può lavorare in due modalità: 
 

@@ -89,7 +89,7 @@ Un profilo è composto da un insieme di permessi che descrivono quello che l’u
 L'utente può:
 
 **Spy**
-    ascolare le telefonate di qualsiasi interno telefonico (solo ascolto)
+    ascoltare le telefonate di qualsiasi interno telefonico (solo ascolto)
 
 **DND**
     configurare il suo stato di "non disturbare"
@@ -263,7 +263,7 @@ Portech*.
 servizio *smshosting*. A causa della diversa granularità nella gestione
 degli errori da parte dei vari operatori, si garantisce l'esito
 dell'operazione solo con tale servizio. Tuttavia è possibile utilizzare
-liberamente altri gestori, tenendo in cosiderazione che in alcuni casi
+liberamente altri gestori, tenendo in considerazione che in alcuni casi
 l'esito d'invio potrebbe risultare positivo quando in realtà non lo è
 (es. prefisso errato). È comunque possibile contattare l'assistenza in
 caso di problemi o per la richiesta d'estensione del supporto.
