@@ -37,6 +37,8 @@ Per l'aggiornamento del server eseguire: ::
 
 Dall'interfaccia grafica di configurazione di |parent_product|, cliccare il pulsante "Applica cambiamenti", se presente.
 
+Eseguire l'associazione :ref:`utenti-profili-interni telefonici <user_configuration_ref_label>` sempre attraverso la stessa interfaccia e cliccare nuovamente "Applica cambiamenti".
+
 È possibile migrare il database dei dati con il seguente comando: ::
 
   /usr/lib/node/nethcti-server/docs/migratedb.js `config getprop nethcti-server DbPasswd`
