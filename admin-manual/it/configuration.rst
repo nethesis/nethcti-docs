@@ -208,6 +208,8 @@ L'utente può:
 **Operator Group Permissions**
     visualizzare gruppi di utenti del pannello operatore scelti tra quelli creati in precedenza
 
+.. _user_configuration_ref_label:
+
 Utenti
 ======
 
