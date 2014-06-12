@@ -45,8 +45,8 @@ combinazione di tasti scelta (di default è il tasto **F11**).
 
 In questo modo verrà eseguita una richiesta HTTPS al server |product|.
 
-In qualsiasi momento è possibile **sospendere** l'attività di |product|
-Click2Call tramite la voce *"Sospendi Hotkeys"* del menù che appare
+In qualsiasi momento è possibile **sospendere** l'attività di |win_c2c|
+tramite la voce *"Sospendi Hotkeys"* del menù che appare
 dall'icona della system tray. L'icona diventerà di colore rosso.
 
 .. note::
