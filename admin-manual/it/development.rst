@@ -22,7 +22,7 @@ specificando lo _username_ e _password_ in formato JSON:
 
 ::
 
- { "username": "pippo", "password": "pluto" }
+ { "username": "my_user", "password": "my_password" }
 
 2. Il client riceve una risposta standard HTTP 401. Se l'autenticazione ha avuto successo la risposta contiene un *nonce* (una stringa) nello header HTTP, altrimenti l'autenticazione è fallita. Un esempio di header è (il nonce è *06d15944d8ece69bdc97742b37c507970e2f6651*):
 
@@ -110,6 +110,84 @@ Autorizzazione
 Ogni richiesta REST API viene autorizzata dal server che controlla i permessi utente configurati dall'amministratore attraverso l'interfaccia di |parent_product|.
 
 
+Esempio d'uso con cURL
+----------------------
+
+L'esempio seguente mostra come eseguire una richiesta rest tramite `cURL <http://curl.haxx.se/>`_. Lo strumento si può rivelare utile per eseguire dei test e per comprendere il meccanismo delle chiamate con maggior dettaglio.
+
+1. Supponiamo di volere effettuare la ricerca in rubrica del contatto *nethesis* per estrarre il numero telefonico. La prima operazione da eseguire è l'autenticazione (è necessaria solamente la prima volta per la costruzione del token).
+
+::
+
+ curl --insecure -i -X POST -d "username=my_user&password=my_password" https://192.168.5.226/webrest/authentication/login
+
+L'autenticazione ha successo e il server risponde con:
+
+::
+
+ HTTP/1.1 401 Unauthorized
+ Date: Thu, 12 Jun 2014 13:01:43 GMT
+ www-authenticate: Digest f4700adb35ad29ee16afe6c03c0196dfc74ec3b1
+ Content-Length: 0
+ Content-Type: text/plain
+
+2. Estraiamo il nonce dall'header *www-authenticate*:
+
+::
+
+ f4700adb35ad29ee16afe6c03c0196dfc74ec3b1
+
+3. Costruiamo il token d'autenticazione:
+
+::
+
+ tohash = "my_user:my_password:f4700adb35ad29ee16afe6c03c0196dfc74ec3b1"
+ token  = HMAC-SHA1("my_user:my_password:f4700adb35ad29ee16afe6c03c0196dfc74ec3b1", "my_password") = "1d8062d1c85a8fe6983745a1ee318d1cd9b8bde1"
+
+4. Chiamiamo la rest api *phonebook/search*:
+
+::
+
+ curl --insecure -i -H "Authorization: my_user:1d8062d1c85a8fe6983745a1ee318d1cd9b8bde1" https://192.168.5.226/webrest/phonebook/search/nethesis
+
+5. Il server invia la risposta in format JSON con i dati richiesti:
+
+::
+
+ {
+    "centralized": [
+        {
+            "id": 1916,
+            "owner_id": "",
+            "type": "Reseller",
+            "homeemail": null,
+            "workemail": "info@nethesis.it",
+            "homephone": null,
+            "workphone": "0721405516",
+            "cellphone": "",
+            "fax": "",
+            "title": null,
+            "company": "NETHESIS SRL ",
+            "notes": "",
+            "name": "",
+            "homestreet": null,
+            "homepob": null,
+            "homecity": null,
+            "homeprovince": null,
+            "homepostalcode": null,
+            "homecountry": null,
+            "workstreet": "VIA DEGLI OLMI, 12",
+            "workpob": null,
+            "workcity": "PESARO",
+            "workprovince": null,
+            "workpostalcode": null,
+            "workcountry": null,
+            "url": "http://www.nethesis.it"
+        }
+    ],
+    "nethcti": []
+ }
+
 Elenco delle API |product|
 --------------------------
 
@@ -140,7 +218,7 @@ Path                   Descrizione
 `/astproxy`_           Interazione con il server Asterisk
 `/authentication`_     Funzionalità d'autenticazione
 `/authorization`_      Funzionalità per i permessi utente
-`/callernote`_         Funzionalità reative alle note sulle chiamate
+`/callernote`_         Funzionalità relative alle note sulle chiamate
 `/histcallernote`_     Storico delle note sulle chiamate relative al proprio utente
 `/all_histcallernote`_ Storico delle note sulle chiamate di tutti gli utenti del sistema
 `/configmanager`_      Funzionalità relative alla configurazione degli utenti e di |product|
