@@ -26,6 +26,7 @@ Si consiglia di utilizzare i client con monitor che abbiano una risoluzione magg
 Requisiti Minimi
 ============
 Per poter installare la versione 2 del NethCTI è NECESSARIO avere:
+
 * NethService 8.2
 * NethVoice 11
 
