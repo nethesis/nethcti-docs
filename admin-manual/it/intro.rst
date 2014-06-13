@@ -22,4 +22,13 @@ Inoltre la nuova versione abbandona l'integrazione con NethCRM.
 Si consiglia di utilizzare i client con monitor che abbiano una risoluzione maggiore di 1024x768 pixel.
 
 
+============
+Requisiti Minimi
+============
+Per poter installare la versione 2 del NethCTI è NECESSARIO avere:
+* NethService 8.2
+* NethVoice 11
+
+Altre versioni precedenti non sono supportate.
+
  .. note:: Gli aggiornamenti di NethCTI e Pannello Operatore sono manuali per NethService 8.2
