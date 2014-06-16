@@ -51,3 +51,25 @@ Per l'aggiornamento del client eseguire: ::
 
   yum --enablerepo=nethupgrade update nethcti
 
+
+**Migrare i template delle customer cards**
+
+Se sono state create customer cards personalizzate, le query verranno migrate automaticamente. I template devono invece
+essere migrati manualmente attraverso il seguente comando:
+
+::
+
+ cp /usr/lib/node/proxycti/template/decorator_cc_* /home/e-smith/nethcti/templates/customer_card/
+
+Se il template contiene delle immagini è anche necessario copiare tali file nel path:
+
+::
+
+ /home/e-smith/nethcti/static/img
+
+e quindi adattare i relativi path nel template usando:
+
+::
+
+ /webrest/static/img/<FILENAME>
+
