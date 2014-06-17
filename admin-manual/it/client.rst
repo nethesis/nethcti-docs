@@ -166,12 +166,20 @@ se le note sono state create con visibilità *"privata"*, allora saranno
 visibili solo le proprie, altrimenti anche quelle degli altri utenti.
 
 
-Scheda cliente
---------------
+Customer card
+-------------
 
 Mostra la scheda cliente relativa a un numero telefonico.
-È possibile visualizzarla cliccando un risultato della ricerca
-in rubrica.
+È possibile visualizzarla in due modi:
+
+#. cliccando un risultato della ricerca in rubrica
+#. utilizzando il programma :doc:`nethifier`
+
+Nel primo caso i dati della scheda cliente vengono recuperati in base al
+numero telefonico di lavoro del contatto. È comunque possibile cambiare
+il tipo di numero su cui effettuare la ricerca attraverso le opzioni dell'utente.
+
+Nel secondo caso le informazioni vengono recuperati usando il numero chiamante.
 
 Configurazione
 ------------------
