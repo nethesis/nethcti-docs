@@ -9,7 +9,8 @@ Versioni di Windows compatibili: Windows 7 (64 bit) e Windows 8.
 Requisiti
 =========
 
-Richiede il server |product| 2.x.
+- .NET Framework 4.5.
+- Server |product| 2.x.
 
 Installazione
 =============
