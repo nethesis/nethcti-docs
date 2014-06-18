@@ -28,7 +28,7 @@ Requisiti Minimi
 Per poter installare la versione 2 del NethCTI è NECESSARIO avere:
 
 * NethService 8.2
-* NethVoice 11
+* `NethVoice 11.3 <https://docs.nethesis.it/Update_Pack_3_NethVoice11>`_
 
 Altre versioni precedenti non sono supportate.
 
