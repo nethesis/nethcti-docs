@@ -283,6 +283,8 @@ Fasci
 Consente la visualizzazione di tutti i fasci telefonici con il relativo stato assieme alle chiamate in transito. Ciascun fascio è suddiviso in base al numero di canali supportati.
 
 
+.. _streaming-video-label:
+
 Video Streaming
 ---------------
 
