@@ -1,8 +1,8 @@
-======================
-Configurazioni manuali
-======================
+=========================
+Personalizzazione servizi
+=========================
 
-Alcuni parametri del server sono configurabili solo manualmente tramite la linea di comando.
+È possibile personalizzare la configurazione di alcuni servizi solo manualmente attraverso la linea di comando.
 
 Configurazione Chat
 ===================

@@ -38,7 +38,7 @@ Server
 
    installation
    configuration
-   manual_configurations
+   services_configuration
    customer_card
 
 Client
