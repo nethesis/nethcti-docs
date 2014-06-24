@@ -199,3 +199,14 @@ Ogni client |product_nethifier| può inoltre personalizzare i path dei programmi
 aprire l'interfaccia grafica |product_nethifier| attraverso la voce "Visualizza" del
 menù contestuale dell'icona nella system tray di Windows, selezionare il tab "Esegui", personalizzare
 i path e salvare la configurazione.
+
+Personalizzazione del protocollo
+--------------------------------
+
+È possibili modificare il protocollo con cui aprire |product| tramite il click sul popup.
+Eseguire: ::
+
+ config setprop nethcti-server PopupCtiProto "<PROTO>"
+ signal-event nethcti-server-update
+
+dove <PROTO> può assumere i valori *http* o *https*.
