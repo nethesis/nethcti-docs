@@ -123,13 +123,24 @@ il percorso del programma eseguibile di Windows che si intenderà eseguire: ::
         "runwith": "<PATH_EXE>"
     }
 
-Se ad esempio il nuovo comando da inserire è **"gestionale"** e il programma da eseguire è
-**"c:\\windows\\notepad.exe"**, il template custom diventerà: ::
+Se ad esempio il nuovo comando si chiama **"gestionale"** e il programma da eseguire è
+**"c:\\windows\\notepad.exe"**, la sezione da inserire sarà: ::
+
+    ,"gestionale": {
+        "command": "gestionale",
+        "runwith": "c:\\\windows\\\notepad.exe"
+    }
+
+
+e quindi il template custom diventerà: ::
 
     {
+        my $popupCtiProto = ${'nethcti-server'}{'PopupCtiProto'} || "https";
+
+        $OUT = '{
         "call": {
             "width": "400",
-            "height": "135"
+            "height": "175"
         },
         "stream": {
             "width": "400",
@@ -146,9 +157,9 @@ Se ad esempio il nuovo comando da inserire è **"gestionale"** e il programma da
                 "runwith": "c:\\\windows\\\notepad.exe"
             }
         },
-        "cti_proto": "https"
+        "cti_proto": "' . $popupCtiProto .'"
+    }';
     }
-
 
 .. warning:: Il percorso dell'eseguibile di Windows deve utilizzare la stringa "\\\\\\" come separatore.
 
@@ -190,7 +201,7 @@ se si desidera passare l'identificativo del chiamante come parametro al programm
 
  $('#open-gestionale-but').attr('arg', params.callerNum);
 
-8. Eseguire |product_nethifier| in Windows e connettersi al server cti.
+9. Eseguire |product_nethifier| in Windows e connettersi al server cti.
 
 Da questo momento alla ricezione di una chiamata generica nel popup sarà presente
 un nuovo pulsante di nome "Gestionale", cliccando il quale si aprirà il notepad di Windows.
