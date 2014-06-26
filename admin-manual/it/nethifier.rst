@@ -46,7 +46,7 @@ Configurazione
 
 È necessaria solamente la prima volta. I dati da inserire sono:
 
--  indirizzo del server |product|
+-  indirizzo del server (nome o IP)
 -  credenziali dell'utente
 
 È necessario salvare i dati cliccando il pulsante apposito in maniera tale da
