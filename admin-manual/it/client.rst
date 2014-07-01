@@ -114,8 +114,8 @@ effettuare la ricerca di qualsiasi contatto presente nelle rubriche.
 
 Le sorgenti dati in cui viene effettuata la ricerca sono:
 
--  `Rubrica Centralizzata <https://docs.nethesis.it/Rubrica_Centralizzata>`_
--  `Rubrica NethCTI`_
+- `Rubrica Centralizzata <https://docs.nethesis.it/Rubrica_Centralizzata>`_
+- Rubrica NethCTI
 
 Il click sul nome di un contatto mostrato nei risultati, visualizza la
 relativa scheda cliente in base al numero telefonico del lavoro (campo
