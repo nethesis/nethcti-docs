@@ -214,6 +214,7 @@ Utenti
 ======
 
 Ciascun utente ha associati degli endpoint (interni, e-mail, cellulare, chat, ecc) presso cui è raggiungibile. Questa sezione consente di associarne a piacere, come anche il profilo dei permessi da utilizzare.
+Un interno telefonico può essere associato al più a un solo utente.
 
 SMS
 ===
