@@ -2,7 +2,16 @@
 Supporto
 ========
 
-**Richiesta di supporto tecnico**
+Prima analisi
+=============
+
+Prima di richiedere supporto può rivelarsi utile analizzare il file di log: spesso aiuta ad individuare
+immediatamente il problema. Il file di log di |product| é: ::
+
+ /var/log/asterisk/nethcti.log
+
+Richiesta di supporto tecnico
+=============================
 
 Prima di richiedere supporto, assicurarsi che tutti i client si colleghino al server utilizzando il Fully Qualified Domain Name (FQDN) e quindi che risolvano correttamente il nome del server.
 
@@ -19,3 +28,4 @@ Tutte le richieste possono essere inoltrate via ticket a supporto@nethesis.it. C
  ::
 
   rpm -q nethcti nethcti-server nethvoice-module-nethcti nethcti-nethvoice-module neth-oppanel neth-queueman
+
