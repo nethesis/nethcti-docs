@@ -27,5 +27,5 @@ Tutte le richieste possono essere inoltrate via ticket a supporto@nethesis.it. C
 
  ::
 
-  rpm -q nethcti nethcti-server nethvoice-module-nethcti nethcti-nethvoice-module neth-oppanel neth-queueman
+  rpm -q nethcti nethcti-server nethcti-nethvoice-module neth-oppanel neth-queueman
 
