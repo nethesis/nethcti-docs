@@ -83,6 +83,19 @@ Come ultima operazione eseguire: ::
 
     signal-event nethcti-server-update
 
+Configurare un prefisso telefonico
+==================================
+
+Per configurare un prefisso per tutte le chiamate: ::
+
+ config setprop nethcti-server Prefix 0039
+ signal-event nethcti-server-update
+
+Per rimuoverlo: ::
+
+ config setprop nethcti-server Prefix ""
+ signal-event nethcti-server-update
+
 Personalizzare |product_nethifier|
 ==================================
 
