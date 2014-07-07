@@ -4,6 +4,21 @@ Personalizzazione servizi
 
 È possibile personalizzare la configurazione di alcuni servizi solo manualmente attraverso la linea di comando.
 
+Attivazione del debug
+=====================
+
+Di default il file di log riporta solamente messaggi di warning ed errori. È possibile innalzare il livello di debug per avere maggiori informazioni: ::
+
+ config setprop nethcti-server LogLevel info
+ signal-event nethcti-server-update
+
+Per ripristinare il livello di debug: ::
+
+ config setprop nethcti-server LogLevel warn
+ signal-event nethcti-server-update
+
+.. warning:: Innalzando il livello la dimensione del file di log aumenta rapidamente.
+
 Configurazione Chat
 ===================
 
