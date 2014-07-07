@@ -255,6 +255,14 @@ servizi in background:
 Gli elementi di notifica sono interattivi e consentono con un singolo
 click di accedere alle funzionalità relative.
 
+Voicemail
+---------
+
+È possibile ascoltare, effettuare il download del file audio ed eliminare tutti i messaggi delle caselle
+vocali associate all'utente. È necessario associare almeno una :ref:`voicemail <user_configuration_ref_label>`
+all'utente e deve essere attivata la funzionalità di casella vocale nel relativo interno
+telefonico tramite l'interfaccia di configurazione di |parent_product|.
+
 Pannello operatore
 ------------------
 
