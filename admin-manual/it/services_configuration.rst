@@ -36,6 +36,8 @@ Esempio: ::
     config setprop nethcti-server LdapPort "389"
     config setprop nethcti-server LdapServer "192.168.5.111"
 
+.. note:: Per configurare ldap sicuro con SSL usare la porta 636.
+
 Come ultima operazione eseguire: ::
 
     signal-event nethcti-server-update
