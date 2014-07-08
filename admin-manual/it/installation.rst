@@ -12,6 +12,13 @@ Per installare il client eseguire ::
 
   yum --enablerepo=nethupgrade install nethcti
 
+Installazione chat su |product_nethserver|
+=================================================
+
+Il server chat non viene installato automaticamente con |product|, perciò per utilizzare la chat è necessario installare ejabberd: ::
+
+ yum install ejabberd
+
 Aggiornamento dalla versione 2.x
 ================================
 
