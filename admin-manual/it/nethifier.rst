@@ -11,6 +11,9 @@ Requisiti
 
 - .NET Framework 4.5.
 - Server |product| 2.x.
+- Il client Windows deve risolvere correttamente il nome di dominio.
+
+.. note:: Per ottenere il nome di dominio si può utilizzare il comando ``hostname -f``
 
 Installazione
 =============
