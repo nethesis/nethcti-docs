@@ -11,7 +11,7 @@ Requisiti
 
 - .NET Framework 4.5.
 - Server |product| 2.x.
-- Il client Windows deve risolvere correttamente il nome di dominio.
+- Il pc su cui è in esecuzione |product_nethifier| deve risolvere l'indirizzo ``nomenethvoice.dominio``.
 
 .. note:: Per ottenere il nome di dominio si può utilizzare il comando ``hostname -f``
 
