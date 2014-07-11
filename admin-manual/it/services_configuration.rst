@@ -96,6 +96,15 @@ Per rimuoverlo: ::
  config setprop nethcti-server Prefix ""
  signal-event nethcti-server-update
 
+Personalizzare il mittente degli SMS
+====================================
+
+Se si utilizza *smshosting* come servizio web per l'invio degli SMS, è possibile personalizzare
+il nome del mittente dei messaggi. È sufficiente aggiungere il seguente parametro all'url da inserire
+nel pannello di configurazione di |parent_product|: ::
+
+  mittente=nome_da_usare
+
 Personalizzare |product_nethifier|
 ==================================
 
