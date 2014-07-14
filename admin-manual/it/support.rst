@@ -82,6 +82,15 @@ Il click2call automatico non funziona
 #. L'ip del proprio pc è stato abilitato nelle impostazioni di sicurezza del telefono ?
 #. Durante il primo utilizzo, si è accettata la richiesta mostrata sul display del telefono ?
 
+L'invio SMS fallisce
+--------------------
+
+#. Controllare la configurazione tramite l'interfaccia grafica di |parent_product|.
+#. Se si utilizza il PORTech:
+    * è raggiungibile ? (Tentare una connessione tramite telnet)
+    * è possibile forzare l'invio immediato dei messaggi accodati tramite lo script ``/usr/lib/node/nethcti-server/scripts/sendsms.php``
+
+
 Altro
 -----
 

@@ -260,9 +260,12 @@ immediatamente, ma accodati. Ogni cinque minuti uno script si occupa
 d'inviarli a destinazione in maniera sequenziale e di registrare l'esito
 dell'operazione nel database. Tale modalità è dovuta alle limitazioni
 dell'apparato. Nel campo Url si dovrà inserire *l'indirizzo IP del
-Portech*.
+Portech*. I messaggi vengono accodati in ``/var/spool/nethcti/sms/`` e lo script
+che si occupa dell'inoltro è ``/usr/lib/node/nethcti-server/scripts/sendsms.php``.
 
 .. note:: Se si utilizza il portech modello MV-374 è necessario specificare anche la porta 8023 nel campo Url. Se ad esempio l'IP del dispositivo è 192.168.1.5, l'url deve essere 192.168.1.5:8023
+
+
 
 **Modalità d'invio tramite Web:** |product| è stato testato con il
 servizio *smshosting*. A causa della diversa granularità nella gestione
