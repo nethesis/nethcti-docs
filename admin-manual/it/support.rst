@@ -54,7 +54,7 @@ Il login fallisce
 -----------------
 
 #. L'utente esiste nel sistema ?
-#. L'utente è stato configurato tramite il modulo di |parent_product| ?
+#. L'utente è stato configurato tramite il modulo di |parent_product| ? Cioè è stato associato almeno un interno?
 #. Le credenziali sono corrette ?
 #. Il server è raggiungibile ?
 #. Il server riceve la richiesta di login ?
