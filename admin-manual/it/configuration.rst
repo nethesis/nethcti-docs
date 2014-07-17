@@ -336,3 +336,12 @@ I parametri per configurare una sorgente video sono:
 -  **Comando di apertura**: è il comando per aprire la porta, nel caso
    alla videocamera sia associato un citofono. Questo campo può essere
    omesso.
+
+
+Code
+====
+
+Per ciascuna coda è necessario attivare le seguenti voci:
+
+#. Evento quando si chiama
+#. Evento su Stato Membri
