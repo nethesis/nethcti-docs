@@ -40,7 +40,8 @@ Comandi utili
 Comando                                   Descrizione
 ========================================= =======================================================
 ``tail -f /var/log/asterisk/nethcti.log`` Mettersi in tail sul log
-``service nethcti-server restart``        Riavvio del server |product|
+``service nethcti-server restart``        Riavvio del server |product| su |product_nethservice|
+``restart nethcti-server``                Riavvio del server |product| su |product_nethserver|
 ``signal-event nethcti-server-update``    Espansione dei templates e riavvio del server |product|
 ========================================= =======================================================
 
@@ -96,3 +97,4 @@ Altro
 
 #. Mettersi in tail sul log e fare un refresh della pagina di |product|: che errori riporta ?
 #. Mettersi in tail sul log e riavviare il servizio: che errori riporta ?
+#. Il comando specifico per il riavvio del server |product| riesce effettivamente a riavviarlo ? (Controllare il PID del processo).
