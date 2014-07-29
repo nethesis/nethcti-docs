@@ -10,7 +10,7 @@ Dall'interfaccia grafica di configurazione di |parent_product|, cliccare il puls
 
 Per installare il client eseguire ::
 
-  yum --enablerepo=nethupgrade install nethcti
+  yum install nethcti
 
 Installazione chat su |product_nethserver|
 =================================================
@@ -26,9 +26,7 @@ Per l'aggiornamento del server eseguire: ::
 
   yum --enablerepo=nethupgrade update nethcti-server
 
-Per l'aggiornamento del client eseguire: ::
-
-  yum --enablerepo=nethupgrade update nethcti
+L'aggiornamento del client avviene in automatico.
 
 Aggiornamento dalla versione 1.x su |parent_product| 11
 =======================================================
