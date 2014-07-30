@@ -38,6 +38,7 @@ Per l'aggiornamento del server eseguire: ::
   mysqldump nethcti > /home/e-smith/nethcti/backup/nethcti.sql 2>/dev/null
   mysqldump asterisk > /home/e-smith/nethcti/backup/asterisk.sql 2>/dev/null
   rm -f /etc/nethcti/user_prefs.json /etc/nethcti/asterisk.json 2>/dev/null
+  yum remove neth-cti
   yum --enablerepo=nethupgrade update nethcti-server
 
 - Dall'interfaccia grafica di configurazione di |parent_product|, cliccare il pulsante "Applica cambiamenti", se presente.
@@ -61,7 +62,6 @@ vanno ricreate ex-novo attraverso l'interfaccia grafica di |parent_product|.
 
 Per l'aggiornamento del client eseguire: ::
 
-  yum remove neth-cti
   yum --enablerepo=nethupgrade update nethcti
 
 **Migrare i template delle customer cards**
@@ -85,10 +85,12 @@ Eseguire `l'aggiornamento <https://docs.nethesis.it/Aggiornamento_NethVoice_11>`
 
 Per l'aggiornamento del server eseguire: ::
 
+  service proxycti stop
   mkdir -p /home/e-smith/nethcti/backup
   mysqldump nethcti > /home/e-smith/nethcti/backup/nethcti.sql 2>/dev/null
   mysqldump asterisk > /home/e-smith/nethcti/backup/asterisk.sql 2>/dev/null
   rm -f /etc/nethcti/user_prefs.json /etc/nethcti/asterisk.json 2>/dev/null
+  yum remove neth-cti
   yum --enablerepo=nethupgrade install nethcti-server
 
 - Dall'interfaccia grafica di configurazione di |parent_product|, cliccare il pulsante "Applica cambiamenti", se presente.
@@ -112,7 +114,6 @@ vanno ricreate ex-novo attraverso l'interfaccia grafica di |parent_product|.
 
 Per l'aggiornamento del client eseguire: ::
 
-  yum remove neth-cti
   yum --enablerepo=nethupgrade install nethcti
 
 **Migrare i template delle customer cards**
