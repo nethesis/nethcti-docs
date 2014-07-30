@@ -62,7 +62,7 @@ vanno ricreate ex-novo attraverso l'interfaccia grafica di |parent_product|.
 
 Per l'aggiornamento del client eseguire: ::
 
-  yum --enablerepo=nethupgrade update nethcti
+  yum --enablerepo=nethupgrade install nethcti
 
 **Migrare i template delle customer cards**
 
