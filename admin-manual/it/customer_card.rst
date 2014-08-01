@@ -48,6 +48,8 @@ Ogni query è composta dai seguenti campi:
 -  **Host**: è l'host che ospita il database
 -  **Query**: è la query da eseguire. La parola chiave :dfn:`$EXTEN` verrà sostituita con il numero telefonico su cui effettuare la ricerca.
 
+.. note:: Se si utilizza il carattere "\\", ad esempio nel nome del database, è necessario farlo precedere dal carattere di escape "\\". Esempio: se il nome del database è "TEST\\SQLEXPRESS" allora il nome corretto da inserire è "TEST\\\\SQLEXPRESS".
+
 **Esempio query**
 
 L'esempio seguente crea una customer card "ticket" che, all'arrivo di
@@ -77,15 +79,17 @@ Template
 
 Dopo aver configurato la query, è necessario creare un template per
 effettuare il rendering del risultato. Tutti i template devono essere
-salvati nella directory */home/e-smith/nethcti/templates/customer_card*'.
+salvati nella directory */home/e-smith/nethcti/templates/customer_card*.
 
 Il nome del file di ciascun template deve essere nella forma:
 
 ``decorator_cc_``\ ``<numero_ordinale>``\ ``_``\ ``<nome_customer_card>``\ ``.ejs``
 
 Il *numero\_ordinale* serve per decidere l'ordine di visualizzazione del
-template, il *nome\_customer\_card* deve coincidere con il nome deciso
-durante la configurazione della query.
+template e deve essere diverso da "00" e "20" che sono riservati per le due
+customer cards di default: "anagrafica" e "ultime chiamate" rispettivamente.
+Il *nome\_customer\_card* deve coincidere con il nome deciso durante la
+configurazione della query.
 
 Esempi di nomi di file:
 
