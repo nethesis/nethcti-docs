@@ -149,9 +149,9 @@ L'utente può:
 **Admin Queues**
     visualizzare le code con le relative informazioni di stato
 
-    effettuare il logon/logoff su/dalle code di tutti gli interni che sono membri dinamici
+    effettuare il logon/logoff su/dalle code di tutti gli agenti dinamici
 
-    attivare/disattivare lo stato di pausa sulle code di tutti gli interni sono membri (statici e dinamici)
+    attivare/disattivare lo stato di pausa di tutti gli agenti statici e dinamici delle code
 
 **Recording**
     registrare le proprie conversazioni
