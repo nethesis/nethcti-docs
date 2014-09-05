@@ -4,7 +4,7 @@ Installazione
 
 Per installare il server eseguire ::
 
-  yum --enablerepo=nethvoice-11-upgrades install nethcti-server
+  yum --enablerepo=nethvoice-11-upgrades,nethupgrade install nethcti-server
 
 Dall'interfaccia grafica di configurazione di |parent_product|, cliccare il pulsante "Applica cambiamenti", se presente.
 
