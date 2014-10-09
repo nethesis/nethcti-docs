@@ -121,7 +121,7 @@ query sui ticket vista nel paragrafo precedente, eseguire:
 
 ::
 
- cp /usr/lib/node/nethcti-server/docs/custcard_examples/beautiful_table.ejs /home/e-smith/nethcti/templates/customer_card/decorator_cc_30_ticket.ejs``
+ cp /usr/lib/node/nethcti-server/docs/custcard_examples/beautiful_table.ejs /home/e-smith/nethcti/templates/customer_card/decorator_cc_30_ticket.ejs
  signal-event nethcti-server-update
 
 Risultati
