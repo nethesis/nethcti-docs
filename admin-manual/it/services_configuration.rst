@@ -111,13 +111,13 @@ Personalizzare |product_nethifier|
 I :doc:`popup <nethifier>` possono essere personalizzati sia nella *grafica*, sia nel *contenuto*
 attraverso i seguenti template HTML: ::
 
- /home/e-smith/nethcti/static/templates/notification_popup/call.html
- /home/e-smith/nethcti/static/templates/notification_popup/streaming.html
+ /var/lib/nethserver/nethcti/static/templates/notification_popup/call.html
+ /var/lib/nethserver/nethcti/static/templates/notification_popup/streaming.html
 
 Il primo serve a mostrare i dati di una chiamata generica, mentre il secondo quelli di una
 :ref:`sorgente video <streaming-video-label>`, quale ad esempio un videocitofono.
 
-.. note:: *Conoscenze richieste: linguaggi di programmazione HTML, CSS e Javascript.*
+.. note:: Conoscenze richieste: linguaggi di programmazione HTML, CSS e Javascript.
 
 Personalizzazione della grafica
 -------------------------------
