@@ -2,9 +2,8 @@
 Configurazione
 ==============
 
-Il pacchetto che consente la configurazione del CTI è |rpm_cti_conf_nethservice| in
-NethService e |rpm_cti_conf_nethserver| in NethServer e viene installato automaticamente
-come dipendenza.
+Il pacchetto che consente la configurazione di |product| è |rpm_cti_conf_nethserver|
+e viene installato automaticamente come dipendenza.
 
 Al termine dell'installazione è necessario collegarsi alla pagina di configurazione
 di |parent_product| (http://_server_/nethvoice) e cliccare su :dfn:`"Applica modifiche"`.
