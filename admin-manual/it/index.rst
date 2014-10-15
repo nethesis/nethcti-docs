@@ -6,7 +6,6 @@ Documentazione |product|
 .. image:: ../_static/logo.png
          :alt: |product|
 
-.. rubric::
 |product| è l'applicazione che consente la visualizzazione e il controllo completo in tempo reale dell'intero sistema telefonico attraverso una semplice e intuitiva interfaccia web. 
 
 Oltre alle funzionalità standard di gestione chiamata da PC, introduce un pannello posto operatore, un accesso alla rubrica centralizzata, notifiche delle chiamate entranti, consultazione delle schede clienti e ulteriori servizi evoluti.

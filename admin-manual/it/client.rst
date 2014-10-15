@@ -124,7 +124,7 @@ personalizzabile tramite la voce :dfn:`"Cerca scheda cliente su"` presente
 nel servizio `Configurazione`_.
 
 Rubrica |product|
--------
+-----------------
 
 È possibile creare dei propri contatti che vengono utilizzati da |product|
 per la `ricerca contatti`_, per
@@ -190,7 +190,7 @@ Configurazione
 * **destra**: configura le opzioni relative all'utente
 
 Stato interni telefonici
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 Configura tre modalità di trasferimento di chiamata:
 
