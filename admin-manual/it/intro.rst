@@ -14,7 +14,7 @@ A partire dalla versione 2.0 |product| è composto da cinque parti:
 * :dfn:`il Posto Operatore (PO)`
 * :dfn:`il Gestore delle Code Avanzato`
 
-Il modulo di configurazione è usato per configurare il server |product| che a sua voltà sarà utilizzato sia dal client, sia dal Pannello Operatore, sia dal Gestore delle Code Avanzato.
+Il modulo di configurazione è usato per configurare il server |product| che a sua voltà sarà utilizzato sia dal client, sia dal Pannello Operatore, sia dal |product_queueman|.
 
 I client sono testati su Google Chrome e Mozilla Firefox. Tutti gli altri browser non sono attualmente supportati.
 La nuova versione 2.0 abbandona l'integrazione con NethCRM.
