@@ -25,13 +25,13 @@ Per installare eseguire:
 
 ::
 
- yum --enablerepo=nethupgrade install neth-oppanel
+ yum --enablerepo=nethesis-testing install neth-oppanel
 
 Per aggiornare la beta eseguire:
 
 ::
 
- yum --enablerepo=nethupgrade update neth-oppanel
+ yum --enablerepo=nethesis-testing update neth-oppanel
 
 Configurazione
 ==============
