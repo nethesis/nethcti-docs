@@ -105,6 +105,9 @@ nel pannello di configurazione di |parent_product|: ::
 
   mittente=nome_da_usare
 
+
+.. _custom-nethifier-label:
+
 Personalizzare |product_nethifier|
 ==================================
 
