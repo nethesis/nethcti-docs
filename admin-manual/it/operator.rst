@@ -23,7 +23,8 @@ Installazione
 L'installazione del modulo |product_op| deve essere fatta dal modulo Gestione Pacchetti di |product_nethserver|.
 
 
-Aggironamento
+
+Aggiorrnamento
 =============
 
 L'aggironamento del |product_op| è automatico.
