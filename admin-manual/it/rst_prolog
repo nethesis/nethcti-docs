@@ -6,4 +6,5 @@
 .. |product_op| replace:: Posto Operatore
 .. |product_queueman| replace:: Gestore delle Code Avanzato
 .. |product_nethifier| replace:: Nethifier
-.. |product_nethserver| replace:: NethServer
+.. |product_nethserver| replace:: NethServer Enterprise
+.. |product_nethservice| replace:: NethService
