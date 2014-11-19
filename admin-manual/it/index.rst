@@ -84,13 +84,12 @@ Supervisore Code
 ----------------
 
 .. toctree::
-      :maxdepth: 2
+   :maxdepth: 2
 
    queueman
 
-
 Sviluppo
-------------------------
+--------
 
 .. toctree::
    :maxdepth: 2
@@ -104,7 +103,6 @@ Appendice
    :maxdepth: 2
 
    license
-
 
 Indici
 ======
