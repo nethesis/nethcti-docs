@@ -27,6 +27,6 @@ Requisiti Minimi
 
 Per poter installare la versione 2 di |product| è NECESSARIO avere:
 
-* `|parent_product| <http://nethvoice.docs.nethesis.it/it/latest>`_
+* |parent_product| vedi `qui <http://nethvoice.docs.nethesis.it/it/latest>`_
 
 Altre versioni precedenti non sono supportate.
