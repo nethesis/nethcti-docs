@@ -22,7 +22,7 @@ Il |product_op| può lavorare in due modalità:
 Le due modalità sono mutuamente esclusive: non possono essere usate contemporaneamente.
 
 
-.. warning:: Per utilizzare la modalità WebRTC è necessario accettare, meglio se definitivamente, il certificato all'indirizzo https://ip_server:8089/ws ed eventualemente anche http://nome_server.dominio:8089/ws
+.. warning:: Per utilizzare la modalità WebRTC è necessario accettare, meglio se definitivamente, il certificato all'indirizzo https://ip_server:8089/ws ed eventualmente anche http://nome_server.dominio:8089/ws
 
 Installazione
 =============
@@ -33,7 +33,7 @@ L'installazione del modulo |product_op| deve essere fatta dal modulo Gestione Pa
 Aggiornamento
 =============
 
-L'aggironamento del |product_op| è automatico.
+L'aggiornamento del |product_op| è automatico.
 
 
 Configurazione
@@ -57,7 +57,7 @@ I parametri base sono:
 
 .. note ::
 
-  é fondamentale che su |parent_product|, nella gestione utenti del CTI, sia stato creato l'utente con cui viene fatta l'autenticazione LDAP, e che questo sia correttamente associato all'interno specificato in questa configurazione.
+  è fondamentale che su |parent_product|, nella gestione utenti del CTI, sia stato creato l'utente con cui viene fatta l'autenticazione LDAP, e che questo sia correttamente associato all'interno specificato in questa configurazione.
 
 
 Modalità Softphone WebRTC integrato
@@ -126,7 +126,7 @@ I parcheggi forniscono una modalità alternativa per mettere in attesa una chiam
 La sezione inferiore mostra lo stato degli interni del centralino.
 Gli interni sono ordinabili per nome, cognome o interno telefonico ed è possibile effettuare una ricerca nel box in alto a sinistra.
 E' possibile vedere gli interni raggruppati secondo i gruppi pannello operatore configurati nel |parent_product|.
-Cliccando sui vari interni è possibile interegire con essi ed a seconda del loro stato vengono abilitate le funzionalità:
+Cliccando sui vari interni è possibile interagire con essi ed a seconda del loro stato vengono abilitate le funzionalità:
 
 * interno non occupato: cliccandoci parte la chiamata ad esso
 * interno occupato: termina chiamata in corso, ascolto chiamata in corso, intromissione chiamata in corso, registrazione chiamata in corso ed eventuale pausa o fine della registrazione

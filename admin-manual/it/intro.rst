@@ -14,7 +14,7 @@ A partire dalla versione 2.0 |product| è composto da cinque parti:
 * :dfn:`il Posto Operatore (PO)`
 * :dfn:`il Gestore delle Code Avanzato`
 
-Il modulo di configurazione è usato per configurare il server |product| che a sua voltà sarà utilizzato sia dal client, sia dal Pannello Operatore, sia dal |product_queueman|.
+Il modulo di configurazione è usato per configurare il server |product| che a sua volta sarà utilizzato sia dal client, sia dal Pannello Operatore, sia dal |product_queueman|.
 
 I client sono testati su Google Chrome e Mozilla Firefox. Tutti gli altri browser non sono attualmente supportati.
 La nuova versione 2.0 abbandona l'integrazione con NethCRM.
@@ -27,6 +27,6 @@ Requisiti Minimi
 
 Per poter installare la versione 2 di |product| è NECESSARIO avere:
 
-* `NethVoice 11.4 <https://docs.nethesis.it/Update_Pack_3_NethVoice11>`_
+* `|parent_product| <http://nethvoice.docs.nethesis.it/it/latest>`_
 
 Altre versioni precedenti non sono supportate.
