@@ -22,7 +22,7 @@ Il |product_op| può lavorare in due modalità:
 Le due modalità sono mutuamente esclusive: non possono essere usate contemporaneamente.
 
 
-.. warning:: Per utilizzare la modalità WebRTC è necessario accettare, meglio se definitivamente, il certificato all'indirizzo https://ip_server:8089/ws ed eventualmente anche http://nome_server.dominio:8089/ws
+.. warning:: Per utilizzare la modalità WebRTC è necessario accettare, meglio se definitivamente, i certificati all'indirizzi https://ip_server:8089/ws ed http://nome_server.dominio:8089/ws
 
 Installazione
 =============
