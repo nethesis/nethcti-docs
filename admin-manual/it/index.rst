@@ -1,7 +1,7 @@
 .. NethCTI documentation master file
 
-Documentazione |product| 
-========================
+Documentazione |product| - |product_nethserver|
+===============================================
 
 .. image:: ../_static/logo.png
          :alt: |product|
