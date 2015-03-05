@@ -265,3 +265,14 @@ Eseguire: ::
  signal-event nethcti-server-update
 
 dove <PROTO> può assumere i valori *http* o *https*.
+
+Eseguire uno script per ogni chiamata eseguita
+==============================================
+
+È possibile configurare |product| per eseguire uno script in corrispondenza di ogni chiamata terminata. Lo script riceverà come parametri i dati relativi alla telefonata. Per abilitarlo: ::
+
+ config setprop nethcti-server CdrScript <SCRIPT_PATH>
+ config setprop nethcti-server CdrScriptTimeout <TIMEOUT_MILLISECONDS>
+ signal-event nethcti-server-update
+
+Il valore di default per il timeout è pari a 5 secondi, ma può essere configurato a piacere.
