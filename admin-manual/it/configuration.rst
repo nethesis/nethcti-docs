@@ -36,6 +36,26 @@ Si consiglia di seguire quest'ordine per la configurazione:
 * creazione dei gruppi del pannello operatore (opzionale)
 * configurazione della modalità di invio SMS (opzionale)
 
+.. _webrtc_phone-label:
+
+Telefono integrato WebRTC
+=========================
+
+|product| offre la possibilità di usare un softphone SIP in grado di sostituire il telefono fisico. È necessario configurare ciascun interno che si desidera utilizzare in tale maniera tramite la configurazione di |parent_product|:
+
+* **transport:** WS Only
+* **encryption:** yes
+* **directmedia:** no
+* **videosupport:** no
+* **icesupport:** yes
+* **avpf:** yes
+
+Le modalità "telefono fisico" e "softphone" sono mutuamente esclusive: non possono essere usate contemporaneamente.
+
+.. warning:: Per utilizzare la modalità WebRTC è necessario accettare, meglio se definitivamente, i certificati all'indirizzi https://ip_server:8089/ws ed http://nome_server.dominio:8089/ws
+
+Dopo la configurazione dell'interno è necessario inserire la relativa :ref:`password <config_webrtc_phone-label>` (solo la prima volta).
+
 Schede Clienti
 ==============
 

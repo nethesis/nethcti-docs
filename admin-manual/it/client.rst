@@ -331,3 +331,11 @@ Chat
 Per poter iniziare una conversazione di chat con un utente è sufficiente soffermare il mouse sul contatto della lista di tutti gli utenti e cliccare sull'icona relativa.
 
 .. note:: Per poter utilizzare la chat è necessario essere collegati a |product| usando il nome di dominio del server.
+
+
+.. _config_webrtc_phone-label:
+
+Telefono integrato WebRTC
+=========================
+
+Una volta :ref:`configurato <webrtc_phone-label>` è necessario inserire (solamente la prima volta) la password dell'interno telefonico tramite la sezione configurazione utente e cliccare il pulsante per attivarlo.
