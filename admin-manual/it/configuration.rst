@@ -235,6 +235,12 @@ L'utente può:
 **Operator Group Permissions**
     visualizzare gruppi di utenti del pannello operatore scelti tra quelli creati in precedenza
 
+**Offhour**
+    configurare il servizio notte delle proprie selezioni passanti
+
+**Admin offhour**
+    configurare il servizio notte delle proprie selezioni passanti e di quelle generiche
+
 .. _user_configuration_ref_label:
 
 Utenti
