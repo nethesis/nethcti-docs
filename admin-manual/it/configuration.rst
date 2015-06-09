@@ -60,6 +60,7 @@ Abilitare WebRTC all'esterno
 ----------------------------
 
 Accedere all'interfaccia server manager (https://server:980) e dalla sezione "Accesso Centralino" consentire l'accesso tramite WebRTC e WebSocket.
+Successivamente abilitare l'uso del server STUN dal pannello di `configurazione <http://nethvoice.docs.nethesis.it/it/latest/search.html?q=stun&check_keywords=yes&area=default>`_ di |parent_product| e all'interno di |product| dal servizio "Configurazione".
 
 Schede Clienti
 ==============
