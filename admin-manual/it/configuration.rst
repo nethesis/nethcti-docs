@@ -56,6 +56,11 @@ Le modalità "telefono fisico" e "softphone" sono mutuamente esclusive: non poss
 
 Dopo la configurazione dell'interno è necessario inserire la relativa :ref:`password <config_webrtc_phone-label>` (solo la prima volta).
 
+Abilitare WebRTC all'esterno
+----------------------------
+
+Accedere all'interfaccia server manager (https://server:980) e dalla sezione "Accesso Centralino" consentire l'accesso tramite WebRTC e WebSocket.
+
 Schede Clienti
 ==============
 
