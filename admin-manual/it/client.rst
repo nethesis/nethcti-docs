@@ -296,6 +296,17 @@ Parcheggi
 Visualizza lo stato dei parcheggi.
 
 
+Barra Telefonica Call Center
+----------------------------
+
+Consente la visualizzazione delle code a cui appartiene il proprio interno telefonico. L'utente ha sotto controllo informazioni di stato in tempo reale sugli agenti delle code e sulle code stesse, visualizzando ad esempio le chiamate in attesa e quelle servite. Inoltre può eseguire delle azioni sul proprio interno telefonico:
+
+* login/logout su una o più code
+* entrare/uscire dallo stato di pausa
+
+.. note:: È possibile attivare il login/logout automatico dalle code in corrispondenza del login/logout da |product| tramite la configurazione.
+
+
 .. _streaming-video-label:
 
 Video Streaming
