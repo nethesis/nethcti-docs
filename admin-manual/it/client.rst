@@ -307,6 +307,16 @@ Consente la visualizzazione delle code a cui appartiene il proprio interno telef
 .. note:: È possibile attivare il login/logout automatico dalle code in corrispondenza del login/logout da |product| tramite la configurazione.
 
 
+Fuori Orario
+------------
+
+Consente la gestione del servizio notte. L'utente può configurare l'ascolto di un messaggio audio per un certo intervallo temporale, ad esempio in corrispondenza delle vacanze estive.
+
+Un insieme di tab mostra le varie selezioni passanti (è necessario avere il permesso "offhour") e le rotte in ingresso generiche (permesso "admin_offhour") le quali hanno un servizio notte associato. L'utente può abilitare o meno un messaggio audio con un eventuale redirezione su voicemail o può abilitare il comportamento configurato tramite l'usuale interfaccia web di |parent_product|.
+
+Tramite la "Gestione annunci" è possibile caricare un file audio o registrarlo tramite telefono. Ogni messaggio è univocamente identificato tramite la sua *descrizione* e il *nome utente* di chi l'ha creato. È possibile scegliere tra due livelli di visibilità: *pubblica* e *privata*. Qualora venga selezionata la visibilità pubblica, altri utenti possono utilizzare quel messaggio per i propri servizi notte.
+
+
 .. _streaming-video-label:
 
 Video Streaming
