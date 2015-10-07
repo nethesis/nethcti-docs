@@ -171,6 +171,11 @@ L'utente può:
 
     effettuare il pick-up di chiamate parcheggiate
 
+**Admin parkings**
+    parcheggiare una chiamata di qualsiasi interno (tramite rest api)
+
+    effettuare il pick-up di chiamate parcheggiate usando un qualsiasi interno come destinazione (tramite rest api)
+
 **Admin CDR**
     visionare lo storico delle telefonate di tutti gli utenti
 
@@ -248,6 +253,12 @@ L'utente può:
 
 **Admin offhour**
     configurare il servizio notte delle proprie selezioni passanti e di quelle generiche
+
+**Admin call**
+    iniziare una chiamata da un interno non suo (tramite rest api)
+
+**Admin answer**
+    rispondere ad una chiamata in ingresso da qualsiasi interno supportato: yealink e snow. (Tramite rest api)
 
 .. _user_configuration_ref_label:
 
