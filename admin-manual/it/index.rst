@@ -72,6 +72,14 @@ Click2Call Windows
 
    windows_c2c
 
+App Mobile
+----------
+
+.. toctree::
+      :maxdepth: 2
+
+   app_mobile
+
 Pannello operatore
 ------------------
 
