@@ -290,6 +290,32 @@ Fasci
 
 Consente la visualizzazione di tutti i fasci telefonici con il relativo stato assieme alle chiamate in transito. Ciascun fascio è suddiviso in base al numero di canali supportati.
 
+Parcheggi
+^^^^^^^^^
+
+Visualizza lo stato dei parcheggi.
+
+
+Barra Telefonica Call Center
+----------------------------
+
+Consente la visualizzazione delle code a cui appartiene il proprio interno telefonico. L'utente ha sotto controllo informazioni di stato in tempo reale sugli agenti delle code e sulle code stesse, visualizzando ad esempio le chiamate in attesa e quelle servite. Inoltre può eseguire delle azioni sul proprio interno telefonico:
+
+* login/logout su una o più code
+* entrare/uscire dallo stato di pausa
+
+.. note:: È possibile attivare il login/logout automatico dalle code in corrispondenza del login/logout da |product| tramite la configurazione.
+
+
+Fuori Orario
+------------
+
+Consente la gestione del servizio notte. L'utente può configurare l'ascolto di un messaggio audio per un certo intervallo temporale, ad esempio in corrispondenza delle vacanze estive.
+
+Un insieme di tab mostra le varie selezioni passanti (è necessario avere il permesso "offhour") e le rotte in ingresso generiche (permesso "admin_offhour") le quali hanno un servizio notte associato. L'utente può abilitare o meno un messaggio audio con un eventuale redirezione su voicemail o può abilitare il comportamento configurato tramite l'usuale interfaccia web di |parent_product|.
+
+Tramite la "Gestione annunci" è possibile caricare un file audio o registrarlo tramite telefono. Ogni messaggio è univocamente identificato tramite la sua *descrizione* e il *nome utente* di chi l'ha creato. È possibile scegliere tra due livelli di visibilità: *pubblica* e *privata*. Qualora venga selezionata la visibilità pubblica, altri utenti possono utilizzare quel messaggio per i propri servizi notte.
+
 
 .. _streaming-video-label:
 
@@ -331,3 +357,11 @@ Chat
 Per poter iniziare una conversazione di chat con un utente è sufficiente soffermare il mouse sul contatto della lista di tutti gli utenti e cliccare sull'icona relativa.
 
 .. note:: Per poter utilizzare la chat è necessario essere collegati a |product| usando il nome di dominio del server.
+
+
+.. _config_webrtc_phone-label:
+
+Telefono integrato WebRTC
+=========================
+
+Una volta :ref:`configurato <webrtc_phone-label>` è necessario inserire (solamente la prima volta) la password dell'interno telefonico tramite la sezione configurazione utente e cliccare il pulsante per attivarlo.

@@ -36,6 +36,34 @@ Si consiglia di seguire quest'ordine per la configurazione:
 * creazione dei gruppi del pannello operatore (opzionale)
 * configurazione della modalità di invio SMS (opzionale)
 
+.. _webrtc_phone-label:
+
+Telefono integrato WebRTC
+=========================
+
+|product| offre la possibilità di usare un softphone SIP in grado di sostituire il telefono fisico. È necessario configurare ciascun interno che si desidera utilizzare in tale maniera tramite la configurazione di |parent_product|:
+
+* **transport:** WS Only
+* **encryption:** yes
+* **directmedia:** no
+* **videosupport:** no
+* **icesupport:** yes
+* **avpf:** yes
+
+Le modalità "telefono fisico" e "softphone" sono mutuamente esclusive: non possono essere usate contemporaneamente.
+
+.. warning:: Per utilizzare la modalità WebRTC è necessario accettare, meglio se definitivamente, i certificati all'indirizzi https://ip_server:8089/ws ed http://nome_server.dominio:8089/ws
+
+Dopo la configurazione dell'interno è necessario inserire la relativa :ref:`password <config_webrtc_phone-label>` (solo la prima volta).
+
+Abilitare WebRTC all'esterno
+----------------------------
+
+Accedere all'interfaccia server manager (https://server:980) e dalla sezione "Accesso Centralino" consentire l'accesso tramite WebRTC e WebSocket.
+Successivamente abilitare l'uso del server STUN dal pannello di `configurazione <http://nethvoice.docs.nethesis.it/it/latest/search.html?q=stun&check_keywords=yes&area=default>`_ di |parent_product| e all'interno di |product| dal servizio "Configurazione".
+
+.. warning:: Nel caso sia presente un **firewall** di terze parti è necessario aprire le porte **443, 8181, 8089** e quella specificata per il **server STUN** nella configurazione di |parent_product|. Controllare anche la configurazione di un eventuale firewall/antivirus presente nel pc client dell'utente.
+
 Schede Clienti
 ==============
 
@@ -143,6 +171,11 @@ L'utente può:
 
     effettuare il pick-up di chiamate parcheggiate
 
+**Admin parkings**
+    parcheggiare una chiamata di qualsiasi interno (tramite rest api)
+
+    effettuare il pick-up di chiamate parcheggiate usando un qualsiasi interno come destinazione (tramite rest api)
+
 **Admin CDR**
     visionare lo storico delle telefonate di tutti gli utenti
 
@@ -214,6 +247,18 @@ L'utente può:
 
 **Operator Group Permissions**
     visualizzare gruppi di utenti del pannello operatore scelti tra quelli creati in precedenza
+
+**Offhour**
+    configurare il servizio notte delle proprie selezioni passanti
+
+**Admin offhour**
+    configurare il servizio notte delle proprie selezioni passanti e di quelle generiche
+
+**Admin call**
+    iniziare una chiamata da un interno non suo (tramite rest api)
+
+**Admin answer**
+    rispondere ad una chiamata in ingresso da qualsiasi interno supportato: yealink e snow. (Tramite rest api)
 
 .. _user_configuration_ref_label:
 

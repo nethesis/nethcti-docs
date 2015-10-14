@@ -258,6 +258,42 @@ Eseguire il login
 
 **Una volta completato il login con successo, il token ha validità infinita fino al riavvio del server.**
 
+Sottoscrizione eventi
+---------------------
+
+Attraverso la connessione WebSocket vengono emessi i seguenti eventi:
+
+========================= ===================================================================================
+Evento                    Descrizione
+========================= ===================================================================================
+*extenUpdate*             Aggiornamento di stato di un interno telefonico
+*updateNewVoiceMessages*  Invia tutti i nuovi messaggi vocali in corrispondenza dell'arrivo di uno nuovo
+*newVoiceMessageCounter*  Invia il numero di nuovi messaggi vocali in corrispondenza dell'arrivo di uno nuovo
+*updateNewPostit*         Invia tutti i nuovi post-it dell'utente in corrispondenza dell'arrivo di uno nuovo
+*newPostitCounter*        Invia il numero di nuovi post-it, in corrispondenza dell'arrivo di uno nuovo
+*endpointPresenceUpdate*  Notifica il cambiamento della presence di un endpoint di un utente
+*queueMemberUpdate*       Aggiornamento di stato di un agente di una coda
+*trunkUpdate*             Aggiornamento di stato di un fascio
+*extenRinging*            Notifica che un interno sta squillando e riporta l'identificativo del chiamante
+*queueUpdate*             Aggiornamento di stato di una coda
+*parkingUpdate*           Aggiornamento di stato di un parcheggio
+*wsClientLoggedIn*        Un utente ha effettuato il login a |product|
+*allWsClientDisonnection* Un utente non ha più nessuna connessione WebSocket attiva
+*401*                     L'autenticazione è fallita
+*authe_ok*                L'autenticazione è avvenuta con successo
+========================= ===================================================================================
+
+Ogni evento fornisce i dati relativi in formato JSON.
+
+È possibile sottoscrivere un ascoltare per ciascuno degli eventi. Un esempio è il seguente:
+
+.. code-block:: javascript
+
+ socket.on('extenUpdate', function (data) {
+     // all the code here
+ });
+
+
 
 Integrazione di applicazioni legacy
 ===================================
