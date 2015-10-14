@@ -75,6 +75,7 @@ Configurare le opzioni dell'interno come segue:
 * **videosupport:** no
 * **icesupport:** yes
 * **avpf:** yes
+* **Avviso di Chiamata:** disattivo
 
 
 

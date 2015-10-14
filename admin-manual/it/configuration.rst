@@ -49,6 +49,7 @@ Telefono integrato WebRTC
 * **videosupport:** no
 * **icesupport:** yes
 * **avpf:** yes
+* **Avviso di Chiamata:** disattivo
 
 Le modalità "telefono fisico" e "softphone" sono mutuamente esclusive: non possono essere usate contemporaneamente.
 
