@@ -51,7 +51,7 @@ dall'icona della system tray. L'icona diventerà di colore rosso.
 
 .. note::
 
-   La funzionalità non è supportata durante l'utilizzo di programmi di teleassistenza (Teamviewer, NethControl, Putty). In tal caso sospendere l'attività.
+   La funzionalità non è supportata durante l'utilizzo di programmi di teleassistenza (Teamviewer, Putty). In tal caso sospendere l'attività.
 
 Configurazione
 ==============

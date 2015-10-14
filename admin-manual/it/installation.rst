@@ -15,4 +15,4 @@ Per utilizzare la chat è necessario installare il modulo "Messaggistica istanta
 Migrazione da |product_nethservice| 8.2
 =======================================
 
-Prima di eseguire la migrazione aggiornare |product| su |product_nethservice| all'ultima versione disponibile. Seguire quindi la guida `NethServer Enterprise. <http://nethserver.readthedocs.org/it/latest/migration.html>`_
+Prima di eseguire la migrazione aggiornare |product| su |product_nethservice| all'ultima versione disponibile. Seguire quindi la guida `migrazione <http://nethserver.readthedocs.org/it/latest/migration.html>`_

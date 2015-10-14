@@ -43,7 +43,7 @@ Ogni query è composta dai seguenti campi:
 -  **Tipo di database**: è il tipo di database dove verrà effettuata la
    query
 -  **Porta Database**: è la porta usata per raggiungere il database. Nel
-   caso di database locale su Nethservice è possibile utilizzare il
+   caso di database locale su |product_nethservice| è possibile utilizzare il
    socket unix */var/lib/mysql/mysql.sock*
 -  **Host**: è l'host che ospita il database
 -  **Query**: è la query da eseguire. La parola chiave :dfn:`$EXTEN` verrà sostituita con il numero telefonico su cui effettuare la ricerca.

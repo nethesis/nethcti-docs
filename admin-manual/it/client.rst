@@ -115,7 +115,7 @@ effettuare la ricerca di qualsiasi contatto presente nelle rubriche.
 Le sorgenti dati in cui viene effettuata la ricerca sono:
 
 - `Rubrica Centralizzata <http://nethserver.docs.nethesis.it/it/latest/phonebook-mysql.html>`_
-- Rubrica NethCTI
+- Rubrica |product|
 
 Il click sul nome di un contatto mostrato nei risultati, visualizza la
 relativa scheda cliente in base al numero telefonico del lavoro (campo

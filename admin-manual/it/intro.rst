@@ -9,23 +9,15 @@ Tali schede possono contenere informazioni recuperate da qualsiasi gestionale e 
 A partire dalla versione 2.0 |product| è composto da cinque parti:
 
 * :dfn:`un modulo per la configurazione su` |parent_product|
-* :dfn:`il server NethCTI`
-* :dfn:`il client NethCTI`
+* :dfn:`il server`
+* :dfn:`il client`
 * :dfn:`il Posto Operatore (PO)`
 * :dfn:`il Gestore delle Code Avanzato`
 
-<<<<<<< HEAD
 Il modulo di configurazione è usato per configurare il server |product| che a sua volta sarà utilizzato sia dal client, sia dal Pannello Operatore, sia dal |product_queueman|.
 
 I client sono testati su Google Chrome e Mozilla Firefox. Tutti gli altri browser non sono attualmente supportati.
-La nuova versione 2.0 abbandona l'integrazione con NethCRM.
-=======
-Il modulo di configurazione è usato per configurare il server |product| che a sua volta sarà utilizzato sia dal client, sia dal Pannello Operatore.
-
-La nuova release |product| 2.0 non è retro compatibile: tutti i client devono aggiornarsi alla nuova release.
-I client sono testati su Google Chrome e Chromium e un supporto parziale è già disponibile anche per Mozilla Firefox. Tutti gli altri browser non sono attualmente supportati.
-Inoltre la nuova versione abbandona l'integrazione con NethCRM.
->>>>>>> c61ab81... Fix syntax error
+La nuova versione 2.0 abbandona l'integrazione con il CRM.
 
 Si consiglia di utilizzare i client con monitor che abbiano una risoluzione maggiore di 1024x768 pixel.
 
