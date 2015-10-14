@@ -18,7 +18,7 @@ L'installazione dell'App Mobile avviene direttamente sullo smartphone a seconda 
 Configurazione
 ==============
 
-Per accedere tramite l'App Mobile è necessaro inserire le proprie credenziali del |product| e l'indirizzo del |parent_product|, è necessario che |parent_product| sia raggiungibile sulla porta 443 (HTTPS).
+Per accedere tramite l'App Mobile è necessario inserire le proprie credenziali del |product| e l'indirizzo del |parent_product|, è necessario che |parent_product| sia raggiungibile sulla porta 443 (HTTPS).
 
 Non è possibile inserire un IP per limiti di sicurezza imposti dal sistema, è necessario quindi che |parent_product| sia contattabile tramite un nome pubblico su internet.
 
@@ -47,7 +47,7 @@ In presenza viene configurato lo stato dell'utente tra online, occupato e offlin
 Redirezione
 ^^^^^^^^^^^
 
-In redirezione è possibile attivare l'noltro di tutte le chiamate al proprio cellulare o alla proria Casella Vocale.
+In redirezione è possibile attivare l'inoltro di tutte le chiamate al proprio cellulare o alla propria Casella Vocale.
 
 
 Contatti
@@ -55,7 +55,7 @@ Contatti
 
 Nel tab Contatti avviene l'accesso a tutti i tipi di contatti del |product|:
 
-* lista degli utenti del |product|, vengono mostrati con il loro stato di presenza, selezionado un utente è possibile contattarlo tramite le varie modalità disponibili (telefono, rete gsm, sms, post-it, chat) 
+* lista degli utenti del |product|, vengono mostrati con il loro stato di presenza, selezionando un utente è possibile contattarlo tramite le varie modalità disponibili (telefono, rete gsm, sms, post-it, chat) 
 * rubrica di |product| vedi `qui <client.html#rubrica-product>`_, è possibile fare delle ricerche in rubrica e selezionando un contatto vederne i dettagli e contattarlo tramite le varie modalità disponibili (telefono, rete gsm, sms, email)
 * numeri brevi  vedi `qui <client.html#speed-dial>`_, è possibile contattare gli speed dial tramite il telefono o la rete gsm
 
