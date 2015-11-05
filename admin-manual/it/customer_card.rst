@@ -206,8 +206,8 @@ Stampa il primo risultato:
 
 ::
 
- Nome: <%= result[0].nome %>
- Cognome: <%= result[0].cognome %>
+ Nome: <%= results[0].nome %>
+ Cognome: <%= results[0].cognome %>
  Tipo: <img src='/webrest/static/img/web.png' />
 
 Output:
