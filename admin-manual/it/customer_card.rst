@@ -48,7 +48,7 @@ Ogni query è composta dai seguenti campi:
 -  **Host**: è l'host che ospita il database
 -  **Query**: è la query da eseguire. La parola chiave :dfn:`$EXTEN` verrà sostituita con il numero telefonico su cui effettuare la ricerca.
 
-.. note:: Se si utilizza il carattere "\\", ad esempio nel nome del database, è necessario farlo precedere dal carattere di escape "\\". Esempio: se il nome del database è "TEST\\SQLEXPRESS" allora il nome corretto da inserire è "TEST\\\\SQLEXPRESS".
+.. note:: Se si utilizza il carattere "\\", ad esempio nel nome del database, è necessario farlo precedere dal carattere di escape "\\". Esempio: se il nome del database è "TEST\\SQLEXPRESS" allora il nome corretto da inserire è "TEST\\\\SQLEXPRESS". La medesima considerazione vale se è necessario racchiudere la parola chiave $EXTEN (presente nella query) tra doppi apici; in alternativa usare l'apice singolo come indicato nell'esempio sottostante.
 
 **Esempio query**
 
