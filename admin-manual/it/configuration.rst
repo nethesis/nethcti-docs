@@ -398,3 +398,54 @@ Per ciascuna coda è necessario attivare le seguenti voci:
 
 #. Evento quando si chiama
 #. Evento su Stato Membri
+
+
+.. _multi_site_config-label:
+
+Multi-Sede
+==========
+
+Il multi sede consente il collegamento singolo o reciproco di più sedi distribuite.
+La configurazione è suddivisa in tre step: il primo per interconnettere i centralini, il secondo da eseguire sulla sede da *controllare* e il terzo su quella *controllore*.
+
+Interconnessione dei centralini
+-------------------------------
+
+È necessario configurare i centralini |parent_product| delle sedi da interconnettere attraverso la configurazione dei `fasci <http://nethvoice.docs.nethesis.it/it/latest/configurazione_avanzata.html#configurazione-fasci-iax>`_ e le eventuali `rotte in uscita. <http://nethvoice.docs.nethesis.it/it/latest/routing_chiamata.html#rotte-uscita>`_
+Per queste operazioni seguire la `documentazione relativa. <http://nethvoice.docs.nethesis.it/it/latest/configurazione_avanzata.html#configurazione-fasci-iax>`_
+
+Configurazione sede "controllata"
+---------------------------------
+
+Cliccare la voce di menù *Multisede* e creare un *Account locale* inserendo:
+
+* **Nome sede remota:** nome identificativo a scelta
+* **Username:** nome utente utilizzato dalla sede remota per la connessione
+* **Password:** password utilizzata dalla sede remota per la connessione
+* **Ip consentiti per questo account:** elenco degli IP abilitati alla connessione
+
+L'account così creato verrà utilizzato dalla sede remota *controllore* per la connessione.
+
+Successivamente cliccare la voce *Gruppi Pannello Operatore* e abilitare selettivamente la visualizzazione di uno o più gruppi per la sede remota tramite la checkbox relativa. È possibile anche creare nuovi gruppi adibiti solo alla visualizzazione remota.
+
+.. note:: Le credenziali devono essere univoche per ogni sede e ogni account locale creato è utilizzabile per la connessione solamente da una sede.
+
+
+Configurazione sede "controllore"
+---------------------------------
+
+Cliccare la voce di menù *Multisede* e creare una *Connessione remota* inserendo:
+
+* **Nome sede remota:** nome identificativo a scelta
+* **Hostname remoto:** indirizzo IP o nome dominio della sede remota a cui connettersi
+* **Username:** nome utente utilizzato per la connessione alla sede remota
+* **Password:** password utilizzata per la connessione alla sede remota
+* **Prefisso per chiamare la sede:** prefisso telefonico utilizzato per instradare le telefonate alla sede remota (viene configurato nelle rotte in uscita). È utile nel caso in cui le sedi connesse utilizzino le stesse numerazioni per gli interni. Se non è stato configurato, può essere lasciato vuoto.
+
+Successivamente, abilitare la visualizzazione della sede remota selettivamente per gli utenti, tramite i profili, abilitando il permesso **"remote_site"**.
+
+
+
+Una volta eseguita la configurazione delle sedi, applicare i cambiamenti e riavviare il CTI tramite gli appositi pulsanti.
+Se la connessione tra le sedi fallisce durante il normale funzionamento, la sede *controllore* tenta la riconnessione automaticamente alla sede *controllata* ogni minuto.
+Quando si riavvia il server cti "controllore" tramite il pulsante presente in |parent_product|, può accadere che la sede remota "controllata" non sia stata riavviata. In tal caso procedere al riavvio e attendere che la sede "controllore" si riconnetta automaticamente.

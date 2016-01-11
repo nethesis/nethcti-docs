@@ -365,3 +365,19 @@ Telefono integrato WebRTC
 =========================
 
 Una volta :ref:`configurato <webrtc_phone-label>` è necessario inserire (solamente la prima volta) la password dell'interno telefonico tramite la sezione configurazione utente e cliccare il pulsante per attivarlo.
+
+
+Multi Sede
+==========
+
+Tramite il *multi sede* è possibile visualizzare le sedi remote :ref:`precedentemente configurate <multi_site_config-label>` ed eseguire le seguenti operazioni tramite un telefono fisico:
+
+* chiamare un interno remoto
+* chiamare un cellulare
+* inviare un sms
+* inviare un post-it
+
+Le sedi remote vengono visualizzate nel pannello operatore e nella lista utenti.
+Nel caso in cui la connessione con le sedi remote dovesse in qualche modo fallire, è sufficiente attendere che venga ristabilita automaticamente (il tempo impiegato è circa un minuto).
+
+.. note:: Al momento il telefono SIP WebRTC non è supportato per chiamare utenti su sedi remote tramite il pannello operatore. È comunque possibile farlo inserendo il numero telefonico nel box di ricerca in alto.
