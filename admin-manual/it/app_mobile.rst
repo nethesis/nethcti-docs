@@ -8,7 +8,7 @@ Nel market Android la trovate qui `App Mobile <https://play.google.com/store/app
 
 Nello store Apple invece qui `App Mobile <https://itunes.apple.com/us/app/nethcti/id1041889331?ls=1&mt=8>`_
 
-.. note::  iOS 9 richiede la presenza di un certificato valido, non autofirmato, sul |product| per consentire l'accesso all'app. Stiamo ultimando una procedur
+.. note::  iOS 9 richiede la presenza di un certificato valido, non autofirmato, sul |parent_product| per consentire l'accesso all'app. Stiamo ultimando una procedur
     a che consentirà di installarne uno che sia accettato anche da iOS 9, rivolgersi all'assistenza per maggiori dettagli.
 
 Installazione
