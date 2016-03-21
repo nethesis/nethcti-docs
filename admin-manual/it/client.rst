@@ -307,6 +307,22 @@ Consente la visualizzazione delle code a cui appartiene il proprio interno telef
 .. note:: È possibile attivare il login/logout automatico dalle code in corrispondenza del login/logout da |product| tramite la configurazione.
 
 
+Chiamate perse
+^^^^^^^^^^^^^^
+
+È un componente del servizio "Barra Telefonica Call Center" ed è attivabile tramite il permesso "Lost Queue Calls" del proprio profilo.
+
+Il servizio nasce con l'obiettivo di fornire all'utente un comodo strumento con cui gestire le chiamate perse in coda.
+Viene quindi mostrato l'elenco delle chiamate **gestite** e quelle **da richiamare** transitate attraverso la coda.
+Di default le informazioni vengono aggiornate automaticamente ogni dieci secondi e sono relative alle ultime otto ore.
+È possibile modificare l'intervallo di aggiornamento, selezionare una data specifica o utilizzare l'aggiornamento manuale.
+
+L'utente può richiamare un numero telefonico semplicemente cliccando l'entry relativa della tabella. In tal caso, se un altro utente si è già messo in comunicazione con la destinazione, verrà mostrato un avviso con cui decidere se rinunciare o forzare la chiamata.
+
+Per vedere i dettagli di una chiamata è sufficiente cliccare l'icona "i" della colonna "Info".
+
+
+
 Fuori Orario
 ------------
 
