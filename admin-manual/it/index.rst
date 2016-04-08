@@ -14,9 +14,8 @@ Tali schede possono contenere informazioni recuperate da qualsiasi sistema gesti
 
 .. sidebar:: Contatti
 
-    * `Sito progetto <https://dev.nethesis.it/projects/asterisk-cti/wiki>`_
-    * `Bug tracker <https://dev.nethesis.it/projects/asterisk-cti/issues>`_
-    * `Supporto: supporto@nethesis.it <mailto:supporto@nethesis.it>`_
+    * `Sito <http://www.nethvoice.it/?page_id=1129>`_
+    * `Supporto: helpdesk.nethesis.it <mailto:helpdesk.nethesis.it>`_
 
 
 Introduzione
