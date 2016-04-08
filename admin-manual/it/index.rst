@@ -15,7 +15,7 @@ Tali schede possono contenere informazioni recuperate da qualsiasi sistema gesti
 .. sidebar:: Contatti
 
     * `Sito <http://www.nethvoice.it/?page_id=1129>`_
-    * `Supporto: helpdesk.nethesis.it <mailto:helpdesk.nethesis.it>`_
+    * `Supporto: helpdesk.nethesis.it <http://helpdesk.nethesis.it>`_
 
 
 Introduzione
