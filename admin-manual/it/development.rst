@@ -191,26 +191,26 @@ L'autenticazione ha successo e il server risponde con:
 Elenco delle API |product|
 --------------------------
 
-.. _/astproxy: http://api.nethesis.it/classes/plugin_rest_astproxy.html
-.. _/authentication: http://api.nethesis.it/classes/plugin_rest_authentication.html
-.. _/authorization: http://api.nethesis.it/classes/plugin_rest_authorization.html
-.. _/callernote: http://api.nethesis.it/classes/plugin_rest_callernote.html
-.. _/histcallernote: http://api.nethesis.it/classes/plugin_rest_histcallernote.html
-.. _/all_histcallernote: http://api.nethesis.it/classes/plugin_rest_all_histcallernote.html
-.. _/configmanager: http://api.nethesis.it/classes/plugin_rest_configmanager.html
-.. _/custcard: http://api.nethesis.it/classes/plugin_rest_custcard.html
-.. _/historycall: http://api.nethesis.it/classes/plugin_rest_historycall.html
-.. _/histcallswitch: http://api.nethesis.it/classes/plugin_rest_histcallswitch.html
-.. _/cel: http://api.nethesis.it/classes/plugin_rest_cel.html
-.. _/phonebook: http://api.nethesis.it/classes/plugin_rest_phonebook.html
-.. _/postit: http://api.nethesis.it/classes/plugin_rest_postit.html
-.. _/historypostit: http://api.nethesis.it/classes/plugin_rest_historypostit.html
-.. _/all_historypostit: http://api.nethesis.it/classes/plugin_rest_all_historypostit.html
-.. _/sms: http://api.nethesis.it/classes/plugin_rest_sms.html
-.. _/historysms: http://api.nethesis.it/classes/plugin_rest_historysms.html
-.. _/all_historysms: http://api.nethesis.it/classes/plugin_rest_all_historysms.html
-.. _/streaming: http://api.nethesis.it/classes/plugin_rest_streaming.html
-.. _/voicemail: http://api.nethesis.it/classes/plugin_rest_voicemail.html
+.. _/astproxy: http://api.nethesis.it/nethcti/classes/plugin_rest_astproxy.html
+.. _/authentication: http://api.nethesis.it/nethcti/classes/plugin_rest_authentication.html
+.. _/authorization: http://api.nethesis.it/nethcti/classes/plugin_rest_authorization.html
+.. _/callernote: http://api.nethesis.it/nethcti/classes/plugin_rest_callernote.html
+.. _/histcallernote: http://api.nethesis.it/nethcti/classes/plugin_rest_histcallernote.html
+.. _/all_histcallernote: http://api.nethesis.it/nethcti/classes/plugin_rest_all_histcallernote.html
+.. _/configmanager: http://api.nethesis.it/nethcti/classes/plugin_rest_configmanager.html
+.. _/custcard: http://api.nethesis.it/nethcti/classes/plugin_rest_custcard.html
+.. _/historycall: http://api.nethesis.it/nethcti/classes/plugin_rest_historycall.html
+.. _/histcallswitch: http://api.nethesis.it/nethcti/classes/plugin_rest_histcallswitch.html
+.. _/cel: http://api.nethesis.it/nethcti/classes/plugin_rest_cel.html
+.. _/phonebook: http://api.nethesis.it/nethcti/classes/plugin_rest_phonebook.html
+.. _/postit: http://api.nethesis.it/nethcti/classes/plugin_rest_postit.html
+.. _/historypostit: http://api.nethesis.it/nethcti/classes/plugin_rest_historypostit.html
+.. _/all_historypostit: http://api.nethesis.it/nethcti/classes/plugin_rest_all_historypostit.html
+.. _/sms: http://api.nethesis.it/nethcti/classes/plugin_rest_sms.html
+.. _/historysms: http://api.nethesis.it/nethcti/classes/plugin_rest_historysms.html
+.. _/all_historysms: http://api.nethesis.it/nethcti/classes/plugin_rest_all_historysms.html
+.. _/streaming: http://api.nethesis.it/nethcti/classes/plugin_rest_streaming.html
+.. _/voicemail: http://api.nethesis.it/nethcti/classes/plugin_rest_voicemail.html
 
 ====================== ==================================================================================
 Path                   Descrizione
