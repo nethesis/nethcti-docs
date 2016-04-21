@@ -51,6 +51,8 @@ Telefono integrato WebRTC
 * **avpf:** yes
 * **Avviso di Chiamata:** disattivo
 
+.. note:: L'utilizzo del Telefono integrato WebRTC è possibile solo collegandosi al |product| in HTTPS
+
 Le modalità "telefono fisico" e "softphone" sono mutuamente esclusive: non possono essere usate contemporaneamente.
 
 .. warning:: Per utilizzare la modalità WebRTC è necessario accettare, meglio se definitivamente, i certificati all'indirizzi https://ip_server:8089/ws ed http://nome_server.dominio:8089/ws
