@@ -57,7 +57,7 @@ Esempio per ricavare la lista utenti da un altro |product_nethserver|, sostituir
 
 * *Server*: ldaps://**ip_server**
 * *Port*: 636
-* *Base DN*: dc=**dominio_server**,dc=**estensione**
+* *Base DN*: dc= **dominio_server**,dc= **estensione**
 * *OU*: People
 * *Type*: ldap
 
