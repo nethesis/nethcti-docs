@@ -421,10 +421,10 @@ Configurazione sede "controllata"
 
 Cliccare la voce di menù *Multisede* e creare un *Account locale* inserendo:
 
-* **Nome sede remota:** nome identificativo a scelta
-* **Username:** nome utente utilizzato dalla sede remota per la connessione
+* **Nome sede remota:** nome identificativo a scelta (non deve contenere spazi bianchi)
+* **Username:** nome utente qualsiasi, utilizzato dalla sede remota per la connessione. Non corrisponde ad un utente reale di sistema.
 * **Password:** password utilizzata dalla sede remota per la connessione
-* **Ip consentiti per questo account:** elenco degli IP abilitati alla connessione
+* **Ip consentiti per questo account:** elenco degli IP abilitati alla connessione (obbligatori). Lasciando il campo vuoto, nessun host sarà abilitato alla connessione.
 
 L'account così creato verrà utilizzato dalla sede remota *controllore* per la connessione.
 
@@ -438,8 +438,8 @@ Configurazione sede "controllore"
 
 Cliccare la voce di menù *Multisede* e creare una *Connessione remota* inserendo:
 
-* **Nome sede remota:** nome identificativo a scelta
-* **Hostname remoto:** indirizzo IP o nome dominio della sede remota a cui connettersi
+* **Nome sede remota:** nome identificativo a scelta (non deve contenere spazi bianchi)
+* **Hostname remoto:** indirizzo IP o nome dominio della sede remota a cui connettersi. Indipendentemente dalla configurazione di rete, l'indirizzo immesso deve essere raggiungibile.
 * **Username:** nome utente utilizzato per la connessione alla sede remota
 * **Password:** password utilizzata per la connessione alla sede remota
 * **Prefisso per chiamare la sede:** prefisso telefonico utilizzato per instradare le telefonate alla sede remota (viene configurato nelle rotte in uscita). È utile nel caso in cui le sedi connesse utilizzino le stesse numerazioni per gli interni. Se non è stato configurato, può essere lasciato vuoto.
