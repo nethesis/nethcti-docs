@@ -47,13 +47,13 @@ Client
  
    client
 
-Firefox
--------
+Certificati Self-Signed
+-----------------------
 
 .. toctree::
    :maxdepth: 2
 
-   firefox
+   cert_self_signed
 
 Nethifier
 ---------
