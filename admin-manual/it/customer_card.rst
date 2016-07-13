@@ -29,9 +29,10 @@ tradizionale di |parent_product| accedendo alla sezione "CTI". Una volta create 
 Query
 =====
 
-Attualmente sono supportati due tipi di database:
+Attualmente sono supportati tre tipi di database:
 
 -  MySQL
+-  PostgreSQL
 -  Microsoft SQL Server
 
 Ogni query è composta dai seguenti campi:
