@@ -234,4 +234,4 @@ seguendo le istruzioni `qui riportate <http://docs.nethserver.org/en/latest/back
 Download
 ========
 
-Il download è disponibile nell'area relativa https://docs.nethesis.it/Area_Download.
+Il download è disponibile nell'area relativa http://helpdesk.nethesis.it.

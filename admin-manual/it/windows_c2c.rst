@@ -102,4 +102,4 @@ situata nella system tray e riavviare il programma tramite il menù
 Download
 ========
 
-Il download è disponibile nell'area relativa https://docs.nethesis.it/Area_Download.
+Il download è disponibile nell'area relativa http://helpdesk.nethesis.it.
