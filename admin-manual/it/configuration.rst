@@ -55,7 +55,7 @@ Telefono integrato WebRTC
 
 Le modalità "telefono fisico" e "softphone" sono mutuamente esclusive: non possono essere usate contemporaneamente.
 
-.. warning:: Per utilizzare la modalità WebRTC è necessario accettare, meglio se definitivamente, i certificati all'indirizzi https://ip_server:8089/ws ed http://nome_server.dominio:8089/ws
+.. warning:: Per utilizzare la modalità WebRTC è necessario accettare, meglio se definitivamente, il certificato all'indirizzo https://ip_server:8089/ws.
 
 Dopo la configurazione dell'interno è necessario inserire la relativa :ref:`password <config_webrtc_phone-label>` (solo la prima volta).
 
