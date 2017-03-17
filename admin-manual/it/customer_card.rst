@@ -102,18 +102,18 @@ Esempi di nomi di file:
 I template utilizzano la sintassi **ejs** che, in modo del tutto simile
 a quello che avviene in PHP, permettono di "immergere" codice javascript
 all'interno di una pagina html e di generare in output un documento (o
-un frammento) html interpretabile dai browser. |product| fornisce già una
-lista di esempi pronti all'uso nella directory
+un frammento) html interpretabile dai browser.
+
+|product| fornisce già una lista di esempi pronti all'uso nella directory
 **/usr/lib/node/nethcti-server/docs/custcard_examples**:
 
--  **base\_table.ejs**: visualizza una tabella molto semplice contenente
+-  **beautiful\_table\_<COLOR>.ejs:** un insieme di customer cards di diverso colore (blu, verde, arancione, viole e giallo), es. *beautiful_table_blue.ejs*, curate esteticamente e con funzionalità di chiusura con un click del mouse
+-  **base\_table.ejs:** visualizza una tabella molto semplice contenente
    tutte le colonne e le righe del risultato della query
--  **beautiful\_table.ejs**: come base\_table.ejs ma applica un css alla
-   tabella
--  **manual\_table.ejs**: visualizza una tabella contenente tutte le le
+-  **manual\_table.ejs:** visualizza una tabella contenente tutte le le
    righe del risultato della query, ma le colonne visualizzate devono
    essere specificate manualmente
--  **one\_result.ejs**: visualizza le prime due colonne del primo
+-  **one\_result.ejs:** visualizza le prime due colonne del primo
    risultato della query
 
 Se ad esempio si vuole creare una tabella di visualizzazione per la
