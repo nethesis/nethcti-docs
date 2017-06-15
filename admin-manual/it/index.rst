@@ -63,14 +63,6 @@ Nethifier
 
    nethifier
 
-Click2Call Windows
-------------------
-
-.. toctree::
-   :maxdepth: 2
-
-   windows_c2c
-
 App Mobile
 ----------
 
