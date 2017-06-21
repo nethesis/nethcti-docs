@@ -75,6 +75,9 @@ Configurare i parametri di connessione al server ldap esterno tramite i seguenti
     config setprop nethcti-server LdapOu <OU>
     config setprop nethcti-server LdapPort <LDAP_PORT>
     config setprop nethcti-server LdapServer <LDAP_SERVER>
+    config setprop nethcti-server LdapsSelfSigned (true|false)
+
+*LdapsSelfSigned* è la prop che consente di rifiutare i certificati self-signed. Il valore di default è false, quindi i certificati self-signed vengono accettati di default.
 
 Esempio: ::
 
@@ -83,6 +86,7 @@ Esempio: ::
     config setprop nethcti-server LdapOu "Users"
     config setprop nethcti-server LdapPort "389"
     config setprop nethcti-server LdapServer "192.168.5.111"
+    config setprop nethcti-server LdapsSelfSigned false
 
 .. note:: Per configurare ldap sicuro con SSL usare la porta 636.
 
