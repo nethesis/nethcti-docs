@@ -29,11 +29,26 @@ Configurazione Chat
 
 I valori possibili sono *http* o *https*.
 
-Configurare un server LDAP esterno
-==================================
+Utenti da fonti esterne
+=======================
 
-Lista utenti da server LDAP esterno
------------------------------------
+|product| è in grado di utilizzare gli utenti da fonti esterne.
+La configurazione cambia se si sta utilizzando |product_nethserver| versione 6 o versione 7.
+
+Su |product_nethserver| 7, accedere al Server Manager ``http://<server>:980`` e configurare un provider remoto.
+|product| sarà configurato automaticamente e avrà accesso a tutti gli utenti visibili dal Server Manager.
+
+Su |product_nethserver| 6 è necessario configurare esplicitamente una sorgente utenti per |product|.
+Sono supportati server LDAP o Active Directory remoti.
+
+Configurazione manuale server LDAP remoto
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. note:: 
+   La configurazione manuale è necessaria solo per |product_nethserver| 6.
+
+Lista utenti
+~~~~~~~~~~~~
 
 Per ricavare la lista utenti da un server LDAP esterno è necessario collegarsi alla pagina di configurazione
 di |parent_product| sezione *Utenti* e cliccare nella parte *Avanzate*.
@@ -62,8 +77,8 @@ Esempio per ricavare la lista utenti da un altro |product_nethserver|, sostituir
 * *Type*: ldap
 
 
-Configurare l'autenticazione su un server LDAP esterno
-------------------------------------------------------
+Autenticazione
+~~~~~~~~~~~~~~
 
 Configurare il tipo d'autenticazione come "ldap": ::
 
@@ -94,11 +109,14 @@ Come ultima operazione eseguire: ::
 
     signal-event nethcti-server-update
 
-Configurazione su Active Directory
-==================================
+Configurazione manuale Active Directory remoto
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Lista utenti da Active Directory
---------------------------------
+.. note:: 
+   La configurazione manuale è necessaria solo per |product_nethserver| 6.
+
+Lista utenti
+~~~~~~~~~~~~
 
 Per ricavare la lista utenti da Active Directory è necessario collegarsi alla pagina di configurazione
 di |parent_product| sezione *Utenti* e cliccare nella parte *Avanzate*.
@@ -113,8 +131,8 @@ Configurare i parametri di connessione al server ldap esterno:
 * *OU*: Organizational Unit Active Directory che contiene gli utenti
 * *Type*: tipo di connessione, inserire AD
 
-Configurare l'autenticazione su Active Directory
-------------------------------------------------
+Autenticazione
+~~~~~~~~~~~~~~
 
 Configurare il tipo d'autenticazione come "activeDirectory": ::
 

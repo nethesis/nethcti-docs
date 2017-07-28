@@ -25,8 +25,10 @@ Si consiglia di utilizzare i client con monitor che abbiano una risoluzione magg
 Requisiti Minimi
 ================
 
-Per poter installare la versione 2 di |product| è NECESSARIO avere:
+Per poter installare la versione |version| di |product| è necessario avere installato:
 
-* |parent_product| vedi `qui <http://nethvoice.docs.nethesis.it/it/latest>`_
+* |product_nethserver|: |parent_product| `11.4 o superiore <http://nethvoice.docs.nethesis.it/it/latest>`_
+* |product_nethservice| 8.2: |parent_product| 11.3 o superiore
 
-Altre versioni precedenti non sono supportate.
+.. note::
+   Gli aggiornamenti di |product| sono manuali per |product_nethservice| 8.2
