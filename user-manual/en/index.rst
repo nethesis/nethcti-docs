@@ -34,7 +34,7 @@ Welcome to CTI documentation!
    :maxdepth: 2
    :caption: Queues
 
-   introduction_queues
+   queues
 
 .. toctree::
    :maxdepth: 2

@@ -15,6 +15,7 @@ CTI |release|
    lastcalls
    status
    speeddials
+   queues
    settings
 
 
