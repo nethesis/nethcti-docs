@@ -4,7 +4,7 @@ Ultime chiamate
 
 Il riquadro ultime chiamate mostra le chiamate effettuate in ordine cronologico. Da qui è possibile richiamare un numero o aggiungerlo in rubrica.
 
-Chamare un contatto da "Ultime chiamate"
+Chiamare un contatto da "Ultime chiamate"
 -----------------------------------------
 
 1) Individuare il riquadro "Ultime chiamate" in basso a destra

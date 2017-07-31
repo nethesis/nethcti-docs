@@ -17,6 +17,7 @@ CTI |release|
    status
    speeddials
    queues
+   streaming
    settings
    help
 
