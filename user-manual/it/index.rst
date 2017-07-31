@@ -6,21 +6,46 @@
 CTI |release|
 =============
 
+Generale
+--------
+
 .. toctree::
    :maxdepth: 2
 
    introduction
-   calls
-   notifications
-   phonebook
-   history
-   lastcalls
    status
+   settings
+   notifications
+   help
+
+Chiamate
+--------
+
+.. toctree::
+   :maxdepth: 2
+
+   calls
+   lastcalls
+   history
+
+Contatti
+--------
+
+.. toctree::
+   :maxdepth: 2
+
+   phonebook
    speeddials
+
+Moduli
+------
+
+.. toctree::
+   :maxdepth: 2
+
    queues
    streaming
-   settings
-   help
+
 
 
 Indici e tabelle
