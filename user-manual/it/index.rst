@@ -17,6 +17,7 @@ CTI |release|
    speeddials
    queues
    settings
+   help
 
 
 Indici e tabelle
