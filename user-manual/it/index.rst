@@ -10,6 +10,7 @@ CTI |release|
    :maxdepth: 2
 
    calls
+   notifications
    phonebook
    history
    lastcalls
