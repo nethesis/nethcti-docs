@@ -12,6 +12,22 @@ Inside each language directory there are some specials files:
 All other .rst files are chapters of the manual. 
 If you wish to add a new chapter, create a new file and add it to the index.rst file.
 
+Branches
+========
+
+The manual should be develped on **master** branch and merged to current released version.
+
+Available branches:
+
+- master: developing latest stable branch
+- v2: NethCTI 2
+- v3: NethCTI 3
+
+Alpha branches are marked by appending **a** to the branch name, eg: v3a.
+
+Beta branches are marked by appending **b** to the branch name, eg: v3b.
+
+
 How to contribute
 =================
 
