@@ -57,8 +57,7 @@ Una volta che è iniziata una chiamata, sarà possibile usare differenti funzion
 
   Per togliere la pausa, cliccare nuovamente sullo stesso bottone.
 
-
-* Registrare una chiamate:
+* Registrare una chiamata:
     (1) Individuare il menù di conversazione che comare in basso a sinistra durante una conversazione
     (2) Individuare e cliccare il bottone "Registra" identificato dall'icona con il doppio cerchio
 
@@ -89,7 +88,7 @@ Una volta che è iniziata una chiamata, sarà possibile usare differenti funzion
 
   Per riprendere una chiamata parcheggiata, andare nella pagina "Parcheggi" Cliccando la lettera "P" in alto a destra nella pagina "Operatori"
 
-* Take a parked call:
+* Riprendere una chiamata parcheggiata:
     (1) Cliccare l'icona "P" in alto a destra nella sezione "Operatori"
     (2) Viene mostrata la lista di tutti i parcheggi disponibili
     (3) Cliccare il bottone verde sotto la chiamata per riprendere la chiamata parcheggiata
