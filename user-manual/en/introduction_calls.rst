@@ -63,6 +63,17 @@ Once you have started a call you will be able to use different functionalities.
 
   To stop the recording just click again the same button, you will be able to listen it in the "History" tab
 
+* Listen recording call:
+    (1) Go in the "History" tab
+    (2) In the table which lists all the calls find the one recorded you want to listen
+    (3) If it has been recorded there will be three icons under the "Recorded" row
+
+    Each icon has a different functionality:
+
+      - Megaphone: icon lets you listen the recording
+      - Arrow: icon lets you download the recording
+      - Trash: icon lets you delete the recording
+
 
 * Mute a call:
     (1) Focus on the call-menu which pops up on the bottom right side of the page during a call

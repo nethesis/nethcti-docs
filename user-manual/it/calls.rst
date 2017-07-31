@@ -38,7 +38,7 @@ Secondo metodo:
 1) Aprire il tab "Operatori"
 2) Aprire il tab secondario di un gruppo di cui la persona che si vuole chiamare a parte
 3) Cercare la persona che si vuole chiamare
-4) Cliccare sull'icona con tre punti verticali in alto a destra 
+4) Cliccare sull'icona con tre punti verticali in alto a destra
 5) Selezionare "Chiama" per la chemata vocale e "Video" per la videochiamata (se disponibile)
 
 Se la chiamata non dovesse funzionare
@@ -63,6 +63,17 @@ Una volta che è iniziata una chiamata, sarà possibile usare differenti funzion
     (2) Individuare e cliccare il bottone "Registra" identificato dall'icona con il doppio cerchio
 
   Per fermare la registrazione, cliccare nuovamente sullo stesso bottone. Sarà possibile riascoltare le chiamate registrate nel tab "Storico"
+
+* Riascoltare la registrazione:
+    (1) Recarsi nel tab "Storico"
+    (2) Nella lista delle chiamate, selezionare la chiamata interessata
+    (3) Se è stata effetuata una registrazione, ci sono tre icone disponibili
+
+    Ogni icona ha una funzionalità diversa:
+
+      - Megafono: ti permette di riascoltare la conversazione
+      - Freccia: ti permette di scaricare la registrazione (effetuare il download)
+      - Cestino: ti permette di eliminare la registrazione
 
 
 * Mettere in "Muto" una chiamata:
