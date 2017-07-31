@@ -1,10 +1,7 @@
 .. NethCTI documentation master file
 
-Documentazione |product| - |product_nethserver|
-===============================================
-
-.. image:: ../_static/logo.png
-         :alt: |product|
+|product| |version|
+===================
 
 |product| è l'applicazione che consente la visualizzazione e il controllo completo in tempo reale dell'intero sistema telefonico attraverso una semplice e intuitiva interfaccia web. 
 
@@ -63,19 +60,11 @@ Nethifier
 
    nethifier
 
-Click2Call Windows
-------------------
-
-.. toctree::
-   :maxdepth: 2
-
-   windows_c2c
-
 App Mobile
 ----------
 
 .. toctree::
-      :maxdepth: 2
+   :maxdepth: 2
 
    app_mobile
 

@@ -46,6 +46,14 @@ I popup sono estremamente personalizzabili, sia *nell'interfaccia grafica*, sia 
 
 Il colore dell'icona del programma presente nella system tray indica lo stato di connessione col server cti. Il blu indica che |product_nethifier| è connesso, mentre il colore rosso indica un problema di connessione. In corrispondenza di una disconnessione di rete, che può accadere per vari motivi, |product_nethifier| tenta di riconnettersi in automatico per un certo intervallo temporale (circa 3 minuti). In ogni modo è possibile forzare la riconnessione attraverso il menù contestuale.
 
+Eseguire una telefonata
+=======================
+
+Per **effettuare una telefonata** è sufficiente selezionare un numero
+telefonico da una qualsiasi applicazione di Windows e premere la
+combinazione di tasti scelta (di default: **CTRL+F11**).
+
+
 Configurazione
 ==============
 
@@ -57,6 +65,11 @@ Configurazione
 È necessario salvare i dati cliccando il pulsante apposito in maniera tale da
 non doverli più reinserire agli avvii successivi. È anche possibile scegliere
 di eseguire |product_nethifier| all'avvio di windows.
+
+Combinazione tasti chiamata
+---------------------------
+
+È possibile personalizzare la combinazione di tasti usati per effettuare una chiamata o per ricomporre l'ultimo numero, tramite la scheda "Dialer Hotkey" delle opzioni.
 
 Rimozione
 =========

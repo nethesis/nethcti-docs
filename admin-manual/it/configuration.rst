@@ -451,3 +451,14 @@ Successivamente, abilitare la visualizzazione della sede remota selettivamente p
 Una volta eseguita la configurazione delle sedi, applicare i cambiamenti e riavviare il CTI tramite gli appositi pulsanti.
 Se la connessione tra le sedi fallisce durante il normale funzionamento, la sede *controllore* tenta la riconnessione automaticamente alla sede *controllata* ogni minuto.
 Quando si riavvia il server cti "controllore" tramite il pulsante presente in |parent_product|, può accadere che la sede remota "controllata" non sia stata riavviata. In tal caso procedere al riavvio e attendere che la sede "controllore" si riconnetta automaticamente.
+
+
+Trasferimento consultativo
+--------------------------
+
+È consigliato modificare il seguente parametro di |parent_product|:
+
+#. accedere all'interfaccia di configurazione di |parent_product|
+#. aprire la pagina "Codici Servizi"
+#. inserire il valore "yes" in corrispondenza della voce *"Se impostato a "yes", la richiamata quando si effettua un trasferimento cieco non risposto non viene tentata."*
+#. confermare i cambiamenti

@@ -2,11 +2,10 @@
 App Mobile
 ==========
 
-App Mobile è l'estensione di |product| per smartphone Android ed Apple e consente di avere parte delle funzionalità di |product| anche in mobilità.
+App Mobile è l'estensione di |product| per smartphone Android ed Apple e consente di avere parte delle funzionalità di |product| anche in mobilità:
 
-Nel market Android la trovate qui `App Mobile <https://play.google.com/store/apps/details?id=com.ionicframework.mobilectiapp673046>`_
-
-Nello store Apple invece qui `App Mobile <https://itunes.apple.com/us/app/nethcti/id1041889331?ls=1&mt=8>`_
+- `download per dispositivi Android <https://play.google.com/store/apps/details?id=com.ionicframework.mobilectiapp673046>`_
+- `download per dispositivi Apple (iOS) <https://itunes.apple.com/us/app/nethcti/id1041889331?ls=1&mt=8>`_
 
 .. note::  iOS 9 richiede la presenza di un certificato valido, non autofirmato e fornito da un ente terzo fidato e riconosciuto come autorità di certificazione (CA), sul |parent_product| per consentire l'accesso all'app. Nel caso non se ne sia forniti, non si voglia chiederlo direttamente a un'autorità di certificazione o non si sia in grado di gestirlo, stiamo ultimando una procedura che consentirà di installarne uno che sia accettato anche da iOS 9, rivolgersi all'assistenza per maggiori dettagli.
 
@@ -57,8 +56,8 @@ Contatti
 Nel tab Contatti avviene l'accesso a tutti i tipi di contatti del |product|:
 
 * lista degli utenti del |product|, vengono mostrati con il loro stato di presenza, selezionando un utente è possibile contattarlo tramite le varie modalità disponibili (telefono, rete gsm, sms, post-it, chat) 
-* rubrica di |product| vedi `qui <client.html#rubrica-product>`_, è possibile fare delle ricerche in rubrica e selezionando un contatto vederne i dettagli e contattarlo tramite le varie modalità disponibili (telefono, rete gsm, sms, email)
-* numeri brevi  vedi `qui <client.html#speed-dial>`_, è possibile contattare gli speed dial tramite il telefono o la rete gsm
+* rubrica di |product| vedi :ref:`phonebook-section`, è possibile fare delle ricerche in rubrica e selezionando un contatto vederne i dettagli e contattarlo tramite le varie modalità disponibili (telefono, rete gsm, sms, email)
+* numeri brevi  vedi :ref:`speed_dial-section`, è possibile contattare gli speed dial tramite il telefono o la rete gsm
 
 
 Registro

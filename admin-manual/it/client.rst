@@ -7,7 +7,7 @@ Client
 Requisiti
 =========
 
-Sono supportati i browser Google Chrome e Mozilla Firefox (:doc:`firefox`).
+Sono supportati i browser Google Chrome e Mozilla Firefox (vedi :ref:`cert_self_signed-section`).
 
 Prima configurazione
 ====================
@@ -123,6 +123,9 @@ relativa scheda cliente in base al numero telefonico del lavoro (campo
 personalizzabile tramite la voce :dfn:`"Cerca scheda cliente su"` presente
 nel servizio `Configurazione`_.
 
+
+.. _phonebook-section:
+   _
 Rubrica |product|
 -----------------
 
@@ -134,8 +137,10 @@ di privacy:
 
 -  **privata:** sono contatti personali dell'utente che è l'unico a
    poterli vedere
+
 -  **pubblica:** sono contatti visibili a tutti e quindi vengono
    mostrati nei risultati della ricerca in rubrica
+
 -  **speed dial:** sono contatti privati dell'utente e vengono mostrati
    nella lista degli speed dial
 
@@ -344,6 +349,7 @@ videocitofoni o telecamere IP. È inoltre possibile comandare l'apertura di una 
 
 .. note:: Per comandare l'apertura della porta associata al videocitofono è necessario aver prima risposto alla chiamata, oppure aspettare il termine della stessa.
 
+.. _speed_dial-section:
 
 Speed Dial
 ----------
@@ -380,11 +386,17 @@ Per poter iniziare una conversazione di chat con un utente è sufficiente soffer
 Telefono integrato WebRTC
 =========================
 
+.. note::
+   Non disponibile su |product_nethservice| 8.2.
+
 Una volta :ref:`configurato <webrtc_phone-label>` è necessario inserire (solamente la prima volta) la password dell'interno telefonico tramite la sezione configurazione utente e cliccare il pulsante per attivarlo.
 
 
 Multi Sede
 ==========
+
+.. note::
+   Non disponibile su |product_nethservice| 8.2.
 
 Tramite il *multi sede* è possibile visualizzare le sedi remote :ref:`precedentemente configurate <multi_site_config-label>` ed eseguire le seguenti operazioni tramite un telefono fisico:
 

@@ -1,3 +1,5 @@
+.. _cert_self_signed-section:
+
 =======================
 Certificato Self-Signed
 =======================

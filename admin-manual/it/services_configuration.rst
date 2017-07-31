@@ -29,6 +29,133 @@ Configurazione Chat
 
 I valori possibili sono *http* o *https*.
 
+Utenti da fonti esterne
+=======================
+
+|product| è in grado di utilizzare gli utenti da fonti esterne.
+La configurazione cambia se si sta utilizzando |product_nethserver| versione 6 o versione 7.
+
+Su |product_nethserver| 7, accedere al Server Manager ``http://<server>:980`` e configurare un provider remoto.
+|product| sarà configurato automaticamente e avrà accesso a tutti gli utenti visibili dal Server Manager.
+
+Su |product_nethserver| 6 è necessario configurare esplicitamente una sorgente utenti per |product|.
+Sono supportati server LDAP o Active Directory remoti.
+
+Configurazione manuale server LDAP remoto
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. note:: 
+   La configurazione manuale è necessaria solo per |product_nethserver| 6.
+
+Lista utenti
+~~~~~~~~~~~~
+
+Per ricavare la lista utenti da un server LDAP esterno è necessario collegarsi alla pagina di configurazione
+di |parent_product| sezione *Utenti* e cliccare nella parte *Avanzate*.
+
+Configurare i parametri di connessione al server ldap esterno:
+
+* *Username*: utente abilitato per il collegamento LDAP
+* *Password*: password dell'utente utilizzato per il collegamento
+* *Server*: indirizzo del server LDAP esterno, utilizzare la sintassi ldap://IP o ldaps://IP
+* *Port*: porta di connessione, solitamente ldap su porta 389, ldaps su porta 636
+* *Base DN*: base dn ldap, solitamente dc=dominio,dc=estensione 
+* *OU*: Organizational Unit ldap 
+* *Type*: tipo di connessione, inserire ldap
+
+Esempio per ricavare la lista utenti da un altro |product_nethserver|, sostituire le voci variabili (**ip_server**, **dominio_server**, **estensione**):
+
+* *Username*: libuser
+* *Password*: ricavare la password sul |product_nethserver| con la base utenti con il comando: ::
+
+        perl -e 'use NethServer::Directory; my $password = NethServer::Password::store('libuser'); printf ($password);'
+
+* *Server*: ldaps://**ip_server**
+* *Port*: 636
+* *Base DN*: dc= **dominio_server**,dc= **estensione**
+* *OU*: People
+* *Type*: ldap
+
+
+Autenticazione
+~~~~~~~~~~~~~~
+
+Configurare il tipo d'autenticazione come "ldap": ::
+
+    config setprop nethcti-server AuthType "ldap"
+
+Configurare i parametri di connessione al server ldap esterno tramite i seguenti comandi: ::
+
+    config setprop nethcti-server LdapBaseDN <BASE_DN>
+    config setprop nethcti-server LdapOu <OU>
+    config setprop nethcti-server LdapPort <LDAP_PORT>
+    config setprop nethcti-server LdapServer <LDAP_SERVER>
+    config setprop nethcti-server LdapsSelfSigned (true|false)
+
+*LdapsSelfSigned* è la prop che consente di rifiutare i certificati self-signed. Il valore di default è false, quindi i certificati self-signed vengono accettati di default.
+
+Esempio: ::
+
+    config setprop nethcti-server AuthType "ldap"
+    config setprop nethcti-server LdapBaseDN "dc=mycompany,dc=local"
+    config setprop nethcti-server LdapOu "Users"
+    config setprop nethcti-server LdapPort "389"
+    config setprop nethcti-server LdapServer "192.168.5.111"
+    config setprop nethcti-server LdapsSelfSigned false
+
+.. note:: Per configurare ldap sicuro con SSL usare la porta 636.
+
+Come ultima operazione eseguire: ::
+
+    signal-event nethcti-server-update
+
+Configurazione manuale Active Directory remoto
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. note:: 
+   La configurazione manuale è necessaria solo per |product_nethserver| 6.
+
+Lista utenti
+~~~~~~~~~~~~
+
+Per ricavare la lista utenti da Active Directory è necessario collegarsi alla pagina di configurazione
+di |parent_product| sezione *Utenti* e cliccare nella parte *Avanzate*.
+
+Configurare i parametri di connessione al server ldap esterno:
+
+* *Username*: utente abilitato al collegamento Active Directory, utilizzare la sintassi utente@dominio.estensione
+* *Password*: password dell'utente utilizzato per il collegamento
+* *Server*: indirizzo del server Active Directory, utilizzare la sintassi ldap://IP
+* *Port*: porta di connessione, solitamente su porta 389
+* *Base DN*: base dn di Active Directory, solitamente dc=dominio,dc=estensione
+* *OU*: Organizational Unit Active Directory che contiene gli utenti
+* *Type*: tipo di connessione, inserire AD
+
+Autenticazione
+~~~~~~~~~~~~~~
+
+Configurare il tipo d'autenticazione come "activeDirectory": ::
+
+    config setprop nethcti-server AuthType "activeDirectory"
+
+Configurare i parametri di connessione al server Active Directory tramite i seguenti comandi: ::
+
+    config setprop nethcti-server LdapBaseDN <BASE_DN>
+    config setprop nethcti-server LdapOu <OU>
+    config setprop nethcti-server LdapPort <LDAP_PORT>
+    config setprop nethcti-server LdapServer <LDAP_SERVER>
+
+Esempio: ::
+
+    config setprop nethcti-server AuthType "activeDirectory"
+    config setprop nethcti-server LdapBaseDN "dc=mycompany,dc=local"
+    config setprop nethcti-server LdapOu "Users"
+    config setprop nethcti-server LdapPort "389"
+    config setprop nethcti-server LdapServer "192.168.5.111"
+
+Come ultima operazione eseguire: ::
+
+    signal-event nethcti-server-update
 
 Configurare un prefisso telefonico
 ==================================

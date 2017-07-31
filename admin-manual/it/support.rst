@@ -37,6 +37,8 @@ Comandi utili
 Comando                                   Descrizione
 ========================================= =======================================================
 ``tail -f /var/log/asterisk/nethcti.log`` Mettersi in tail sul log
-``restart nethcti-server``                Riavvio del server |product| su |product_nethserver|
+``service nethcti-server restart``        Riavvio del server |product| su |product_nethservice|
+``restart nethcti-server``                Riavvio del server |product| su |product_nethserver| 6
+``systemctl restart nethcti-server``      Riavvio del server |product| su |product_nethserver| 7
 ``signal-event nethcti-server-update``    Espansione dei templates e riavvio del server |product|
 ========================================= =======================================================
