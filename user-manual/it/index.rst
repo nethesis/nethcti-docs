@@ -48,9 +48,8 @@ Moduli
 
 
 
-Indici e tabelle
-================
+Indici
+======
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`

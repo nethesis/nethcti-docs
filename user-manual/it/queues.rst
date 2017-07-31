@@ -19,6 +19,7 @@ Contatori della coda
 ---------------------
 
 Sul lato in alto a destra è possibile vedere alcuni contatori relativi a:
+
 1) totale delle chiamate passate attraverso la coda
 2) totale delle chiamate correntemente in attesa
 3) totale delle chiamate in corso

@@ -70,9 +70,9 @@ Una volta che è iniziata una chiamata, sarà possibile usare differenti funzion
 
     Ogni icona ha una funzionalità diversa:
 
-      - Megafono: ti permette di riascoltare la conversazione
-      - Freccia: ti permette di scaricare la registrazione (effetuare il download)
-      - Cestino: ti permette di eliminare la registrazione
+    - Megafono: ti permette di riascoltare la conversazione
+    - Freccia: ti permette di scaricare la registrazione (effetuare il download)
+    - Cestino: ti permette di eliminare la registrazione
 
 
 * Mettere in "Muto" una chiamata:

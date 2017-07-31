@@ -11,6 +11,6 @@ Visualizzare le sorgenti video
 2) Vengono mostrate le diverse sorgenti video configurate
 3) Per ogni sorgente è possibile:
 
- - Fare uno screenshot dell'immagine corrente
- - Inviare un comando di apertura porta, se la telecamera supporta tale funzionalità
- - Parlare attraverso l'altoparlante della camera
+   - Fare uno screenshot dell'immagine corrente
+   - Inviare un comando di apertura porta, se la telecamera supporta tale funzionalità
+   - Parlare attraverso l'altoparlante della camera
