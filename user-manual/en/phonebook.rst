@@ -1,6 +1,6 @@
 =========
 Phonebook
-==========
+=========
 
 The "Phonebook" contains all your contacts, both public and private.
 You can add new contacts, see and call them or search by name or phone number.

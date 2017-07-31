@@ -3,79 +3,53 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to CTI documentation!
-==============================
+CTI |release|
+=============
+
+General
+-------
 
 .. toctree::
    :maxdepth: 2
-   :caption: Calls
 
-   introduction_calls
+   introduction
+   status
+   settings
+   notifications
+   help
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Notifications
-
-   introduction_notifications
-
-.. toctree::
-   :maxdepth: 2
-   :caption: User management
-
-   introduction_user
+Calls
+-----
 
 .. toctree::
    :maxdepth: 2
-   :caption: Phonebook
 
-   introduction_phonebook
+   calls
+   lastcalls
+   history
+
+Contacts
+--------
 
 .. toctree::
    :maxdepth: 2
-   :caption: Queues
+
+   phonebook
+   speeddials
+
+Modules
+-------
+
+.. toctree::
+   :maxdepth: 2
 
    queues
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Operator Panel
-
-   introduction_oppanel
-
-.. toctree::
-   :maxdepth: 2
-   :caption: History
-
-   introduction_history
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Last Calls
-
-   introduction_lastcalls
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Status
-
-   introduction_status
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Speed Dials
-
-   introduction_speeddials
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Settings
-
-  introduction_settings
+   streaming
 
 
-Indices and tables
-==================
+
+Indices
+=======
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
