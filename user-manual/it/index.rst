@@ -9,6 +9,7 @@ CTI |release|
 .. toctree::
    :maxdepth: 2
 
+   introduction
    calls
    notifications
    phonebook
