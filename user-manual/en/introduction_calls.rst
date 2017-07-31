@@ -88,6 +88,11 @@ Once you have started a call you will be able to use different functionalities.
 
   To resume a parked call you will need to go in the "parkings" menu by clicking the letter "P" icon on the top right of the page
 
+* Take a parked call:
+    (1) Find and click the yellow "P" icon on the top right of the operators tab
+    (2) You will now have reached the parkings menu in which all the parked calls are listed
+    (3) Click now the green button under the call you want to resume
+    (4) Click the button answer in the menu that pops up on the bottom right of the page
 
 * Transfer a call
     (1) Focus on the call-menu which pops up on the bottom right side of the page during a call
