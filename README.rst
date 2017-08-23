@@ -1,15 +1,18 @@
-========================
+=====================
 NethCTI documentation
-========================
+=====================
 
-You can find a directory for each available language.
-Inside each language directory there are some specials files:
+Available documents:
+
+* user-manual
+
+Inside each document directory there are some specials files:
 
 * conf.py: Sphinx configuration
 * Makefile: Sphinx build makefile
 * index.rst: document structure
 
-All other .rst files are chapters of the manual. 
+All other ``.rst`` files are chapters of the manual. 
 If you wish to add a new chapter, create a new file and add it to the index.rst file.
 
 Branches
@@ -150,8 +153,33 @@ Whenever there are modifications, a build process will be launched from Read the
 
 If you wish to build documentation locally on your machine, make sure to install all Sphinx packages.
 
-First clone the repository, enter language directory and type ::
+First clone the repository, directory and type ::
 
+   cd user-manual/
    make html
 
 Output files will be generated inside the *_build* directory.
+
+The source language is Italian. To build the English manual: ::
+
+   make -e SPHINXOPTS="-D language='en'" html
+
+Localization
+============
+
+The localization workflow is based on Zanata. The source language is Italian. To
+build the ``.pot`` files under ``_bulid/locale`` run ::
+
+   make gettext
+
+Upload ``.pot`` files to Zanata: ::
+    
+    zanata-cli push --src-lang it
+
+Download tranlations from Zanata: ::
+    
+    zanata-cli pull
+
+.. warning::
+
+    Remember to commit the downloaded translations!
