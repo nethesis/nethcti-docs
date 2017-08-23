@@ -51,7 +51,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'cti'
+project = u'NethCTI'
 copyright = u'2017, Nethesis srl'
 author = u'Nethesis srl'
 
@@ -93,7 +93,7 @@ html_theme = 'bootstrap'
 html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 
 html_theme_options = {
-        'navbar_title': 'CTI',
+        'navbar_title': 'NethCTI',
         'navbar_pagenav': True,
         'navbar_sidebarrel': False,
         'navbar_pagenav_name': 'Contents',
@@ -104,18 +104,27 @@ html_theme_options = {
 }
 
 html_favicon = '_static/favicon.ico' 
-html_static_path = ['_static']
 
-# Theme options are theme-specific and customize the look and feel of a theme
-# further.  For a list of options available for each theme, see the
-# documentation.
-#
-# html_theme_options = {}
+# The name for this set of Sphinx documents.  If None, it defaults to
+# "<project> v<release> documentation".
+html_title = "%s %s" % (project, release)
+
+# A shorter title for the navigation bar.  Default is the same as html_title.
+#html_short_title = None
+
+# The name of an image file (relative to this directory) to place at the top
+# of the sidebar.
+html_logo = '_static/favico_neth.png'
+
+# The name of an image file (within the static path) to use as favicon of the
+# docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
+# pixels large.
+html_favicon = '_static/favicon.ico'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-# html_static_path = ['_static']
+html_static_path = ['_static']
 
 
 # -- Options for HTMLHelp output ------------------------------------------
