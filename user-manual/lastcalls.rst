@@ -15,4 +15,4 @@ Aggiungere un contatto da "Ultime chiamate"
 
 1) Individuare il riquadro "Ultime chiamate" in basso a destra
 2) Cliccare sull'icona aggiungi contatto a destra del nome del contatto
-3) Completare le informazioni sull'contatto e salvare
+3) Completare le informazioni sul contatto e salvare
