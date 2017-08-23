@@ -12,7 +12,7 @@ Filtrare le chiamate
 ---------------------
 
 1) Inserire un numero di telefono (opzionale) e le date di inizio e fine
-2) Cliccare sul tarso di ricerca (icona lente)
+2) Cliccare sul tasto di ricerca (icona lente)
 
 Chiamate in entrata/uscita
 --------------------------
@@ -26,7 +26,7 @@ Filtrare le chiamate
 ---------------------
 
 1) Inserire un numero di telefono (opzionale) e le date di inizio e fine
-2) Cliccare sul tarso di ricerca (icona lente)
+2) Cliccare sul tasto di ricerca (icona lente)
 
 Chiamate in entrata/uscita
 --------------------------
