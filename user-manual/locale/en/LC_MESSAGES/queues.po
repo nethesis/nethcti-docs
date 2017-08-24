@@ -1,0 +1,160 @@
+# Polidori Alessandro <alessandro.polidori@gmail.com>, 2017. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: NethCTI 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-24 15:04+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-08-23 11:14-0400\n"
+"Last-Translator: Polidori Alessandro <alessandro.polidori@gmail.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en-US\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../../queues.rst:3
+msgid "Code"
+msgstr "Queue"
+
+#: ../../queues.rst:5
+msgid ""
+"Nella sezione \"Code\" è possibile vedere in realtime le code configurate "
+"nel centralino assieme alle chiamate in attesa su ogni singola coda. E' "
+"possibile cercare una coda, vedere le chiamate in attesa e in corso, gli "
+"agenti e lo stato della coda. E' possibile anche iscriversi/disiscriversi "
+"come agente della coda o mettersi in pausa/riprendersi da tutte le code."
+msgstr ""
+"In the \"Code\" section you can see in realtime the queues configured in the "
+"switchboard together with the queued calls on each queue. It is possible to "
+"search for a queue, see waiting and running calls, agents, and queue status. "
+"You can also login/logout as queue agent or pause/resume from all queues"
+
+#: ../../queues.rst:13
+msgid "La vista della coda"
+msgstr "The queue view"
+
+#: ../../queues.rst:15
+msgid ""
+"Nella scheda della coda è possibile vedere il nome della coda e il suo "
+"numero assieme ad altre informazioni sulla stessa."
+msgstr ""
+"On the queue tab, you can see the queue name and its number together with "
+"other information on the queue itself."
+
+#: ../../queues.rst:19
+msgid "Contatori della coda"
+msgstr "Counters of the queue"
+
+#: ../../queues.rst:21
+msgid ""
+"Sul lato in alto a destra è possibile vedere alcuni contatori relativi a:"
+msgstr "On the top right side you can see some counters relating to:"
+
+#: ../../queues.rst:23
+msgid "totale delle chiamate passate attraverso la coda"
+msgstr "total of calls passed through the queue"
+
+#: ../../queues.rst:24
+msgid "totale delle chiamate correntemente in attesa"
+msgstr "total number of calls currently waiting"
+
+#: ../../queues.rst:25
+msgid "totale delle chiamate in corso"
+msgstr "total of ongoing calls"
+
+#: ../../queues.rst:26
+msgid "totale degli agenti attivi"
+msgstr "total of active agents"
+
+#: ../../queues.rst:29
+msgid "Attese"
+msgstr "Waitings"
+
+#: ../../queues.rst:31
+msgid ""
+"Sotto il nome della coda sono riportati i valori di attesa massima e minima "
+"relativi alle chiamate."
+msgstr ""
+"Under the queue name, you can see the maximum and minimum waiting values for "
+"calls are reported"
+
+#: ../../queues.rst:35
+msgid "Chiamate"
+msgstr "Calls"
+
+#: ../../queues.rst:37
+msgid ""
+"Al centro del riquadro è possibile vedere: 1) le chiamate in attesa in tempo "
+"reale, con il chiamante, la posizione e l'attesa 2) le chiamate in corso in "
+"tempo reale, con il chiamante, l'agente e la durata"
+msgstr ""
+"In the center of the box you can see: 1) real-time waiting calls with the "
+"caller, the position and the waiting time 2) the ongoing calls in real time "
+"with the caller, the agent and the duration"
+
+#: ../../queues.rst:42
+msgid "Agenti"
+msgstr "Agents"
+
+#: ../../queues.rst:44
+msgid ""
+"In basso nel riquadro della coda sono elencati tutti gli agenti, sia statici "
+"che dinamici. Gli agenti dinamici sono elencati assieme al loro stato di "
+"iscrizione alla coda."
+msgstr ""
+"Below all the static and dynamic agents are listed in the queue box. Dynamic "
+"agents are listed along with their queue status."
+
+#: ../../queues.rst:48
+msgid "Cercare una coda"
+msgstr "Search a queue"
+
+#: ../../queues.rst:50
+#: ../../queues.rst:56
+#: ../../queues.rst:62
+#: ../../queues.rst:68
+#: ../../queues.rst:74
+msgid "Selezionare la sezione \"Code\""
+msgstr "Select \"Queue\" section"
+
+#: ../../queues.rst:51
+msgid "Digitare il nome della coda nella casella di testo e premere invio"
+msgstr "Type the queue name in the text box and press enter"
+
+#: ../../queues.rst:54
+msgid "Login tutte le code"
+msgstr "Login on all queues"
+
+#: ../../queues.rst:57
+msgid "Cliccare sul buttone \"Login tutte le code\""
+msgstr "Click on \"Login on all queues\" button"
+
+#: ../../queues.rst:60
+msgid "Logout tutte le code"
+msgstr "Logout from all queues"
+
+#: ../../queues.rst:63
+msgid "Cliccare sul bottone \"Logout tutte le code\""
+msgstr "Click on \"Logout from all queues\" button"
+
+#: ../../queues.rst:66
+msgid "Pausa tutte le code"
+msgstr "Pause on all queues"
+
+#: ../../queues.rst:69
+msgid ""
+"Cliccare sul bottone \"Pausa tutte le code\" o cliccare sulla freccia per "
+"scegliere un motivo"
+msgstr ""
+"Click on the \"Pause all queues\" button or click the arrow to choose a "
+"reason"
+
+#: ../../queues.rst:72
+msgid "Stop pause tutte le code"
+msgstr "Stop pause from all queues"
+
+#: ../../queues.rst:75
+msgid "Cliccare sul bottone \"Stop pause tutte le code\""
+msgstr "Click on the \"Stop pause from all queues\" button"

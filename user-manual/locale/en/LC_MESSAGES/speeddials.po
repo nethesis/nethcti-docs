@@ -1,0 +1,65 @@
+# Polidori Alessandro <alessandro.polidori@gmail.com>, 2017. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: NethCTI 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-24 15:04+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-08-24 05:35-0400\n"
+"Last-Translator: Polidori Alessandro <alessandro.polidori@gmail.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en-US\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../../speeddials.rst:3
+msgid "Speed Dial"
+msgstr "Speed Dial"
+
+#: ../../speeddials.rst:5
+msgid ""
+"La sezione Speed Dial sul lato destro dell'applicazione, consente di "
+"chiamare velocemente i propri contatti favoriti."
+msgstr ""
+"The Speed Dial section on the right side of the application lets you quickly "
+"call your favorite contacts"
+
+#: ../../speeddials.rst:9
+msgid "Aggiungere un contatto agli Speed Dial"
+msgstr "Add a contact to Speed Dial"
+
+#: ../../speeddials.rst:11
+msgid "Cliccare \"Aggiungi contatto\" sotto la sezione \"Speed Dial\""
+msgstr "Click \"Add contact\" below \"Speed Dial\" section"
+
+#: ../../speeddials.rst:12
+msgid "Riempire la scheda che appare e cliccare su \"Salva\""
+msgstr "Fill in the displayed tab and click on \"Save\""
+
+#: ../../speeddials.rst:13
+msgid "Il nuovo speed dial è visualizzato nella lista"
+msgstr "The new speed dial appears in the list"
+
+#: ../../speeddials.rst:16
+msgid "Modificare uno Speed Dial"
+msgstr "Edit a Speed Dial"
+
+#: ../../speeddials.rst:18
+msgid "Cliccare sull'icona a forma di matita di uno speed dial"
+msgstr "Click on the pen shaped icon of a speed dial"
+
+#: ../../speeddials.rst:19
+msgid "Modificare le informazioni sulla scheda e cliccare su \"Salva\""
+msgstr "Modify the card information and click on \"Save\""
+
+#: ../../speeddials.rst:22
+msgid "Chiamare uno Speed Dial"
+msgstr "Call a Speed Dial"
+
+#: ../../speeddials.rst:24
+msgid ""
+"Cliccare sull'icona a forma di telefono di uno speed dial per far partire la "
+"chiamata"
+msgstr "Click on the phone icon of a speed dial to start the call"
