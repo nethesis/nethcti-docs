@@ -44,7 +44,7 @@ Secondo metodo:
 Se la chiamata non dovesse funzionare
 -------------------------------------
 
-Verificare se è presente un messaggio d'errore in basso a sinistra
+Verificare se è presente un messaggio d'errore in basso a destra
 
 Funzionalità durante la chiamata
 ================================
@@ -52,13 +52,13 @@ Funzionalità durante la chiamata
 Una volta che è iniziata una chiamata, sarà possibile usare differenti funzionalità
 
 * Mettere in pausa una chiamata:
-    (1) Individuare il menù di conversazione che compare in basso a sinistra durante una conversazione
+    (1) Individuare il menù di conversazione che compare in basso a destra durante una conversazione
     (2) Individuare e cliccare il bottone "Pausa" identificato dall'icona con due barre verticali
 
   Per togliere la pausa, cliccare nuovamente sullo stesso bottone.
 
 * Registrare una chiamata:
-    (1) Individuare il menù di conversazione che compare in basso a sinistra durante una conversazione
+    (1) Individuare il menù di conversazione che compare in basso a destra durante una conversazione
     (2) Individuare e cliccare il bottone "Registra" identificato dall'icona con il doppio cerchio
 
   Per fermare la registrazione, cliccare nuovamente sullo stesso bottone. Sarà possibile riascoltare le chiamate registrate nel tab "Storico"
@@ -76,14 +76,14 @@ Una volta che è iniziata una chiamata, sarà possibile usare differenti funzion
 
 
 * Mettere in "Muto" una chiamata:
-    (1) Individuare il menù di conversazione che compare in basso a sinistra durante una conversazione
+    (1) Individuare il menù di conversazione che compare in basso a destra durante una conversazione
     (2) Individuare e cliccare il bottone "Muto" identificato dall'icona del microfono
 
   Per togliere il muto, cliccare nuovamente sullo stesso bottone.
 
 
 * Parcheggiare una chiamata:
-    (1) Individuare il menù di conversazione che compare in basso a sinistra durante una conversazione
+    (1) Individuare il menù di conversazione che compare in basso a destra durante una conversazione
     (2) Individuare e cliccare il bottone "Parcheggia" identificato dall'icona con la lettera P
 
   Per riprendere una chiamata parcheggiata, andare nella pagina "Parcheggi" cliccando la lettera "P" in alto a destra nella pagina "Operatori"
@@ -96,7 +96,7 @@ Una volta che è iniziata una chiamata, sarà possibile usare differenti funzion
 
 
 * Trasferire una chiamata:
-    (1) Individuare il menù di conversazione che compare in basso a sinistra durante una conversazione
+    (1) Individuare il menù di conversazione che compare in basso a destra durante una conversazione
     (2) Individuare e cliccare il bottone "Trasferisci" identificato dall'icona con la doppia freccia
     (3) Inserire nel campo di testo l'interno o il nome dell'utente a cui si vuole trasferire la chiamata
     (4) Decidere se fare un trasferimento "Cieco" o "Consultativo"
