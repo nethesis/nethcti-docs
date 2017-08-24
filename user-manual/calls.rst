@@ -36,7 +36,7 @@ Secondo metodo:
 ----------------
 
 1) Aprire il tab "Operatori"
-2) Aprire il tab secondario di un gruppo di cui la persona che si vuole chiamare a parte
+2) Aprire il tab di un gruppo in cui è presente la persona da chiamare
 3) Cercare la persona che si vuole chiamare
 4) Cliccare sull'icona con tre punti verticali in alto a destra
 5) Selezionare "Chiama" per la chiamata vocale
