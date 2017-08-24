@@ -178,7 +178,7 @@ The source language is Italian. To build the ``.pot`` files under
 
 Upload ``.pot`` files to Zanata: ::
     
-    zanata-cli push --src-lang it
+    zanata-cli push 
 
 Download tranlations from Zanata: ::
     
