@@ -172,7 +172,7 @@ The localization workflow is based on Zanata.
 https://translate.zanata.org/project/view/nethcti-docs
 
 The source language is Italian. To build the ``.pot`` files under
-``_bulid/locale`` run ::
+``_build/locale`` run ::
 
    make gettext
 
