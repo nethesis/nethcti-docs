@@ -28,7 +28,7 @@ Primo metodo:
 -------------
 
 1) Aprire il tab "Operatori"
-2) Aprire il tab secondario di un gruppo di cui la persona che si vuole chiamare a parte
+2) Aprire il tab di un gruppo del pannello operatore
 3) Cercare la persona che si vuole chiamare
 4) Verificare che sia disponibile e chiamarlo cliccando sul tasto verde
 
@@ -39,7 +39,7 @@ Secondo metodo:
 2) Aprire il tab secondario di un gruppo di cui la persona che si vuole chiamare a parte
 3) Cercare la persona che si vuole chiamare
 4) Cliccare sull'icona con tre punti verticali in alto a destra
-5) Selezionare "Chiama" per la chiamata vocale e "Video" per la videochiamata (se disponibile)
+5) Selezionare "Chiama" per la chiamata vocale
 
 Se la chiamata non dovesse funzionare
 -------------------------------------
