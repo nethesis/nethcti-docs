@@ -6,7 +6,6 @@
   <project-type>gettext</project-type>
   <src-dir>_build/locale</src-dir>
   <trans-dir>locale</trans-dir>
-  <src-lang>it</src-lang>
   <rules>
       <rule pattern="_build/locale/*.pot">{locale}/LC_MESSAGES/{filename}.po</rule>
   </rules>
