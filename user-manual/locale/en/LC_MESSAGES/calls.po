@@ -1,14 +1,15 @@
+# Edoardo Spadoni <edoardo.spadoni@nethesis.it>, 2017. #zanata
 # Polidori Alessandro <alessandro.polidori@gmail.com>, 2017. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-24 15:04+0200\n"
+"POT-Creation-Date: 2017-08-24 16:53+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-08-24 08:08-0400\n"
-"Last-Translator: Polidori Alessandro <alessandro.polidori@gmail.com>\n"
+"PO-Revision-Date: 2017-08-24 10:55-0400\n"
+"Last-Translator: Edoardo Spadoni <edoardo.spadoni@nethesis.it>\n"
 "Language-Team: English (United States)\n"
 "Language: en-US\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -67,6 +68,7 @@ msgid ""
 "Cliccare il bottone verde \"Chiama\" vicino al campo di testo \"Cerca o "
 "Componi...\""
 msgstr ""
+"Click the green button \"Call\" near the text field \"Search or Compose...\""
 
 #: ../../calls.rst:25
 msgid "Iniziare una chiamata utilizzando il pannello Operatore"
@@ -82,11 +84,8 @@ msgid "Aprire il tab \"Operatori\""
 msgstr "Open \"Operators\" tab"
 
 #: ../../calls.rst:31
-#: ../../calls.rst:39
-msgid ""
-"Aprire il tab secondario di un gruppo di cui la persona che si vuole "
-"chiamare a parte"
-msgstr ""
+msgid "Aprire il tab di un gruppo del pannello operatore"
+msgstr "Open a tab of operator panel group"
 
 #: ../../calls.rst:32
 #: ../../calls.rst:40
@@ -102,23 +101,25 @@ msgstr ""
 msgid "Secondo metodo:"
 msgstr "Second method:"
 
+#: ../../calls.rst:39
+msgid "Aprire il tab di un gruppo in cui è presente la persona da chiamare"
+msgstr "Open operator panel group tab where there is the person to call"
+
 #: ../../calls.rst:41
 msgid "Cliccare sull'icona con tre punti verticali in alto a destra"
 msgstr "Click the three-point icon at the top right"
 
 #: ../../calls.rst:42
-msgid ""
-"Selezionare \"Chiama\" per la chiamata vocale e \"Video\" per la "
-"videochiamata (se disponibile)"
-msgstr ""
+msgid "Selezionare \"Chiama\" per la chiamata vocale"
+msgstr "Select \"Call\" for vocal call"
 
 #: ../../calls.rst:45
 msgid "Se la chiamata non dovesse funzionare"
 msgstr "If the call does not work"
 
 #: ../../calls.rst:47
-msgid "Verificare se è presente un messaggio d'errore in basso a sinistra"
-msgstr "Check if there is an error message at the bottom left"
+msgid "Verificare se è presente un messaggio d'errore in basso a destra"
+msgstr "Check if there is a error message on bottom right"
 
 #: ../../calls.rst:50
 msgid "Funzionalità durante la chiamata"
@@ -140,9 +141,9 @@ msgstr "Pause a call:"
 #: ../../calls.rst:86
 #: ../../calls.rst:99
 msgid ""
-"Individuare il menù di conversazione che compare in basso a sinistra durante "
+"Individuare il menù di conversazione che compare in basso a destra durante "
 "una conversazione"
-msgstr ""
+msgstr "Check the conversation popup in bottom right during a conversation"
 
 #: ../../calls.rst:56
 msgid ""
@@ -202,7 +203,7 @@ msgstr "Megaphone: allows you to listen the conversation again"
 #: ../../calls.rst:74
 msgid ""
 "Freccia: ti permette di scaricare la registrazione (effettuare il download)"
-msgstr ""
+msgstr "Arrow: it allows to download record"
 
 #: ../../calls.rst:75
 msgid "Cestino: ti permette di eliminare la registrazione"
@@ -239,6 +240,8 @@ msgid ""
 "Per riprendere una chiamata parcheggiata, andare nella pagina \"Parcheggi\" "
 "cliccando la lettera \"P\" in alto a destra nella pagina \"Operatori\""
 msgstr ""
+"To pick up a parked call, go in the page \"Parkings\" by clicking the \"P\" "
+"letter on the top right corner of the page \"Operators\""
 
 #: ../../calls.rst:96
 msgid "Riprendere una chiamata parcheggiata:"
@@ -273,14 +276,16 @@ msgstr "Transfer a call:"
 msgid ""
 "Individuare e cliccare il bottone \"Trasferisci\" identificato dall'icona "
 "con la doppia freccia"
-msgstr ""
+msgstr "Check out the \"Transfer\" button with two arrows icon"
 
 #: ../../calls.rst:101
 msgid ""
 "Inserire nel campo di testo l'interno o il nome dell'utente a cui si vuole "
 "trasferire la chiamata"
 msgstr ""
+"Insert into the text field the extension or name of the person to transfer "
+"call"
 
 #: ../../calls.rst:102
 msgid "Decidere se fare un trasferimento \"Cieco\" o \"Consultativo\""
-msgstr ""
+msgstr "Decide to make a blinded or attended transfer"
