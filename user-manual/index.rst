@@ -46,6 +46,12 @@ Moduli
    queues
    streaming
 
+App mobile
+----------
+.. toctree::
+   :maxdepth: 2
+
+   app_mobile
 
 
 Indici
