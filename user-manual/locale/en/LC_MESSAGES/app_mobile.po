@@ -1,14 +1,15 @@
+# Edoardo Spadoni <edoardo.spadoni@nethesis.it>, 2017. #zanata
 # Giovanni Bezicheri <giovanni.bezicheri@nethesis.it>, 2017. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-28 14:33+0200\n"
+"POT-Creation-Date: 2017-09-05 12:01+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-08-28 09:06-0400\n"
-"Last-Translator: Giovanni Bezicheri <giovanni.bezicheri@nethesis.it>\n"
+"PO-Revision-Date: 2017-09-05 06:03-0400\n"
+"Last-Translator: Edoardo Spadoni <edoardo.spadoni@nethesis.it>\n"
 "Language-Team: English (United States)\n"
 "Language: en-US\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -36,9 +37,9 @@ msgstr "The application is available at the following links:"
 
 #: ../../app_mobile.rst:12
 msgid ""
-"Android: https://play.google.com/store/apps/details?id=it.nethesis.nethcti"
+"Android: https://play.google.com/store/apps/details?id=it.nethesis.nethcti3"
 msgstr ""
-"Android: https://play.google.com/store/apps/details?id=it.nethesis.nethcti"
+"Android: https://play.google.com/store/apps/details?id=it.nethesis.nethcti3"
 
 #: ../../app_mobile.rst:13
 msgid "iOS: https://itunes.apple.com/us/app/nethcti/id1041889331?mt=8"

@@ -1,0 +1,271 @@
+# Polidori Alessandro <alessandro.polidori@gmail.com>, 2017. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: NethCTI 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-24 16:53+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-08-25 05:30-0400\n"
+"Last-Translator: Polidori Alessandro <alessandro.polidori@gmail.com>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es-ES\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../../calls.rst:3
+msgid "Chiamate"
+msgstr "llamadas"
+
+#: ../../calls.rst:6
+msgid "Selezionare il dispositivo predefinito"
+msgstr ""
+
+#: ../../calls.rst:8
+msgid ""
+"Il menu dispositivi consente di selezionare il telefono di default tra "
+"quelli presenti nell'account. Se ci sono più telefoni associati, consente di "
+"selezionare quale sarà utilizzato per effettuare le chiamate."
+msgstr ""
+
+#: ../../calls.rst:10
+msgid "Per cambiare il dispositivo:"
+msgstr ""
+
+#: ../../calls.rst:12
+msgid ""
+"Cliccare sull'icona con una cornetta e cuffie che si trova in alto a destra "
+"sulla barra di navigazione"
+msgstr ""
+
+#: ../../calls.rst:13
+msgid "Cliccare sul dispositivo che si vuole selezionare come predefinito"
+msgstr ""
+
+#: ../../calls.rst:17
+msgid "Iniziare una chiamata"
+msgstr ""
+
+#: ../../calls.rst:19
+msgid ""
+"Trovare il campo di testo \"Cerca o Componi...\" sulla barra nella parte "
+"superiore della pagina"
+msgstr ""
+
+#: ../../calls.rst:20
+msgid "Scrivere nel campo di testo il numero che si desidera chiamare"
+msgstr ""
+
+#: ../../calls.rst:21
+msgid ""
+"Cliccare il bottone verde \"Chiama\" vicino al campo di testo \"Cerca o "
+"Componi...\""
+msgstr ""
+
+#: ../../calls.rst:25
+msgid "Iniziare una chiamata utilizzando il pannello Operatore"
+msgstr ""
+
+#: ../../calls.rst:28
+msgid "Primo metodo:"
+msgstr ""
+
+#: ../../calls.rst:30
+#: ../../calls.rst:38
+msgid "Aprire il tab \"Operatori\""
+msgstr ""
+
+#: ../../calls.rst:31
+msgid "Aprire il tab di un gruppo del pannello operatore"
+msgstr ""
+
+#: ../../calls.rst:32
+#: ../../calls.rst:40
+msgid "Cercare la persona che si vuole chiamare"
+msgstr ""
+
+#: ../../calls.rst:33
+msgid "Verificare che sia disponibile e chiamarlo cliccando sul tasto verde"
+msgstr ""
+
+#: ../../calls.rst:36
+msgid "Secondo metodo:"
+msgstr ""
+
+#: ../../calls.rst:39
+msgid "Aprire il tab di un gruppo in cui è presente la persona da chiamare"
+msgstr ""
+
+#: ../../calls.rst:41
+msgid "Cliccare sull'icona con tre punti verticali in alto a destra"
+msgstr ""
+
+#: ../../calls.rst:42
+msgid "Selezionare \"Chiama\" per la chiamata vocale"
+msgstr ""
+
+#: ../../calls.rst:45
+msgid "Se la chiamata non dovesse funzionare"
+msgstr ""
+
+#: ../../calls.rst:47
+msgid "Verificare se è presente un messaggio d'errore in basso a destra"
+msgstr ""
+
+#: ../../calls.rst:50
+msgid "Funzionalità durante la chiamata"
+msgstr ""
+
+#: ../../calls.rst:52
+msgid ""
+"Una volta che è iniziata una chiamata, sarà possibile usare differenti "
+"funzionalità"
+msgstr ""
+
+#: ../../calls.rst:56
+msgid "Mettere in pausa una chiamata:"
+msgstr ""
+
+#: ../../calls.rst:55
+#: ../../calls.rst:61
+#: ../../calls.rst:79
+#: ../../calls.rst:86
+#: ../../calls.rst:99
+msgid ""
+"Individuare il menù di conversazione che compare in basso a destra durante "
+"una conversazione"
+msgstr ""
+
+#: ../../calls.rst:56
+msgid ""
+"Individuare e cliccare il bottone \"Pausa\" identificato dall'icona con due "
+"barre verticali"
+msgstr ""
+
+#: ../../calls.rst:58
+msgid "Per togliere la pausa, cliccare nuovamente sullo stesso bottone."
+msgstr ""
+
+#: ../../calls.rst:62
+msgid "Registrare una chiamata:"
+msgstr ""
+
+#: ../../calls.rst:62
+msgid ""
+"Individuare e cliccare il bottone \"Registra\" identificato dall'icona con "
+"il doppio cerchio"
+msgstr ""
+
+#: ../../calls.rst:64
+msgid ""
+"Per fermare la registrazione, cliccare nuovamente sullo stesso bottone. Sarà "
+"possibile riascoltare le chiamate registrate nel tab \"Storico\""
+msgstr ""
+
+#: ../../calls.rst:76
+msgid "Riascoltare la registrazione:"
+msgstr ""
+
+#: ../../calls.rst:67
+msgid "Recarsi nel tab \"Storico\""
+msgstr ""
+
+#: ../../calls.rst:68
+msgid "Nella lista delle chiamate, selezionare la chiamata interessata"
+msgstr ""
+
+#: ../../calls.rst:69
+msgid "Se è stata effetuata una registrazione, ci sono tre icone disponibili"
+msgstr ""
+
+#: ../../calls.rst:71
+msgid "Ogni icona ha una funzionalità diversa:"
+msgstr ""
+
+#: ../../calls.rst:73
+msgid "Megafono: ti permette di riascoltare la conversazione"
+msgstr ""
+
+#: ../../calls.rst:74
+msgid ""
+"Freccia: ti permette di scaricare la registrazione (effettuare il download)"
+msgstr ""
+
+#: ../../calls.rst:75
+msgid "Cestino: ti permette di eliminare la registrazione"
+msgstr ""
+
+#: ../../calls.rst:80
+msgid "Mettere in \"Muto\" una chiamata:"
+msgstr ""
+
+#: ../../calls.rst:80
+msgid ""
+"Individuare e cliccare il bottone \"Muto\" identificato dall'icona del "
+"microfono"
+msgstr ""
+
+#: ../../calls.rst:82
+msgid "Per togliere il muto, cliccare nuovamente sullo stesso bottone."
+msgstr ""
+
+#: ../../calls.rst:87
+msgid "Parcheggiare una chiamata:"
+msgstr ""
+
+#: ../../calls.rst:87
+msgid ""
+"Individuare e cliccare il bottone \"Parcheggia\" identificato dall'icona con "
+"la lettera P"
+msgstr ""
+
+#: ../../calls.rst:89
+msgid ""
+"Per riprendere una chiamata parcheggiata, andare nella pagina \"Parcheggi\" "
+"cliccando la lettera \"P\" in alto a destra nella pagina \"Operatori\""
+msgstr ""
+
+#: ../../calls.rst:96
+msgid "Riprendere una chiamata parcheggiata:"
+msgstr ""
+
+#: ../../calls.rst:92
+msgid "Cliccare l'icona \"P\" in alto a destra nella sezione \"Operatori\""
+msgstr ""
+
+#: ../../calls.rst:93
+msgid "Viene mostrata la lista di tutti i parcheggi disponibili"
+msgstr ""
+
+#: ../../calls.rst:94
+msgid ""
+"Cliccare il bottone verde sotto la chiamata per riprendere la chiamata "
+"parcheggiata"
+msgstr ""
+
+#: ../../calls.rst:95
+msgid ""
+"Rispondere alla chiamata in arrivo, per continuare a parlare con la "
+"controparte"
+msgstr ""
+
+#: ../../calls.rst:102
+msgid "Trasferire una chiamata:"
+msgstr ""
+
+#: ../../calls.rst:100
+msgid ""
+"Individuare e cliccare il bottone \"Trasferisci\" identificato dall'icona "
+"con la doppia freccia"
+msgstr ""
+
+#: ../../calls.rst:101
+msgid ""
+"Inserire nel campo di testo l'interno o il nome dell'utente a cui si vuole "
+"trasferire la chiamata"
+msgstr ""
+
+#: ../../calls.rst:102
+msgid "Decidere se fare un trasferimento \"Cieco\" o \"Consultativo\""
+msgstr ""

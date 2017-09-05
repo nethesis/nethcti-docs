@@ -1,0 +1,27 @@
+# Polidori Alessandro <alessandro.polidori@gmail.com>, 2017. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: NethCTI 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-24 16:28+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-08-25 05:40-0400\n"
+"Last-Translator: Polidori Alessandro <alessandro.polidori@gmail.com>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es-ES\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../../_templates/navbarsearchbox.html:4
+msgid "Search"
+msgstr "Buscar"
+
+#: ../../_templates/navbar.html:26
+msgid "Index"
+msgstr ""
+
+#: ../../_templates/navbar.html:27
+msgid "Support"
+msgstr ""

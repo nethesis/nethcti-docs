@@ -1,0 +1,57 @@
+# Polidori Alessandro <alessandro.polidori@gmail.com>, 2017. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: NethCTI 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-24 16:28+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-08-25 05:41-0400\n"
+"Last-Translator: Polidori Alessandro <alessandro.polidori@gmail.com>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es-ES\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../../status.rst:3
+msgid "Menu Stato"
+msgstr ""
+
+#: ../../status.rst:5
+msgid ""
+"Il menu \"Stato\" consente di modificare lo stato dell'utente, accedere alle "
+"impostazioni o uscire dall'applicazione."
+msgstr ""
+
+#: ../../status.rst:9
+msgid "Cambiare lo stato pubblico"
+msgstr ""
+
+#: ../../status.rst:11
+#: ../../status.rst:17
+#: ../../status.rst:23
+msgid ""
+"Cliccare sul proprio nome nell'angolo in alto a destra dell'applicazione per "
+"visualizzare il menu di \"Stato\""
+msgstr ""
+
+#: ../../status.rst:12
+msgid "Scegliere il proprio stato pubblico cliccando su di esso"
+msgstr ""
+
+#: ../../status.rst:15
+msgid "Impostazioni"
+msgstr ""
+
+#: ../../status.rst:18
+msgid "Cliccare su \"Impostazioni\""
+msgstr ""
+
+#: ../../status.rst:21
+msgid "Uscita (Logout)"
+msgstr "Salida (Logout)"
+
+#: ../../status.rst:24
+msgid "Cliccare su \"Logout\""
+msgstr ""
