@@ -14,7 +14,7 @@ Una volta effettuato il login, la pagina mostra l'applicazione e le varie sezion
 
 
 Note di rilascio |version|
-=========================
+==========================
 
 CTI versione |version| introduce una nuova grafica, completamente rinnovata e semplificata per l'utente finale.
 
@@ -50,3 +50,4 @@ Le seguenti funzioni non sono ancora disponibili:
 - Supervisore Code
 - Nethifier
 
+.. warning:: CTI |version| necessita di |parent_product| 14
