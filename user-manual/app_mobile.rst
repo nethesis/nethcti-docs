@@ -9,7 +9,7 @@ Installazione
 
 L'applicazione è disponibile ai seguenti link:
 
-- Android: https://play.google.com/store/apps/details?id=it.nethesis.nethcti
+- Android: https://play.google.com/store/apps/details?id=it.nethesis.nethcti3
 - iOS: https://itunes.apple.com/us/app/nethcti/id1041889331?mt=8
 
 E' possibile comunque cercare la parola **nethcti** nei diversi store e installarla senza il link diretto.
