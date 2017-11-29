@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-24 16:28+0200\n"
+"POT-Creation-Date: 2017-11-27 12:02+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,11 +14,11 @@ msgstr ""
 "X-Generator: Zanata 3.9.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../../queues.rst:3
+#: ../../queues.rst:6
 msgid "Code"
 msgstr "Colas"
 
-#: ../../queues.rst:5
+#: ../../queues.rst:8
 msgid ""
 "Nella sezione \"Code\" è possibile vedere in realtime le code configurate "
 "nel centralino assieme alle chiamate in attesa su ogni singola coda. E' "
@@ -27,119 +27,119 @@ msgid ""
 "come agente della coda o mettersi in pausa/riprendersi da tutte le code."
 msgstr ""
 
-#: ../../queues.rst:13
+#: ../../queues.rst:16
 msgid "La vista della coda"
 msgstr ""
 
-#: ../../queues.rst:15
+#: ../../queues.rst:18
 msgid ""
 "Nella scheda della coda è possibile vedere il nome della coda e il suo "
 "numero assieme ad altre informazioni sulla stessa."
 msgstr ""
 
-#: ../../queues.rst:19
+#: ../../queues.rst:22
 msgid "Contatori della coda"
 msgstr ""
 
-#: ../../queues.rst:21
+#: ../../queues.rst:24
 msgid ""
 "Sul lato in alto a destra è possibile vedere alcuni contatori relativi a:"
 msgstr ""
 
-#: ../../queues.rst:23
+#: ../../queues.rst:26
 msgid "totale delle chiamate passate attraverso la coda"
 msgstr ""
 
-#: ../../queues.rst:24
+#: ../../queues.rst:27
 msgid "totale delle chiamate correntemente in attesa"
 msgstr ""
 
-#: ../../queues.rst:25
+#: ../../queues.rst:28
 msgid "totale delle chiamate in corso"
 msgstr ""
 
-#: ../../queues.rst:26
+#: ../../queues.rst:29
 msgid "totale degli agenti attivi"
 msgstr ""
 
-#: ../../queues.rst:29
+#: ../../queues.rst:32
 msgid "Attese"
 msgstr ""
 
-#: ../../queues.rst:31
+#: ../../queues.rst:34
 msgid ""
 "Sotto il nome della coda sono riportati i valori di attesa massima e minima "
 "relativi alle chiamate."
 msgstr ""
 
-#: ../../queues.rst:35
+#: ../../queues.rst:38
 msgid "Chiamate"
 msgstr "llamadas"
 
-#: ../../queues.rst:37
+#: ../../queues.rst:40
 msgid ""
 "Al centro del riquadro è possibile vedere: 1) le chiamate in attesa in tempo "
 "reale, con il chiamante, la posizione e l'attesa 2) le chiamate in corso in "
 "tempo reale, con il chiamante, l'agente e la durata"
 msgstr ""
 
-#: ../../queues.rst:42
+#: ../../queues.rst:45
 msgid "Agenti"
 msgstr "Agentes"
 
-#: ../../queues.rst:44
+#: ../../queues.rst:47
 msgid ""
 "In basso nel riquadro della coda sono elencati tutti gli agenti, sia statici "
 "che dinamici. Gli agenti dinamici sono elencati assieme al loro stato di "
 "iscrizione alla coda."
 msgstr ""
 
-#: ../../queues.rst:48
+#: ../../queues.rst:51
 msgid "Cercare una coda"
 msgstr ""
 
-#: ../../queues.rst:50
-#: ../../queues.rst:56
-#: ../../queues.rst:62
-#: ../../queues.rst:68
-#: ../../queues.rst:74
+#: ../../queues.rst:53
+#: ../../queues.rst:59
+#: ../../queues.rst:65
+#: ../../queues.rst:71
+#: ../../queues.rst:77
 msgid "Selezionare la sezione \"Code\""
 msgstr ""
 
-#: ../../queues.rst:51
+#: ../../queues.rst:54
 msgid "Digitare il nome della coda nella casella di testo e premere invio"
 msgstr ""
 
-#: ../../queues.rst:54
+#: ../../queues.rst:57
 msgid "Login tutte le code"
 msgstr ""
 
-#: ../../queues.rst:57
+#: ../../queues.rst:60
 msgid "Cliccare sul buttone \"Login tutte le code\""
 msgstr ""
 
-#: ../../queues.rst:60
+#: ../../queues.rst:63
 msgid "Logout tutte le code"
 msgstr ""
 
-#: ../../queues.rst:63
+#: ../../queues.rst:66
 msgid "Cliccare sul bottone \"Logout tutte le code\""
 msgstr ""
 
-#: ../../queues.rst:66
+#: ../../queues.rst:69
 msgid "Pausa tutte le code"
 msgstr ""
 
-#: ../../queues.rst:69
+#: ../../queues.rst:72
 msgid ""
 "Cliccare sul bottone \"Pausa tutte le code\" o cliccare sulla freccia per "
 "scegliere un motivo"
 msgstr ""
 
-#: ../../queues.rst:72
+#: ../../queues.rst:75
 msgid "Stop pause tutte le code"
 msgstr ""
 
-#: ../../queues.rst:75
+#: ../../queues.rst:78
 msgid "Cliccare sul bottone \"Stop pause tutte le code\""
 msgstr ""

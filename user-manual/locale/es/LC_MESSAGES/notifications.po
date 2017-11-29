@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-24 16:28+0200\n"
+"POT-Creation-Date: 2017-11-27 12:02+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,41 +14,41 @@ msgstr ""
 "X-Generator: Zanata 3.9.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../../notifications.rst:3
+#: ../../notifications.rst:6
 msgid "Notifiche"
 msgstr "Notificaciones"
 
-#: ../../notifications.rst:5
+#: ../../notifications.rst:8
 msgid ""
 "L'applicazione ha un sistema di notifiche che aggiorna l'utente in tempo "
 "reale su eventi del centralino. Le notifiche disponbili nell'applicazione "
 "sono:"
 msgstr ""
 
-#: ../../notifications.rst:8
+#: ../../notifications.rst:11
 msgid "Chiamate perse"
 msgstr ""
 
-#: ../../notifications.rst:9
+#: ../../notifications.rst:12
 msgid "Messaggi casella vocale"
 msgstr ""
 
-#: ../../notifications.rst:10
+#: ../../notifications.rst:13
 msgid "Messaggi Chat"
 msgstr ""
 
-#: ../../notifications.rst:12
+#: ../../notifications.rst:15
 msgid "Per visualizzare le notifiche disponbili"
 msgstr ""
 
-#: ../../notifications.rst:14
+#: ../../notifications.rst:17
 msgid "Recarsi con il mouse nella sezione in alto a destra"
 msgstr ""
 
-#: ../../notifications.rst:15
+#: ../../notifications.rst:18
 msgid "Cliccare nell'icona della Campanella"
 msgstr ""
 
-#: ../../notifications.rst:16
+#: ../../notifications.rst:19
 msgid "Visualizzare la lista delle notifiche"
 msgstr ""
