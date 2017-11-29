@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-28 14:33+0200\n"
+"POT-Creation-Date: 2017-11-27 12:02+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,38 +15,38 @@ msgstr ""
 "X-Generator: Zanata 3.9.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../../index.rst:7
+#: ../../index.rst:10
 msgid "CTI |release|"
 msgstr "CTI |release|"
 
-#: ../../index.rst:10
+#: ../../index.rst:13
 msgid "Generale"
 msgstr "General"
 
-#: ../../index.rst:22
+#: ../../index.rst:25
 msgid "Chiamate"
 msgstr "Calls"
 
-#: ../../index.rst:32
+#: ../../index.rst:35
 msgid "Contatti"
 msgstr "Contacts"
 
-#: ../../index.rst:41
+#: ../../index.rst:44
 msgid "Moduli"
 msgstr "Modules"
 
-#: ../../index.rst:50
+#: ../../index.rst:53
 msgid "App mobile"
 msgstr "Mobile app"
 
-#: ../../index.rst:58
+#: ../../index.rst:61
 msgid "Indici"
 msgstr "Index"
 
-#: ../../index.rst:60
+#: ../../index.rst:63
 msgid ":ref:`genindex`"
 msgstr ":ref:`genindex`"
 
-#: ../../index.rst:61
+#: ../../index.rst:64
 msgid ":ref:`search`"
 msgstr ":ref:`genindex`"

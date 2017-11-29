@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-24 16:28+0200\n"
+"POT-Creation-Date: 2017-11-27 12:02+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,11 +14,11 @@ msgstr ""
 "X-Generator: Zanata 3.9.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../../introduction.rst:3
+#: ../../introduction.rst:6
 msgid "Introduzione"
 msgstr "Introduction"
 
-#: ../../introduction.rst:5
+#: ../../introduction.rst:8
 msgid ""
 "Questo è il manuale utente del CTI, nelle varie sezioni verranno spiegate le "
 "diverse funzionalità per un utilizzo corretto dell'applicazione."
@@ -26,14 +26,14 @@ msgstr ""
 "This is the CTI user manual,  the various sections will explain the various "
 "features for correct application use."
 
-#: ../../introduction.rst:7
+#: ../../introduction.rst:10
 msgid ""
 "Per la sezione installazione, recarsi al manuale Amministratore del "
 "centralino"
 msgstr ""
 "For the installation section, go to the Administrator switchboard manual"
 
-#: ../../introduction.rst:9
+#: ../../introduction.rst:12
 msgid ""
 "L'applicazione è raggiungibile al link https://IP_O_NOME_SERVER/cti ed è "
 "possibile fare login inserendo le opportune credenziali fornite "
@@ -43,7 +43,7 @@ msgstr ""
 "login by entering the appropriate credentials provided by your system "
 "administrator."
 
-#: ../../introduction.rst:11
+#: ../../introduction.rst:14
 msgid ""
 "Per la versione mobile, in fase di login, è richiesto anche l'inserimento "
 "dell'IP o del Nome del server a cui ci si vuole collegare"
@@ -51,7 +51,7 @@ msgstr ""
 "For the mobile version, when logging in, it is also required to enter the IP "
 "or the server name to which you want to connect"
 
-#: ../../introduction.rst:13
+#: ../../introduction.rst:16
 msgid ""
 "Una volta effettuato il login, la pagina mostra l'applicazione e le varie "
 "sezioni. Ogni parte dell'applicazione è approfondita nelle sezioni "
@@ -60,3 +60,137 @@ msgstr ""
 "Once logged in, the page shows the application and the various sections. "
 "Every part of the application is dealt with in the following sections of the "
 "manual."
+
+#: ../../introduction.rst:20
+msgid "Note di rilascio |version|"
+msgstr ""
+
+#: ../../introduction.rst:22
+msgid ""
+"CTI versione |version| introduce una nuova grafica, completamente rinnovata "
+"e semplificata per l'utente finale."
+msgstr ""
+
+#: ../../introduction.rst:24
+msgid "Funzionalità principali:"
+msgstr ""
+
+#: ../../introduction.rst:26
+msgid "Configurazione semplificata attraverso il wizard di |parent_product|"
+msgstr ""
+
+#: ../../introduction.rst:27
+msgid "Salvataggio centralizzato sul server di tutte le preferenze utente"
+msgstr ""
+
+#: ../../introduction.rst:28
+msgid ""
+"Customer card più semplici da configurare e con una nuova veste grafica"
+msgstr ""
+
+#: ../../introduction.rst:29
+msgid "Gestione device multipli associati ad un singolo utente"
+msgstr ""
+
+#: ../../introduction.rst:30
+msgid ""
+"Possibilità di impostare la presence in modo unificato su tutti i "
+"dispositivi"
+msgstr ""
+
+#: ../../introduction.rst:31
+msgid "Configurazione avatar"
+msgstr ""
+
+#: ../../introduction.rst:32
+msgid "Nuova chat (XMPP)"
+msgstr ""
+
+#: ../../introduction.rst:33
+msgid "Restyling grafico e funzionale del pannello operatore"
+msgstr ""
+
+#: ../../introduction.rst:34
+msgid ""
+"Possibilità di raggruppare i risultati della ricerca in rubrica per persona "
+"o per azienda"
+msgstr ""
+
+#: ../../introduction.rst:35
+msgid ""
+"Nuovo softphone WebRTC con supporto alle videochiamate (solo fra interni "
+"WebRTC)"
+msgstr ""
+
+#: ../../introduction.rst:36
+msgid "Visualizzazione sorgenti video anche dall'esterno della LAN"
+msgstr ""
+
+#: ../../introduction.rst:39
+msgid "Le seguenti funzioni non sono ancora disponibili:"
+msgstr ""
+
+#: ../../introduction.rst:41
+msgid "Conferenze audio"
+msgstr ""
+
+#: ../../introduction.rst:42
+msgid "Post-it e note chiamate"
+msgstr ""
+
+#: ../../introduction.rst:43
+msgid "Sedi remote"
+msgstr ""
+
+#: ../../introduction.rst:44
+msgid "Integrazione SMS e notifiche offline (mail e SMS)"
+msgstr ""
+
+#: ../../introduction.rst:45
+msgid "Configurazione servizio notte"
+msgstr ""
+
+#: ../../introduction.rst:46
+msgid "Code: chiamate perse, login e logout automatico"
+msgstr ""
+
+#: ../../introduction.rst:47
+msgid ""
+"Inoltro della chiamata a nuemero o voicemail, su non disponibile/occupato"
+msgstr ""
+
+#: ../../introduction.rst:48
+msgid "Visualizzazione stato dei fasci"
+msgstr ""
+
+#: ../../introduction.rst:49
+msgid ""
+"Apertura di un url parametrizzato in corrispondenza della ricezione di una "
+"chiamata"
+msgstr ""
+
+#: ../../introduction.rst:50
+msgid "Script personalizzati per la gestione chiamate"
+msgstr ""
+
+#: ../../introduction.rst:51
+msgid ""
+"Integrazione con app legacy: possibilità di effettuare chiamate in maniera "
+"non autenticata"
+msgstr ""
+
+#: ../../introduction.rst:52
+msgid "Posto Operatore"
+msgstr ""
+
+#: ../../introduction.rst:53
+msgid "Supervisore Code"
+msgstr ""
+
+#: ../../introduction.rst:54
+msgid "Nethifier"
+msgstr ""
+
+#: ../../introduction.rst:56
+msgid "CTI |version| necessita di |parent_product| 14"
+msgstr ""

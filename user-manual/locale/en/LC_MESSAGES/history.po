@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-24 16:28+0200\n"
+"POT-Creation-Date: 2017-11-27 12:02+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,39 +14,39 @@ msgstr ""
 "X-Generator: Zanata 3.9.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../../history.rst:3
+#: ../../history.rst:6
 msgid "Storico chiamate"
 msgstr "Call history"
 
-#: ../../history.rst:5
+#: ../../history.rst:8
 msgid "\"Storico\" e' l'elenco di tutte le chiamate personali e del centralino"
 msgstr "\"History\" is the list of all personal and switchboard calls"
 
-#: ../../history.rst:8
+#: ../../history.rst:11
 msgid "Chiamate personali"
 msgstr "Personal calls"
 
-#: ../../history.rst:12
-#: ../../history.rst:26
+#: ../../history.rst:15
+#: ../../history.rst:29
 msgid "Filtrare le chiamate"
 msgstr "Filter the calls"
 
-#: ../../history.rst:14
-#: ../../history.rst:28
+#: ../../history.rst:17
+#: ../../history.rst:31
 msgid "Inserire un numero di telefono (opzionale) e le date di inizio e fine"
 msgstr "Insert a phone number (optional) and the start and end dates"
 
-#: ../../history.rst:15
-#: ../../history.rst:29
+#: ../../history.rst:18
+#: ../../history.rst:32
 msgid "Cliccare sul tasto di ricerca (icona lente)"
 msgstr "Click on search button (lens icon)"
 
-#: ../../history.rst:18
-#: ../../history.rst:32
+#: ../../history.rst:21
+#: ../../history.rst:35
 msgid "Chiamate in entrata/uscita"
 msgstr "Incoming/Outgoing calls"
 
-#: ../../history.rst:20
+#: ../../history.rst:23
 msgid ""
 "Possono essere selezionate tutte le chiamate o solo quelle in entrata e in "
 "uscita cliccando sul tab appropriato in \"Storico\" -> \"Chiamate "
@@ -55,11 +55,11 @@ msgstr ""
 "All calls can be selected or only incoming or outgoing by clicking on proper "
 "tab into \"History\" -> \"Personal calls\""
 
-#: ../../history.rst:23
+#: ../../history.rst:26
 msgid "Chiamate centralino"
 msgstr "Switchboard calls"
 
-#: ../../history.rst:34
+#: ../../history.rst:37
 msgid ""
 "Possono essere selezionate tutte le chiamate o solo quelle in entrata e in "
 "uscita cliccando sul tab appropriato in \"Storico\" -> \"Chiamate "
@@ -68,35 +68,35 @@ msgstr ""
 "All calls can be selected or only incoming or outgoing by clicking on proper "
 "tab into \"History\" -> \"Switchboard calls\""
 
-#: ../../history.rst:37
+#: ../../history.rst:40
 msgid "Chiamate Registrate"
 msgstr "Recorded calls"
 
-#: ../../history.rst:40
+#: ../../history.rst:43
 msgid "Ascoltare le chiamate registrate"
 msgstr "Listen recorded calls"
 
-#: ../../history.rst:42
-#: ../../history.rst:49
-#: ../../history.rst:55
+#: ../../history.rst:45
+#: ../../history.rst:52
+#: ../../history.rst:58
 msgid "Aprire il tab \"Storico\""
 msgstr "Open \"History\" tab"
 
-#: ../../history.rst:43
+#: ../../history.rst:46
 msgid ""
 "Individuare le chiamate che hanno una registrazione associata, identificate "
 "con l'icona del megafono"
 msgstr "Find recorded calls, identified by megaphone icon"
 
-#: ../../history.rst:44
+#: ../../history.rst:47
 msgid "Cliccare sull'icona megafono"
 msgstr "Click on megaphone icon"
 
-#: ../../history.rst:47
+#: ../../history.rst:50
 msgid "Scaricare una telefonata registrata"
 msgstr "Download recorded call"
 
-#: ../../history.rst:50
+#: ../../history.rst:53
 msgid ""
 "Individuare le chiamate che hanno una registrazione associata, e cliccare "
 "sull'icona \"Scarica\" rappresentata con una freccia verso il basso"
@@ -104,11 +104,11 @@ msgstr ""
 "Find recorded calls and click on \"Download\" icon identified by a down "
 "arrow"
 
-#: ../../history.rst:53
+#: ../../history.rst:56
 msgid "Eliminare una telefonata registrata"
 msgstr "Delete recorded call"
 
-#: ../../history.rst:56
+#: ../../history.rst:59
 msgid ""
 "Individuare le chiamate che hanno una registrazione associata, e cliccare "
 "sull'icona \"Elimina\" rappresentata con un cestino"
