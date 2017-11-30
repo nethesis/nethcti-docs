@@ -1,0 +1,420 @@
+# Sebastian Marius Besel <sebastian.besel@nethesis.it>, 2017. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: NethCTI 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-29 14:44+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-11-29 10:49-0500\n"
+"Last-Translator: Sebastian Marius Besel <sebastian.besel@nethesis.it>\n"
+"Language-Team: English (United States)\n"
+"Language: en-US\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../../offhour.rst:6
+msgid "Fuori Orario"
+msgstr "Off Hour"
+
+#: ../../offhour.rst:8
+msgid ""
+"Nella sezione \"Fuori Orario\" è possibile configurare per le rotte in "
+"ingresso l’ascolto di un messaggio audio per un certo intervallo temporale, "
+"ad esempio in corrispondenza delle vacanze estive. Questa funzione necessita "
+"il permesso “Off Hour” e per le rotte in ingresso generiche il permesso "
+"“Advanced Off Hour\"."
+msgstr ""
+"In \"Off Hour\" section,  for incoming routes you can configure an audio "
+"message for a certain time interval, for example during summer holidays. "
+"This function requires the \"Off Hour\" permission and for generic routes "
+"the \"Advanced Off Hour\" permission."
+
+#: ../../offhour.rst:13
+msgid "Vista del Fuori Orario"
+msgstr "Off Hour view"
+
+#: ../../offhour.rst:15
+msgid "La sezione è divisa in:"
+msgstr "The section is divided into:"
+
+#: ../../offhour.rst:18
+msgid "Rotte"
+msgstr "Routes"
+
+#: ../../offhour.rst:20
+msgid ""
+"Nella sezione Rotte, vengono visualizzate le rotte in ingresso. È possibile "
+"visualizzare una panoramica generale ed espandere per informazioni e "
+"modifiche."
+msgstr ""
+"In the Routes section, inbound routes are displayed. You can view a general "
+"overview and expand for informations and changes."
+
+#: ../../offhour.rst:23
+msgid "Nella parte superiore di ogni scheda è presente:"
+msgstr "At the top of each card there is:"
+
+#: ../../offhour.rst:25
+msgid "l'interno associato alla rotta / il numero esterno"
+msgstr "the extension associated with the route / external number"
+
+#: ../../offhour.rst:26
+msgid "la descrizione della rotta"
+msgstr "the description of the route"
+
+#: ../../offhour.rst:27
+msgid "in alto a destra il pulsante per espandere la scheda"
+msgstr "at the top right the button to expand the card"
+
+#: ../../offhour.rst:28
+msgid "durata della chiamata"
+msgstr "call duration"
+
+#: ../../offhour.rst:30
+msgid ""
+"Nel caso in cui il fuori orario per la rotta non sia mai stato configurato "
+"il pulsante a destra servirà per aprire il form di configurazione."
+msgstr ""
+"In case the off hours for the route have never been configured, the right "
+"button will serve to open the configuration form."
+
+#: ../../offhour.rst:33
+msgid "Nelle sezioni sottostanti della scheda è mostrato:"
+msgstr "The following sections of the card are shown:"
+
+#: ../../offhour.rst:35
+msgid "il periodo di attivazione"
+msgstr "the activation period"
+
+#: ../../offhour.rst:36
+msgid "la destinazione della chiamata"
+msgstr "the destination of the call"
+
+#: ../../offhour.rst:37
+msgid ""
+"il pulsante per riaprire il form di configurazione e apportare modifiche"
+msgstr "the button to open the configuration form and make changes"
+
+#: ../../offhour.rst:39
+msgid "Nella parte inferiore della scheda è riportato:"
+msgstr "At the bottom of the card there is:"
+
+#: ../../offhour.rst:41
+msgid "il tipo di destinazione"
+msgstr "the destination type"
+
+#: ../../offhour.rst:42
+msgid ""
+"il pulsante per abilitare e disabilitare il fuori orario per ogni rotta"
+msgstr "button to enable and disable off hours for each route"
+
+#: ../../offhour.rst:45
+msgid "Annunci"
+msgstr "Announcements"
+
+#: ../../offhour.rst:47
+msgid ""
+"La sezione annunci permette di caricare e registrare nuovi messaggi vocali o "
+"compiere azioni sugli annunci già presenti."
+msgstr ""
+"The announcements section allows you to upload and record new voice messages "
+"or perform actions on existing announcements."
+
+#: ../../offhour.rst:49
+msgid "Nella parte superiore sono mostrati:"
+msgstr "At the top there are:"
+
+#: ../../offhour.rst:51
+msgid "il pulsante per caricare un nuovo annuncio"
+msgstr "the button to upload a new announcement"
+
+#: ../../offhour.rst:52
+msgid "pulsante per registrare un nuovo annuncio"
+msgstr "button to record a new announcement"
+
+#: ../../offhour.rst:54
+msgid ""
+"Nella parte inferiore è mostrata la tabella dei messaggi già presenti "
+"suddivisa nelle seguenti colonne:"
+msgstr ""
+"The bottom of the table shows the table of the messages already present, "
+"divided into the following columns:"
+
+#: ../../offhour.rst:56
+msgid "descrizione del messaggio"
+msgstr "announcement description"
+
+#: ../../offhour.rst:57
+msgid "autore"
+msgstr "author"
+
+#: ../../offhour.rst:58
+msgid "data di creazione"
+msgstr "creation date"
+
+#: ../../offhour.rst:59
+msgid "privacy (pubblico o privato)"
+msgstr "privacy (public or private)"
+
+#: ../../offhour.rst:60
+msgid "azioni (ascolta, scarica,  elimina, modifica)"
+msgstr "actions (play, download, delete, modify)"
+
+#: ../../offhour.rst:63
+msgid "Form di configurazione Fuori Orario"
+msgstr "Configuration form  Off Hour"
+
+#: ../../offhour.rst:65
+msgid ""
+"Per configurare e modificare il fuori orario di una rotta è necessario "
+"compilare un form composto da:"
+msgstr ""
+"To configure and modify a route off hour you must compile a form consisting "
+"of:"
+
+#: ../../offhour.rst:67
+msgid "checkbox sempre abilitato"
+msgstr "checkbox for ever enable"
+
+#: ../../offhour.rst:68
+msgid "calendario per la data e ora d'inizio e di fine"
+msgstr "calendar for date and time of start and end"
+
+#: ../../offhour.rst:69
+msgid "select per selezionare il tipo di destinazione"
+msgstr "selection to select the destination type"
+
+#: ../../offhour.rst:70
+msgid "specifiche della destinazione"
+msgstr "destination informations"
+
+#: ../../offhour.rst:71
+msgid "pulsante salva e pulsante annulla"
+msgstr "save button and cancel button"
+
+#: ../../offhour.rst:74
+msgid "Form caricamento Annuncio"
+msgstr "Form for announcement upload"
+
+#: ../../offhour.rst:76
+msgid ""
+"Nella sezione annunci per caricare un messaggio audio si apre un popup da "
+"cui selezionare il file di tipo **mp3** oppure **wav** e a seguire un form "
+"composto da:"
+msgstr ""
+"In the Announcements Section to upload an audio message appears the browser "
+"file selection popup from which to select the ** mp3 ** or ** wav ** file "
+"and after appears a form composed of:"
+
+#: ../../offhour.rst:79
+msgid "campo con il nome del file selezionato"
+msgstr "field with the name of the selected file"
+
+#: ../../offhour.rst:80
+msgid "descrizione dell'annuncio"
+msgstr "announcement description"
+
+#: ../../offhour.rst:81
+msgid "privacy"
+msgstr "privacy"
+
+#: ../../offhour.rst:82
+msgid "pulsante \"Salva\" e pulsante \"Annulla\""
+msgstr "save button and cancel button"
+
+#: ../../offhour.rst:85
+msgid "Form modifica/registrazione Annuncio"
+msgstr "Announcement modify/registration Form"
+
+#: ../../offhour.rst:87
+msgid ""
+"Per la registrazione e la modifica di un annuncio è necessario complilare il "
+"form che compare, contenente la descrizione e la privacy che si desidera "
+"associare al messaggio."
+msgstr ""
+"To register and edit an announcement, you must complete the form that "
+"appears, containing the description and privacy that you want to associate "
+"with the message."
+
+#: ../../offhour.rst:90
+msgid "Configurare il Fuori Orario di una Rotta"
+msgstr "Configure Off Hour for a Route"
+
+#: ../../offhour.rst:92
+#: ../../offhour.rst:100
+#: ../../offhour.rst:109
+msgid "aprire la tab \"Rotte\""
+msgstr "open \"Route\" tab"
+
+#: ../../offhour.rst:93
+msgid ""
+"premere sull'icona in alto a destra della scheda per aprire il form di "
+"configurazione"
+msgstr ""
+"press the icon on the top right of the card to open the configuration form"
+
+#: ../../offhour.rst:94
+msgid "compilare il form con il periodo e la destinazione desiderate"
+msgstr "compile the form with the desired period and destination"
+
+#: ../../offhour.rst:95
+#: ../../offhour.rst:104
+#: ../../offhour.rst:120
+#: ../../offhour.rst:130
+#: ../../offhour.rst:160
+msgid "premere il pulsante \"Salva\""
+msgstr "press the \"Save\" button"
+
+#: ../../offhour.rst:98
+msgid "Modificare il Fuori Orario di una Rotta"
+msgstr "Modify the Off Hour of a Route"
+
+#: ../../offhour.rst:101
+msgid "espandere la scheda della rotta da modificare"
+msgstr "expand the card of the route to be modified"
+
+#: ../../offhour.rst:102
+msgid "premere il pulsante modifica per aprire il form di configurazione"
+msgstr "press the modify button to open the configuration form"
+
+#: ../../offhour.rst:103
+msgid "apportare le modifiche desiderate al form"
+msgstr "make the desired changes to the form"
+
+#: ../../offhour.rst:107
+msgid "Disabilitare il Fuori Orario di una Rotta"
+msgstr "Disable Off Hour of a Route"
+
+#: ../../offhour.rst:110
+msgid ""
+"premere il pulsante viola in basso a destra della scheda da disabilitare"
+msgstr ""
+"press the purple button at the bottom right of the card to be disabled"
+
+#: ../../offhour.rst:113
+msgid "Caricare un Annuncio"
+msgstr "Announcement Upload"
+
+#: ../../offhour.rst:115
+#: ../../offhour.rst:125
+#: ../../offhour.rst:135
+#: ../../offhour.rst:141
+#: ../../offhour.rst:147
+#: ../../offhour.rst:157
+msgid "aprire la tab \"Annunci\""
+msgstr "open \"Announcements\" tab"
+
+#: ../../offhour.rst:116
+msgid "premere il pulsante in alto a sinistra \"Carica annuncio\""
+msgstr "press the top left button \"Upload announcement\""
+
+#: ../../offhour.rst:117
+msgid "selezionare un file in formato wav oppure mp3"
+msgstr "select a file in wav or mp3 format"
+
+#: ../../offhour.rst:118
+msgid "inserire una descrizione diversa da quelle già esistenti"
+msgstr "enter a different description from the one already existing"
+
+#: ../../offhour.rst:119
+msgid "selezionare il livello di privacy desiderato"
+msgstr "select the desired privacy level"
+
+#: ../../offhour.rst:123
+msgid "Registare un Annuncio"
+msgstr "Register an announcement"
+
+#: ../../offhour.rst:126
+msgid ""
+"selezionare il dispositivo sul quale si desidera ricevere la chiamata per la "
+"registrazione del messaggio"
+msgstr ""
+"select the device on which you want to receive the call to record the "
+"message"
+
+#: ../../offhour.rst:127
+msgid "premere il pulsante \"Registra annuncio\""
+msgstr "press the button \"Record announcement\""
+
+#: ../../offhour.rst:128
+msgid ""
+"rispondere al WebRTC oppure al telefono fisico in base al dispositivo "
+"selezionato e registrare il messaggio"
+msgstr ""
+"reply to the WebRTC or the physical phone according to the selected device "
+"and record the message"
+
+#: ../../offhour.rst:129
+msgid ""
+"chiudere la chiamata e compilare il form che compare con la descrizione e il "
+"livello di privacy selezionato"
+msgstr ""
+"close the call and compile the form that appears with the description and "
+"privacy level selected"
+
+#: ../../offhour.rst:133
+msgid "Ascoltare un Annuncio"
+msgstr "Listen to an Announcement"
+
+#: ../../offhour.rst:136
+msgid ""
+"nella tabella degli annunci premere il pulsante \"Play\" in corrispondenza "
+"dell'annuncio che si desidera ascoltare"
+msgstr ""
+"in the announcements table, press the \"Play\" button at the announcement "
+"you want to hear"
+
+#: ../../offhour.rst:139
+msgid "Scaricare un Annuncio"
+msgstr "Download an Announcement"
+
+#: ../../offhour.rst:142
+msgid ""
+"nella tabella degli annunci premere il pulsante \"Download\" in "
+"corrispondenza dell'annuncio che si desidera scaricare"
+msgstr ""
+"in the announcements table press the \"Download\"  button at the "
+"announcement you want to download"
+
+#: ../../offhour.rst:145
+msgid "Eliminare un Annuncio"
+msgstr "Delete an Announcement"
+
+#: ../../offhour.rst:148
+msgid ""
+"nella tabella degli annunci premere il pulsante \"Elimina\" in "
+"corrispondenza dell'annuncio che si desidera eliminare"
+msgstr ""
+"in the ad table, press the \"Delete\" button at the announcement you want to "
+"delete"
+
+#: ../../offhour.rst:149
+msgid "confermare l'eliminazione dell'annuncio selezionato"
+msgstr "confirm deletion of the selected ad"
+
+#: ../../offhour.rst:151
+msgid ""
+"Nel caso in cui l'annuncio che si desidera eliminare è associato alla "
+"configurazione dell'offhour di una rotta o più, in caso di conferma "
+"dell'eliminazione, verranno cancellate tutte le configurazioni alle quali il "
+"messaggio è associato."
+msgstr ""
+"If the announcement you want to delete is associated with the off hour "
+"configuration of a route or more, in case of confirmation of deletion, all "
+"configurations to which the message is associated will be deleted."
+
+#: ../../offhour.rst:155
+msgid "Modificare un Annuncio"
+msgstr "Modify an Announcement"
+
+#: ../../offhour.rst:158
+msgid ""
+"premere il pulsante \"Modifica\" in corrispondenza dell'annuncio che si "
+"desidera modificare"
+msgstr "press the \"Edit\" button at the announcement you want to change"
+
+#: ../../offhour.rst:159
+msgid "modificare la descrizione oppure il livello di privacy"
+msgstr "modify the description or the privacy level"

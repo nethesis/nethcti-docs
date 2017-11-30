@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-27 12:02+0100\n"
+"POT-Creation-Date: 2017-11-29 14:44+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -35,18 +35,18 @@ msgstr "Contacts"
 msgid "Moduli"
 msgstr "Modules"
 
-#: ../../index.rst:53
+#: ../../index.rst:55
 msgid "App mobile"
 msgstr "Mobile app"
 
-#: ../../index.rst:61
+#: ../../index.rst:63
 msgid "Indici"
 msgstr "Index"
 
-#: ../../index.rst:63
+#: ../../index.rst:65
 msgid ":ref:`genindex`"
 msgstr ":ref:`genindex`"
 
-#: ../../index.rst:64
+#: ../../index.rst:66
 msgid ":ref:`search`"
 msgstr ":ref:`genindex`"

@@ -1,0 +1,67 @@
+# Polidori Alessandro <alessandro.polidori@gmail.com>, 2017. #zanata
+# Sebastian Marius Besel <sebastian.besel@nethesis.it>, 2017. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: NethCTI 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-29 14:44+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-11-30 03:30-0500\n"
+"Last-Translator: Sebastian Marius Besel <sebastian.besel@nethesis.it>\n"
+"Language-Team: English (United States)\n"
+"Language: en-US\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../../lines.rst:6
+msgid "Linee"
+msgstr "Lines"
+
+#: ../../lines.rst:8
+msgid ""
+"Nella sezione \"Linee\" è possibile visualizzare lo stato attuale dei fasci, "
+"il numero delle linee libere e le informazioni sulle chiamate delle linee "
+"occupate. È possibile avere una panoramica generale dei fasci e espandere "
+"per maggiori informazioni."
+msgstr ""
+"In the \"Lines\" section, you can see the current status of the trunks, the "
+"number of lines, and the information about busy lines calls. You can have a "
+"general overview of the trunks and expand cards for view more informations."
+
+#: ../../lines.rst:13
+msgid "Vista delle linee"
+msgstr "Lines view"
+
+#: ../../lines.rst:15
+msgid ""
+"Nella scheda di ogni fascio è possibile visualizzare il nome del fascio, il "
+"tipo (sip, pjsip, iax), la barra di avanzamento per indicare il numero di "
+"linee occupate e il pulsante per espandere la vista e visualizzare le linee."
+msgstr ""
+"On each trunk view, you can see the trunk name, the type (sip, pjsip, iax), "
+"the progress bar which indicates the number of busy trunks and the button to "
+"expand the view to see the lines."
+
+#: ../../lines.rst:20
+msgid "Linee dei fasci"
+msgstr "Trunk lines"
+
+#: ../../lines.rst:22
+msgid ""
+"Espandendo la vista del fascio si possono vedere le informazioni sulle "
+"chiamate delle linee occupate:"
+msgstr "Expanding trunk view you can see information on busy line calls:"
+
+#: ../../lines.rst:25
+msgid "numero telefonico interno"
+msgstr "internal phone number"
+
+#: ../../lines.rst:26
+msgid "direzione chiamata"
+msgstr "call direction"
+
+#: ../../lines.rst:27
+msgid "numero telefonico esterno"
+msgstr "external phone number"
