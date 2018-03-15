@@ -27,7 +27,7 @@ Tutte le richieste possono essere inoltrate attraverso il `portale di supporto <
 
  ::
 
-  rpm -q nethcti nethcti-server nethcti-nethvoice-module neth-oppanel neth-queueman
+  rpm -q nethcti nethcti-server nethvoice-module-nethcti neth-oppanel neth-queueman
 
 
 Comandi utili
