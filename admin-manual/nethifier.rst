@@ -24,6 +24,8 @@ Installazione
 ed eseguirlo. Terminata la fase d'installazione il programma verrà
 avviato automaticamente.
 
+.. warning:: Per poter essere eseguito |product_nethifier| necessita di privilegi amministrativi perciò è necessario ricordarsi di installarlo utilizzando l'opzione "*Esegui come amministratore*".
+
 Descrizione
 ===========
 
