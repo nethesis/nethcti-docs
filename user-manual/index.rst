@@ -47,6 +47,7 @@ Moduli
    streaming
    lines
    offhour
+   custcard
 
 App mobile
 ----------
