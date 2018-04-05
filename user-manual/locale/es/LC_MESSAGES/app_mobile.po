@@ -1,5 +1,4 @@
-# Edoardo Spadoni <edoardo.spadoni@nethesis.it>, 2017. #zanata
-# Giovanni Bezicheri <giovanni.bezicheri@nethesis.it>, 2017. #zanata
+# Alejandro Moreno <alejandro.martinez@nethesis.it>, 2018. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
@@ -8,32 +7,33 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-09-05 06:03-0400\n"
-"Last-Translator: Edoardo Spadoni <edoardo.spadoni@nethesis.it>\n"
-"Language-Team: English (United States)\n"
-"Language: en-US\n"
+"PO-Revision-Date: 2018-03-19 01:51-0400\n"
+"Last-Translator: Alejandro Moreno <alejandro.martinez@nethesis.it>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es-ES\n"
 "X-Generator: Zanata 3.9.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../../app_mobile.rst:7
 msgid "App mobile"
-msgstr "App mobile"
+msgstr "App móvil"
 
 #: ../../app_mobile.rst:9
 msgid ""
 "L'applicazione CTI è disponibile anche su smartphone e permette di accedere "
 "a tutte le funzionalità dell'applicazione web anche su mobile."
 msgstr ""
-"The CTI application is also available for smartphones. It allows to use all "
-"the web application features on mobile platform."
+"La aplicación CTI está disponible también para smartphone y permite acceder "
+"a todas las funcionalidades de las aplicaciones web incluso desde el "
+"teléfono móvil."
 
 #: ../../app_mobile.rst:12
 msgid "Installazione"
-msgstr "Installation"
+msgstr "Instalación"
 
 #: ../../app_mobile.rst:14
 msgid "L'applicazione è disponibile ai seguenti link:"
-msgstr "The application is available at the following links:"
+msgstr "La aplicación está disponible en los siguientes enlaces:"
 
 #: ../../app_mobile.rst:16
 msgid ""
@@ -50,34 +50,32 @@ msgid ""
 "E' possibile comunque cercare la parola **nethcti** nei diversi store e "
 "installarla senza il link diretto."
 msgstr ""
-"Anyway, it is possible to search the word **nethcti** in the different "
-"stores and install it without the direct link."
+"Es posible buscar la palabra ** nethcti ** en las diferentes tiendas de "
+"aplicaciones e instalarla sin el enlace directo."
 
 #: ../../app_mobile.rst:22
 msgid "Utilizzo"
-msgstr "Usage"
+msgstr "Uso"
 
 #: ../../app_mobile.rst:24
 msgid "Appena avviata l'applicazione vi chiede le infomazioni di login:"
-msgstr ""
-"As soon as the application starts you will be required to provide the login "
-"informations:"
+msgstr "Apenas iniciada la aplicación os solicita la información de login:"
 
 #: ../../app_mobile.rst:26
 msgid "Username: l'username dell'utente del cti con cui collegarsi"
-msgstr "Username: the username of the cti's user to login with"
+msgstr "Usuario: el username del usuario del cti con el que conectarse"
 
 #: ../../app_mobile.rst:27
 msgid "Password: la password dell'utente del cti con cui collegarsi"
-msgstr "Password: the password of the cti's user to login with"
+msgstr "Contraseña: la contraseña del usuario del cti con el que conectarse"
 
 #: ../../app_mobile.rst:28
 msgid ""
 "Hostname: il nome o l'indirizzo IP del server (centralino in cui è "
 "installato il server cti)"
 msgstr ""
-"Hostname: the name or the ip address of the server (the switchboard where "
-"the cti server runs)"
+"Hostname: el nombre o la dirección IP del server (centralita en la que está "
+"instalado el server cti)"
 
 #: ../../app_mobile.rst:30
 msgid ""
@@ -85,6 +83,6 @@ msgid ""
 "varie sezioni, l'app mobile è una versione ottimizzata per mobile della "
 "versione web ma è, di fatto, la stessa."
 msgstr ""
-"The mobile app and the web application are just the same, but the first has "
-"some optimizations for mobile platforms. You can refer to this manual for "
-"help."
+"Para el uso de las varias funcionalidades dirigirse al manual para las "
+"varias secciones, la app móvil es una versión optimizada para móvil de la "
+"versión web, de hecho, es la misma."

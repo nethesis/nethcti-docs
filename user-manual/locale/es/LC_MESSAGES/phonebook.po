@@ -1,35 +1,39 @@
 # Polidori Alessandro <alessandro.polidori@gmail.com>, 2017. #zanata
+# Alejandro Moreno <alejandro.martinez@nethesis.it>, 2018. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 14:44+0100\n"
+"POT-Creation-Date: 2018-04-05 12:32+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-08-25 05:36-0400\n"
-"Last-Translator: Polidori Alessandro <alessandro.polidori@gmail.com>\n"
+"PO-Revision-Date: 2018-03-20 06:30-0400\n"
+"Last-Translator: Alejandro Moreno <alejandro.martinez@nethesis.it>\n"
 "Language-Team: Spanish (Spain)\n"
 "Language: es-ES\n"
 "X-Generator: Zanata 3.9.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../../phonebook.rst:6
+#: ../../phonebook.rst:7
 msgid "Rubrica"
 msgstr "Libreta de contactos"
 
-#: ../../phonebook.rst:8
+#: ../../phonebook.rst:9
 msgid ""
 "La \"Rubrica\" contiene tutti i contatti, sia pubblici che privati. E' "
 "possibile aggiungere nuovi contatti, ricercarli per nome e numero di "
 "telefono o chiamarli."
 msgstr ""
+"La \"Libreta de contactos\" contiene todos los contactos, ya sea públicos "
+"que privados. Es posible añadir nuevos contactos, buscarlos por nombre y "
+"número de teléfono o llamarlos."
 
-#: ../../phonebook.rst:13
+#: ../../phonebook.rst:14
 msgid "Ricercare un contatto"
-msgstr ""
+msgstr "Buscar un contacto"
 
-#: ../../phonebook.rst:15
+#: ../../phonebook.rst:16
 msgid ""
 "E' possibile ricercare un contatto digitando le sue iniziali o il numero di "
 "telefono nella casella di testo, oppure cliccando su un indice di ricerca. "
@@ -38,120 +42,135 @@ msgid ""
 "centralizzata). Per i contatti che sono parte di un'organizzazione sono "
 "riportati sulla destra tutti i dettagli della stessa."
 msgstr ""
+"Es posible buscar un contacto escribiendo sus iniciales o el número de "
+"teléfono en la cuadro de texto, también haciendo clic en un índice de "
+"búsqueda. Cada contacto es mostrado en el interior de un recuadro junto a "
+"toda su información. Además se muestra la fuente de la que proviene (local o "
+"centralizada). Para los contactos que son parte de una organización vienen "
+"visualizados a la derecha todos los detalles de la misma."
 
-#: ../../phonebook.rst:23
+#: ../../phonebook.rst:24
 msgid "Ricerca per testo"
-msgstr ""
-
-#: ../../phonebook.rst:25
-#: ../../phonebook.rst:31
-#: ../../phonebook.rst:37
-#: ../../phonebook.rst:45
-#: ../../phonebook.rst:53
-#: ../../phonebook.rst:61
-#: ../../phonebook.rst:69
-#: ../../phonebook.rst:76
-msgid "Selezionare la scheda \"Rubrica\""
-msgstr ""
+msgstr "Búsqueda por texto"
 
 #: ../../phonebook.rst:26
+#: ../../phonebook.rst:32
+#: ../../phonebook.rst:38
+#: ../../phonebook.rst:46
+#: ../../phonebook.rst:54
+#: ../../phonebook.rst:62
+#: ../../phonebook.rst:70
+#: ../../phonebook.rst:77
+msgid "Selezionare la scheda \"Rubrica\""
+msgstr "Seleccionar la tarjeta \"Libreta de contactos\""
+
+#: ../../phonebook.rst:27
 msgid ""
 "Digitare il nome del contatto o il suo numero di telefono nella casella di "
 "testo e premi invio"
 msgstr ""
+"Escribir el nombre del contacto o su número de teléfono en la casilla de "
+"texto y pulsar intro"
 
-#: ../../phonebook.rst:29
+#: ../../phonebook.rst:30
 msgid "Ricerca per indice"
-msgstr ""
+msgstr "Búsqueda por índice"
 
-#: ../../phonebook.rst:32
+#: ../../phonebook.rst:33
 msgid ""
 "Cliccare sull'indice \"0-9\" o su una lettera per mostrare i risultati "
 "relativi."
 msgstr ""
+"Hacer clic en el índice \"0-9\" o en una letra para mostrar los resultados "
+"relativos."
 
-#: ../../phonebook.rst:35
+#: ../../phonebook.rst:36
 msgid "Aggiungere un nuovo contatto"
-msgstr ""
+msgstr "Añadir un nuevo contacto"
 
-#: ../../phonebook.rst:38
+#: ../../phonebook.rst:39
 msgid ""
 "Cliccare sul bottone verde in alto a destra per aggiungere un nuovo contatto"
 msgstr ""
-
-#: ../../phonebook.rst:39
-msgid "Riempire la scheda relativa al contatto"
-msgstr ""
+"Hacer clic en el botón verde de arriba a la derecha para añadir un nuevo "
+"contacto"
 
 #: ../../phonebook.rst:40
-#: ../../phonebook.rst:56
+msgid "Riempire la scheda relativa al contatto"
+msgstr "Rellenar la tarjeta relativa al contacto"
+
+#: ../../phonebook.rst:41
+#: ../../phonebook.rst:57
 msgid "Cliccare su \"Salva\""
-msgstr ""
+msgstr "Hacer clic en \"Guardar\""
 
-#: ../../phonebook.rst:43
+#: ../../phonebook.rst:44
 msgid "Modificare un contatto"
-msgstr ""
-
-#: ../../phonebook.rst:46
-msgid "Ricercare il contatto da modificare"
-msgstr ""
+msgstr "Modificar un contacto"
 
 #: ../../phonebook.rst:47
-msgid "Cliccare sul bottone blu \"Modifica\""
-msgstr ""
+msgid "Ricercare il contatto da modificare"
+msgstr "Buscar el contacto a modificar"
 
 #: ../../phonebook.rst:48
+msgid "Cliccare sul bottone blu \"Modifica\""
+msgstr "Hacer clic en el botón azul \"Modificar\""
+
+#: ../../phonebook.rst:49
 msgid "Modificare il form e cliccare su \"Salva\""
-msgstr ""
+msgstr "Modificar el formulario y hacer clic en \"Guardar\""
 
-#: ../../phonebook.rst:51
+#: ../../phonebook.rst:52
 msgid "Aggiungere un contatto agli \"Speed Dial\""
-msgstr ""
-
-#: ../../phonebook.rst:54
-msgid "Ricercare il contatto da aggiungere agli \"Speed Dial\""
-msgstr ""
+msgstr "Añadir un contacto a la \"Marcación Rápida\""
 
 #: ../../phonebook.rst:55
+msgid "Ricercare il contatto da aggiungere agli \"Speed Dial\""
+msgstr "Buscar el contacto a añadir al \"Marcación Rápida\""
+
+#: ../../phonebook.rst:56
 msgid "Cliccare sulla stella in alto nella scheda"
-msgstr ""
+msgstr "Hacer clic en la estrella situada arriba de la tarjeta"
 
-#: ../../phonebook.rst:59
+#: ../../phonebook.rst:60
 msgid "Eliminare un contatto"
-msgstr ""
-
-#: ../../phonebook.rst:62
-msgid "Ricercare il contatto da eliminare"
-msgstr ""
+msgstr "Eliminar un contacto"
 
 #: ../../phonebook.rst:63
-msgid "Cliccare sul bottone rosso \"Elimina\""
-msgstr ""
+msgid "Ricercare il contatto da eliminare"
+msgstr "Buscar el contacto a eliminar"
 
 #: ../../phonebook.rst:64
+msgid "Cliccare sul bottone rosso \"Elimina\""
+msgstr "Hacer clic en el botón rojo \"Eliminar\""
+
+#: ../../phonebook.rst:65
 msgid "Confermare la scelta"
-msgstr ""
+msgstr "Confirmar la elección"
 
-#: ../../phonebook.rst:67
+#: ../../phonebook.rst:68
 msgid "Chiamare un contatto"
-msgstr ""
-
-#: ../../phonebook.rst:70
-msgid "Ricercare il contatto da chiamare"
-msgstr ""
+msgstr "Llamar a un contacto"
 
 #: ../../phonebook.rst:71
+msgid "Ricercare il contatto da chiamare"
+msgstr "Buscar el contacto a llamar"
+
+#: ../../phonebook.rst:72
 msgid "Cliccare sul numero telefonico del contatto per iniziare una chiamata"
 msgstr ""
+"Hacer clic en el número telefónico del contacto para iniciar una llamada"
 
-#: ../../phonebook.rst:74
+#: ../../phonebook.rst:75
 msgid "Inviare una email a un contatto"
-msgstr ""
-
-#: ../../phonebook.rst:77
-msgid "Ricercare il contatto"
-msgstr ""
+msgstr "Enviar un email a un contacto"
 
 #: ../../phonebook.rst:78
+msgid "Ricercare il contatto"
+msgstr "Buscar el contacto"
+
+#: ../../phonebook.rst:79
 msgid "Cliccare sull'indirizzo email del contatto per aprire il client email"
 msgstr ""
+"Hacer clic en la dirección email del contacto para abrir el cliente de "
+"correo"

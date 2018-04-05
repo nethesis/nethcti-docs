@@ -1,4 +1,4 @@
-# Polidori Alessandro <alessandro.polidori@gmail.com>, 2017. #zanata
+# Alejandro Moreno <alejandro.martinez@nethesis.it>, 2018. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
@@ -7,44 +7,47 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-08-24 09:49-0400\n"
-"Last-Translator: Polidori Alessandro <alessandro.polidori@gmail.com>\n"
-"Language-Team: English (United States)\n"
-"Language: en-US\n"
+"PO-Revision-Date: 2018-03-19 02:40-0400\n"
+"Last-Translator: Alejandro Moreno <alejandro.martinez@nethesis.it>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es-ES\n"
 "X-Generator: Zanata 3.9.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../../history.rst:7
 msgid "Storico chiamate"
-msgstr "Call history"
+msgstr "Historial de llamadas"
 
 #: ../../history.rst:9
 msgid "\"Storico\" e' l'elenco di tutte le chiamate personali e del centralino"
-msgstr "\"History\" is the list of all personal and switchboard calls"
+msgstr ""
+"\"Historial\" es la lista de todas las llamadas personales y de la "
+"centralita "
 
 #: ../../history.rst:12
 msgid "Chiamate personali"
-msgstr "Personal calls"
+msgstr "Llamadas personales"
 
 #: ../../history.rst:16
 #: ../../history.rst:30
 msgid "Filtrare le chiamate"
-msgstr "Filter the calls"
+msgstr "Filtrar las llamadas"
 
 #: ../../history.rst:18
 #: ../../history.rst:32
 msgid "Inserire un numero di telefono (opzionale) e le date di inizio e fine"
-msgstr "Insert a phone number (optional) and the start and end dates"
+msgstr ""
+"Insertar un número de teléfono (opcional) y las fechas de inicio a fin"
 
 #: ../../history.rst:19
 #: ../../history.rst:33
 msgid "Cliccare sul tasto di ricerca (icona lente)"
-msgstr "Click on search button (lens icon)"
+msgstr "Hacer clic en el botón de búsqueda (icono de lupa)"
 
 #: ../../history.rst:22
 #: ../../history.rst:36
 msgid "Chiamate in entrata/uscita"
-msgstr "Incoming/Outgoing calls"
+msgstr "Llamadas en entrada/salida"
 
 #: ../../history.rst:24
 msgid ""
@@ -52,12 +55,13 @@ msgid ""
 "uscita cliccando sul tab appropriato in \"Storico\" -> \"Chiamate "
 "personali\""
 msgstr ""
-"All calls can be selected or only incoming or outgoing by clicking on proper "
-"tab into \"History\" -> \"Personal calls\""
+"Pueden ser seleccionadas todas las llamadas o sólo aquellas en entrada y en "
+"salida haciendo clic  en la pestaña apropiada en \"Historial\" -> \"Llamadas "
+"personales\""
 
 #: ../../history.rst:27
 msgid "Chiamate centralino"
-msgstr "Switchboard calls"
+msgstr "Llamadas centralita"
 
 #: ../../history.rst:38
 msgid ""
@@ -65,51 +69,56 @@ msgid ""
 "uscita cliccando sul tab appropriato in \"Storico\" -> \"Chiamate "
 "centralino\""
 msgstr ""
-"All calls can be selected or only incoming or outgoing by clicking on proper "
-"tab into \"History\" -> \"Switchboard calls\""
+"Pueden ser seleccionadas todas las llamadas o solamente aquellas en entrada "
+"y en salida haciendo clic en la pestaña apropiada en \"Historial\" -> "
+"\"Llamadas centralita\""
 
 #: ../../history.rst:41
 msgid "Chiamate Registrate"
-msgstr "Recorded calls"
+msgstr "Llamadas Registradas"
 
 #: ../../history.rst:44
 msgid "Ascoltare le chiamate registrate"
-msgstr "Listen recorded calls"
+msgstr "Escuchar las llamadas registradas"
 
 #: ../../history.rst:46
 #: ../../history.rst:53
 #: ../../history.rst:59
 msgid "Aprire il tab \"Storico\""
-msgstr "Open \"History\" tab"
+msgstr "Abrir la pestaña \"Historial\""
 
 #: ../../history.rst:47
 msgid ""
 "Individuare le chiamate che hanno una registrazione associata, identificate "
 "con l'icona del megafono"
-msgstr "Find recorded calls, identified by megaphone icon"
+msgstr ""
+"Identificar las llamadas que tienen un registro asociado, identificadas con "
+"el icono del megáfono"
 
 #: ../../history.rst:48
 msgid "Cliccare sull'icona megafono"
-msgstr "Click on megaphone icon"
+msgstr "Hacer clic en el icono del megáfono"
 
 #: ../../history.rst:51
 msgid "Scaricare una telefonata registrata"
-msgstr "Download recorded call"
+msgstr "Descargar una llamada registrada"
 
 #: ../../history.rst:54
 msgid ""
 "Individuare le chiamate che hanno una registrazione associata, e cliccare "
 "sull'icona \"Scarica\" rappresentata con una freccia verso il basso"
 msgstr ""
-"Find recorded calls and click on \"Download\" icon identified by a down "
-"arrow"
+"Identificar las llamadas que tienen un registro asociado, y hacer clic en el "
+"icono \"Descargar\" representado con una flecha hacia abajo"
 
 #: ../../history.rst:57
 msgid "Eliminare una telefonata registrata"
-msgstr "Delete recorded call"
+msgstr "Eliminar una llamada registrada"
 
 #: ../../history.rst:60
 msgid ""
 "Individuare le chiamate che hanno una registrazione associata, e cliccare "
 "sull'icona \"Elimina\" rappresentata con un cestino"
-msgstr "Find recorded calls and click on \"Delete\" icon identified by a basket"
+msgstr ""
+"Identificar las llamadas que tienen un registro asociado, y hacer clic en el "
+"icono \"Eliminar\" representado con una papelera"

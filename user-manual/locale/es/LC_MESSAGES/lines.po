@@ -1,5 +1,4 @@
-# Polidori Alessandro <alessandro.polidori@gmail.com>, 2017. #zanata
-# Sebastian Marius Besel <sebastian.besel@nethesis.it>, 2017. #zanata
+# Alejandro Moreno <alejandro.martinez@nethesis.it>, 2018. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
@@ -8,16 +7,16 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-11-30 03:30-0500\n"
-"Last-Translator: Sebastian Marius Besel <sebastian.besel@nethesis.it>\n"
-"Language-Team: English (United States)\n"
-"Language: en-US\n"
+"PO-Revision-Date: 2018-03-20 06:08-0400\n"
+"Last-Translator: Alejandro Moreno <alejandro.martinez@nethesis.it>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es-ES\n"
 "X-Generator: Zanata 3.9.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../../lines.rst:7
 msgid "Linee"
-msgstr "Lines"
+msgstr "Líneas"
 
 #: ../../lines.rst:9
 msgid ""
@@ -26,13 +25,14 @@ msgid ""
 "occupate. È possibile avere una panoramica generale dei fasci e espandere "
 "per maggiori informazioni."
 msgstr ""
-"In the \"Lines\" section, you can see the current status of the trunks, the "
-"number of lines, and the information about busy lines calls. You can have a "
-"general overview of the trunks and expand cards for view more informations."
+"En la sección \"Lineas\" es posible visualizar el estado actual de las "
+"conexiones, el número de líneas libres y la información de las llamadas de "
+"las líneas ocupadas. Es posible tener una panorámica general de las "
+"conexiones y expandir para más información."
 
 #: ../../lines.rst:14
 msgid "Vista delle linee"
-msgstr "Lines view"
+msgstr "Vista de las líneas"
 
 #: ../../lines.rst:16
 msgid ""
@@ -40,28 +40,31 @@ msgid ""
 "tipo (sip, pjsip, iax), la barra di avanzamento per indicare il numero di "
 "linee occupate e il pulsante per espandere la vista e visualizzare le linee."
 msgstr ""
-"On each trunk view, you can see the trunk name, the type (sip, pjsip, iax), "
-"the progress bar which indicates the number of busy trunks and the button to "
-"expand the view to see the lines."
+"En la tarjeta de cada conexión es posible visualizar el nombre de la "
+"conexión, el tipo (sip, pjsip, fax), la barra de progreso para indicar el "
+"número de líneas ocupadas y el botón para expandir la vista y visualizar las "
+"líneas."
 
 #: ../../lines.rst:21
 msgid "Linee dei fasci"
-msgstr "Trunk lines"
+msgstr "Líneas de conexiones "
 
 #: ../../lines.rst:23
 msgid ""
 "Espandendo la vista del fascio si possono vedere le informazioni sulle "
 "chiamate delle linee occupate:"
-msgstr "Expanding trunk view you can see information on busy line calls:"
+msgstr ""
+"Expandiendo la vista se puede ver la información de las llamadas de las "
+"líneas ocupadas:"
 
 #: ../../lines.rst:26
 msgid "numero telefonico interno"
-msgstr "internal phone number"
+msgstr "número telefónico interno"
 
 #: ../../lines.rst:27
 msgid "direzione chiamata"
-msgstr "call direction"
+msgstr "dirección llamada"
 
 #: ../../lines.rst:28
 msgid "numero telefonico esterno"
-msgstr "external phone number"
+msgstr "número telefónico externo"
