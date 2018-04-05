@@ -1,4 +1,5 @@
 # Alejandro Moreno <alejandro.martinez@nethesis.it>, 2018. #zanata
+# Polidori Alessandro <alessandro.polidori@gmail.com>, 2018. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
@@ -7,8 +8,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-03-20 06:53-0400\n"
-"Last-Translator: Alejandro Moreno <alejandro.martinez@nethesis.it>\n"
+"PO-Revision-Date: 2018-04-05 10:35-0400\n"
+"Last-Translator: Polidori Alessandro <alessandro.polidori@gmail.com>\n"
 "Language-Team: Spanish (Spain)\n"
 "Language: es-ES\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -65,14 +66,14 @@ msgstr ""
 
 #: ../../introduction.rst:21
 msgid "Note di rilascio |version|"
-msgstr "Notas de lanzamiento |versión|"
+msgstr "Notas de lanzamiento |version|"
 
 #: ../../introduction.rst:23
 msgid ""
 "CTI versione |version| introduce una nuova grafica, completamente rinnovata "
 "e semplificata per l'utente finale."
 msgstr ""
-"Versión CTI |versión| introduce una nueva gráfica, completamente renovada y "
+"Versión CTI |version| introduce una nueva gráfica, completamente renovada y "
 "simplificada para el usuario final."
 
 #: ../../introduction.rst:25
