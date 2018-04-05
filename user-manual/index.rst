@@ -56,6 +56,13 @@ App mobile
 
    app_mobile
 
+Nethifier
+---------
+.. toctree::
+   :maxdepth: 2
+
+   nethifier
+
 
 Indici
 ======
