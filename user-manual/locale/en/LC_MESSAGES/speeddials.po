@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 14:44+0100\n"
+"POT-Creation-Date: 2018-04-05 12:32+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,11 +14,11 @@ msgstr ""
 "X-Generator: Zanata 3.9.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../../speeddials.rst:6
+#: ../../speeddials.rst:7
 msgid "Speed Dial"
 msgstr "Speed Dial"
 
-#: ../../speeddials.rst:8
+#: ../../speeddials.rst:9
 msgid ""
 "La sezione Speed Dial sul lato destro dell'applicazione, consente di "
 "chiamare velocemente i propri contatti favoriti."
@@ -26,39 +26,39 @@ msgstr ""
 "The Speed Dial section on the right side of the application lets you quickly "
 "call your favorite contacts"
 
-#: ../../speeddials.rst:12
+#: ../../speeddials.rst:13
 msgid "Aggiungere un contatto agli Speed Dial"
 msgstr "Add a contact to Speed Dial"
 
-#: ../../speeddials.rst:14
+#: ../../speeddials.rst:15
 msgid "Cliccare \"Aggiungi contatto\" sotto la sezione \"Speed Dial\""
 msgstr "Click \"Add contact\" below \"Speed Dial\" section"
 
-#: ../../speeddials.rst:15
+#: ../../speeddials.rst:16
 msgid "Riempire la scheda che appare e cliccare su \"Salva\""
 msgstr "Fill in the displayed tab and click on \"Save\""
 
-#: ../../speeddials.rst:16
+#: ../../speeddials.rst:17
 msgid "Il nuovo speed dial è visualizzato nella lista"
 msgstr "The new speed dial appears in the list"
 
-#: ../../speeddials.rst:19
+#: ../../speeddials.rst:20
 msgid "Modificare uno Speed Dial"
 msgstr "Edit a Speed Dial"
 
-#: ../../speeddials.rst:21
+#: ../../speeddials.rst:22
 msgid "Cliccare sull'icona a forma di matita di uno speed dial"
 msgstr "Click on the pen shaped icon of a speed dial"
 
-#: ../../speeddials.rst:22
+#: ../../speeddials.rst:23
 msgid "Modificare le informazioni sulla scheda e cliccare su \"Salva\""
 msgstr "Modify the card information and click on \"Save\""
 
-#: ../../speeddials.rst:25
+#: ../../speeddials.rst:26
 msgid "Chiamare uno Speed Dial"
 msgstr "Call a Speed Dial"
 
-#: ../../speeddials.rst:27
+#: ../../speeddials.rst:28
 msgid ""
 "Cliccare sull'icona a forma di telefono di uno speed dial per far partire la "
 "chiamata"

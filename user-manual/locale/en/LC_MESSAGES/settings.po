@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 14:44+0100\n"
+"POT-Creation-Date: 2018-04-05 12:32+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Generator: Zanata 3.9.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../../settings.rst:6
+#: ../../settings.rst:7
 msgid "Impostazioni"
 msgstr "Settings"
 
-#: ../../settings.rst:8
+#: ../../settings.rst:9
 msgid ""
 "La sezione impostazioni consente di cambiare l'immagine del profilo, "
 "visualizzare/nascondere le notifiche su desktop e scegliere le preferenze "
@@ -28,39 +28,39 @@ msgstr ""
 "Settings section allows you to change the profile image, show/hide desktop "
 "notifications and choose customer card preferences"
 
-#: ../../settings.rst:12
+#: ../../settings.rst:13
 msgid "Come accedere alla sezione impostazioni"
 msgstr "How to access the settings section"
 
-#: ../../settings.rst:14
+#: ../../settings.rst:15
 msgid "Cliccare sul nome in alto nel bordo destro dell'applicazione"
 msgstr "Click on the top name at the right edge of the application"
 
-#: ../../settings.rst:15
+#: ../../settings.rst:16
 msgid "Cliccare su \"Impostazioni\""
 msgstr "Click on \"Settings\""
 
-#: ../../settings.rst:18
+#: ../../settings.rst:19
 msgid "Cambiare l'immagine del profilo"
 msgstr "Change profile image"
 
-#: ../../settings.rst:20
+#: ../../settings.rst:21
 msgid "Per cambiare l'immagine del profilo:"
 msgstr "To change the profile image:"
 
-#: ../../settings.rst:22
+#: ../../settings.rst:23
 msgid "Cliccare sul cerchio sotto \"Immagine profilo\""
 msgstr "Click on the circle under \"Profile image\""
 
-#: ../../settings.rst:23
+#: ../../settings.rst:24
 msgid "Selezionare l'immagine dal disco"
 msgstr "Select the image from the disk"
 
-#: ../../settings.rst:26
+#: ../../settings.rst:27
 msgid "Mostrare/Nascondere le notifiche desktop"
 msgstr "Show/Hide desktop notifications"
 
-#: ../../settings.rst:28
+#: ../../settings.rst:29
 msgid ""
 "Spuntare la checkbox sotto \"Notifiche Desktop\" per mostrare le notifiche "
 "desktop, togliere la spunta per nasconderle."
@@ -68,11 +68,11 @@ msgstr ""
 "Select the checkbox under \"Desktop notifications\" to show desktop "
 "notifications, uncheck it to hide them"
 
-#: ../../settings.rst:32
+#: ../../settings.rst:33
 msgid "Preferenze Schede Cliente"
 msgstr "Customer Card settings"
 
-#: ../../settings.rst:34
+#: ../../settings.rst:35
 msgid ""
 "Sotto questa sezione è possibile impostare l'apertura automatica delle "
 "schede cliente con l'arrivo di una chiamata e scegliere il loro ordine."
@@ -80,11 +80,11 @@ msgstr ""
 "Under this section you can set the automatic opening of the customer cards "
 "with the incoming call and choose their order"
 
-#: ../../settings.rst:38
+#: ../../settings.rst:39
 msgid "Aprire una scheda cliente con l'arrivo di una chiamata"
 msgstr "Open customer card on incoming call"
 
-#: ../../settings.rst:40
+#: ../../settings.rst:41
 msgid ""
 "Spuntare la checkbox sotto \"Apri scheda cliente con le chiamate in "
 "ingresso\" per mostrare le schede cliente con l'arrivo di una chiamata, "
@@ -93,11 +93,11 @@ msgstr ""
 "Select the checkbox under \"Open customer card on incoming calls\" to show "
 "the customer cards with the arrival of a call, remove the check to hide them"
 
-#: ../../settings.rst:44
+#: ../../settings.rst:45
 msgid "Ordinamento schede cliente"
 msgstr "Customer card sorting"
 
-#: ../../settings.rst:46
+#: ../../settings.rst:47
 msgid ""
 "Sotto la sezione \"Ordine schede cliente\" è possibile trascinare verso il "
 "basso o verso l'alto le schede cliente per modificare il loro ordine."

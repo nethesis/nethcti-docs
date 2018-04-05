@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 14:44+0100\n"
+"POT-Creation-Date: 2018-04-05 12:32+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,11 +14,11 @@ msgstr ""
 "X-Generator: Zanata 3.9.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../../lastcalls.rst:6
+#: ../../lastcalls.rst:7
 msgid "Ultime chiamate"
 msgstr "Últimas llamadas"
 
-#: ../../lastcalls.rst:8
+#: ../../lastcalls.rst:9
 msgid ""
 "Il riquadro ultime chiamate mostra le chiamate effettuate in ordine "
 "cronologico. Da qui è possibile richiamare un numero o aggiungerlo in "
@@ -28,29 +28,29 @@ msgstr ""
 "cronológico. Desde aquí es posible llamar a un número o añadirlo a la "
 "libreta de direcciones."
 
-#: ../../lastcalls.rst:11
+#: ../../lastcalls.rst:12
 msgid "Chiamare un contatto da \"Ultime chiamate\""
 msgstr "Llamar a un contacto desde \"Últimas llamadas\""
 
-#: ../../lastcalls.rst:13
-#: ../../lastcalls.rst:19
+#: ../../lastcalls.rst:14
+#: ../../lastcalls.rst:20
 msgid "Individuare il riquadro \"Ultime chiamate\" in basso a destra"
 msgstr "Identificar el recuadro \"Últimas llamadas\" abajo a la derecha"
 
-#: ../../lastcalls.rst:14
+#: ../../lastcalls.rst:15
 msgid "Cliccare sul nome del contatto che si vuole chiamare di nuovo"
 msgstr "Hacer clic en el nombre del contacto al que se quiere llamar de nuevo"
 
-#: ../../lastcalls.rst:17
+#: ../../lastcalls.rst:18
 msgid "Aggiungere un contatto da \"Ultime chiamate\""
 msgstr "Añadir un contacto desde \"Últimas llamadas\""
 
-#: ../../lastcalls.rst:20
+#: ../../lastcalls.rst:21
 msgid "Cliccare sull'icona aggiungi contatto a destra del nome del contatto"
 msgstr ""
 "Hacer clic en el icono añadir contacto situado a la derecha del nombre del "
 "contacto"
 
-#: ../../lastcalls.rst:21
+#: ../../lastcalls.rst:22
 msgid "Completare le informazioni sul contatto e salvare"
 msgstr "Completar la información del contacto y guardar"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 14:44+0100\n"
+"POT-Creation-Date: 2018-04-05 12:32+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,11 +14,11 @@ msgstr ""
 "X-Generator: Zanata 3.9.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../../app_mobile.rst:6
+#: ../../app_mobile.rst:7
 msgid "App mobile"
 msgstr "App móvil"
 
-#: ../../app_mobile.rst:8
+#: ../../app_mobile.rst:9
 msgid ""
 "L'applicazione CTI è disponibile anche su smartphone e permette di accedere "
 "a tutte le funzionalità dell'applicazione web anche su mobile."
@@ -27,25 +27,25 @@ msgstr ""
 "a todas las funcionalidades de las aplicaciones web incluso desde el "
 "teléfono móvil."
 
-#: ../../app_mobile.rst:11
+#: ../../app_mobile.rst:12
 msgid "Installazione"
 msgstr "Instalación"
 
-#: ../../app_mobile.rst:13
+#: ../../app_mobile.rst:14
 msgid "L'applicazione è disponibile ai seguenti link:"
 msgstr "La aplicación está disponible en los siguientes enlaces:"
 
-#: ../../app_mobile.rst:15
+#: ../../app_mobile.rst:16
 msgid ""
 "Android: https://play.google.com/store/apps/details?id=it.nethesis.nethcti3"
 msgstr ""
 "Android: https://play.google.com/store/apps/details?id=it.nethesis.nethcti3"
 
-#: ../../app_mobile.rst:16
+#: ../../app_mobile.rst:17
 msgid "iOS: https://itunes.apple.com/us/app/nethcti/id1041889331?mt=8"
 msgstr "iOS: https://itunes.apple.com/us/app/nethcti/id1041889331?mt=8"
 
-#: ../../app_mobile.rst:18
+#: ../../app_mobile.rst:19
 msgid ""
 "E' possibile comunque cercare la parola **nethcti** nei diversi store e "
 "installarla senza il link diretto."
@@ -53,23 +53,23 @@ msgstr ""
 "Es posible buscar la palabra ** nethcti ** en las diferentes tiendas de "
 "aplicaciones e instalarla sin el enlace directo."
 
-#: ../../app_mobile.rst:21
+#: ../../app_mobile.rst:22
 msgid "Utilizzo"
 msgstr "Uso"
 
-#: ../../app_mobile.rst:23
+#: ../../app_mobile.rst:24
 msgid "Appena avviata l'applicazione vi chiede le infomazioni di login:"
 msgstr "Apenas iniciada la aplicación os solicita la información de login:"
 
-#: ../../app_mobile.rst:25
+#: ../../app_mobile.rst:26
 msgid "Username: l'username dell'utente del cti con cui collegarsi"
 msgstr "Usuario: el username del usuario del cti con el que conectarse"
 
-#: ../../app_mobile.rst:26
+#: ../../app_mobile.rst:27
 msgid "Password: la password dell'utente del cti con cui collegarsi"
 msgstr "Contraseña: la contraseña del usuario del cti con el que conectarse"
 
-#: ../../app_mobile.rst:27
+#: ../../app_mobile.rst:28
 msgid ""
 "Hostname: il nome o l'indirizzo IP del server (centralino in cui è "
 "installato il server cti)"
@@ -77,7 +77,7 @@ msgstr ""
 "Hostname: el nombre o la dirección IP del server (centralita en la que está "
 "instalado el server cti)"
 
-#: ../../app_mobile.rst:29
+#: ../../app_mobile.rst:30
 msgid ""
 "Per l'utilizzo delle varie funzionalità rifarsi a questo manuale per le "
 "varie sezioni, l'app mobile è una versione ottimizzata per mobile della "
