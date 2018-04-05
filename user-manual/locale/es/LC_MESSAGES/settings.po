@@ -1,0 +1,107 @@
+# Alejandro Moreno <alejandro.martinez@nethesis.it>, 2018. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: NethCTI 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-29 14:44+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-03-19 02:53-0400\n"
+"Last-Translator: Alejandro Moreno <alejandro.martinez@nethesis.it>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es-ES\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../../settings.rst:6
+msgid "Impostazioni"
+msgstr "Configuración"
+
+#: ../../settings.rst:8
+msgid ""
+"La sezione impostazioni consente di cambiare l'immagine del profilo, "
+"visualizzare/nascondere le notifiche su desktop e scegliere le preferenze "
+"per le schede cliente."
+msgstr ""
+"La sección configuración permite cambiar la imagen de perfil, visualizar/"
+"ocultar las notificaciones de escritorio y elegir las preferencias para las "
+"tarjetas cliente."
+
+#: ../../settings.rst:12
+msgid "Come accedere alla sezione impostazioni"
+msgstr "Como acceder a la sección de configuración"
+
+#: ../../settings.rst:14
+msgid "Cliccare sul nome in alto nel bordo destro dell'applicazione"
+msgstr "Hacer clic en el nombre arriba en el borde derecho de la aplicación"
+
+#: ../../settings.rst:15
+msgid "Cliccare su \"Impostazioni\""
+msgstr "Hacer clic en \"Configuración\""
+
+#: ../../settings.rst:18
+msgid "Cambiare l'immagine del profilo"
+msgstr "Cambiar la imagen de perfil"
+
+#: ../../settings.rst:20
+msgid "Per cambiare l'immagine del profilo:"
+msgstr "Para cambiar la imagen de perfil:"
+
+#: ../../settings.rst:22
+msgid "Cliccare sul cerchio sotto \"Immagine profilo\""
+msgstr "Hacer clic en el circulo de abajo \"Imagen perfil\""
+
+#: ../../settings.rst:23
+msgid "Selezionare l'immagine dal disco"
+msgstr "Seleccionar la imagen desde el disco"
+
+#: ../../settings.rst:26
+msgid "Mostrare/Nascondere le notifiche desktop"
+msgstr "Mostrar/Ocultar las notificaciones de escritorio"
+
+#: ../../settings.rst:28
+msgid ""
+"Spuntare la checkbox sotto \"Notifiche Desktop\" per mostrare le notifiche "
+"desktop, togliere la spunta per nasconderle."
+msgstr ""
+"Desmarcar la casilla debajo de \"Notificaciones Escritorio\" para mostrar "
+"las notificaciones de escritorio, quitar el tic para ocultarlas."
+
+#: ../../settings.rst:32
+msgid "Preferenze Schede Cliente"
+msgstr "Preferencias Tarjetas Cliente"
+
+#: ../../settings.rst:34
+msgid ""
+"Sotto questa sezione è possibile impostare l'apertura automatica delle "
+"schede cliente con l'arrivo di una chiamata e scegliere il loro ordine."
+msgstr ""
+"Debajo de esta sección es posible configurar la apertura automática de las "
+"tarjetas de cliente con la llegada de una llamada y elegir su orden."
+
+#: ../../settings.rst:38
+msgid "Aprire una scheda cliente con l'arrivo di una chiamata"
+msgstr "Abrir una tarjeta de cliente con la llegada de una llamada"
+
+#: ../../settings.rst:40
+msgid ""
+"Spuntare la checkbox sotto \"Apri scheda cliente con le chiamate in "
+"ingresso\" per mostrare le schede cliente con l'arrivo di una chiamata, "
+"togliere la spunta per nasconderle."
+msgstr ""
+"Desmarcar la casilla debajo de \" Abrir tarjeta de cliente con las llamadas "
+"en entrada\" para mostrar las tarjetas de cliente con la llegada de una "
+"llamada, quitar el tic para ocultarlas."
+
+#: ../../settings.rst:44
+msgid "Ordinamento schede cliente"
+msgstr "Orden tarjetas de cliente"
+
+#: ../../settings.rst:46
+msgid ""
+"Sotto la sezione \"Ordine schede cliente\" è possibile trascinare verso il "
+"basso o verso l'alto le schede cliente per modificare il loro ordine."
+msgstr ""
+"Debajo de la sección \"Orden tarjetas cliente\" es posible arrastrar hacia "
+"abajo o hacia arriba las tarjetas de cliente para modificar su orden."

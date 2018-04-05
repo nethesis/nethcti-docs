@@ -1,0 +1,212 @@
+# Alejandro Moreno <alejandro.martinez@nethesis.it>, 2018. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: NethCTI 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-29 14:44+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-03-20 06:53-0400\n"
+"Last-Translator: Alejandro Moreno <alejandro.martinez@nethesis.it>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es-ES\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../../introduction.rst:6
+msgid "Introduzione"
+msgstr "Introducción"
+
+#: ../../introduction.rst:8
+msgid ""
+"Questo è il manuale utente del CTI, nelle varie sezioni verranno spiegate le "
+"diverse funzionalità per un utilizzo corretto dell'applicazione."
+msgstr ""
+"Este es el manual de usuario del CTI, en las diferentes versiones vendrán "
+"explicadas las diversas funcionalidades para un uso correcto de la "
+"aplicación."
+
+#: ../../introduction.rst:10
+msgid ""
+"Per la sezione installazione, recarsi al manuale Amministratore del "
+"centralino"
+msgstr ""
+"Para la sección instalación, dirigirse al manual Administrador de la "
+"centralita"
+
+#: ../../introduction.rst:12
+msgid ""
+"L'applicazione è raggiungibile al link https://IP_O_NOME_SERVER/cti ed è "
+"possibile fare login inserendo le opportune credenziali fornite "
+"dall'amministratore di sistema."
+msgstr ""
+"La aplicación es accesible en el link https://IP_O_NOME_SERVER/cti y es "
+"posible hacer login introduciendo las oportunas credenciales proporcionadas "
+"por el administrador de sistema."
+
+#: ../../introduction.rst:14
+msgid ""
+"Per la versione mobile, in fase di login, è richiesto anche l'inserimento "
+"dell'IP o del Nome del server a cui ci si vuole collegare"
+msgstr ""
+"Para la versión móvil, en la fase de login, es solicitado también la "
+"introducción de la IP o del Nombre del server al que desea conectarse"
+
+#: ../../introduction.rst:16
+msgid ""
+"Una volta effettuato il login, la pagina mostra l'applicazione e le varie "
+"sezioni. Ogni parte dell'applicazione è approfondita nelle sezioni "
+"successive del manuale."
+msgstr ""
+"Una vez efectuado el login, la página muestra la aplicación y las varias "
+"secciones. Cada parte de la aplicación se profundiza en las siguientes "
+"secciones del manual."
+
+#: ../../introduction.rst:20
+msgid "Note di rilascio |version|"
+msgstr "Notas de lanzamiento |versión|"
+
+#: ../../introduction.rst:22
+msgid ""
+"CTI versione |version| introduce una nuova grafica, completamente rinnovata "
+"e semplificata per l'utente finale."
+msgstr ""
+"Versión CTI |versión| introduce una nueva gráfica, completamente renovada y "
+"simplificada para el usuario final."
+
+#: ../../introduction.rst:24
+msgid "Funzionalità principali:"
+msgstr "Principales funcionalidades:"
+
+#: ../../introduction.rst:26
+msgid "Configurazione semplificata attraverso il wizard di |parent_product|"
+msgstr "Configuración simplificada a través del wizard de |parent_product|"
+
+#: ../../introduction.rst:27
+msgid "Salvataggio centralizzato sul server di tutte le preferenze utente"
+msgstr ""
+"Guardado centralizado en el servidor de todas las preferencias de usuario"
+
+#: ../../introduction.rst:28
+msgid ""
+"Customer card più semplici da configurare e con una nuova veste grafica"
+msgstr "Tarjeta cliente más simple de configurar y con una nueva gráfica"
+
+#: ../../introduction.rst:29
+msgid "Gestione device multipli associati ad un singolo utente"
+msgstr "Gestión dispositivos múltiples asociados a un único usuario"
+
+#: ../../introduction.rst:30
+msgid ""
+"Possibilità di impostare la presence in modo unificato su tutti i "
+"dispositivi"
+msgstr ""
+"Posibilidad de configurar la presencia de forma unificada en todos los "
+"dispositivos"
+
+#: ../../introduction.rst:31
+msgid "Configurazione avatar"
+msgstr "Configuración avatar"
+
+#: ../../introduction.rst:32
+msgid "Nuova chat (XMPP)"
+msgstr "Nuevo chat (XMPP)"
+
+#: ../../introduction.rst:33
+msgid "Restyling grafico e funzionale del pannello operatore"
+msgstr "Cambio de imagen gráfico y funcional del panel operador"
+
+#: ../../introduction.rst:34
+msgid ""
+"Possibilità di raggruppare i risultati della ricerca in rubrica per persona "
+"o per azienda"
+msgstr ""
+"Posibilidad de reagrupar los resultados de la búsqueda en la libreta de "
+"contactos por persona o por empresa"
+
+#: ../../introduction.rst:35
+msgid ""
+"Nuovo softphone WebRTC con supporto alle videochiamate (solo fra interni "
+"WebRTC)"
+msgstr ""
+"Nuevo softphone WebRTC con soporte a las videollamadas (sólo entre internos "
+"WebRTC)"
+
+#: ../../introduction.rst:36
+msgid "Visualizzazione sorgenti video anche dall'esterno della LAN"
+msgstr "Visualización fuentes de vídeo incluso desde el externo de la LAN"
+
+#: ../../introduction.rst:39
+msgid "Le seguenti funzioni non sono ancora disponibili:"
+msgstr "Las siguientes funciones son están todavía disponibles:"
+
+#: ../../introduction.rst:41
+msgid "Conferenze audio"
+msgstr "Conferencia audio:"
+
+#: ../../introduction.rst:42
+msgid "Post-it e note chiamate"
+msgstr "Post-it y notas de llamadas"
+
+#: ../../introduction.rst:43
+msgid "Sedi remote"
+msgstr "Sedes remotas"
+
+#: ../../introduction.rst:44
+msgid "Integrazione SMS e notifiche offline (mail e SMS)"
+msgstr "Integración SMS y notificaciones offline (mail y SMS)"
+
+#: ../../introduction.rst:45
+msgid "Configurazione servizio notte"
+msgstr "Configuración servicio de noche"
+
+#: ../../introduction.rst:46
+msgid "Code: chiamate perse, login e logout automatico"
+msgstr "Colas: llamadas perdidas, login y logout automático"
+
+#: ../../introduction.rst:47
+msgid ""
+"Inoltro della chiamata a nuemero o voicemail, su non disponibile/occupato"
+msgstr ""
+"Reenvío de la llamada a un número o voicemail, en no disponible/ocupado"
+
+#: ../../introduction.rst:48
+msgid "Visualizzazione stato dei fasci"
+msgstr "Visualización estado de las conexiones"
+
+#: ../../introduction.rst:49
+msgid ""
+"Apertura di un url parametrizzato in corrispondenza della ricezione di una "
+"chiamata"
+msgstr ""
+"Apertura de una url parametrizada en correspondencia de la entrada de una "
+"llamada"
+
+#: ../../introduction.rst:50
+msgid "Script personalizzati per la gestione chiamate"
+msgstr "Script personalizados para la gestión de llamadas"
+
+#: ../../introduction.rst:51
+msgid ""
+"Integrazione con app legacy: possibilità di effettuare chiamate in maniera "
+"non autenticata"
+msgstr ""
+"Integración con app Legacy: posibilidad de efectuar llamadas de manera no "
+"autenticada"
+
+#: ../../introduction.rst:52
+msgid "Posto Operatore"
+msgstr "Puesto Operador"
+
+#: ../../introduction.rst:53
+msgid "Supervisore Code"
+msgstr "Supervisor Colas"
+
+#: ../../introduction.rst:54
+msgid "Nethifier"
+msgstr "Nethifier"
+
+#: ../../introduction.rst:56
+msgid "CTI |version| necessita di |parent_product| 14"
+msgstr "CTI |versión| necesidad de |parent_product| 14"

@@ -1,4 +1,4 @@
-# Polidori Alessandro <alessandro.polidori@gmail.com>, 2017. #zanata
+# Alejandro Moreno <alejandro.martinez@nethesis.it>, 2018. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-08-25 05:39-0400\n"
-"Last-Translator: Polidori Alessandro <alessandro.polidori@gmail.com>\n"
+"PO-Revision-Date: 2018-03-20 06:11-0400\n"
+"Last-Translator: Alejandro Moreno <alejandro.martinez@nethesis.it>\n"
 "Language-Team: Spanish (Spain)\n"
 "Language: es-ES\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -26,55 +26,66 @@ msgid ""
 "agenti e lo stato della coda. E' possibile anche iscriversi/disiscriversi "
 "come agente della coda o mettersi in pausa/riprendersi da tutte le code."
 msgstr ""
+"En la sección \"Cola\" es posible ver en tiempo real las colas configuradas "
+"en la centralita junto a las llamadas en espera en cada cola. Es posible "
+"buscar una cola, ver las llamadas en espera en curso, los agentes y el "
+"estado de la cola. Es posible también inscribirse/arse de baja como agente "
+"de la cola o ponerse en pausa/reanudar de todas las colas."
 
 #: ../../queues.rst:16
 msgid "La vista della coda"
-msgstr ""
+msgstr "La vista de la cola"
 
 #: ../../queues.rst:18
 msgid ""
 "Nella scheda della coda è possibile vedere il nome della coda e il suo "
 "numero assieme ad altre informazioni sulla stessa."
 msgstr ""
+"En la tarjeta de la cola es posible ver el nombre de la cola y su número "
+"junto a otra información de la misma."
 
 #: ../../queues.rst:22
 msgid "Contatori della coda"
-msgstr ""
+msgstr "Contadores de la cola"
 
 #: ../../queues.rst:24
 msgid ""
 "Sul lato in alto a destra è possibile vedere alcuni contatori relativi a:"
 msgstr ""
+"En el lado de arriba a la derecha es posible ver algunos contadores "
+"relativos a:"
 
 #: ../../queues.rst:26
 msgid "totale delle chiamate passate attraverso la coda"
-msgstr ""
+msgstr "total de las llamadas pasadas a través de la cola"
 
 #: ../../queues.rst:27
 msgid "totale delle chiamate correntemente in attesa"
-msgstr ""
+msgstr "total de las llamadas actualmente en espera"
 
 #: ../../queues.rst:28
 msgid "totale delle chiamate in corso"
-msgstr ""
+msgstr "total de las llamadas en curso"
 
 #: ../../queues.rst:29
 msgid "totale degli agenti attivi"
-msgstr ""
+msgstr "total de los agentes activos"
 
 #: ../../queues.rst:32
 msgid "Attese"
-msgstr ""
+msgstr "Esperas"
 
 #: ../../queues.rst:34
 msgid ""
 "Sotto il nome della coda sono riportati i valori di attesa massima e minima "
 "relativi alle chiamate."
 msgstr ""
+"Debajo del nombre de la cola se informa de los valores de espera máxima y "
+"mínima relativos a las llamadas."
 
 #: ../../queues.rst:38
 msgid "Chiamate"
-msgstr "llamadas"
+msgstr "Llamadas"
 
 #: ../../queues.rst:40
 msgid ""
@@ -82,6 +93,10 @@ msgid ""
 "reale, con il chiamante, la posizione e l'attesa 2) le chiamate in corso in "
 "tempo reale, con il chiamante, l'agente e la durata"
 msgstr ""
+"En el centro del recuadro es posible ver: 1) las llamadas en espera en "
+"tiempo real, con la persona que llama, la posición y la espera 2) las "
+"llamadas en curso en tiempo real, con la persona que llama, el agente y la "
+"duración"
 
 #: ../../queues.rst:45
 msgid "Agenti"
@@ -93,10 +108,13 @@ msgid ""
 "che dinamici. Gli agenti dinamici sono elencati assieme al loro stato di "
 "iscrizione alla coda."
 msgstr ""
+"Abajo en el recuadro de la cola se muestran todos los agentes, ya sea "
+"estáticos o dinámicos. Los agentes dinámicos son mostrados junto a su estado "
+"de inscripción el la cola."
 
 #: ../../queues.rst:51
 msgid "Cercare una coda"
-msgstr ""
+msgstr "Buscar una cola"
 
 #: ../../queues.rst:53
 #: ../../queues.rst:59
@@ -104,42 +122,44 @@ msgstr ""
 #: ../../queues.rst:71
 #: ../../queues.rst:77
 msgid "Selezionare la sezione \"Code\""
-msgstr ""
+msgstr "Seleccionar la sección \"Cola\""
 
 #: ../../queues.rst:54
 msgid "Digitare il nome della coda nella casella di testo e premere invio"
-msgstr ""
+msgstr "Escribir el nombre de la cola en la barra de texto y pulsar intro"
 
 #: ../../queues.rst:57
 msgid "Login tutte le code"
-msgstr ""
+msgstr "Login en todas las colas"
 
 #: ../../queues.rst:60
 msgid "Cliccare sul buttone \"Login tutte le code\""
-msgstr ""
+msgstr "Hacer clic en el botón \"Login en todas las colas\""
 
 #: ../../queues.rst:63
 msgid "Logout tutte le code"
-msgstr ""
+msgstr "Logout de todas las colas"
 
 #: ../../queues.rst:66
 msgid "Cliccare sul bottone \"Logout tutte le code\""
-msgstr ""
+msgstr "Hacer clic en el botón \"Logout de todas las colas\""
 
 #: ../../queues.rst:69
 msgid "Pausa tutte le code"
-msgstr ""
+msgstr "Pausar todas las colas"
 
 #: ../../queues.rst:72
 msgid ""
 "Cliccare sul bottone \"Pausa tutte le code\" o cliccare sulla freccia per "
 "scegliere un motivo"
 msgstr ""
+"Hacer  clic en el botón \"Pausar todas las colas\" o hacer clic en la flecha "
+"para elegir un motivo"
 
 #: ../../queues.rst:75
 msgid "Stop pause tutte le code"
-msgstr ""
+msgstr "Detener pausa todas las colas"
 
 #: ../../queues.rst:78
 msgid "Cliccare sul bottone \"Stop pause tutte le code\""
-msgstr ""
+msgstr "Hacer clic en el botón \"Detener pausa todas las colas\""

@@ -1,0 +1,70 @@
+# Alejandro Moreno <alejandro.martinez@nethesis.it>, 2018. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: NethCTI 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-29 14:44+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-03-20 06:08-0400\n"
+"Last-Translator: Alejandro Moreno <alejandro.martinez@nethesis.it>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es-ES\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../../lines.rst:6
+msgid "Linee"
+msgstr "Líneas"
+
+#: ../../lines.rst:8
+msgid ""
+"Nella sezione \"Linee\" è possibile visualizzare lo stato attuale dei fasci, "
+"il numero delle linee libere e le informazioni sulle chiamate delle linee "
+"occupate. È possibile avere una panoramica generale dei fasci e espandere "
+"per maggiori informazioni."
+msgstr ""
+"En la sección \"Lineas\" es posible visualizar el estado actual de las "
+"conexiones, el número de líneas libres y la información de las llamadas de "
+"las líneas ocupadas. Es posible tener una panorámica general de las "
+"conexiones y expandir para más información."
+
+#: ../../lines.rst:13
+msgid "Vista delle linee"
+msgstr "Vista de las líneas"
+
+#: ../../lines.rst:15
+msgid ""
+"Nella scheda di ogni fascio è possibile visualizzare il nome del fascio, il "
+"tipo (sip, pjsip, iax), la barra di avanzamento per indicare il numero di "
+"linee occupate e il pulsante per espandere la vista e visualizzare le linee."
+msgstr ""
+"En la tarjeta de cada conexión es posible visualizar el nombre de la "
+"conexión, el tipo (sip, pjsip, fax), la barra de progreso para indicar el "
+"número de líneas ocupadas y el botón para expandir la vista y visualizar las "
+"líneas."
+
+#: ../../lines.rst:20
+msgid "Linee dei fasci"
+msgstr "Líneas de conexiones "
+
+#: ../../lines.rst:22
+msgid ""
+"Espandendo la vista del fascio si possono vedere le informazioni sulle "
+"chiamate delle linee occupate:"
+msgstr ""
+"Expandiendo la vista se puede ver la información de las llamadas de las "
+"líneas ocupadas:"
+
+#: ../../lines.rst:25
+msgid "numero telefonico interno"
+msgstr "número telefónico interno"
+
+#: ../../lines.rst:26
+msgid "direzione chiamata"
+msgstr "dirección llamada"
+
+#: ../../lines.rst:27
+msgid "numero telefonico esterno"
+msgstr "número telefónico externo"

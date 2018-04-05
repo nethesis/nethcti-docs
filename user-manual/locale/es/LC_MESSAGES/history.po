@@ -1,0 +1,124 @@
+# Alejandro Moreno <alejandro.martinez@nethesis.it>, 2018. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: NethCTI 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-29 14:44+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-03-19 02:40-0400\n"
+"Last-Translator: Alejandro Moreno <alejandro.martinez@nethesis.it>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es-ES\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../../history.rst:6
+msgid "Storico chiamate"
+msgstr "Historial de llamadas"
+
+#: ../../history.rst:8
+msgid "\"Storico\" e' l'elenco di tutte le chiamate personali e del centralino"
+msgstr ""
+"\"Historial\" es la lista de todas las llamadas personales y de la "
+"centralita "
+
+#: ../../history.rst:11
+msgid "Chiamate personali"
+msgstr "Llamadas personales"
+
+#: ../../history.rst:15
+#: ../../history.rst:29
+msgid "Filtrare le chiamate"
+msgstr "Filtrar las llamadas"
+
+#: ../../history.rst:17
+#: ../../history.rst:31
+msgid "Inserire un numero di telefono (opzionale) e le date di inizio e fine"
+msgstr ""
+"Insertar un número de teléfono (opcional) y las fechas de inicio a fin"
+
+#: ../../history.rst:18
+#: ../../history.rst:32
+msgid "Cliccare sul tasto di ricerca (icona lente)"
+msgstr "Hacer clic en el botón de búsqueda (icono de lupa)"
+
+#: ../../history.rst:21
+#: ../../history.rst:35
+msgid "Chiamate in entrata/uscita"
+msgstr "Llamadas en entrada/salida"
+
+#: ../../history.rst:23
+msgid ""
+"Possono essere selezionate tutte le chiamate o solo quelle in entrata e in "
+"uscita cliccando sul tab appropriato in \"Storico\" -> \"Chiamate "
+"personali\""
+msgstr ""
+"Pueden ser seleccionadas todas las llamadas o sólo aquellas en entrada y en "
+"salida haciendo clic  en la pestaña apropiada en \"Historial\" -> \"Llamadas "
+"personales\""
+
+#: ../../history.rst:26
+msgid "Chiamate centralino"
+msgstr "Llamadas centralita"
+
+#: ../../history.rst:37
+msgid ""
+"Possono essere selezionate tutte le chiamate o solo quelle in entrata e in "
+"uscita cliccando sul tab appropriato in \"Storico\" -> \"Chiamate "
+"centralino\""
+msgstr ""
+"Pueden ser seleccionadas todas las llamadas o solamente aquellas en entrada "
+"y en salida haciendo clic en la pestaña apropiada en \"Historial\" -> "
+"\"Llamadas centralita\""
+
+#: ../../history.rst:40
+msgid "Chiamate Registrate"
+msgstr "Llamadas Registradas"
+
+#: ../../history.rst:43
+msgid "Ascoltare le chiamate registrate"
+msgstr "Escuchar las llamadas registradas"
+
+#: ../../history.rst:45
+#: ../../history.rst:52
+#: ../../history.rst:58
+msgid "Aprire il tab \"Storico\""
+msgstr "Abrir la pestaña \"Historial\""
+
+#: ../../history.rst:46
+msgid ""
+"Individuare le chiamate che hanno una registrazione associata, identificate "
+"con l'icona del megafono"
+msgstr ""
+"Identificar las llamadas que tienen un registro asociado, identificadas con "
+"el icono del megáfono"
+
+#: ../../history.rst:47
+msgid "Cliccare sull'icona megafono"
+msgstr "Hacer clic en el icono del megáfono"
+
+#: ../../history.rst:50
+msgid "Scaricare una telefonata registrata"
+msgstr "Descargar una llamada registrada"
+
+#: ../../history.rst:53
+msgid ""
+"Individuare le chiamate che hanno una registrazione associata, e cliccare "
+"sull'icona \"Scarica\" rappresentata con una freccia verso il basso"
+msgstr ""
+"Identificar las llamadas que tienen un registro asociado, y hacer clic en el "
+"icono \"Descargar\" representado con una flecha hacia abajo"
+
+#: ../../history.rst:56
+msgid "Eliminare una telefonata registrata"
+msgstr "Eliminar una llamada registrada"
+
+#: ../../history.rst:59
+msgid ""
+"Individuare le chiamate che hanno una registrazione associata, e cliccare "
+"sull'icona \"Elimina\" rappresentata con un cestino"
+msgstr ""
+"Identificar las llamadas que tienen un registro asociado, y hacer clic en el "
+"icono \"Eliminar\" representado con una papelera"

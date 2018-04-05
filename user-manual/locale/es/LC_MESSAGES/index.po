@@ -1,4 +1,6 @@
 # Polidori Alessandro <alessandro.polidori@gmail.com>, 2017. #zanata
+# Alejandro Moreno <alejandro.martinez@nethesis.it>, 2018. #zanata
+# Polidori Alessandro <alessandro.polidori@gmail.com>, 2018. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
@@ -7,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-08-25 05:34-0400\n"
-"Last-Translator: Polidori Alessandro <alessandro.polidori@gmail.com>\n"
+"PO-Revision-Date: 2018-02-22 08:45-0500\n"
+"Last-Translator: Alejandro Moreno <alejandro.martinez@nethesis.it>\n"
 "Language-Team: Spanish (Spain)\n"
 "Language: es-ES\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -16,15 +18,15 @@ msgstr ""
 
 #: ../../index.rst:10
 msgid "CTI |release|"
-msgstr ""
+msgstr "CTI |lanzamiento|"
 
 #: ../../index.rst:13
 msgid "Generale"
-msgstr ""
+msgstr "General"
 
 #: ../../index.rst:25
 msgid "Chiamate"
-msgstr "llamadas"
+msgstr "Llamadas"
 
 #: ../../index.rst:35
 msgid "Contatti"
@@ -32,11 +34,11 @@ msgstr "Contactos"
 
 #: ../../index.rst:44
 msgid "Moduli"
-msgstr ""
+msgstr "Módulos"
 
 #: ../../index.rst:55
 msgid "App mobile"
-msgstr ""
+msgstr "App móvil"
 
 #: ../../index.rst:63
 msgid "Indici"
@@ -48,4 +50,4 @@ msgstr ":ref:`genindex`"
 
 #: ../../index.rst:66
 msgid ":ref:`search`"
-msgstr ""
+msgstr ":ref:`search`"
