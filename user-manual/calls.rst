@@ -114,3 +114,28 @@ in quattro momenti distinti:
 - tramite un pulsante specifico presente nel box di gestione chiamata
 
 L'URL viene configurato dall'amministratore che decide anche la lista degli utenti abilitati a tale funzione.
+
+Conferenze audio
+================
+
+È una conferenza telefonica i cui partecipanti possono comunicare tra loro a voce, previo appuntamento.
+Praticamente il sistema consente di estendere le caratteristiche della comunicazione telefonica a un numero
+di persone superiore a due.
+Qualsiasi utente può creare una conferenza e una volta fatto ne diviene automaticamente il moderatore,
+che può eseguire alcune operazioni privilegiate, come ad esempio:
+
+- far uscire selettivamente gli utenti
+- terminare l'intera conferenza
+- mettere in "muto/un-muto" selettivamente i singoli partecipanti o tutti con un unico click
+- aggiungere nuovi utenti
+- uscire/entrare dalla sua conferenza
+
+Per creare una nuova conferenza:
+
+1) chiamare il primo partecipante tramite chiamata "normale"
+2) una volta instaurata la conversazione è sufficiente cliccare il relativo pulsante presente nel box di gestione chiamata
+3) a questo punto una nuova conferenza è stata creata e vi appartiene solamente il destinatario della chiamata
+4) un nuovo box grafico compare per poter gestire la conferenza stessa
+5) ripetere il punto 1 e 2 per aggiungere il secondo partecipante e così via per altri
+6) quando tutti gli utenti sono stati aggiunti, il moderatore può entrare nella sua conferenza tramite il pulsante "Entra"
+7) a questo punto tutti possono parlare liberamente
