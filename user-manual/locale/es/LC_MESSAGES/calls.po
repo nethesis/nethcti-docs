@@ -4,15 +4,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-05 12:32+0200\n"
+"POT-Creation-Date: 2018-06-04 15:39+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-03-20 02:17-0400\n"
+"PO-Revision-Date: 2018-03-20 02:17+0000\n"
 "Last-Translator: Alejandro Moreno <alejandro.martinez@nethesis.it>\n"
 "Language-Team: Spanish (Spain)\n"
-"Language: es-ES\n"
-"X-Generator: Zanata 3.9.6\n"
+"Language: es_ES\n"
+"X-Generator: Zanata 4.4.5\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../../calls.rst:7
@@ -25,13 +25,10 @@ msgstr "Seleccionar el dispositivo predefinido"
 
 #: ../../calls.rst:12
 msgid ""
-"Il menu dispositivi consente di selezionare il telefono di default tra "
+"Il menù dispositivi consente di selezionare il telefono di default tra "
 "quelli presenti nell'account. Se ci sono più telefoni associati, consente di "
 "selezionare quale sarà utilizzato per effettuare le chiamate."
 msgstr ""
-"El menú dispositivos permite seleccionar el teléfono por defecto entre "
-"aquellos presentes en la cuenta. Si hay más teléfonos asociados, permite "
-"seleccionar cual será utilizado para efectuar las llamadas."
 
 #: ../../calls.rst:14
 msgid "Per cambiare il dispositivo:"
@@ -199,8 +196,8 @@ msgid "Nella lista delle chiamate, selezionare la chiamata interessata"
 msgstr "En la lista de las llamadas, seleccionar la llamada interesada"
 
 #: ../../calls.rst:73
-msgid "Se è stata effetuata una registrazione, ci sono tre icone disponibili"
-msgstr "Si se ha realizado una grabación, habrá tres iconos disponibles"
+msgid "Se è stata effettuata una registrazione, ci sono tre icone disponibili"
+msgstr ""
 
 #: ../../calls.rst:75
 msgid "Ogni icona ha una funzionalità diversa:"
@@ -308,3 +305,113 @@ msgstr ""
 #: ../../calls.rst:106
 msgid "Decidere se fare un trasferimento \"Cieco\" o \"Consultativo\""
 msgstr "Decidir si hacer una transferencia \"Directa\" o \"Consultiva\""
+
+#: ../../calls.rst:109
+msgid "URL parametrizzato"
+msgstr ""
+
+#: ../../calls.rst:111
+msgid ""
+"L'utente ha la possibilità di poter invocare un URL parametrizzato in "
+"corrispondenza di una chiamata in arrivo. L'URL viene automaticamente "
+"parametrizzato con i dati del chiamante ed è possibile \"aprirlo\" "
+"alternativamente in quattro momenti distinti:"
+msgstr ""
+
+#: ../../calls.rst:115
+msgid "mai"
+msgstr ""
+
+#: ../../calls.rst:116
+msgid "quando la chiamata in arrivo sta squillando"
+msgstr ""
+
+#: ../../calls.rst:117
+msgid "quando la chiamata in arrivo è stato risposta"
+msgstr ""
+
+#: ../../calls.rst:118
+msgid "tramite un pulsante specifico presente nel box di gestione chiamata"
+msgstr ""
+
+#: ../../calls.rst:120
+msgid ""
+"L'URL viene configurato dall'amministratore che decide anche la lista degli "
+"utenti abilitati a tale funzione."
+msgstr ""
+
+#: ../../calls.rst:123
+msgid "Conferenze audio"
+msgstr ""
+
+#: ../../calls.rst:125
+msgid ""
+"È una conferenza telefonica i cui partecipanti possono comunicare tra loro a "
+"voce, previo appuntamento. Praticamente il sistema consente di estendere le "
+"caratteristiche della comunicazione telefonica a un numero di persone "
+"superiore a due. Qualsiasi utente può creare una conferenza e una volta "
+"fatto ne diviene automaticamente il moderatore, che può eseguire alcune "
+"operazioni privilegiate, come ad esempio:"
+msgstr ""
+
+#: ../../calls.rst:131
+msgid "far uscire selettivamente gli utenti"
+msgstr ""
+
+#: ../../calls.rst:132
+msgid "terminare l'intera conferenza"
+msgstr ""
+
+#: ../../calls.rst:133
+msgid ""
+"mettere in \"muto/un-muto\" selettivamente i singoli partecipanti o tutti "
+"con un unico click"
+msgstr ""
+
+#: ../../calls.rst:134
+msgid "aggiungere nuovi utenti"
+msgstr ""
+
+#: ../../calls.rst:135
+msgid "uscire/entrare dalla sua conferenza"
+msgstr ""
+
+#: ../../calls.rst:137
+msgid "Per creare una nuova conferenza:"
+msgstr ""
+
+#: ../../calls.rst:139
+msgid "chiamare il primo partecipante tramite chiamata \"normale\""
+msgstr ""
+
+#: ../../calls.rst:140
+msgid ""
+"una volta instaurata la conversazione è sufficiente cliccare il relativo "
+"pulsante presente nel box di gestione chiamata"
+msgstr ""
+
+#: ../../calls.rst:141
+msgid ""
+"a questo punto una nuova conferenza è stata creata e vi appartiene solamente "
+"il destinatario della chiamata"
+msgstr ""
+
+#: ../../calls.rst:142
+msgid "un nuovo box grafico compare per poter gestire la conferenza stessa"
+msgstr ""
+
+#: ../../calls.rst:143
+msgid ""
+"ripetere il punto 1 e 2 per aggiungere il secondo partecipante e così via "
+"per altri"
+msgstr ""
+
+#: ../../calls.rst:144
+msgid ""
+"quando tutti gli utenti sono stati aggiunti, il moderatore può entrare nella "
+"sua conferenza tramite il pulsante \"Entra\""
+msgstr ""
+
+#: ../../calls.rst:145
+msgid "a questo punto tutti possono parlare liberamente"
+msgstr ""

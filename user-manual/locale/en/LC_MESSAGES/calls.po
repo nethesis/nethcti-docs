@@ -1,18 +1,19 @@
 # Edoardo Spadoni <edoardo.spadoni@nethesis.it>, 2017. #zanata
 # Polidori Alessandro <alessandro.polidori@gmail.com>, 2017. #zanata
+# Polidori Alessandro <alessandro.polidori@gmail.com>, 2018. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-05 12:32+0200\n"
+"POT-Creation-Date: 2018-06-04 15:39+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-08-24 10:55-0400\n"
-"Last-Translator: Edoardo Spadoni <edoardo.spadoni@nethesis.it>\n"
+"PO-Revision-Date: 2018-06-04 02:34+0000\n"
+"Last-Translator: Polidori Alessandro <alessandro.polidori@gmail.com>\n"
 "Language-Team: English (United States)\n"
-"Language: en-US\n"
-"X-Generator: Zanata 3.9.6\n"
+"Language: en_US\n"
+"X-Generator: Zanata 4.4.5\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../../calls.rst:7
@@ -25,13 +26,13 @@ msgstr "Select the default device"
 
 #: ../../calls.rst:12
 msgid ""
-"Il menu dispositivi consente di selezionare il telefono di default tra "
+"Il menù dispositivi consente di selezionare il telefono di default tra "
 "quelli presenti nell'account. Se ci sono più telefoni associati, consente di "
 "selezionare quale sarà utilizzato per effettuare le chiamate."
 msgstr ""
-"The device menu allows you to select the default phone among those in your "
-"account. If there are multiple associated phones, you can select which one "
-"to use to make calls."
+"The device menu allows you to select the default phone from those in the "
+"account. If there are multiple phones associated with it, select which one "
+"will be used to make the calls."
 
 #: ../../calls.rst:14
 msgid "Per cambiare il dispositivo:"
@@ -189,8 +190,8 @@ msgid "Nella lista delle chiamate, selezionare la chiamata interessata"
 msgstr "Select the relevant call from the call list"
 
 #: ../../calls.rst:73
-msgid "Se è stata effetuata una registrazione, ci sono tre icone disponibili"
-msgstr "If a recording has been made, there are three available icons"
+msgid "Se è stata effettuata una registrazione, ci sono tre icone disponibili"
+msgstr "If a registration has been made, there are three icons available"
 
 #: ../../calls.rst:75
 msgid "Ogni icona ha una funzionalità diversa:"
@@ -289,3 +290,132 @@ msgstr ""
 #: ../../calls.rst:106
 msgid "Decidere se fare un trasferimento \"Cieco\" o \"Consultativo\""
 msgstr "Decide to make a blinded or attended transfer"
+
+#: ../../calls.rst:109
+msgid "URL parametrizzato"
+msgstr "Parameterized URL"
+
+#: ../../calls.rst:111
+msgid ""
+"L'utente ha la possibilità di poter invocare un URL parametrizzato in "
+"corrispondenza di una chiamata in arrivo. L'URL viene automaticamente "
+"parametrizzato con i dati del chiamante ed è possibile \"aprirlo\" "
+"alternativamente in quattro momenti distinti:"
+msgstr ""
+"The user has the ability to invoke a parameterized URL on incoming calls. "
+"The URL is automatically parameterized with the caller's data and it is "
+"possible to \"open\" it alternately in four distinct scenarios:"
+
+#: ../../calls.rst:115
+msgid "mai"
+msgstr "never"
+
+#: ../../calls.rst:116
+msgid "quando la chiamata in arrivo sta squillando"
+msgstr "when the incoming call is ringing"
+
+#: ../../calls.rst:117
+msgid "quando la chiamata in arrivo è stato risposta"
+msgstr "when the incoming call has been answered"
+
+#: ../../calls.rst:118
+msgid "tramite un pulsante specifico presente nel box di gestione chiamata"
+msgstr "clicking a specific button in the call management box"
+
+#: ../../calls.rst:120
+msgid ""
+"L'URL viene configurato dall'amministratore che decide anche la lista degli "
+"utenti abilitati a tale funzione."
+msgstr ""
+"The URL is configured by the administrator who also decides the list of "
+"users enabled for this function."
+
+#: ../../calls.rst:123
+msgid "Conferenze audio"
+msgstr "Audio conference"
+
+#: ../../calls.rst:125
+msgid ""
+"È una conferenza telefonica i cui partecipanti possono comunicare tra loro a "
+"voce, previo appuntamento. Praticamente il sistema consente di estendere le "
+"caratteristiche della comunicazione telefonica a un numero di persone "
+"superiore a due. Qualsiasi utente può creare una conferenza e una volta "
+"fatto ne diviene automaticamente il moderatore, che può eseguire alcune "
+"operazioni privilegiate, come ad esempio:"
+msgstr ""
+"It is a phone conference whose participants can communicate with each other "
+"by voice, after an appointment. In practice, the system allows to extend the "
+"characteristics of phone communication to more than two people. Any user can "
+"create a conference and once he/she has made, it automatically becomes the "
+"moderator, who can perform some privileged operations, such as:"
+
+#: ../../calls.rst:131
+msgid "far uscire selettivamente gli utenti"
+msgstr "to let users out selectively"
+
+#: ../../calls.rst:132
+msgid "terminare l'intera conferenza"
+msgstr "end the whole conference"
+
+#: ../../calls.rst:133
+msgid ""
+"mettere in \"muto/un-muto\" selettivamente i singoli partecipanti o tutti "
+"con un unico click"
+msgstr ""
+"selectively \"mute/un-mute\" individual participants or all of them with a "
+"single click"
+
+#: ../../calls.rst:134
+msgid "aggiungere nuovi utenti"
+msgstr "add new users"
+
+#: ../../calls.rst:135
+msgid "uscire/entrare dalla sua conferenza"
+msgstr "go out/enter his conference"
+
+#: ../../calls.rst:137
+msgid "Per creare una nuova conferenza:"
+msgstr "To create a new conference:"
+
+#: ../../calls.rst:139
+msgid "chiamare il primo partecipante tramite chiamata \"normale\""
+msgstr "call the first participant by \"normal\" call"
+
+#: ../../calls.rst:140
+msgid ""
+"una volta instaurata la conversazione è sufficiente cliccare il relativo "
+"pulsante presente nel box di gestione chiamata"
+msgstr ""
+"once the conversation is established, simply click on the relevant button in "
+"the call management box"
+
+#: ../../calls.rst:141
+msgid ""
+"a questo punto una nuova conferenza è stata creata e vi appartiene solamente "
+"il destinatario della chiamata"
+msgstr ""
+"at this point a new conference has been created and only the recipient of "
+"the call belongs to it"
+
+#: ../../calls.rst:142
+msgid "un nuovo box grafico compare per poter gestire la conferenza stessa"
+msgstr "a new graphic box appears to manage the conference itself"
+
+#: ../../calls.rst:143
+msgid ""
+"ripetere il punto 1 e 2 per aggiungere il secondo partecipante e così via "
+"per altri"
+msgstr ""
+"repeat step 1 and 2 to add the second participant and so on for others"
+
+#: ../../calls.rst:144
+msgid ""
+"quando tutti gli utenti sono stati aggiunti, il moderatore può entrare nella "
+"sua conferenza tramite il pulsante \"Entra\""
+msgstr ""
+"when all the users have been added, the moderator can enter his conference "
+"via the \"Enter\" button"
+
+#: ../../calls.rst:145
+msgid "a questo punto tutti possono parlare liberamente"
+msgstr "at this point everyone can speak freely"
