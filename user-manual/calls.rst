@@ -5,7 +5,7 @@ Chiamate
 Selezionare il dispositivo predefinito
 ======================================
 
-Il menu dispositivi consente di selezionare il telefono di default tra quelli presenti nell'account. Se ci sono più telefoni associati, consente di selezionare quale sarà utilizzato per effettuare le chiamate.
+Il menù dispositivi consente di selezionare il telefono di default tra quelli presenti nell'account. Se ci sono più telefoni associati, consente di selezionare quale sarà utilizzato per effettuare le chiamate.
 
 Per cambiare il dispositivo:
 
@@ -66,7 +66,7 @@ Una volta che è iniziata una chiamata, sarà possibile usare differenti funzion
 * Riascoltare la registrazione:
     (1) Recarsi nel tab "Storico"
     (2) Nella lista delle chiamate, selezionare la chiamata interessata
-    (3) Se è stata effetuata una registrazione, ci sono tre icone disponibili
+    (3) Se è stata effettuata una registrazione, ci sono tre icone disponibili
 
     Ogni icona ha una funzionalità diversa:
 
@@ -101,3 +101,16 @@ Una volta che è iniziata una chiamata, sarà possibile usare differenti funzion
     (3) Inserire nel campo di testo l'interno o il nome dell'utente a cui si vuole trasferire la chiamata
     (4) Decidere se fare un trasferimento "Cieco" o "Consultativo"
 
+URL parametrizzato
+==================
+
+L'utente ha la possibilità di poter invocare un URL parametrizzato in corrispondenza di una chiamata in arrivo.
+L'URL viene automaticamente parametrizzato con i dati del chiamante ed è possibile "aprirlo" alternativamente
+in quattro momenti distinti:
+
+- mai
+- quando la chiamata in arrivo sta squillando
+- quando la chiamata in arrivo è stato risposta
+- tramite un pulsante specifico presente nel box di gestione chiamata
+
+L'URL viene configurato dall'amministratore che decide anche la lista degli utenti abilitati a tale funzione.
