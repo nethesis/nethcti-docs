@@ -25,6 +25,12 @@ Mostrare/Nascondere le notifiche desktop
 Spuntare la checkbox sotto "Notifiche Desktop" per mostrare le notifiche desktop, togliere
 la spunta per nasconderle.
 
+DND ON/OFF automatico
+=====================
+
+L'utente ha la possibilità di configurare lo stato del DND (disabilitato/abilitato) automatico
+in corrispondenza del login/logout dal |product|.
+
 Preferenze Schede Cliente
 ===========================
 
@@ -42,3 +48,31 @@ Ordinamento schede cliente
 
 Sotto la sezione "Ordine schede cliente" è possibile trascinare verso il basso o verso l'alto
 le schede cliente per modificare il loro ordine.
+
+Preferenze Code
+===============
+
+Sotto questa sezione è possibile personalizzare alcune configurazioni relative alle code.
+
+Esci da coda automaticamente
+----------------------------
+
+Consente l'uscita automatica da tutte le proprie code quando si effettua il logout da |product|.
+
+Entra in coda automaticamente
+-----------------------------
+
+Consente l'ingresso automatico su tutte le proprie code quando si effettua il login a |product|.
+
+Aggiorna chiamate perse in coda ogni
+------------------------------------
+
+L'utente può personalizzare l'intervallo di aggiornamento della lista delle chiamate perse in coda visibile
+all'interno del servizio "Code". L'intervallo va da 10 a 60 secondi.
+
+Intervallo d'aggiornamento chiamate perse in coda
+-------------------------------------------------
+
+È l'intervallo temporale preso in considerazione per la costruzione delle chiamate perse in coda visibile
+all'interno del servizio "Code". L'intervallo prendere in considerazione le chiamate dall'ultima ora
+fino alle ultime 12.
