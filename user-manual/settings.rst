@@ -31,6 +31,22 @@ DND ON/OFF automatico
 L'utente ha la possibilità di configurare lo stato del DND (disabilitato/abilitato) automatico
 in corrispondenza del login/logout dal |product|.
 
+
+.. _paramurl-section:
+
+URL parametrizzato
+==================
+
+Se l'utente ha il permesso, può scegliere di aprire un URL parametrizzato coi dati del chiamante
+in uno dei seguenti scenari:
+
+- mai
+- quando la chiamata in arrivo sta squillando
+- quando la chiamata in arrivo è stato risposta
+- tramite un pulsante specifico presente nel box di gestione chiamata
+
+.. note:: Affinché l'URL possa essere invocato è necessario che l'utente abbia abilitato la visualizzazione dei popups nel proprio browser !
+
 Preferenze Schede Cliente
 ===========================
 
