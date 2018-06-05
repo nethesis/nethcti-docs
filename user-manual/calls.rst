@@ -106,7 +106,7 @@ URL parametrizzato
 
 L'utente ha la possibilità di poter invocare un URL parametrizzato in corrispondenza di una chiamata in arrivo.
 L'URL viene automaticamente parametrizzato con i dati del chiamante ed è possibile "aprirlo" alternativamente
-in quattro momenti distinti:
+in quattro momenti distinti (dalle impostazioni ":ref:`paramurl-section`" del |product|):
 
 - mai
 - quando la chiamata in arrivo sta squillando
@@ -114,6 +114,8 @@ in quattro momenti distinti:
 - tramite un pulsante specifico presente nel box di gestione chiamata
 
 L'URL viene configurato dall'amministratore che decide anche la lista degli utenti abilitati a tale funzione.
+
+.. note:: Affinché l'URL possa essere invocato è necessario che l'utente abbia abilitato la visualizzazione dei popups nel proprio browser !
 
 Conferenze audio
 ================
