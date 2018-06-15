@@ -22,7 +22,6 @@ import os
 
 
 try:
-    import sphinx_rtd_theme
     import sphinx_bootstrap_theme
 except ImportError:
     pass
