@@ -73,3 +73,23 @@ Stop pause tutte le code
 
 1) Selezionare la sezione "Code"
 2) Cliccare sul bottone "Stop pause tutte le code"
+
+Chiamate perse in coda
+======================
+
+Abilitando il permesso nel profilo, l'utente potrà visualizzare la lista delle chiamate perse in coda.
+Queste sono raggruppate in tre gruppi in base all'esito finale della chiamata stessa:
+
+- *gestite*: sono le chiamate terminate con esito positivo
+- *non gestite*: sono le chiamate che per qualche motivo non hanno ricevuto risposta da parte dell'agente in coda
+- *tutte*
+
+La lista può essere personalizzata selezionando:
+
+- le code a cui l'utente appartiene
+- l'intervallo d'aggiornamento dei dati (da 10 a 60 secondi: il default è ogni 10).
+- l'intervallo orario su cui effettuare la ricerca (da 1 a 12 ore antecedenti l'ora attuale: il default ricerca sulle ultime 8 ore)
+
+L’utente può richiamare un numero telefonico semplicemente cliccando l’entry relativa della tabella. In tal caso, se un altro utente si è già messo in comunicazione con la destinazione, verrà mostrato un avviso con cui decidere se rinunciare o forzare la chiamata.
+
+Per vedere i dettagli di una chiamata è sufficiente cliccare l’icona «i» della colonna «Info».
