@@ -21,6 +21,7 @@ script:
     - pushd ${BUILD_DIR}/
     - sphinx-build                -b html -d _build/doctrees/it   . _build/webroot/it/${TARGET_DIR}
     - sphinx-build -D language=en -b html -d _build/doctrees/en   . _build/webroot/en/${TARGET_DIR}
+    - sphinx-build -D language=es -b html -d _build/doctrees/es   . _build/webroot/es/${TARGET_DIR}
     - popd
 
 deploy:
