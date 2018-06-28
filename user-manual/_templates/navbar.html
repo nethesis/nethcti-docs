@@ -27,16 +27,17 @@
             <li class="dropdown">
                 <a role="button" id="dLabelLanguages" data-toggle="dropdown" data-target="#" href="#" aria-expanded="false">{{ gettext('Languages') }} <b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="dLabelLanguages">
-                    <li><a class="reference internal" href="../../it/v3/{{ pagename }}.html">{{ gettext('Italian') }}</a></li>
-                    <li><a class="reference internal" href="../../en/v3/{{ pagename }}.html">{{ gettext('English') }}</a></li>
-                    <li><a class="reference internal" href="../../es/v3/{{ pagename }}.html">{{ gettext('Spanish') }}</a></li>
+                    {%- for mlang in alt_languages.split(',') %}
+                    <li><a class="reference internal" href="../../{{ mlang }}/{{ current_version }}/{{ pagename }}.html">{{ mlang }}</a></li>
+                    {%- endfor %}
                 </ul>
             </li>
             <li class="dropdown">
                 <a role="button" id="dLabelVersions" data-toggle="dropdown" data-target="#" href="#" aria-expanded="false">{{ gettext('Versions') }} <b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="dLabelVersions">
-                    <li><a class="reference internal" href="../../{{ language }}/v2">v2</a></li>
-                    <li><a class="reference internal" href="../../{{ language }}/v3">v3</a></li>
+                    {%- for mver in alt_versions.split(',') %}
+                    <li><a class="reference internal" href="../../{{ language }}/{{ mver }}/{{ pagename }}.html">{{ mver }}</a></li>
+                    {%- endfor %}
                 </ul>
             </li>
             <li><a href="{{ pathto('http://helpdesk.nethesis.it/', True) }}">{{ gettext('Support') }}</a></li>

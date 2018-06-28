@@ -8,6 +8,7 @@ env:
         - SSH_RSYNC="ssh -oIdentityFile=~/.ssh/id_nethbot -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null"
         - BUILD_DIR=user-manual
         - TARGET_DIR=${TRAVIS_PULL_REQUEST_BRANCH:-${TRAVIS_TAG:-${TRAVIS_BRANCH}}}
+        - SPHINX_OPTS="-b html -A current_version=${TARGET_DIR}"
 
 before_install:
     - openssl aes-256-cbc -K $encrypted_8c924958ba69_key -iv $encrypted_8c924958ba69_iv -in id_nethbot_nethcti.enc -out ~/.ssh/id_nethbot -d
@@ -19,14 +20,18 @@ install:
 
 script:
     - pushd ${BUILD_DIR}/
-    - sphinx-build                -b html -d _build/doctrees/it   . _build/webroot/it/${TARGET_DIR}
-    - sphinx-build -D language=en -b html -d _build/doctrees/en   . _build/webroot/en/${TARGET_DIR}
-    - sphinx-build -D language=es -b html -d _build/doctrees/es   . _build/webroot/es/${TARGET_DIR}
+    - sphinx-build -D language=it ${SPHINX_OPTS} -d _build/doctrees/it . _build/webroot/it/${TARGET_DIR}
+    - sphinx-build -D language=en ${SPHINX_OPTS} -d _build/doctrees/en . _build/webroot/en/${TARGET_DIR}
+    - sphinx-build -D language=es ${SPHINX_OPTS} -d _build/doctrees/es . _build/webroot/es/${TARGET_DIR}
     - popd
 
 deploy:
     provider: script
     skip_cleanup: true
-    script: rsync -ai --no-super --delete-after -e "${SSH_RSYNC}" ${BUILD_DIR}/_build/webroot/* nethbot@docs1.nethserver.com:.
+    script: >
+        rsync -ai --no-super --delete-after -e "${SSH_RSYNC}" ${BUILD_DIR}/_build/webroot/it/${TARGET_DIR} nethbot@docs1.nethserver.com:it/ &&
+        rsync -ai --no-super --delete-after -e "${SSH_RSYNC}" ${BUILD_DIR}/_build/webroot/en/${TARGET_DIR} nethbot@docs1.nethserver.com:en/ &&
+        rsync -ai --no-super --delete-after -e "${SSH_RSYNC}" ${BUILD_DIR}/_build/webroot/es/${TARGET_DIR} nethbot@docs1.nethserver.com:es/ &&
+        :
     on:
         all_branches: true
