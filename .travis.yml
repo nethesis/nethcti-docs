@@ -6,7 +6,7 @@ python:
 env:
     global:
         - SSH_RSYNC="ssh -oIdentityFile=~/.ssh/id_nethbot -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null"
-        - BUILD_DIR=user-manual/
+        - BUILD_DIR=user-manual
         - TARGET_DIR=${TRAVIS_PULL_REQUEST_BRANCH:-${TRAVIS_TAG:-${TRAVIS_BRANCH}}}
 
 before_install:
@@ -15,7 +15,7 @@ before_install:
 
 install:
     - pip install sphinx==1.7.4
-    - pip install -r user-manual/requirements.txt
+    - pip install -r ${BUILD_DIR}/requirements.txt
 
 script:
     - pushd ${BUILD_DIR}/
