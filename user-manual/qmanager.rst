@@ -48,6 +48,8 @@ Il dettaglio delle fallite visualizzerà quelle:
 - entrate in coda e fallite per l’assenza di agenti
 - non entrate in coda per l’assenza di agenti
 
+.. note:: I grafici vengono aggiornati automaticamente ogni 30 secondi.
+
 Sezione #2: gestione degli agenti
 ---------------------------------
 
