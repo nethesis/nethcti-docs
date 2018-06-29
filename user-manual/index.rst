@@ -48,6 +48,7 @@ Moduli
    streaming
    offhour
    custcard
+   qmanager
 
 App mobile
 ----------
