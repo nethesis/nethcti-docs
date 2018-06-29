@@ -43,9 +43,9 @@ Moduli
 .. toctree::
    :maxdepth: 2
 
+   operators
    queues
    streaming
-   lines
    offhour
    custcard
 
