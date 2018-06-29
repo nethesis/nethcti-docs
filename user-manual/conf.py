@@ -17,15 +17,7 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
-
-
-try:
-    import sphinx_rtd_theme
-    import sphinx_bootstrap_theme
-except ImportError:
-    pass
+import sphinx_bootstrap_theme
 
 # -- General configuration ------------------------------------------------
 
@@ -91,7 +83,6 @@ todo_include_todos = False
 #
 html_theme = 'bootstrap'
 html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
-
 html_theme_options = {
         'navbar_title': 'NethCTI',
         'navbar_pagenav': True,
@@ -101,6 +92,8 @@ html_theme_options = {
         'navbar_fixed_top': "false",
         'source_link_position': "none",
         'bootswatch_theme': "cerulean",
+        'bootstrap_version': "3",
+        'nosidebar': "1",
 }
 
 html_favicon = '_static/favicon.ico' 
@@ -188,3 +181,19 @@ texinfo_documents = [
 if os.path.exists('rst_prolog'):
     with open('rst_prolog') as fid:
         rst_prolog = fid.read()
+
+#
+# Define context default values for HTML templates
+#
+context = {
+    'alt_languages': 'it,en,es',
+    'alt_versions': 'v3,v2,dev',
+    'current_version': 'def',
+    'user_analytics_code': 'UA-37499928-5',
+}
+
+if 'html_context' in globals():
+    for key in context:
+        html_context.setdefault(k, context[k])
+else:
+    html_context = context
