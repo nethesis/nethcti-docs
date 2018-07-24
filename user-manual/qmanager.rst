@@ -73,3 +73,46 @@ Per ogni agente è anche possibile vedere sempre lo stato dell’interno telefon
 - rosso: sta gestendo una chiamata che non ha attraversato nessuna coda
 
 Per ogni chiamata verrà mostrato anche l’identificativo dell’interlocutore e la direzione.
+
+Realtime
+========
+
+Il tab *"Realtime"* mostra informazioni in tempo reale su tutte le code e agenti. È anche possibile eseguire determinate azioni.
+
+Contatori
+---------
+
+Un insieme di contatori mostra un riepilogo di informazioni sulle chiamate e agenti di tutte le code:
+
+- totale chiamate (in attesa e connesse)
+- chiamate in attesa
+- chiamate correntemente in gestione
+- agenti in coda / fuori coda
+- agenti in pausa
+- agenti occupati
+- agenti pronti a ricevere una chiamata
+
+Statistiche code
+----------------
+
+Per ogni coda sono presenti due grafici, uno che mostra informazioni relative alle chiamate
+(numero chiamate totali/in attesa/in gestione) e un altro relativo agli agenti (in coda/fuori coda/
+in pausa/occupati/pronti a ricevere chiamate).
+
+Statistiche agenti
+------------------
+
+Questa sezione visualizza informazioni relative agli agenti di tutte le code. Per ognuno di essi viene visualizzato:
+
+- stato dell'interno telefonico
+- stato dell'agente in coda
+- orario dell'ultimo login in coda
+- orario dell'ultimo logout dalla coda
+- orario dell'ultimo ingresso in pausa
+- orario di uscita dall'ultima pausa
+- durata dell'ultimo intervallo di pausa eseguito
+- numero di chiamate gestite
+- orario dell'ultima chiamata gestita
+- tempo intercorso dall'ultima chiamata gestita
+
+Inoltre per ogni agente è possibile eseguire delle azioni cliccando il menù contestuale relativo.
