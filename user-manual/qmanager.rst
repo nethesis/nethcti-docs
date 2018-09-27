@@ -116,3 +116,70 @@ Questa sezione visualizza informazioni relative agli agenti di tutte le code. Pe
 - tempo intercorso dall'ultima chiamata gestita
 
 Inoltre per ogni agente è possibile eseguire delle azioni cliccando il menù contestuale relativo.
+
+Summary
+=======
+
+Il tab *"Summary"* mostra informazioni su tutte le code e agenti attraverso grafici interattivi e tabelle.
+I dati all'interno del tab vengono aggiornati ogni 2 minuti se si resta sulla pagina e ogni volta che viene 
+ricaricata la scheda oppure cambiata la tab.
+
+Statistiche code
+----------------
+
+Nella parte superiore della pagina sono presenti 8 grafici all'interno dei quali vengono messe a confronto le code 
+con la possibilità di disabilitarle tramite i pulsanti nella parte superiore della sezione.
+Ogni coda ha associato un colore che persiste all'interno di tutti i grafici. Per ogni grafico è presente 
+un'icona la quale fa comparire la spiegazione del grafico.
+
+I dati rappresentati nel grafico sono:
+
+- chiamate totali: numero di chiamate entrate per ogni coda e percentuale sulle chiamate totali del giorno
+- chiamate processate: numero di chiamate processate per ogni coda e percentuale sulle chiamate totali entrate in coda
+- chiamate processate prima del livello di servizio: numero di chiamate processate prima del livello di servizio per ogni coda e percentuale sulle chiamate totali entrate in coda
+- chiamate fallite: numero di chiamate non riuscite per ogni coda e percentuale sulle chiamate totali entrate in coda
+- chiamate invalide: numero di chiamate non valide per ogni coda e percentuale sulle chiamate totali entrate in coda
+- ragioni chiamate fallite: chiamate non riuscite per i seguenti motivi: abbandono, code piena, timeout, nessuno all'ingresso in coda, nessun agente in coda e con ivr per ogni coda
+- chiamate in attesa: durata minima, media e massima delle chiamate in attesa per ogni coda
+- durata chiamate: durata chiamate minima, media e massima per ogni coda
+
+Statistiche agenti
+------------------
+
+Nella sezione inferiore della pagina sono presenti i dati relativi agli agenti e alle code per ogni agente oltre allo stato dell'agente e dell'agente in ogni coda.
+Gli agenti possono essere filtrati e ordinati per nome e interno.
+
+Le tabelle contenenti i dati di ogni agente sono divise in macroaree secondo il seguente schema:
+
+Login:
+
+- ultimo login
+- ultimo logout
+
+Chiamate:
+
+- chiamate risposte
+- chiamate in uscita
+- chiamate non risposte
+- da ultima chiamata (tempo trascorso dall'ultima chiamata)
+- tempo al telefono (tempo totale trascorso al telefono)
+
+Lunghezza chiamate:
+
+- min (durata minima delle chiamate)
+- max (durata massima delle chiamate)
+- media (durata media delle chiamate)
+- totale in ingresso (durata totale delle chiamate in ingresso)
+- totate in uscita (durata totale delle chiamate in uscita)
+
+Sotto le tabelle che mostrano le informazioni degli agenti si trova la lista delle code alle quali l'agente appartiene con le relative tabelle contenenti
+le informazioni dell'agente riferite alla coda.
+
+I dati visualizzati per ogni coda sono:
+
+- in coda (tempo trascorso in coda)
+- tempo in pausa
+- pausa su logon (percentuale del tempo in pausa rispetto al tempo trascorso in coda)
+- tempo al telefono
+
+Accanto al nome di ogni coda è presente lo stato dell'agente in coda e alla sinistra di ogni avatar nella parte alta della card è presente lo stato telefonico
