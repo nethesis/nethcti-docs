@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-04 15:39+0200\n"
+"POT-Creation-Date: 2018-09-27 11:00+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: Polidori Alessandro <alessandro.polidori@gmail.com>\n"
 "Language-Team: English (United States)\n"
 "Language: en_US\n"
-"X-Generator: Zanata 4.4.5\n"
+"X-Generator: Zanata 4.6.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../../introduction.rst:7
@@ -20,11 +20,9 @@ msgstr "Introduction"
 
 #: ../../introduction.rst:9
 msgid ""
-"Questo è il manuale utente del CTI, nelle varie sezioni verranno spiegate le "
-"diverse funzionalità per un utilizzo corretto dell'applicazione."
+"Questo è il manuale utente di |product|, nelle varie sezioni verranno "
+"spiegate le diverse funzionalità per un utilizzo corretto dell'applicazione."
 msgstr ""
-"This is the CTI user manual,  the various sections will explain the various "
-"features for correct application use."
 
 #: ../../introduction.rst:11
 msgid ""
@@ -67,11 +65,9 @@ msgstr "Release notes |version|"
 
 #: ../../introduction.rst:23
 msgid ""
-"CTI versione |version| introduce una nuova grafica, completamente rinnovata "
-"e semplificata per l'utente finale."
+"|product| versione |version| introduce una nuova grafica, completamente "
+"rinnovata e semplificata per l'utente finale."
 msgstr ""
-"CTI version |version| introduces a new graphic, completely renewed and "
-"simplified for the end user."
 
 #: ../../introduction.rst:25
 msgid "Funzionalità principali:"
@@ -87,8 +83,9 @@ msgstr "Centralized server storage of all user preferences"
 
 #: ../../introduction.rst:29
 msgid ""
-"Customer card più semplici da configurare e con una nuova veste grafica"
-msgstr "Easier customer card configuration with a new graphic design"
+"Customer card più semplici da configurare e con una veste grafica "
+"completamente rivista"
+msgstr ""
 
 #: ../../introduction.rst:30
 msgid "Gestione device multipli associati ad un singolo utente"
@@ -101,8 +98,8 @@ msgid ""
 msgstr "Enable to set the unified presence on all devices"
 
 #: ../../introduction.rst:32
-msgid "Configurazione avatar"
-msgstr "Avatar configuration"
+msgid "Personalizzazione avatar"
+msgstr ""
 
 #: ../../introduction.rst:33
 msgid "Nuova chat (XMPP)"
@@ -128,48 +125,52 @@ msgstr "New WebRTC softphone with video calling support (WebRTC only)"
 msgid "Visualizzazione sorgenti video anche dall'esterno della LAN"
 msgstr "Display video sources also from outside LAN"
 
-#: ../../introduction.rst:40
-msgid "Le seguenti funzioni non sono ancora disponibili:"
-msgstr "The following features are not yet available:"
-
-#: ../../introduction.rst:42
+#: ../../introduction.rst:38
 msgid "Conferenze audio"
 msgstr "Audio conference"
 
-#: ../../introduction.rst:43
-msgid "Post-it e note chiamate"
-msgstr "Post-it and call notes"
-
-#: ../../introduction.rst:44
-msgid "Sedi remote"
-msgstr "Remote site"
-
-#: ../../introduction.rst:45
-msgid "Integrazione SMS e notifiche offline (mail e SMS)"
-msgstr "SMS and offline notifications (mail and SMS)"
-
-#: ../../introduction.rst:46
+#: ../../introduction.rst:39
 msgid "Configurazione servizio notte"
 msgstr "Offhour configuration"
 
-#: ../../introduction.rst:47
+#: ../../introduction.rst:40
 msgid "Code: chiamate perse, login e logout automatico"
 msgstr "Queue: missed calls, automatic login and logout"
 
-#: ../../introduction.rst:48
-msgid ""
-"Inoltro della chiamata a nuemero o voicemail, su non disponibile/occupato"
-msgstr "Call forwarding to a number or voicemail on unavailable/busy"
-
-#: ../../introduction.rst:49
+#: ../../introduction.rst:41
 msgid "Visualizzazione stato dei fasci"
 msgstr "Trunk status display"
 
-#: ../../introduction.rst:50
+#: ../../introduction.rst:42
 msgid ""
 "Apertura di un url parametrizzato in corrispondenza della ricezione di una "
 "chiamata"
 msgstr "Opening a parameterized url when receiving a call"
+
+#: ../../introduction.rst:43
+msgid "Nethifier"
+msgstr "Nethifier"
+
+#: ../../introduction.rst:45
+msgid "Le seguenti funzioni non sono ancora disponibili:"
+msgstr "The following features are not yet available:"
+
+#: ../../introduction.rst:47
+msgid "Post-it e note chiamate"
+msgstr "Post-it and call notes"
+
+#: ../../introduction.rst:48
+msgid "Sedi remote"
+msgstr "Remote site"
+
+#: ../../introduction.rst:49
+msgid "Integrazione SMS e notifiche offline (mail e SMS)"
+msgstr "SMS and offline notifications (mail and SMS)"
+
+#: ../../introduction.rst:50
+msgid ""
+"Inoltro della chiamata a numero o voicemail, su non disponibile/occupato"
+msgstr ""
 
 #: ../../introduction.rst:51
 msgid "Script personalizzati per la gestione chiamate"
@@ -189,10 +190,6 @@ msgstr "Switchboard operator"
 msgid "Supervisore Code"
 msgstr "Queue Supervisor"
 
-#: ../../introduction.rst:55
-msgid "Nethifier"
-msgstr "Nethifier"
-
-#: ../../introduction.rst:57
-msgid "CTI |version| necessita di |parent_product| 14"
-msgstr "CTI |version| requires |parent_product| 14"
+#: ../../introduction.rst:56
+msgid "|product| |version| necessita di |parent_product| 14"
+msgstr ""
