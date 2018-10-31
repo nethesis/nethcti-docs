@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-27 11:00+0200\n"
+"POT-Creation-Date: 2018-10-31 10:29+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,26 +15,26 @@ msgstr ""
 "X-Generator: Zanata 4.6.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../../calls.rst:7
+#: ../../calls.rst:3
 msgid "Chiamate"
 msgstr "llamadas"
 
-#: ../../calls.rst:10
+#: ../../calls.rst:6
 msgid "Selezionare il dispositivo predefinito"
 msgstr "Seleccionar el dispositivo predefinido"
 
-#: ../../calls.rst:12
+#: ../../calls.rst:8
 msgid ""
 "Il menù dispositivi consente di selezionare il telefono di default tra "
 "quelli presenti nell'account. Se ci sono più telefoni associati, consente di "
 "selezionare quale sarà utilizzato per effettuare le chiamate."
 msgstr ""
 
-#: ../../calls.rst:14
+#: ../../calls.rst:10
 msgid "Per cambiare il dispositivo:"
 msgstr "Para cambiar el dispositivo:"
 
-#: ../../calls.rst:16
+#: ../../calls.rst:12
 msgid ""
 "Cliccare sull'icona con una cornetta e cuffie che si trova in alto a destra "
 "sulla barra di navigazione"
@@ -42,16 +42,16 @@ msgstr ""
 "Hacer clic en el icono del teléfono y auriculares que se encuentra arriba a "
 "la derecha en la barra de navegación"
 
-#: ../../calls.rst:17
+#: ../../calls.rst:13
 msgid "Cliccare sul dispositivo che si vuole selezionare come predefinito"
 msgstr ""
 "Hacer clic en el dispositivo que se quiere seleccionar como predefinido"
 
-#: ../../calls.rst:21
+#: ../../calls.rst:17
 msgid "Iniziare una chiamata"
 msgstr "Iniciar una llamada"
 
-#: ../../calls.rst:23
+#: ../../calls.rst:19
 msgid ""
 "Trovare il campo di testo \"Cerca o Componi...\" sulla barra nella parte "
 "superiore della pagina"
@@ -59,11 +59,11 @@ msgstr ""
 "Encontrar el campo de texto \"Busca o Compone...\" en la barra de la parte "
 "superior de la página"
 
-#: ../../calls.rst:24
+#: ../../calls.rst:20
 msgid "Scrivere nel campo di testo il numero che si desidera chiamare"
 msgstr "Escribir en el campo de texto el número al que se desea llamar"
 
-#: ../../calls.rst:25
+#: ../../calls.rst:21
 msgid ""
 "Cliccare il bottone verde \"Chiama\" vicino al campo di testo \"Cerca o "
 "Componi...\""
@@ -71,63 +71,63 @@ msgstr ""
 "Hacer clic en el botón verde \"Llama\" al lado del campo de texto \"Busca o "
 "Compone...\""
 
-#: ../../calls.rst:29
+#: ../../calls.rst:25
 msgid "Iniziare una chiamata utilizzando il pannello Operatore"
 msgstr "Iniciar una llamada utilizando el panel Operador"
 
-#: ../../calls.rst:32
+#: ../../calls.rst:28
 msgid "Primo metodo:"
 msgstr "Primer método:"
 
-#: ../../calls.rst:34
-#: ../../calls.rst:42
+#: ../../calls.rst:30
+#: ../../calls.rst:38
 msgid "Aprire il tab \"Operatori\""
 msgstr "Abrir la pestaña \"Operadores\""
 
-#: ../../calls.rst:35
+#: ../../calls.rst:31
 msgid "Aprire il tab di un gruppo del pannello operatore"
 msgstr "Abrir la pestaña de un grupo del panel operador"
 
-#: ../../calls.rst:36
-#: ../../calls.rst:44
+#: ../../calls.rst:32
+#: ../../calls.rst:40
 msgid "Cercare la persona che si vuole chiamare"
 msgstr "Buscar la persona que se quiere llamar"
 
-#: ../../calls.rst:37
+#: ../../calls.rst:33
 msgid "Verificare che sia disponibile e chiamarlo cliccando sul tasto verde"
 msgstr ""
 "Verificar que esté disponible y llamarlo haciendo clic en el botón verde"
 
-#: ../../calls.rst:40
+#: ../../calls.rst:36
 msgid "Secondo metodo:"
 msgstr "Segundo método:"
 
-#: ../../calls.rst:43
+#: ../../calls.rst:39
 msgid "Aprire il tab di un gruppo in cui è presente la persona da chiamare"
 msgstr ""
 "Abrir la pestaña de un grupo en el que está presente la persona a llamar"
 
-#: ../../calls.rst:45
+#: ../../calls.rst:41
 msgid "Cliccare sull'icona con tre punti verticali in alto a destra"
 msgstr "Hacer clic en el icono con tres puntos verticales arriba a la derecha"
 
-#: ../../calls.rst:46
+#: ../../calls.rst:42
 msgid "Selezionare \"Chiama\" per la chiamata vocale"
 msgstr "Seleccionar \"Llama\" para la llamada vocal"
 
-#: ../../calls.rst:49
+#: ../../calls.rst:45
 msgid "Se la chiamata non dovesse funzionare"
 msgstr "Si la llamada no funcionase"
 
-#: ../../calls.rst:51
+#: ../../calls.rst:47
 msgid "Verificare se è presente un messaggio d'errore in basso a destra"
 msgstr "Verificar si hay presente un mensaje de error abajo a la derecha"
 
-#: ../../calls.rst:54
+#: ../../calls.rst:50
 msgid "Funzionalità durante la chiamata"
 msgstr "Funcionalidad durante la llamada"
 
-#: ../../calls.rst:56
+#: ../../calls.rst:52
 msgid ""
 "Una volta che è iniziata una chiamata, sarà possibile usare differenti "
 "funzionalità"
@@ -135,15 +135,15 @@ msgstr ""
 "Una vez que es iniciada una llamada, será posible usar diferentes "
 "funcionalidades"
 
-#: ../../calls.rst:60
+#: ../../calls.rst:56
 msgid "Mettere in pausa una chiamata:"
 msgstr "Poner en pausa una llamada:"
 
-#: ../../calls.rst:59
-#: ../../calls.rst:65
-#: ../../calls.rst:83
-#: ../../calls.rst:90
-#: ../../calls.rst:103
+#: ../../calls.rst:55
+#: ../../calls.rst:61
+#: ../../calls.rst:79
+#: ../../calls.rst:86
+#: ../../calls.rst:99
 msgid ""
 "Individuare il menù di conversazione che compare in basso a destra durante "
 "una conversazione"
@@ -151,7 +151,7 @@ msgstr ""
 "Identificar el menú de conversaciones que aparece abajo a la derecha durante "
 "una conversación"
 
-#: ../../calls.rst:60
+#: ../../calls.rst:56
 msgid ""
 "Individuare e cliccare il bottone \"Pausa\" identificato dall'icona con due "
 "barre verticali"
@@ -159,15 +159,15 @@ msgstr ""
 "Identificar y hacer clic en el botón \"Pausa\" identificado con el icono con "
 "dos barras verticales"
 
-#: ../../calls.rst:62
+#: ../../calls.rst:58
 msgid "Per togliere la pausa, cliccare nuovamente sullo stesso bottone."
 msgstr "Para quitar la pausa, hacer clic nuevamente sobre el mismo botón"
 
-#: ../../calls.rst:66
+#: ../../calls.rst:62
 msgid "Registrare una chiamata:"
 msgstr "Grabar una llamada:"
 
-#: ../../calls.rst:66
+#: ../../calls.rst:62
 msgid ""
 "Individuare e cliccare il bottone \"Registra\" identificato dall'icona con "
 "il doppio cerchio"
@@ -175,7 +175,7 @@ msgstr ""
 "Identificar y hacer clic en el botón \"Grabar\" identificado con el icono "
 "con un doble círculo"
 
-#: ../../calls.rst:68
+#: ../../calls.rst:64
 msgid ""
 "Per fermare la registrazione, cliccare nuovamente sullo stesso bottone. Sarà "
 "possibile riascoltare le chiamate registrate nel tab \"Storico\""
@@ -183,44 +183,44 @@ msgstr ""
 "Para parar la grabación, hacer clic nuevamente sobre el mismo botón. Será "
 "posible, re escuchar las llamadas registradas en la pestaña \"Historial\".\n"
 
-#: ../../calls.rst:80
+#: ../../calls.rst:76
 msgid "Riascoltare la registrazione:"
 msgstr "Re escuchar la grabación:"
 
-#: ../../calls.rst:71
+#: ../../calls.rst:67
 msgid "Recarsi nel tab \"Storico\""
 msgstr "Dirigirse a la pestaña \"Historial\""
 
-#: ../../calls.rst:72
+#: ../../calls.rst:68
 msgid "Nella lista delle chiamate, selezionare la chiamata interessata"
 msgstr "En la lista de las llamadas, seleccionar la llamada interesada"
 
-#: ../../calls.rst:73
+#: ../../calls.rst:69
 msgid "Se è stata effettuata una registrazione, ci sono tre icone disponibili"
 msgstr ""
 
-#: ../../calls.rst:75
+#: ../../calls.rst:71
 msgid "Ogni icona ha una funzionalità diversa:"
 msgstr "Cada icono tiene una funcionalidad diversa:"
 
-#: ../../calls.rst:77
+#: ../../calls.rst:73
 msgid "Megafono: ti permette di riascoltare la conversazione"
 msgstr "Megáfono: te permite re escuchar las conversaciones"
 
-#: ../../calls.rst:78
+#: ../../calls.rst:74
 msgid ""
 "Freccia: ti permette di scaricare la registrazione (effettuare il download)"
 msgstr "Flecha: te permite descargar las grabaciones (efectuar una descarga)"
 
-#: ../../calls.rst:79
+#: ../../calls.rst:75
 msgid "Cestino: ti permette di eliminare la registrazione"
 msgstr "Papelera: te permite eliminar la grabación"
 
-#: ../../calls.rst:84
+#: ../../calls.rst:80
 msgid "Mettere in \"Muto\" una chiamata:"
 msgstr "Poner en \"Mute\" una llamada"
 
-#: ../../calls.rst:84
+#: ../../calls.rst:80
 msgid ""
 "Individuare e cliccare il bottone \"Muto\" identificato dall'icona del "
 "microfono"
@@ -228,15 +228,15 @@ msgstr ""
 "Identificar y hacer clic en el botón \"Mute\" identificado con el icono del "
 "micrófono"
 
-#: ../../calls.rst:86
+#: ../../calls.rst:82
 msgid "Per togliere il muto, cliccare nuovamente sullo stesso bottone."
 msgstr "Para quitar el mute, hacer clic nuevamente sobre el mismo botón."
 
-#: ../../calls.rst:91
+#: ../../calls.rst:87
 msgid "Parcheggiare una chiamata:"
 msgstr "Aparcar una llamada:"
 
-#: ../../calls.rst:91
+#: ../../calls.rst:87
 msgid ""
 "Individuare e cliccare il bottone \"Parcheggia\" identificato dall'icona con "
 "la lettera P"
@@ -244,7 +244,7 @@ msgstr ""
 "Identificar y hacer clic en el botón \"Aparcar\" identificado con el icono "
 "con la letra P"
 
-#: ../../calls.rst:93
+#: ../../calls.rst:89
 msgid ""
 "Per riprendere una chiamata parcheggiata, andare nella pagina \"Parcheggi\" "
 "cliccando la lettera \"P\" in alto a destra nella pagina \"Operatori\""
@@ -253,21 +253,21 @@ msgstr ""
 "haciendo clic en la letra \"P\" arriba a la derecha de la página "
 "\"Operadores\""
 
-#: ../../calls.rst:100
+#: ../../calls.rst:96
 msgid "Riprendere una chiamata parcheggiata:"
 msgstr "Reanudar una llamada aparcada:"
 
-#: ../../calls.rst:96
+#: ../../calls.rst:92
 msgid "Cliccare l'icona \"P\" in alto a destra nella sezione \"Operatori\""
 msgstr ""
 "Hacer clic en el icono \"P\" arriba a la derecha en la sección "
 "\"Operadores\""
 
-#: ../../calls.rst:97
+#: ../../calls.rst:93
 msgid "Viene mostrata la lista di tutti i parcheggi disponibili"
 msgstr "Viene visualizada la lista de todos los aparcamientos disponibles"
 
-#: ../../calls.rst:98
+#: ../../calls.rst:94
 msgid ""
 "Cliccare il bottone verde sotto la chiamata per riprendere la chiamata "
 "parcheggiata"
@@ -275,18 +275,18 @@ msgstr ""
 "Hacer clic en el botón verde debajo de la llamada para reanudar la llamada "
 "aparcada "
 
-#: ../../calls.rst:99
+#: ../../calls.rst:95
 msgid ""
 "Rispondere alla chiamata in arrivo, per continuare a parlare con la "
 "controparte"
 msgstr ""
 "Responder a la llamada entrante, para continuar hablando con la otra parte"
 
-#: ../../calls.rst:106
+#: ../../calls.rst:102
 msgid "Trasferire una chiamata:"
 msgstr "Transferir una llamada:"
 
-#: ../../calls.rst:104
+#: ../../calls.rst:100
 msgid ""
 "Individuare e cliccare il bottone \"Trasferisci\" identificato dall'icona "
 "con la doppia freccia"
@@ -294,7 +294,7 @@ msgstr ""
 "Identificar y hacer clic en el botón \"Transferir\" identificado con el "
 "icono con la doble flecha"
 
-#: ../../calls.rst:105
+#: ../../calls.rst:101
 msgid ""
 "Inserire nel campo di testo l'interno o il nome dell'utente a cui si vuole "
 "trasferire la chiamata"
@@ -302,15 +302,15 @@ msgstr ""
 "Introducir en el campo de texto el interno o el nombre del usuario al que se "
 "quiere transferir la llamada"
 
-#: ../../calls.rst:106
+#: ../../calls.rst:102
 msgid "Decidere se fare un trasferimento \"Cieco\" o \"Consultativo\""
 msgstr "Decidir si hacer una transferencia \"Directa\" o \"Consultiva\""
 
-#: ../../calls.rst:109
+#: ../../calls.rst:105
 msgid "URL parametrizzato"
 msgstr ""
 
-#: ../../calls.rst:111
+#: ../../calls.rst:107
 msgid ""
 "L'utente ha la possibilità di poter invocare un URL parametrizzato in "
 "corrispondenza di una chiamata in arrivo. L'URL viene automaticamente "
@@ -319,39 +319,39 @@ msgid ""
 "`paramurl-section`\" del |product|):"
 msgstr ""
 
-#: ../../calls.rst:115
+#: ../../calls.rst:111
 msgid "mai"
 msgstr ""
 
-#: ../../calls.rst:116
+#: ../../calls.rst:112
 msgid "quando la chiamata in arrivo sta squillando"
 msgstr ""
 
-#: ../../calls.rst:117
+#: ../../calls.rst:113
 msgid "quando la chiamata in arrivo è stato risposta"
 msgstr ""
 
-#: ../../calls.rst:118
+#: ../../calls.rst:114
 msgid "tramite un pulsante specifico presente nel box di gestione chiamata"
 msgstr ""
 
-#: ../../calls.rst:120
+#: ../../calls.rst:116
 msgid ""
 "L'URL viene configurato dall'amministratore che decide anche la lista degli "
 "utenti abilitati a tale funzione."
 msgstr ""
 
-#: ../../calls.rst:122
+#: ../../calls.rst:118
 msgid ""
 "Affinché l'URL possa essere invocato è necessario che l'utente abbia "
 "abilitato la visualizzazione dei popups nel proprio browser !"
 msgstr ""
 
-#: ../../calls.rst:125
+#: ../../calls.rst:121
 msgid "Conferenze audio"
 msgstr ""
 
-#: ../../calls.rst:127
+#: ../../calls.rst:123
 msgid ""
 "È una conferenza telefonica i cui partecipanti possono comunicare tra loro a "
 "voce, previo appuntamento. Praticamente il sistema consente di estendere le "
@@ -361,64 +361,64 @@ msgid ""
 "operazioni privilegiate, come ad esempio:"
 msgstr ""
 
-#: ../../calls.rst:133
+#: ../../calls.rst:129
 msgid "far uscire selettivamente gli utenti"
 msgstr ""
 
-#: ../../calls.rst:134
+#: ../../calls.rst:130
 msgid "terminare l'intera conferenza"
 msgstr ""
 
-#: ../../calls.rst:135
+#: ../../calls.rst:131
 msgid ""
 "mettere in \"muto/un-muto\" selettivamente i singoli partecipanti o tutti "
 "con un unico click"
 msgstr ""
 
-#: ../../calls.rst:136
+#: ../../calls.rst:132
 msgid "aggiungere nuovi utenti"
 msgstr ""
 
-#: ../../calls.rst:137
+#: ../../calls.rst:133
 msgid "uscire/entrare dalla sua conferenza"
 msgstr ""
 
-#: ../../calls.rst:139
+#: ../../calls.rst:135
 msgid "Per creare una nuova conferenza:"
 msgstr ""
 
-#: ../../calls.rst:141
+#: ../../calls.rst:137
 msgid "chiamare il primo partecipante tramite chiamata \"normale\""
 msgstr ""
 
-#: ../../calls.rst:142
+#: ../../calls.rst:138
 msgid ""
 "una volta instaurata la conversazione è sufficiente cliccare il relativo "
 "pulsante presente nel box di gestione chiamata"
 msgstr ""
 
-#: ../../calls.rst:143
+#: ../../calls.rst:139
 msgid ""
 "a questo punto una nuova conferenza è stata creata e vi appartiene solamente "
 "il destinatario della chiamata"
 msgstr ""
 
-#: ../../calls.rst:144
+#: ../../calls.rst:140
 msgid "un nuovo box grafico compare per poter gestire la conferenza stessa"
 msgstr ""
 
-#: ../../calls.rst:145
+#: ../../calls.rst:141
 msgid ""
 "ripetere il punto 1 e 2 per aggiungere il secondo partecipante e così via "
 "per altri"
 msgstr ""
 
-#: ../../calls.rst:146
+#: ../../calls.rst:142
 msgid ""
 "quando tutti gli utenti sono stati aggiunti, il moderatore può entrare nella "
 "sua conferenza tramite il pulsante \"Entra\""
 msgstr ""
 
-#: ../../calls.rst:147
+#: ../../calls.rst:143
 msgid "a questo punto tutti possono parlare liberamente"
 msgstr ""

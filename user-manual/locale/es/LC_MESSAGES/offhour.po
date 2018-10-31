@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-27 11:00+0200\n"
+"POT-Creation-Date: 2018-10-31 10:29+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,11 +14,11 @@ msgstr ""
 "X-Generator: Zanata 4.6.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../../offhour.rst:7
+#: ../../offhour.rst:3
 msgid "Fuori Orario"
 msgstr "Fuera Horario"
 
-#: ../../offhour.rst:9
+#: ../../offhour.rst:5
 msgid ""
 "Nella sezione \"Fuori Orario\" è possibile configurare per le rotte in "
 "ingresso l’ascolto di un messaggio audio per un certo intervallo temporale, "
@@ -27,19 +27,19 @@ msgid ""
 "“Advanced Off Hour\"."
 msgstr "En la sección"
 
-#: ../../offhour.rst:14
+#: ../../offhour.rst:10
 msgid "Vista del Fuori Orario"
 msgstr "Vista del Fuera Horario"
 
-#: ../../offhour.rst:16
+#: ../../offhour.rst:12
 msgid "La sezione è divisa in:"
 msgstr "La sección está dividida en:"
 
-#: ../../offhour.rst:19
+#: ../../offhour.rst:15
 msgid "Rotte"
 msgstr "Rutas"
 
-#: ../../offhour.rst:21
+#: ../../offhour.rst:17
 msgid ""
 "Nella sezione Rotte, vengono visualizzate le rotte in ingresso. È possibile "
 "visualizzare una panoramica generale ed espandere per informazioni e "
@@ -49,27 +49,27 @@ msgstr ""
 "visualizar una panorámica general y expandir para información o "
 "modificaciones."
 
-#: ../../offhour.rst:24
+#: ../../offhour.rst:20
 msgid "Nella parte superiore di ogni scheda è presente:"
 msgstr "En la parte superior de cada tarjeta está presente:"
 
-#: ../../offhour.rst:26
+#: ../../offhour.rst:22
 msgid "l'interno associato alla rotta / il numero esterno"
 msgstr "el interno asociado a la ruta / el número externo"
 
-#: ../../offhour.rst:27
+#: ../../offhour.rst:23
 msgid "la descrizione della rotta"
 msgstr "la descripción de la ruta"
 
-#: ../../offhour.rst:28
+#: ../../offhour.rst:24
 msgid "in alto a destra il pulsante per espandere la scheda"
 msgstr "arriba a la derecha el botón para expandir la tarjeta"
 
-#: ../../offhour.rst:29
+#: ../../offhour.rst:25
 msgid "durata della chiamata"
 msgstr "duración de la llamada"
 
-#: ../../offhour.rst:31
+#: ../../offhour.rst:27
 msgid ""
 "Nel caso in cui il fuori orario per la rotta non sia mai stato configurato "
 "il pulsante a destra servirà per aprire il form di configurazione."
@@ -78,44 +78,44 @@ msgstr ""
 "configurado el botón a la derecha servirá para abrir el formulario de "
 "configuración."
 
-#: ../../offhour.rst:34
+#: ../../offhour.rst:30
 msgid "Nelle sezioni sottostanti della scheda è mostrato:"
 msgstr "En las secciones por debajo de la tarjeta viene mostrado:"
 
-#: ../../offhour.rst:36
+#: ../../offhour.rst:32
 msgid "il periodo di attivazione"
 msgstr "el periodo de activación "
 
-#: ../../offhour.rst:37
+#: ../../offhour.rst:33
 msgid "la destinazione della chiamata"
 msgstr "la destinación de la llamada"
 
-#: ../../offhour.rst:38
+#: ../../offhour.rst:34
 msgid ""
 "il pulsante per riaprire il form di configurazione e apportare modifiche"
 msgstr ""
 "el botón para volver a abrir el formulario de configuración y aportar "
 "modificaciones"
 
-#: ../../offhour.rst:40
+#: ../../offhour.rst:36
 msgid "Nella parte inferiore della scheda è riportato:"
 msgstr "En la parte inferior de la tarjeta se informa de:"
 
-#: ../../offhour.rst:42
+#: ../../offhour.rst:38
 msgid "il tipo di destinazione"
 msgstr "el tipo de destinación"
 
-#: ../../offhour.rst:43
+#: ../../offhour.rst:39
 msgid ""
 "il pulsante per abilitare e disabilitare il fuori orario per ogni rotta"
 msgstr ""
 "el botón para habilitar y deshabilitarse el fuera de horario para cada ruta"
 
-#: ../../offhour.rst:46
+#: ../../offhour.rst:42
 msgid "Annunci"
 msgstr "Anuncios"
 
-#: ../../offhour.rst:48
+#: ../../offhour.rst:44
 msgid ""
 "La sezione annunci permette di caricare e registrare nuovi messaggi vocali o "
 "compiere azioni sugli annunci già presenti."
@@ -123,19 +123,19 @@ msgstr ""
 "La sección anuncios permite cargar y grabar nuevos mensajes vocales o "
 "realizar acciones sobre los anuncios ya presentes."
 
-#: ../../offhour.rst:50
+#: ../../offhour.rst:46
 msgid "Nella parte superiore sono mostrati:"
 msgstr "En la parte superior son mostrados:"
 
-#: ../../offhour.rst:52
+#: ../../offhour.rst:48
 msgid "il pulsante per caricare un nuovo annuncio"
 msgstr "el botón para cargar un nuevo anuncio"
 
-#: ../../offhour.rst:53
+#: ../../offhour.rst:49
 msgid "pulsante per registrare un nuovo annuncio"
 msgstr "botón para grabar un nuevo anuncio"
 
-#: ../../offhour.rst:55
+#: ../../offhour.rst:51
 msgid ""
 "Nella parte inferiore è mostrata la tabella dei messaggi già presenti "
 "suddivisa nelle seguenti colonne:"
@@ -143,31 +143,31 @@ msgstr ""
 "En la parte inferior viene mostrada la tabla de los mensajes ya presentes "
 "subdividida en las siguientes columnas:"
 
-#: ../../offhour.rst:57
+#: ../../offhour.rst:53
 msgid "descrizione del messaggio"
 msgstr "descripción del mensaje"
 
-#: ../../offhour.rst:58
+#: ../../offhour.rst:54
 msgid "autore"
 msgstr "autor"
 
-#: ../../offhour.rst:59
+#: ../../offhour.rst:55
 msgid "data di creazione"
 msgstr "fecha de creación"
 
-#: ../../offhour.rst:60
+#: ../../offhour.rst:56
 msgid "privacy (pubblico o privato)"
 msgstr "privacidad (público o privado)"
 
-#: ../../offhour.rst:61
+#: ../../offhour.rst:57
 msgid "azioni (ascolta, scarica,  elimina, modifica)"
 msgstr "acciones (escucha, descarga, elimina, modifica)"
 
-#: ../../offhour.rst:64
+#: ../../offhour.rst:60
 msgid "Form di configurazione Fuori Orario"
 msgstr "Formulario de configuración Fuera Horario"
 
-#: ../../offhour.rst:66
+#: ../../offhour.rst:62
 msgid ""
 "Per configurare e modificare il fuori orario di una rotta è necessario "
 "compilare un form composto da:"
@@ -175,31 +175,31 @@ msgstr ""
 "Para configurar y modificar el fuera de horario de una ruta es necesario "
 "rellenar un formulario compuesto por:"
 
-#: ../../offhour.rst:68
+#: ../../offhour.rst:64
 msgid "checkbox sempre abilitato"
 msgstr "checkbox siempre habilitado"
 
-#: ../../offhour.rst:69
+#: ../../offhour.rst:65
 msgid "calendario per la data e ora d'inizio e di fine"
 msgstr "calendario para la fecha y hora de inicio y de fin"
 
-#: ../../offhour.rst:70
+#: ../../offhour.rst:66
 msgid "select per selezionare il tipo di destinazione"
 msgstr "select para seleccionar el tipo de destinación"
 
-#: ../../offhour.rst:71
+#: ../../offhour.rst:67
 msgid "specifiche della destinazione"
 msgstr "especificaciones de la destinación "
 
-#: ../../offhour.rst:72
+#: ../../offhour.rst:68
 msgid "pulsante salva e pulsante annulla"
 msgstr "botón guardar y botón cancelar"
 
-#: ../../offhour.rst:75
+#: ../../offhour.rst:71
 msgid "Form caricamento Annuncio"
 msgstr "Formulario carga Anuncio"
 
-#: ../../offhour.rst:77
+#: ../../offhour.rst:73
 msgid ""
 "Nella sezione annunci per caricare un messaggio audio si apre un popup da "
 "cui selezionare il file di tipo **mp3** oppure **wav** e a seguire un form "
@@ -209,27 +209,27 @@ msgstr ""
 "donde seleccionar el archivo de tipo **mp3** o también **wav** y a "
 "continuación un formulario compuesto por:"
 
-#: ../../offhour.rst:80
+#: ../../offhour.rst:76
 msgid "campo con il nome del file selezionato"
 msgstr "campo con el nombre del archivo seleccionado"
 
-#: ../../offhour.rst:81
+#: ../../offhour.rst:77
 msgid "descrizione dell'annuncio"
 msgstr "descripción del anuncio"
 
-#: ../../offhour.rst:82
+#: ../../offhour.rst:78
 msgid "privacy"
 msgstr "privacidad"
 
-#: ../../offhour.rst:83
+#: ../../offhour.rst:79
 msgid "pulsante \"Salva\" e pulsante \"Annulla\""
 msgstr "botón \"Guardar\" y botón \"Cancelar\""
 
-#: ../../offhour.rst:86
+#: ../../offhour.rst:82
 msgid "Form modifica/registrazione Annuncio"
 msgstr "Formulario de modificación/grabación Anuncio"
 
-#: ../../offhour.rst:88
+#: ../../offhour.rst:84
 msgid ""
 "Per la registrazione e la modifica di un annuncio è necessario complilare il "
 "form che compare, contenente la descrizione e la privacy che si desidera "
@@ -239,17 +239,17 @@ msgstr ""
 "formulario que aparece, contiene la descripción y la privacidad que se desea "
 "asociar al mensaje."
 
-#: ../../offhour.rst:91
+#: ../../offhour.rst:87
 msgid "Configurare il Fuori Orario di una Rotta"
 msgstr "Configurar el Fuera Horario de una Ruta"
 
-#: ../../offhour.rst:93
-#: ../../offhour.rst:101
-#: ../../offhour.rst:110
+#: ../../offhour.rst:89
+#: ../../offhour.rst:97
+#: ../../offhour.rst:106
 msgid "aprire la tab \"Rotte\""
 msgstr "abrir la pestaña \"Rutas\""
 
-#: ../../offhour.rst:94
+#: ../../offhour.rst:90
 msgid ""
 "premere sull'icona in alto a destra della scheda per aprire il form di "
 "configurazione"
@@ -257,78 +257,78 @@ msgstr ""
 "pulsar el icono situado arriba a la derecha de la tarjeta para abrir el "
 "formulario de configuración"
 
-#: ../../offhour.rst:95
+#: ../../offhour.rst:91
 msgid "compilare il form con il periodo e la destinazione desiderate"
 msgstr "compilar el formulario con el periodo y la destinación deseada"
 
-#: ../../offhour.rst:96
-#: ../../offhour.rst:105
-#: ../../offhour.rst:121
-#: ../../offhour.rst:131
-#: ../../offhour.rst:161
+#: ../../offhour.rst:92
+#: ../../offhour.rst:101
+#: ../../offhour.rst:117
+#: ../../offhour.rst:127
+#: ../../offhour.rst:157
 msgid "premere il pulsante \"Salva\""
 msgstr "pulsar el botón \"Guardar\""
 
-#: ../../offhour.rst:99
+#: ../../offhour.rst:95
 msgid "Modificare il Fuori Orario di una Rotta"
 msgstr "Modificar el Fuera Horario de una Ruta"
 
-#: ../../offhour.rst:102
+#: ../../offhour.rst:98
 msgid "espandere la scheda della rotta da modificare"
 msgstr "expandir la tarjeta de la ruta a modificar"
 
-#: ../../offhour.rst:103
+#: ../../offhour.rst:99
 msgid "premere il pulsante modifica per aprire il form di configurazione"
 msgstr "pulsar el botón modificar para abrir el formulario de configuración"
 
-#: ../../offhour.rst:104
+#: ../../offhour.rst:100
 msgid "apportare le modifiche desiderate al form"
 msgstr "aportar las modificaciones deseadas al formulario"
 
-#: ../../offhour.rst:108
+#: ../../offhour.rst:104
 msgid "Disabilitare il Fuori Orario di una Rotta"
 msgstr "Deshabilitar el Fuera Horario de una Ruta"
 
-#: ../../offhour.rst:111
+#: ../../offhour.rst:107
 msgid ""
 "premere il pulsante viola in basso a destra della scheda da disabilitare"
 msgstr ""
 "pulsar el botón morado debajo a la derecha de la tarjeta a deshabilitar"
 
-#: ../../offhour.rst:114
+#: ../../offhour.rst:110
 msgid "Caricare un Annuncio"
 msgstr "Cargar un anuncio"
 
-#: ../../offhour.rst:116
-#: ../../offhour.rst:126
-#: ../../offhour.rst:136
-#: ../../offhour.rst:142
-#: ../../offhour.rst:148
-#: ../../offhour.rst:158
+#: ../../offhour.rst:112
+#: ../../offhour.rst:122
+#: ../../offhour.rst:132
+#: ../../offhour.rst:138
+#: ../../offhour.rst:144
+#: ../../offhour.rst:154
 msgid "aprire la tab \"Annunci\""
 msgstr "abrir la pestaña \"Anuncios\""
 
-#: ../../offhour.rst:117
+#: ../../offhour.rst:113
 msgid "premere il pulsante in alto a sinistra \"Carica annuncio\""
 msgstr "pulsar el botón situado arriba a la izquierda \"Cargar anuncio\""
 
-#: ../../offhour.rst:118
+#: ../../offhour.rst:114
 msgid "selezionare un file in formato wav oppure mp3"
 msgstr "seleccionar un archivo en formato wav o también mp3"
 
-#: ../../offhour.rst:119
+#: ../../offhour.rst:115
 msgid "inserire una descrizione diversa da quelle già esistenti"
 msgstr "introducir una descripción diferente a aquella ya existente"
 
-#: ../../offhour.rst:120
+#: ../../offhour.rst:116
 msgid "selezionare il livello di privacy desiderato"
 msgstr "seleccionar el nivel de privacidad deseado"
 
-#: ../../offhour.rst:124
+#: ../../offhour.rst:120
 msgid "Registare un Annuncio"
 msgstr "Registrar un Anuncio"
 
-#: ../../offhour.rst:127
+#: ../../offhour.rst:123
 msgid ""
 "selezionare il dispositivo sul quale si desidera ricevere la chiamata per la "
 "registrazione del messaggio"
@@ -336,11 +336,11 @@ msgstr ""
 "seleccionar el dispositivo en el cual se desea recibir la llamada para la "
 "grabación del mensaje"
 
-#: ../../offhour.rst:128
+#: ../../offhour.rst:124
 msgid "premere il pulsante \"Registra annuncio\""
 msgstr "pulsar el botón \"Grabar anuncio\""
 
-#: ../../offhour.rst:129
+#: ../../offhour.rst:125
 msgid ""
 "rispondere al WebRTC oppure al telefono fisico in base al dispositivo "
 "selezionato e registrare il messaggio"
@@ -348,7 +348,7 @@ msgstr ""
 "responder al WebRTC también al teléfono físico en base al dispositivo "
 "seleccionado y registrar el mensaje"
 
-#: ../../offhour.rst:130
+#: ../../offhour.rst:126
 msgid ""
 "chiudere la chiamata e compilare il form che compare con la descrizione e il "
 "livello di privacy selezionato"
@@ -356,11 +356,11 @@ msgstr ""
 "cerrar la llamada y compilar el formulario que aparece con la descripción y "
 "el nivel de privacidad seleccionado"
 
-#: ../../offhour.rst:134
+#: ../../offhour.rst:130
 msgid "Ascoltare un Annuncio"
 msgstr "Escuchar un Anuncio"
 
-#: ../../offhour.rst:137
+#: ../../offhour.rst:133
 msgid ""
 "nella tabella degli annunci premere il pulsante \"Play\" in corrispondenza "
 "dell'annuncio che si desidera ascoltare"
@@ -368,11 +368,11 @@ msgstr ""
 "en la tabla de los anuncios pulsar el botón \"Play\" correspondiente al "
 "anuncio que se desea escuchar"
 
-#: ../../offhour.rst:140
+#: ../../offhour.rst:136
 msgid "Scaricare un Annuncio"
 msgstr "Descargar un Anuncio"
 
-#: ../../offhour.rst:143
+#: ../../offhour.rst:139
 msgid ""
 "nella tabella degli annunci premere il pulsante \"Download\" in "
 "corrispondenza dell'annuncio che si desidera scaricare"
@@ -380,11 +380,11 @@ msgstr ""
 "en la tabla de los anuncios pulsar el botón \"Descargar\" correspondiente al "
 "anuncio que se desea descargar"
 
-#: ../../offhour.rst:146
+#: ../../offhour.rst:142
 msgid "Eliminare un Annuncio"
 msgstr "Eliminar un anuncio"
 
-#: ../../offhour.rst:149
+#: ../../offhour.rst:145
 msgid ""
 "nella tabella degli annunci premere il pulsante \"Elimina\" in "
 "corrispondenza dell'annuncio che si desidera eliminare"
@@ -392,11 +392,11 @@ msgstr ""
 "en la tabla de los anuncios pulsar el botón \"Eliminar\" correspondiente al "
 "anuncio que se desea eliminar"
 
-#: ../../offhour.rst:150
+#: ../../offhour.rst:146
 msgid "confermare l'eliminazione dell'annuncio selezionato"
 msgstr "confirmar la eliminación del anuncio seleccionado "
 
-#: ../../offhour.rst:152
+#: ../../offhour.rst:148
 msgid ""
 "Nel caso in cui l'annuncio che si desidera eliminare è associato alla "
 "configurazione dell'offhour di una rotta o più, in caso di conferma "
@@ -408,11 +408,11 @@ msgstr ""
 "confirmación de la eliminación, vendrán canceladas todas las configuraciones "
 "a las cuales esté asociado el mensaje."
 
-#: ../../offhour.rst:156
+#: ../../offhour.rst:152
 msgid "Modificare un Annuncio"
 msgstr "Modificar un Anuncio"
 
-#: ../../offhour.rst:159
+#: ../../offhour.rst:155
 msgid ""
 "premere il pulsante \"Modifica\" in corrispondenza dell'annuncio che si "
 "desidera modificare"
@@ -420,6 +420,6 @@ msgstr ""
 "pulsar el botón \"Modificar\" correspondiente al anuncio que se desea "
 "modificar"
 
-#: ../../offhour.rst:160
+#: ../../offhour.rst:156
 msgid "modificare la descrizione oppure il livello di privacy"
 msgstr "modificar la descripción también el nivel de privacidad"
