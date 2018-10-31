@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-27 11:00+0200\n"
+"POT-Creation-Date: 2018-10-31 10:29+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Generator: Zanata 4.6.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../../status.rst:7
+#: ../../status.rst:3
 msgid "Menu Stato"
 msgstr "Menú Estado"
 
-#: ../../status.rst:9
+#: ../../status.rst:5
 msgid ""
 "Il menu \"Stato\" consente di modificare lo stato dell'utente, accedere alle "
 "impostazioni o uscire dall'applicazione."
@@ -27,13 +27,13 @@ msgstr ""
 "El menú \"Estado\" permite modificar el estado del usuario, acceder a las "
 "configuraciones o salir de la aplicación."
 
-#: ../../status.rst:13
+#: ../../status.rst:9
 msgid "Cambiare lo stato pubblico"
 msgstr "Cambiar el estado público"
 
-#: ../../status.rst:15
-#: ../../status.rst:21
-#: ../../status.rst:27
+#: ../../status.rst:11
+#: ../../status.rst:17
+#: ../../status.rst:23
 msgid ""
 "Cliccare sul proprio nome nell'angolo in alto a destra dell'applicazione per "
 "visualizzare il menu di \"Stato\""
@@ -41,22 +41,22 @@ msgstr ""
 "Hacer clic en el propio nombre en la esquina de arriba a la derecha de la "
 "aplicación para visualizar el menú de \"Estado\""
 
-#: ../../status.rst:16
+#: ../../status.rst:12
 msgid "Scegliere il proprio stato pubblico cliccando su di esso"
 msgstr "Elegir el propio estado público haciendo clic en él"
 
-#: ../../status.rst:19
+#: ../../status.rst:15
 msgid "Impostazioni"
 msgstr "Configuración"
 
-#: ../../status.rst:22
+#: ../../status.rst:18
 msgid "Cliccare su \"Impostazioni\""
 msgstr "Hacer clic en \"Configuración\""
 
-#: ../../status.rst:25
+#: ../../status.rst:21
 msgid "Uscita (Logout)"
 msgstr "Salida (Logout)"
 
-#: ../../status.rst:28
+#: ../../status.rst:24
 msgid "Cliccare su \"Logout\""
 msgstr "Hacer clic en \"Logout\""
