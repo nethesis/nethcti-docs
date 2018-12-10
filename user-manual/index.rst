@@ -13,6 +13,7 @@ Generale
    :maxdepth: 2
 
    introduction
+   release_notes
    status
    settings
    notifications
