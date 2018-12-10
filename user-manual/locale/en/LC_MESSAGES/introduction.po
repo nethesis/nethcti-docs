@@ -1,15 +1,16 @@
 # Polidori Alessandro <alessandro.polidori@gmail.com>, 2017. #zanata
 # Andrea Marchionni <andrea.marchionni@nethesis.it>, 2018. #zanata
+# Polidori Alessandro <alessandro.polidori@gmail.com>, 2018. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-31 10:29+0100\n"
+"POT-Creation-Date: 2018-12-10 16:59+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-10-02 02:10+0000\n"
-"Last-Translator: Andrea Marchionni <andrea.marchionni@nethesis.it>\n"
+"PO-Revision-Date: 2018-12-10 04:04+0000\n"
+"Last-Translator: Polidori Alessandro <alessandro.polidori@gmail.com>\n"
 "Language-Team: English (United States)\n"
 "Language: en_US\n"
 "X-Generator: Zanata 4.6.2\n"
@@ -29,10 +30,11 @@ msgstr ""
 
 #: ../../introduction.rst:7
 msgid ""
-"Per la sezione installazione, recarsi al manuale Amministratore del "
-"centralino"
+"Per la sezione installazione, recarsi al `manuale Amministratore del "
+"centralino. <https://nethvoice.docs.nethesis.it/it/v14>`_"
 msgstr ""
-"For the installation section, go to the Administrator switchboard manual"
+"For the installation section, go to the `switchboard Administrator manual. "
+"<Https://nethvoice.docs.nethesis.it/it/v14>`_"
 
 #: ../../introduction.rst:9
 msgid ""
@@ -61,140 +63,3 @@ msgstr ""
 "Once logged in, the page shows the application and the various sections. "
 "Every part of the application is dealt with in the following sections of the "
 "manual."
-
-#: ../../introduction.rst:17
-msgid "Note di rilascio |version|"
-msgstr "Release notes |version|"
-
-#: ../../introduction.rst:19
-msgid ""
-"|product| versione |version| introduce una nuova grafica, completamente "
-"rinnovata e semplificata per l'utente finale."
-msgstr ""
-"|product| version |version| introduces a new graphic, completely renewed and "
-"simplified for the final user."
-
-#: ../../introduction.rst:21
-msgid "Funzionalità principali:"
-msgstr "Main features"
-
-#: ../../introduction.rst:23
-msgid "Configurazione semplificata attraverso il wizard di |parent_product|"
-msgstr "Simplified configuration through the |parent_product| wizard"
-
-#: ../../introduction.rst:24
-msgid "Salvataggio centralizzato sul server di tutte le preferenze utente"
-msgstr "Centralized server storage of all user preferences"
-
-#: ../../introduction.rst:25
-msgid ""
-"Customer card più semplici da configurare e con una veste grafica "
-"completamente rivista"
-msgstr "Easier customer card configuration with a new graphic design"
-
-#: ../../introduction.rst:26
-msgid "Gestione device multipli associati ad un singolo utente"
-msgstr "Multiple device management associated with a single user"
-
-#: ../../introduction.rst:27
-msgid ""
-"Possibilità di impostare la presence in modo unificato su tutti i "
-"dispositivi"
-msgstr "Enable to set the unified presence on all devices"
-
-#: ../../introduction.rst:28
-msgid "Personalizzazione avatar"
-msgstr "Avatar customization"
-
-#: ../../introduction.rst:29
-msgid "Nuova chat (XMPP)"
-msgstr "New chat (XMPP)"
-
-#: ../../introduction.rst:30
-msgid "Restyling grafico e funzionale del pannello operatore"
-msgstr "Graphic and functional restyling of the operator panel"
-
-#: ../../introduction.rst:31
-msgid ""
-"Possibilità di raggruppare i risultati della ricerca in rubrica per persona "
-"o per azienda"
-msgstr "Enable to group phonebook search results by heading or by company"
-
-#: ../../introduction.rst:32
-msgid ""
-"Nuovo softphone WebRTC con supporto alle videochiamate (solo fra interni "
-"WebRTC)"
-msgstr "New WebRTC softphone with video calling support (WebRTC only)"
-
-#: ../../introduction.rst:33
-msgid "Visualizzazione sorgenti video anche dall'esterno della LAN"
-msgstr "Display video sources also from outside LAN"
-
-#: ../../introduction.rst:34
-msgid "Conferenze audio"
-msgstr "Audio conference"
-
-#: ../../introduction.rst:35
-msgid "Configurazione servizio notte"
-msgstr "Offhour configuration"
-
-#: ../../introduction.rst:36
-msgid "Code: chiamate perse, login e logout automatico"
-msgstr "Queue: missed calls, automatic login and logout"
-
-#: ../../introduction.rst:37
-msgid "Visualizzazione stato dei fasci"
-msgstr "Trunk status display"
-
-#: ../../introduction.rst:38
-msgid ""
-"Apertura di un url parametrizzato in corrispondenza della ricezione di una "
-"chiamata"
-msgstr "Opening a parameterized url when receiving a call"
-
-#: ../../introduction.rst:39
-msgid "Nethifier"
-msgstr "Nethifier"
-
-#: ../../introduction.rst:41
-msgid "Le seguenti funzioni non sono ancora disponibili:"
-msgstr "The following features are not yet available:"
-
-#: ../../introduction.rst:43
-msgid "Post-it e note chiamate"
-msgstr "Post-it and call notes"
-
-#: ../../introduction.rst:44
-msgid "Sedi remote"
-msgstr "Remote site"
-
-#: ../../introduction.rst:45
-msgid "Integrazione SMS e notifiche offline (mail e SMS)"
-msgstr "SMS and offline notifications (mail and SMS)"
-
-#: ../../introduction.rst:46
-msgid ""
-"Inoltro della chiamata a numero o voicemail, su non disponibile/occupato"
-msgstr "Call forwarding to a number or voicemail on unavailable/busy"
-
-#: ../../introduction.rst:47
-msgid "Script personalizzati per la gestione chiamate"
-msgstr "Custom call management scripts"
-
-#: ../../introduction.rst:48
-msgid ""
-"Integrazione con app legacy: possibilità di effettuare chiamate in maniera "
-"non autenticata"
-msgstr "Legacy app integration: making calls in an un-encrypted way"
-
-#: ../../introduction.rst:49
-msgid "Posto Operatore"
-msgstr "Switchboard operator"
-
-#: ../../introduction.rst:50
-msgid "Supervisore Code"
-msgstr "Queue Supervisor"
-
-#: ../../introduction.rst:52
-msgid "|product| |version| necessita di |parent_product| 14"
-msgstr "|product| |version| requires |parent_product| 14"

@@ -1,15 +1,14 @@
 # Alejandro Moreno <alejandro.martinez@nethesis.it>, 2018. #zanata
-# Polidori Alessandro <alessandro.polidori@gmail.com>, 2018. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-31 10:29+0100\n"
+"POT-Creation-Date: 2018-12-10 16:59+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-04-05 10:35+0000\n"
-"Last-Translator: Polidori Alessandro <alessandro.polidori@gmail.com>\n"
+"PO-Revision-Date: 2018-03-20 06:37+0000\n"
+"Last-Translator: Alejandro Moreno <alejandro.martinez@nethesis.it>\n"
 "Language-Team: Spanish (Spain)\n"
 "Language: es_ES\n"
 "X-Generator: Zanata 4.6.2\n"
@@ -27,11 +26,9 @@ msgstr ""
 
 #: ../../introduction.rst:7
 msgid ""
-"Per la sezione installazione, recarsi al manuale Amministratore del "
-"centralino"
+"Per la sezione installazione, recarsi al `manuale Amministratore del "
+"centralino. <https://nethvoice.docs.nethesis.it/it/v14>`_"
 msgstr ""
-"Para la sección instalación, dirigirse al manual Administrador de la "
-"centralita"
 
 #: ../../introduction.rst:9
 msgid ""
@@ -60,149 +57,3 @@ msgstr ""
 "Una vez efectuado el login, la página muestra la aplicación y las varias "
 "secciones. Cada parte de la aplicación se profundiza en las siguientes "
 "secciones del manual."
-
-#: ../../introduction.rst:17
-msgid "Note di rilascio |version|"
-msgstr "Notas de lanzamiento |version|"
-
-#: ../../introduction.rst:19
-msgid ""
-"|product| versione |version| introduce una nuova grafica, completamente "
-"rinnovata e semplificata per l'utente finale."
-msgstr ""
-
-#: ../../introduction.rst:21
-msgid "Funzionalità principali:"
-msgstr "Principales funcionalidades:"
-
-#: ../../introduction.rst:23
-msgid "Configurazione semplificata attraverso il wizard di |parent_product|"
-msgstr "Configuración simplificada a través del wizard de |parent_product|"
-
-#: ../../introduction.rst:24
-msgid "Salvataggio centralizzato sul server di tutte le preferenze utente"
-msgstr ""
-"Guardado centralizado en el servidor de todas las preferencias de usuario"
-
-#: ../../introduction.rst:25
-msgid ""
-"Customer card più semplici da configurare e con una veste grafica "
-"completamente rivista"
-msgstr ""
-
-#: ../../introduction.rst:26
-msgid "Gestione device multipli associati ad un singolo utente"
-msgstr "Gestión dispositivos múltiples asociados a un único usuario"
-
-#: ../../introduction.rst:27
-msgid ""
-"Possibilità di impostare la presence in modo unificato su tutti i "
-"dispositivi"
-msgstr ""
-"Posibilidad de configurar la presencia de forma unificada en todos los "
-"dispositivos"
-
-#: ../../introduction.rst:28
-msgid "Personalizzazione avatar"
-msgstr ""
-
-#: ../../introduction.rst:29
-msgid "Nuova chat (XMPP)"
-msgstr "Nuevo chat (XMPP)"
-
-#: ../../introduction.rst:30
-msgid "Restyling grafico e funzionale del pannello operatore"
-msgstr "Cambio de imagen gráfico y funcional del panel operador"
-
-#: ../../introduction.rst:31
-msgid ""
-"Possibilità di raggruppare i risultati della ricerca in rubrica per persona "
-"o per azienda"
-msgstr ""
-"Posibilidad de reagrupar los resultados de la búsqueda en la libreta de "
-"contactos por persona o por empresa"
-
-#: ../../introduction.rst:32
-msgid ""
-"Nuovo softphone WebRTC con supporto alle videochiamate (solo fra interni "
-"WebRTC)"
-msgstr ""
-"Nuevo softphone WebRTC con soporte a las videollamadas (sólo entre internos "
-"WebRTC)"
-
-#: ../../introduction.rst:33
-msgid "Visualizzazione sorgenti video anche dall'esterno della LAN"
-msgstr "Visualización fuentes de vídeo incluso desde el externo de la LAN"
-
-#: ../../introduction.rst:34
-msgid "Conferenze audio"
-msgstr "Conferencia audio:"
-
-#: ../../introduction.rst:35
-msgid "Configurazione servizio notte"
-msgstr "Configuración servicio de noche"
-
-#: ../../introduction.rst:36
-msgid "Code: chiamate perse, login e logout automatico"
-msgstr "Colas: llamadas perdidas, login y logout automático"
-
-#: ../../introduction.rst:37
-msgid "Visualizzazione stato dei fasci"
-msgstr "Visualización estado de las conexiones"
-
-#: ../../introduction.rst:38
-msgid ""
-"Apertura di un url parametrizzato in corrispondenza della ricezione di una "
-"chiamata"
-msgstr ""
-"Apertura de una url parametrizada en correspondencia de la entrada de una "
-"llamada"
-
-#: ../../introduction.rst:39
-msgid "Nethifier"
-msgstr "Nethifier"
-
-#: ../../introduction.rst:41
-msgid "Le seguenti funzioni non sono ancora disponibili:"
-msgstr "Las siguientes funciones son están todavía disponibles:"
-
-#: ../../introduction.rst:43
-msgid "Post-it e note chiamate"
-msgstr "Post-it y notas de llamadas"
-
-#: ../../introduction.rst:44
-msgid "Sedi remote"
-msgstr "Sedes remotas"
-
-#: ../../introduction.rst:45
-msgid "Integrazione SMS e notifiche offline (mail e SMS)"
-msgstr "Integración SMS y notificaciones offline (mail y SMS)"
-
-#: ../../introduction.rst:46
-msgid ""
-"Inoltro della chiamata a numero o voicemail, su non disponibile/occupato"
-msgstr ""
-
-#: ../../introduction.rst:47
-msgid "Script personalizzati per la gestione chiamate"
-msgstr "Script personalizados para la gestión de llamadas"
-
-#: ../../introduction.rst:48
-msgid ""
-"Integrazione con app legacy: possibilità di effettuare chiamate in maniera "
-"non autenticata"
-msgstr ""
-"Integración con app Legacy: posibilidad de efectuar llamadas de manera no "
-"autenticada"
-
-#: ../../introduction.rst:49
-msgid "Posto Operatore"
-msgstr "Puesto Operador"
-
-#: ../../introduction.rst:50
-msgid "Supervisore Code"
-msgstr "Supervisor Colas"
-
-#: ../../introduction.rst:52
-msgid "|product| |version| necessita di |parent_product| 14"
-msgstr ""
