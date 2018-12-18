@@ -2,6 +2,42 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.5.0 - (18 DIC 2018)
+===============================================
+
+**Nuove funzionalità**
+
+- `Sono state aggiunte 3 nuove azioni al trasferimento consultativo: <https://github.com/nethesis/dev/issues/5528>`_
+
+  1. "*Interrompi trasferimento*": possibilità di interrompere il trasferimento
+  2. "*Inizia conferenza*": possibilità di parlare con tutti e tre i partecipanti contemporaneamente
+  3. "*Cambia interlocutore*": possibilità di "switchare" la conversazione da un partecipante all'altro più volte
+
+- `Migliorata la stabilità del telefono WebRTC integrato in NethCTI grazie all'aggiornamento del componente Janus-Gateway alla versione 0.5.0 <https://github.com/nethesis/dev/issues/5519>`_
+- `Migliorata la gestione degli eventi di Asterisk da parte del CTI Server, del numero di queries eseguite e del numero di eventi inviati ai clients <https://github.com/nethesis/dev/issues/5513>`_
+
+**Bug fixes**
+
+- `Risolto il problema della visualizzazione ritardata del box di gestione chiamata per conversazioni verso l'esterno <https://github.com/nethesis/dev/issues/5525>`_
+- `Risolto il problema della scomparsa delle statistiche degli agenti del QManager <https://github.com/nethesis/dev/issues/5524>`_
+- `Le conferenze audio non funzionavano correttamente quando l'utente utilizzava un telefono fisico <https://github.com/nethesis/dev/issues/5520>`_
+- `Rimosse alcune REST api inutilizzate e presenti dalla versione 2.0 <https://github.com/nethesis/dev/issues/5518>`_
+- `Risolti alcuni problemi di: <https://github.com/nethesis/dev/issues/5517>`_
+
+  - ricerca nello storico chiamate
+  - visualizzazione delle date durante la modifica di un rotta nel servizio Fuori Orario
+  - ricerca nella rubrica: aggiunto un terzo campo per filtrare la ricerca
+
+- `Con il livello di log a "info" le queries eseguite dal CTI Server venivano scritto sul file "messages" <https://github.com/nethesis/dev/issues/5508>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.5.0-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.5.0-1.ns7.x86_64.rpm``
+- ``janus-gateway-0.5.0-1.ns7.x86_64.rpm``
+- ``nethserver-janus-1.0.6-1.ns7.noarch.rpm``
+
+
 Cambiamenti principali - v3.4.0 - (12 NOV 2018)
 ===============================================
 
