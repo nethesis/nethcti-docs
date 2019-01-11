@@ -51,12 +51,6 @@ Moduli
    custcard
    qmanager
 
-App mobile
-----------
-.. toctree::
-   :maxdepth: 2
-
-   app_mobile
 
 Nethifier
 ---------
