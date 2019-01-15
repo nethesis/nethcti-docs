@@ -2,6 +2,35 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.6.0 - (11 GEN 2019)
+===============================================
+
+**Nuove funzionalità e miglioramenti**
+
+- `QManager Supervisore delle code: è stata rilasciata la versione finale <https://github.com/nethesis/dev/issues/5547>`_
+- `È stata aggiunta una scroolbar nella lista delle chiamate in attesa e connesse all'interno del Supervisore delle code per facilitarne la visualizzazione <https://github.com/nethesis/dev/issues/5539>`_
+- Possibilità di aggiungere nuovi campi durante la creazione di nuovi contatti in rubrica
+
+  - `issue 5536 <https://github.com/nethesis/dev/issues/5536>`_
+  - `issue 5537 <https://github.com/nethesis/dev/issues/5537>`_
+
+- `Possibilità di effettuare chiamate video anche tra telefoni fisici (codec supportati: VP8 e H.264) e Softphone WebRTC (in dipendenza del browser utilizzato: consigliato Google Chrome) <https://github.com/nethesis/dev/issues/5546>`_
+
+**Bug fixes**
+
+- `L'utente non vede più i servizi per i quali non possiede il relativo permesso <https://github.com/nethesis/dev/issues/5542>`_
+- `Quando l'utente cambiava il dispositivo di default da Softphone WebRTC ad altro, il softphone non si deregistrava continuando ad essere operativo <https://github.com/nethesis/dev/issues/5541>`_
+- `Le chiamate in uscita elencate nella lista delle ultime dieci chiamate non mostrava il nome quando presente, ma solo il numero <https://github.com/nethesis/dev/issues/5538>`_
+- `Durante la modifica di un contatto in rubrica, la privacy veniva mostrata in maniera errata <https://github.com/nethesis/dev/issues/5535>`_
+- `Risolto il problema della non visualizzazione del pulsante per modificare i contatti in rubrica in corrispondenza di alcuni scenari <https://github.com/nethesis/dev/issues/5533>`_
+- `Risolto il problema della duplicazione delle richieste eseguite verso il server in alcuni scenari durante le ricerche in rubrica <https://github.com/nethesis/dev/issues/5533>`_
+- `Dopo aver eseguito delle modifiche tramite il wizard di configurazione, sporadicamente l'utente non era più in grado di accedere a NethCTI <https://github.com/nethesis/dev/issues/5451>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.6.0-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.6.0-1.ns7.x86_64.rpm``
+
 Cambiamenti principali - v3.5.0 - (18 DIC 2018)
 ===============================================
 
