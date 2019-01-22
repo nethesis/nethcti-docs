@@ -2,6 +2,26 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.7.0 - (21 GEN 2019)
+===============================================
+
+**Nuove funzionalità e miglioramenti**
+
+- `Muovendo il mouse sopra un risultato di una ricerca in rubrica, più specificatamente sull'icona che rappresenta la sorgente dati, appare un tooltip. Questo è stato reso maggiormente esplicativo, mostrando la sorgente dati specifica (se presente) <https://github.com/nethesis/dev/issues/5566>`_
+- `La rimozione di un messaggio audio del servizio "Fuori Orario" viene ora loggato nel server come messaggio di warning <https://github.com/nethesis/dev/issues/5565>`_
+- `Ciascun box utente all'interno del "Pannello operatore", mostra ora anche il numero di cellulare da poter chiamare (se è stato preventivamente associato tramite il wizard di configurazione) <https://github.com/nethesis/dev/issues/5564>`_
+- `Nella lista delle ultime chiamate, è stata aggiunta la visualizzazione del campo "azienda" per le chiamate in uscita <https://github.com/nethesis/dev/issues/5558>`_
+
+**Bug fixes**
+
+- `Il pulsante "Pausa" all'interno del box di gestione chiamata non veniva aggiornato quando si utilizzava il telefono per entrare nello stato di attesa <https://github.com/nethesis/dev/issues/5562>`_
+- `Il trasferimeno di chiamata eseguito inserendo manualmente un numero telefonico non funzionava <https://github.com/nethesis/dev/issues/5559>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.7.0-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.7.0-1.ns7.x86_64.rpm``
+
 Cambiamenti principali - v3.6.0 - (11 GEN 2019)
 ===============================================
 
