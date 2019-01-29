@@ -2,6 +2,24 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.8.0 - (24 GEN 2019)
+===============================================
+
+**Nuove funzionalità e miglioramenti**
+
+- `La dimensione dei dati trasferiti dal server è stata ridotta del 73% <https://github.com/nethesis/dev/issues/5568>`_
+
+**Bug fixes**
+
+- `Durante la creazione di un contatto speeddial, alcune label per scegliere il "Numero preferito" erano errate <https://github.com/nethesis/dev/issues/5570>`_
+- `Il pannello operatore, in presenza di molti gruppi, ne nascondeva alcuni. Ora è possibile vederli tutti grazie alla presenza di una scrollbar orizzontale <https://github.com/nethesis/dev/issues/5570>`_
+- Il pulsante "Pausa" presente nel box di gestione chiamata, non funzionava correttamente quando la chiamata non era tra due interni. Questo bug è stato introdotto nella precedente release 3.7.0 per cercare di mitigare il problema associato (`5562 <https://github.com/nethesis/dev/issues/5562>`_)
+  - `issue 5569 <https://github.com/nethesis/dev/issues/5569>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.8.0-1.ns7.noarch.rpm``
+
 Cambiamenti principali - v3.7.0 - (21 GEN 2019)
 ===============================================
 

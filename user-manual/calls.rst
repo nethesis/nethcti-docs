@@ -57,6 +57,9 @@ Una volta che è iniziata una chiamata, sarà possibile usare differenti funzion
 
   Per togliere la pausa, cliccare nuovamente sullo stesso bottone.
 
+.. note:: Per garantire un corretto funzionamento del pulsante "Pausa" è necessario utilizzare solamente l'interfaccia CTI e non il pulsante presente sul telefono fisico.
+
+
 * Registrare una chiamata:
     (1) Individuare il menù di conversazione che compare in basso a destra durante una conversazione
     (2) Individuare e cliccare il bottone "Registra" identificato dall'icona con il doppio cerchio
