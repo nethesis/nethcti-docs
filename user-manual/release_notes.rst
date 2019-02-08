@@ -2,6 +2,25 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.9.0 - (8 FEB 2019)
+==============================================
+
+**Nuove funzionalità e miglioramenti**
+
+- `Nuova app "Post Operatore Avanzato" integrato all'interno di NethCTI <https://github.com/nethesis/dev/issues/5549>`_
+
+**Bug fixes**
+
+- `Entrando nelle code da NethCTI la "penalità" degli agenti delle code non veniva rispettata <https://github.com/nethesis/dev/issues/5575>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.9.0-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.8.0-1.ns7.x86_64.rpm``
+- ``nethserver-nethvoice14-14.2.2-1.ns7.noarch.rpm``
+- ``nethvoice-wizard-restapi-14.2.1-1.ns7.noarch.rpm``
+- ``nethvoice-wizard-ui-14.2.1-1.ns7.noarch.rpm``
+
 Cambiamenti principali - v3.8.0 - (24 GEN 2019)
 ===============================================
 
