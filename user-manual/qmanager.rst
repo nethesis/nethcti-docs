@@ -5,12 +5,6 @@ QManager: Supervisore delle code
 QManager (QM) è l’applicazione sviluppata per il "Supervisore delle Code" e consente una gestione
 completa di tutte le code del sistema in tempo reale e non.
 
-Versione
-========
-
-L’applicazione è correntemente in versione Beta e ci rimarrà fino al raggiungimento del “feature-parity”
-con la vecchia versione queueman.
-
 Code
 ====
 
