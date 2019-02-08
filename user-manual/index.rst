@@ -50,6 +50,7 @@ Moduli
    offhour
    custcard
    qmanager
+   oppanel
 
 
 Nethifier
