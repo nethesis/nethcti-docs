@@ -1,0 +1,104 @@
+# Polidori Alessandro <alessandro.polidori@gmail.com>, 2019. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: NethCTI 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-08 14:52+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-02-08 01:59+0000\n"
+"Last-Translator: Polidori Alessandro <alessandro.polidori@gmail.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../../oppanel.rst:3
+msgid "Posto Operatore Avanzato"
+msgstr "Advanced Operator Panel"
+
+#: ../../oppanel.rst:5
+msgid ""
+"È l’applicazione sviluppata per il centralinista e consente di smistare le "
+"chiamate in arrivo su una coda a diversi destinatari. È presente all'interno "
+"di |product| ed è necessario avere il relativo permesso."
+msgstr ""
+"It is the application developed for the receptionist and allows to route the "
+"incoming calls on a queue to several recipients. It is present in the "
+"|product| and to use it you must have the relative permission."
+
+#: ../../oppanel.rst:10
+msgid "Chiamate da gestire"
+msgstr "Calls to manage"
+
+#: ../../oppanel.rst:12
+msgid ""
+"Le chiamate da gestire arrivano su una coda presente nella parte sinistra di "
+"|product|. In corrispondenza **dell'arrivo di una chiamata** l'operatore può:"
+""
+msgstr ""
+"Calls to be managed arrive on a queue on the left side of |product|. When an "
+"**incoming call arrives** the operator can:"
+
+#: ../../oppanel.rst:15
+#: ../../oppanel.rst:25
+msgid ""
+"assegnare la chiamata ad un qualsiasi operatore libero tramite il drag&drop "
+"del mouse"
+msgstr "assign the call to any free operator by drag & drop of the mouse"
+
+#: ../../oppanel.rst:16
+msgid "rispondere alla chiamata se è correntemente loggato in coda"
+msgstr "answer the call if it is currently logged in the queue"
+
+#: ../../oppanel.rst:18
+msgid "Una volta che l'operatore ha **risposto** alla chiamata, può:"
+msgstr "Once the operator has **answered** to the call, he can:"
+
+#: ../../oppanel.rst:20
+msgid ""
+"assegnarla ad un qualsiasi operatore libero tramite il drag&drop del mouse"
+msgstr "assign it to any free operator by drag & drop of the mouse"
+
+#: ../../oppanel.rst:21
+msgid ""
+"metterla in attesa utilizzando il drag&drop sulla coda delle chiamate in "
+"attesa presente sotto quella delle chiamate in ingresso. In questo caso il "
+"drag&drop deve essere eseguito utilizzando l'apposito pulsante presente nel "
+"box di gestione chiamata."
+msgstr ""
+"put it on waiting by drag & drop to the waiting call queue under the "
+"incoming call queue. In this case, the drag & drop must be performed using "
+"the appropriate button in the call management box."
+
+#: ../../oppanel.rst:23
+msgid "Dalla lista delle **chiamate in attesa** è possibile:"
+msgstr "From the list of **call waiting** it is possible to:"
+
+#: ../../oppanel.rst:26
+msgid ""
+"riprendere la chiamata cliccando l'apposito pulsante presente nella lista "
+"stessa"
+msgstr "resume the call by clicking the appropriate button in the list"
+
+#: ../../oppanel.rst:28
+msgid ""
+"Entrambe le liste mostrano un contatore per sapere quante chiamate sono in "
+"coda o in attesa."
+msgstr ""
+"Both lists show a counter to know how many calls are queued or waiting."
+
+#: ../../oppanel.rst:30
+msgid ""
+"Per quanto riguarda la coda delle **chiamate in arrivo**, l'operatore può "
+"anche:"
+msgstr "Concerning the **incoming calls** queue, the operator can also:"
+
+#: ../../oppanel.rst:32
+msgid "entrare e uscire"
+msgstr "login and logout"
+
+#: ../../oppanel.rst:33
+msgid "mettersi in stato di pausa"
+msgstr "change the status to pause"
