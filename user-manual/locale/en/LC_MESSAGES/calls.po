@@ -1,6 +1,7 @@
 # Edoardo Spadoni <edoardo.spadoni@nethesis.it>, 2017. #zanata
 # Polidori Alessandro <alessandro.polidori@gmail.com>, 2017. #zanata
 # Polidori Alessandro <alessandro.polidori@gmail.com>, 2018. #zanata
+# Polidori Alessandro <alessandro.polidori@gmail.com>, 2019. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
@@ -9,7 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-06-05 02:22+0000\n"
+"PO-Revision-Date: 2019-03-15 10:48+0000\n"
 "Last-Translator: Polidori Alessandro <alessandro.polidori@gmail.com>\n"
 "Language-Team: English (United States)\n"
 "Language: en_US\n"
@@ -164,6 +165,8 @@ msgid ""
 "utilizzare solamente l'interfaccia CTI e non il pulsante presente sul "
 "telefono fisico."
 msgstr ""
+"To guarantee the correct functioning of the \"Pause\" button it is necessary "
+"to use only the CTI interface and not the button on the physical phone."
 
 #: ../../calls.rst:65
 msgid "Registrare una chiamata:"
