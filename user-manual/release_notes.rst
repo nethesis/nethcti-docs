@@ -2,6 +2,28 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.10.0 - (15 MAR 2019)
+================================================
+
+**Nuove funzionalità e miglioramenti**
+
+- `Aggiornamento della libreria Janus alla versione 0.6.2 <https://github.com/nethesis/dev/issues/5590>`_
+- `Aggiornamento di NodeJS alla versione 10 <https://github.com/nethesis/dev/issues/5588>`_
+- `Possibilità di personalizzare il messaggio di warning in corrispondenza del login da parte di un utente non configurato <https://github.com/nethesis/dev/issues/5585>`_
+
+**Bug fixes**
+
+- `Aggiornamento di sicurezza di alcune librerie <https://github.com/nethesis/dev/issues/5587>`_
+- `Risolto un problema sulla rest api "historycall/interval" <https://github.com/nethesis/dev/issues/5584>`_
+- `Risolto il problema del login/logout automatico dalle code quando si è utilizzato il proprio interno telefonico come username per il login <https://github.com/nethesis/dev/issues/5581>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.10.0-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.10.0-1.ns7.x86_64.rpm``
+- ``nethserver-janus-1.0.9-1.ns7.noarch.rpm``
+- ``janus-gateway-0.6.2-1.el7.x86_64.rpm``
+
 Cambiamenti principali - v3.9.0 - (8 FEB 2019)
 ==============================================
 
