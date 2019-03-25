@@ -2,6 +2,19 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.10.1 - (22 MAR 2019)
+================================================
+
+**Bug fixes**
+
+- `Risolto un problema di compatibilità con la prossima versione di Asterisk 13.23+ <https://github.com/nethesis/dev/issues/5597>`_
+- `Eseguendo una telefonata verso una destinazione in stato di occupato, non si sentiva il tono di occupato <https://github.com/nethesis/dev/issues/5593>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.10.1-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.10.1-1.ns7.x86_64.rpm``
+
 Cambiamenti principali - v3.10.0 - (15 MAR 2019)
 ================================================
 
