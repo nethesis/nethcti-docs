@@ -2,6 +2,25 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.11.0 - (1 APR 2019)
+================================================
+
+**Nuove funzionalità e miglioramenti**
+
+- `Per gli sviluppatori: i dati contenuti all'interno dell'oggetto JSON "Conversations" restituito attraverso la REST API "astproxy/extensions" o attraverso gli eventi WebSocket, ora contiene anche l'informazione "linkedid" che sarà presente nel database dello storico delle chiamate "asteriskcdrdb.cdr" al termine della chiamata stessa <https://github.com/nethesis/dev/issues/5605>`_
+- `Aggiornamento della libreria Janus usata per il softphone WebRTC alla versione 0.6.3 <https://github.com/nethesis/dev/issues/5601>`_
+
+**Bug fixes**
+
+- `Risolto il problema che causava il riavvio di NethCTI in corrispondenza di modifiche apportate alla configurazione tramite wizard <https://github.com/nethesis/dev/issues/5600>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.11.0-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.11.0-1.ns7.x86_64.rpm``
+- ``janus-gateway-0.6.3-1.ns7.x86_64.rpm``
+- ``nethserver-janus-1.0.10-1.ns7.noarch.rpm``
+
 Cambiamenti principali - v3.10.1 - (22 MAR 2019)
 ================================================
 
