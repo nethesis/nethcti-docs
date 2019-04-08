@@ -176,7 +176,7 @@ I dati visualizzati per ogni coda sono:
 - pausa su logon (percentuale del tempo in pausa rispetto al tempo trascorso in coda)
 - tempo al telefono
 
-Accanto al nome di ogni coda è presente lo stato dell'agente in coda e alla sinistra di ogni avatar nella parte alta della card è presente lo stato telefonico
+Accanto al nome di ogni coda è presente lo stato dell'agente in coda e alla sinistra di ogni avatar nella parte alta della card è presente lo stato telefonico.
 
 Monitor
 =======
