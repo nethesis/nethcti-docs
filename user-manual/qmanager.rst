@@ -177,3 +177,19 @@ I dati visualizzati per ogni coda sono:
 - tempo al telefono
 
 Accanto al nome di ogni coda è presente lo stato dell'agente in coda e alla sinistra di ogni avatar nella parte alta della card è presente lo stato telefonico
+
+Monitor
+=======
+
+Il tab «Monitor» mostra in tempo reale le chiamate in attesa nelle code abilitate.
+
+Nella sezione superiore è presente la lista delle code con la possibilità di abilitarle oppure disabilitarle e una select che permette di selezionare il numero di chiamate da mostrare.
+
+Le chiamate in attesa vengono mostrate in formato tabellare mostrando le seguenti informazioni:
+
+- nella prima colonna è presente un cerchio colorato in base alla presenza oppure no di una chiamata in attesa nella medesima posizione (verde se la posizione è libera, rosso se la posizione è occupata)
+- nella seconda colonna viene mostrato il chiamante
+- nella terza colonna viene mostrata la posizione della chiamata
+- nella quarta colonna viene mostrato da quanto tempo la chiamata è in attesa
+
+Nella parte superiore destra di ogni tabella è presente un'icona che permette di invertire i colori nella tabella in base alla preferenze.
