@@ -2,6 +2,26 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.12.0 - (17 APR 2019)
+================================================
+
+**Nuove funzionalità e miglioramenti**
+
+- `Nuovo servizio "Monitor" all'interno del QManager: consente di tenere sotto controllo in tempo reale le chiamate in attesa nelle code abilitate <https://github.com/nethesis/dev/issues/5602>`_
+
+**Bug fixes**
+
+- `Risolto il problema della registrazione delle chiamate <https://github.com/nethesis/dev/issues/5615>`_
+- `Risolto il problema che in alcuni casi non mostrato il box di gestione chiamata durante lo spy di una conversazione <https://github.com/nethesis/dev/issues/5612>`_
+- `A volte l'invocazione della rest api astproxy/qmanager_astats generava un errore nel file di log <https://github.com/nethesis/dev/issues/5611>`_
+- `La rest api astproxy/extension/:id restituiva solamente il proprio interno telefonico <https://github.com/nethesis/dev/issues/5609>`_
+- `La rest api history/interval non funzionava correttamente usando il valore "user" come parametro "type" <https://github.com/nethesis/dev/issues/5608>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.12.0-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.12.0-1.ns7.x86_64.rpm``
+
 Cambiamenti principali - v3.11.0 - (1 APR 2019)
 ================================================
 
