@@ -2,6 +2,39 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.13.0 - (28 MAG 2019)
+================================================
+
+**Nuove funzionalità e miglioramenti**
+
+- Inserita una nuova dashboard all'interno del servizio QManager (Supervisore delle code). Il servizio consente una visualizzazione di differenti tipi di allarmi riguardanti le code
+
+  - `documentazione <https://nethcti.docs.nethesis.it/it/v3/qmanager.html#dashboard>`_
+  - `issue 5631 <https://github.com/nethesis/dev/issues/5631>`_
+  - `issue 5621 <https://github.com/nethesis/dev/issues/5621>`_
+
+- Aggiunta la possibilità di eseguire uno script lato server al termine di una chiamata
+
+  - `documentazione <https://nethvoice.docs.nethesis.it/it/v14/howto.html#product-cti-eseguire-uno-script-al-termine-di-una-chiamata>`_
+  - `issue 5613 <https://github.com/nethesis/dev/issues/5613>`_
+
+- `Migliori performance operative del pannello operatore in presenza di un elevato numero di gruppi utente <https://github.com/nethesis/dev/issues/5624>`_
+- `Aggiornamento della libreria janus (alle ultime modifiche upstream) utilizzata per il telefono WebRTC <https://github.com/nethesis/dev/issues/5633>`_
+
+**Bug fixes**
+
+- `Risolto il problema dell'errata direzione delle chiamate in ringing mostrate nel pannello operatore <https://github.com/nethesis/dev/issues/5629>`_
+- `Risolto il problema del reset dello stato di prensence in un particolare scenario operativo <https://github.com/nethesis/dev/issues/5628>`_
+- `Risolto il problema della non risposta a una chiamata usando il telefono WebRTC in particolari scenari operativi <https://github.com/nethesis/dev/issues/5633>`_
+
+**Pacchetti coinvolti**
+
+- ``nethserver-nethvoice14-14.2.8-1.ns7.noarch.rpm``
+- ``janus-gateway-0.7.0.7-1.ns7.x86_64.rpm``
+- ``nethserver-janus-1.0.12-1.ns7.noarch.rpm``
+- ``nethcti3-3.13.0-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.13.0-1.ns7.x86_64.rpm``
+
 Cambiamenti principali - v3.12.0 - (17 APR 2019)
 ================================================
 

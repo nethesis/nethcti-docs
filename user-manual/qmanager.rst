@@ -5,6 +5,18 @@ QManager: Supervisore delle code
 QManager (QM) è l’applicazione sviluppata per il "Supervisore delle Code" e consente una gestione
 completa di tutte le code del sistema in tempo reale e non.
 
+Dashboard
+=========
+
+Offre una visione d'insieme sullo stato delle code mostrando eventuali allarmi presenti.
+Gli allarmi sono specifici per coda e possono essere:
+
+- numero di agenti insufficiente nella coda
+- tempo di attesa medio elevato sulla coda
+- carico elevato sulla coda
+- numero elevato di chiamate in attesa nella coda
+
+
 Code
 ====
 
