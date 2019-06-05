@@ -104,6 +104,9 @@ Una volta che è iniziata una chiamata, sarà possibile usare differenti funzion
     (3) Inserire nel campo di testo l'interno o il nome dell'utente a cui si vuole trasferire la chiamata
     (4) Decidere se fare un trasferimento "Cieco" o "Consultativo"
 
+* Condividere il desktop:
+    È possibile scegliere se condividere un tab del browser, una finestra o l'interno desktop con l'utente remoto con cui si è in conversazione
+
 URL parametrizzato
 ==================
 

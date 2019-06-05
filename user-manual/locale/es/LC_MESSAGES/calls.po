@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-27 11:49+0200\n"
+"POT-Creation-Date: 2019-06-05 10:32+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -314,10 +314,20 @@ msgid "Decidere se fare un trasferimento \"Cieco\" o \"Consultativo\""
 msgstr "Decidir si hacer una transferencia \"Directa\" o \"Consultiva\""
 
 #: ../../calls.rst:108
+msgid "Condividere il desktop:"
+msgstr ""
+
+#: ../../calls.rst:108
+msgid ""
+"È possibile scegliere se condividere un tab del browser, una finestra o "
+"l'interno desktop con l'utente remoto con cui si è in conversazione"
+msgstr ""
+
+#: ../../calls.rst:111
 msgid "URL parametrizzato"
 msgstr ""
 
-#: ../../calls.rst:110
+#: ../../calls.rst:113
 msgid ""
 "L'utente ha la possibilità di poter invocare un URL parametrizzato in "
 "corrispondenza di una chiamata in arrivo. L'URL viene automaticamente "
@@ -326,39 +336,39 @@ msgid ""
 "`paramurl-section`\" del |product|):"
 msgstr ""
 
-#: ../../calls.rst:114
+#: ../../calls.rst:117
 msgid "mai"
 msgstr ""
 
-#: ../../calls.rst:115
+#: ../../calls.rst:118
 msgid "quando la chiamata in arrivo sta squillando"
 msgstr ""
 
-#: ../../calls.rst:116
+#: ../../calls.rst:119
 msgid "quando la chiamata in arrivo è stato risposta"
 msgstr ""
 
-#: ../../calls.rst:117
+#: ../../calls.rst:120
 msgid "tramite un pulsante specifico presente nel box di gestione chiamata"
 msgstr ""
 
-#: ../../calls.rst:119
+#: ../../calls.rst:122
 msgid ""
 "L'URL viene configurato dall'amministratore che decide anche la lista degli "
 "utenti abilitati a tale funzione."
 msgstr ""
 
-#: ../../calls.rst:121
+#: ../../calls.rst:124
 msgid ""
 "Affinché l'URL possa essere invocato è necessario che l'utente abbia "
 "abilitato la visualizzazione dei popups nel proprio browser !"
 msgstr ""
 
-#: ../../calls.rst:124
+#: ../../calls.rst:127
 msgid "Conferenze audio"
 msgstr ""
 
-#: ../../calls.rst:126
+#: ../../calls.rst:129
 msgid ""
 "È una conferenza telefonica i cui partecipanti possono comunicare tra loro a "
 "voce, previo appuntamento. Praticamente il sistema consente di estendere le "
@@ -368,64 +378,64 @@ msgid ""
 "operazioni privilegiate, come ad esempio:"
 msgstr ""
 
-#: ../../calls.rst:132
+#: ../../calls.rst:135
 msgid "far uscire selettivamente gli utenti"
 msgstr ""
 
-#: ../../calls.rst:133
+#: ../../calls.rst:136
 msgid "terminare l'intera conferenza"
 msgstr ""
 
-#: ../../calls.rst:134
+#: ../../calls.rst:137
 msgid ""
 "mettere in \"muto/un-muto\" selettivamente i singoli partecipanti o tutti "
 "con un unico click"
 msgstr ""
 
-#: ../../calls.rst:135
+#: ../../calls.rst:138
 msgid "aggiungere nuovi utenti"
 msgstr ""
 
-#: ../../calls.rst:136
+#: ../../calls.rst:139
 msgid "uscire/entrare dalla sua conferenza"
 msgstr ""
 
-#: ../../calls.rst:138
+#: ../../calls.rst:141
 msgid "Per creare una nuova conferenza:"
 msgstr ""
 
-#: ../../calls.rst:140
+#: ../../calls.rst:143
 msgid "chiamare il primo partecipante tramite chiamata \"normale\""
 msgstr ""
 
-#: ../../calls.rst:141
+#: ../../calls.rst:144
 msgid ""
 "una volta instaurata la conversazione è sufficiente cliccare il relativo "
 "pulsante presente nel box di gestione chiamata"
 msgstr ""
 
-#: ../../calls.rst:142
+#: ../../calls.rst:145
 msgid ""
 "a questo punto una nuova conferenza è stata creata e vi appartiene solamente "
 "il destinatario della chiamata"
 msgstr ""
 
-#: ../../calls.rst:143
+#: ../../calls.rst:146
 msgid "un nuovo box grafico compare per poter gestire la conferenza stessa"
 msgstr ""
 
-#: ../../calls.rst:144
+#: ../../calls.rst:147
 msgid ""
 "ripetere il punto 1 e 2 per aggiungere il secondo partecipante e così via "
 "per altri"
 msgstr ""
 
-#: ../../calls.rst:145
+#: ../../calls.rst:148
 msgid ""
 "quando tutti gli utenti sono stati aggiunti, il moderatore può entrare nella "
 "sua conferenza tramite il pulsante \"Entra\""
 msgstr ""
 
-#: ../../calls.rst:146
+#: ../../calls.rst:149
 msgid "a questo punto tutti possono parlare liberamente"
 msgstr ""
