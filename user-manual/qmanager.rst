@@ -8,14 +8,93 @@ completa di tutte le code del sistema in tempo reale e non.
 Dashboard
 =========
 
-Offre una visione d'insieme sullo stato delle code mostrando eventuali allarmi presenti.
-Gli allarmi sono specifici per coda e possono essere:
+Offre una visione d'insieme delle attività avvenute durante la giornata con classifiche, dati e grafici.
 
-- numero di agenti insufficiente nella coda
-- tempo di attesa medio elevato sulla coda
-- carico elevato sulla coda
-- numero elevato di chiamate in attesa nella coda
+È possibile suddividere la Dashboard in 4 sezioni:
 
+Sezione #1: Allarmi
+-----------------------------------
+
+Nella parte superiore è presente la sezione degli allarmi all'interno della quale vengono visualizzati gli allarmi specifici per ogni coda.
+
+Gli allarmi possono essere:
+
+- numero di agenti insufficiente (il rapporto tra il numero di chiamate in attesa e il numero di agenti ha superato la soglia di allarme)
+- tempo di attesa medio elevato (il tempo di attesa medio ha superato la soglia di allarme)
+- carico elevato (ci sono molte chiamate in attesa e il tempo medio di attesa ha superato la soglia di allarme)
+- numero elevato di chiamate in attesa (ci sono molte chiamate in attesa e la prima chiamata è in attesa da molto tempo)
+
+Ogni messaggio d'allarme è accompagnato dall'ora d'inizo, dalla coda alla quale corrisponde e da una spiegazione più dettagliata visualizzata tramite tooltip.
+
+Appena viene rilevato un'allarme viene visualizzata:
+
+- una notifica desktop con il messaggio dell'allarme
+- il messaggio nella sezione Allarmi della Dashboard
+- il messaggio tra gli allarmi relativi alla specifica installazione su my.nethesis.it
+
+.. note:: I messaggi d'allarme sia su My che nella Dashboard restano fino alla risoluzione della criticità.
+
+Sezione #2: Grafici
+-----------------------------------
+
+Delle sezione Grafici fanno parte, partendo dalla parte alta della pagina:
+
+- i grafici per i totali che indicano l'andamento delle:
+
+1) chiamate totali
+2) chiamate risposte
+3) chiamate non risposte
+4) chiamate invalide
+
+- il grafico della distribuzione oraria delle chiamate entrate divise per coda
+- il grafico delle distribuzione oraria delle chiamate entrate chiamate risposte divise per coda
+- il grafico delle distribuzione oraria delle chiamate entrate chiamate non risposte divise per coda
+
+Nei grafici vengono mostrati i dati a partire da 30 minuti prima della prima chiamata in entrata.
+
+Per tutti i grafici l'intervallo temporale sull'asse x e l'aggiornamento dei dati mostrati sono impostati a 30 minuti.
+
+Apparte i grafici dei totali i quali indicano solemante l'andamento, nei restanti grafici è possibile visualizzare le informazioni nel rispettivo momento per singola coda andandoci sopra con il puntatore del mouse.
+
+Sezione #3: Classifiche agenti
+-----------------------------------
+
+Al di sotto rispetto al grafico della distribuzione oraria delle chiamate entrate sono presenti le classifiche degli agenti per:
+
+- chiamate risposte (classifica agenti per chiamate riposte per coda)
+- chiamate non risposte (classifica agenti per chiamate non risposte per coda)
+- percentuale pausa su logon (classifica agenti per percentuale di pausa su logon per coda)
+- tempo in login (classifica agenti per tempo di login per coda)
+- tempo in pausa (classifica agenti per tempo di pausa per coda)
+- percentuale tempo in chiamata (classifica agenti per percentuale di tempo in chiamata per coda)
+
+I dati delle classifiche degli agenti diversamente dai grafici vengono aggiornati ogni 30 secondi oppure al caricamento della pagina e sono in tempo reale.
+
+Le posizioni in classifica dipendono dalle singole code delle quali lo specifico agente fa parte, ciò comporta il fatto che un agente possa occupare più di una posizione nella classifica ma per code diverse.
+
+Il numero di posizioni da visualizzare per ogni classifica è impostato a 5.
+
+Sezione #4: Classifiche code
+-----------------------------------
+
+In corrispondenza e sottostanti al grafico della distribuzione delle chiamate risposte per coda sono presenti le classifice delle code per:
+
+- chiamate risposte (classifica delle code per chiamate risposte)
+- chiamate totali (classifica delle code per chiamate totali)
+- chiamate non risposte (classifica delle code per chiamate non risposte)
+- chiamate invalide (classifica delle code per chiamate invalide)
+- motivazioni di chiamata non risposta (classifica delle code per motivazioni di chiamata non risposta)
+
+Diversamente dalle classifiche degli agenti le posizioni delle classifiche per code non sono limitate ciò significa che verranno mostrati i dati di tutte le code abilitate per il QM.
+
+I dati mostrati nelle classifiche delle code vengono aggiornati ogni 30 secondi come nelle classifiche per agenti oppure al caricamento della pagina e sono in tempo reale.
+
+------------
+
+Situati alla destra rispetto ai titoli di ogni classifica sono presenti 2 icone:
+
+- la prima per invertire l'ordine delle posizioni all'interno delle classifiche e mostrare le code oppure gli agenti peggiori e viceversa
+- la seconda per aprire un tooltip contenente una spiegazione più esaustiva della classifica in questione
 
 Code
 ====
