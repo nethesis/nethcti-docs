@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-27 11:49+0200\n"
+"POT-Creation-Date: 2018-09-27 11:00+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,11 +14,11 @@ msgstr ""
 "X-Generator: Zanata 4.6.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../../speeddials.rst:3
+#: ../../speeddials.rst:7
 msgid "Speed Dial"
 msgstr "Marcación Rápida"
 
-#: ../../speeddials.rst:5
+#: ../../speeddials.rst:9
 msgid ""
 "La sezione Speed Dial sul lato destro dell'applicazione, consente di "
 "chiamare velocemente i propri contatti favoriti."
@@ -26,40 +26,40 @@ msgstr ""
 "La sección Speed Dial en el lado derecho de la aplicación, permite llamar "
 "rápidamente a los contactos favoritos."
 
-#: ../../speeddials.rst:9
+#: ../../speeddials.rst:13
 msgid "Aggiungere un contatto agli Speed Dial"
 msgstr "Añadir un contacto a la Marcación Rápida"
 
-#: ../../speeddials.rst:11
+#: ../../speeddials.rst:15
 msgid "Cliccare \"Aggiungi contatto\" sotto la sezione \"Speed Dial\""
 msgstr ""
 "Hacer clic en \"Añadir contacto\" debajo de la sección \"Marcación Rápida\""
 
-#: ../../speeddials.rst:12
+#: ../../speeddials.rst:16
 msgid "Riempire la scheda che appare e cliccare su \"Salva\""
 msgstr "Rellenar la tarjeta que aparece y hacer clic en \"Guardar\""
 
-#: ../../speeddials.rst:13
+#: ../../speeddials.rst:17
 msgid "Il nuovo speed dial è visualizzato nella lista"
 msgstr "El nuevo speed dial es mostrado en la lista"
 
-#: ../../speeddials.rst:16
+#: ../../speeddials.rst:20
 msgid "Modificare uno Speed Dial"
 msgstr "Modificar un Speed Dail"
 
-#: ../../speeddials.rst:18
+#: ../../speeddials.rst:22
 msgid "Cliccare sull'icona a forma di matita di uno speed dial"
 msgstr "Hacer clic en el icono con forma de lápiz de un speed dial"
 
-#: ../../speeddials.rst:19
+#: ../../speeddials.rst:23
 msgid "Modificare le informazioni sulla scheda e cliccare su \"Salva\""
 msgstr "Modificar la información de la tarjeta y hacer clic en \"Guardar\""
 
-#: ../../speeddials.rst:22
+#: ../../speeddials.rst:26
 msgid "Chiamare uno Speed Dial"
 msgstr "Llamar a un Speed Dial"
 
-#: ../../speeddials.rst:24
+#: ../../speeddials.rst:28
 msgid ""
 "Cliccare sull'icona a forma di telefono di uno speed dial per far partire la "
 "chiamata"
@@ -67,33 +67,33 @@ msgstr ""
 "Hacer clic en el icono con forma de teléfono de un speed dial para hacer "
 "partir la llamada"
 
-#: ../../speeddials.rst:26
+#: ../../speeddials.rst:30
 msgid "Cliccare sull'icona a forma di telefono di uno speed dial"
 msgstr ""
 
-#: ../../speeddials.rst:29
+#: ../../speeddials.rst:33
 msgid "Importazione / Esportazione"
 msgstr ""
 
-#: ../../speeddials.rst:31
+#: ../../speeddials.rst:35
 msgid ""
 "È possibile esportare tutti i contatti speed dial su un unico file .csv:"
 msgstr ""
 
-#: ../../speeddials.rst:33
+#: ../../speeddials.rst:37
 msgid ""
 "cliccare la voce \"Esporta\" dal menù contestuale che si apre cliccando "
 "l'icona a forma di ingranaggio"
 msgstr ""
 
-#: ../../speeddials.rst:35
+#: ../../speeddials.rst:39
 msgid ""
 "I contatti così esportati possono essere archiviati su un backup o re-"
 "importati, ad esempio su un altro utente, cliccando la voce \"Importa\" "
 "dello stesso menù."
 msgstr ""
 
-#: ../../speeddials.rst:38
+#: ../../speeddials.rst:42
 msgid ""
 "Il file **csv** deve rispettare una certa struttura al fine di garantire "
 "un'importazione dei dati corretta. Per conoscere tale struttura è "

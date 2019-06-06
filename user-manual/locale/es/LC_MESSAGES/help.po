@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-27 11:49+0200\n"
+"POT-Creation-Date: 2018-09-27 11:00+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,19 +14,19 @@ msgstr ""
 "X-Generator: Zanata 4.6.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../../help.rst:3
+#: ../../help.rst:7
 msgid "Aiuto"
 msgstr "Ayuda"
 
-#: ../../help.rst:5
+#: ../../help.rst:9
 msgid "La sezione Aiuto serve per consultare la documentazione"
 msgstr "La sección Ayuda sirve para consultar la documentación"
 
-#: ../../help.rst:8
+#: ../../help.rst:12
 msgid "Consultare la documentazione"
 msgstr "Consultar la documentación"
 
-#: ../../help.rst:10
+#: ../../help.rst:14
 msgid ""
 "Spostare il mouse sul punto interrogativo nella sezione in alto a destra "
 "della pagina"
@@ -34,13 +34,13 @@ msgstr ""
 "Mover el ratón al signo de interrogación de la sección en alto a la derecha "
 "de la página"
 
-#: ../../help.rst:11
+#: ../../help.rst:15
 msgid ""
 "Cliccare sul punto interrogativo e selezionare il link \"Documentazione\""
 msgstr ""
 "Hacer clic en el signo de interrogación y seleccionar el link "
 "\"Documentación\""
 
-#: ../../help.rst:12
+#: ../../help.rst:16
 msgid "Un link con tutta la documentazione dell'applicazione viene aperto"
 msgstr "Un link con toda la documentación de la aplicación viene abierto"
