@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-27 11:49+0200\n"
+"POT-Creation-Date: 2019-06-12 15:31+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-03-15 10:48+0000\n"
+"PO-Revision-Date: 2019-06-05 08:36+0000\n"
 "Last-Translator: Polidori Alessandro <alessandro.polidori@gmail.com>\n"
 "Language-Team: English (United States)\n"
 "Language: en_US\n"
@@ -302,10 +302,22 @@ msgid "Decidere se fare un trasferimento \"Cieco\" o \"Consultativo\""
 msgstr "Decide to make a blinded or attended transfer"
 
 #: ../../calls.rst:108
+msgid "Condividere il desktop:"
+msgstr "Share the desktop:"
+
+#: ../../calls.rst:108
+msgid ""
+"È possibile scegliere se condividere un tab del browser, una finestra o "
+"l'interno desktop con l'utente remoto con cui si è in conversazione"
+msgstr ""
+"You can choose whether to share a browser tab, a window or the entire "
+"desktop with the remote user with whom you are in conversation"
+
+#: ../../calls.rst:111
 msgid "URL parametrizzato"
 msgstr "Parameterized URL"
 
-#: ../../calls.rst:110
+#: ../../calls.rst:113
 msgid ""
 "L'utente ha la possibilità di poter invocare un URL parametrizzato in "
 "corrispondenza di una chiamata in arrivo. L'URL viene automaticamente "
@@ -318,23 +330,23 @@ msgstr ""
 "caller and it is possible to \"open\" it alternately in four distinct "
 "scenario (from the settings \":ref:`paramurl-section`\" of the |product|):"
 
-#: ../../calls.rst:114
+#: ../../calls.rst:117
 msgid "mai"
 msgstr "never"
 
-#: ../../calls.rst:115
+#: ../../calls.rst:118
 msgid "quando la chiamata in arrivo sta squillando"
 msgstr "when the incoming call is ringing"
 
-#: ../../calls.rst:116
+#: ../../calls.rst:119
 msgid "quando la chiamata in arrivo è stato risposta"
 msgstr "when the incoming call has been answered"
 
-#: ../../calls.rst:117
+#: ../../calls.rst:120
 msgid "tramite un pulsante specifico presente nel box di gestione chiamata"
 msgstr "clicking a specific button in the call management box"
 
-#: ../../calls.rst:119
+#: ../../calls.rst:122
 msgid ""
 "L'URL viene configurato dall'amministratore che decide anche la lista degli "
 "utenti abilitati a tale funzione."
@@ -342,7 +354,7 @@ msgstr ""
 "The URL is configured by the administrator who also decides the list of "
 "users enabled for this function."
 
-#: ../../calls.rst:121
+#: ../../calls.rst:124
 msgid ""
 "Affinché l'URL possa essere invocato è necessario che l'utente abbia "
 "abilitato la visualizzazione dei popups nel proprio browser !"
@@ -350,11 +362,11 @@ msgstr ""
 "In order to be able to imvoke URL it is necessary that the user has enabled "
 "the display of popups in his browser!"
 
-#: ../../calls.rst:124
+#: ../../calls.rst:127
 msgid "Conferenze audio"
 msgstr "Audio conference"
 
-#: ../../calls.rst:126
+#: ../../calls.rst:129
 msgid ""
 "È una conferenza telefonica i cui partecipanti possono comunicare tra loro a "
 "voce, previo appuntamento. Praticamente il sistema consente di estendere le "
@@ -369,15 +381,15 @@ msgstr ""
 "create a conference and once he/she has made, it automatically becomes the "
 "moderator, who can perform some privileged operations, such as:"
 
-#: ../../calls.rst:132
+#: ../../calls.rst:135
 msgid "far uscire selettivamente gli utenti"
 msgstr "to let users out selectively"
 
-#: ../../calls.rst:133
+#: ../../calls.rst:136
 msgid "terminare l'intera conferenza"
 msgstr "end the whole conference"
 
-#: ../../calls.rst:134
+#: ../../calls.rst:137
 msgid ""
 "mettere in \"muto/un-muto\" selettivamente i singoli partecipanti o tutti "
 "con un unico click"
@@ -385,23 +397,23 @@ msgstr ""
 "selectively \"mute/un-mute\" individual participants or all of them with a "
 "single click"
 
-#: ../../calls.rst:135
+#: ../../calls.rst:138
 msgid "aggiungere nuovi utenti"
 msgstr "add new users"
 
-#: ../../calls.rst:136
+#: ../../calls.rst:139
 msgid "uscire/entrare dalla sua conferenza"
 msgstr "go out/enter his conference"
 
-#: ../../calls.rst:138
+#: ../../calls.rst:141
 msgid "Per creare una nuova conferenza:"
 msgstr "To create a new conference:"
 
-#: ../../calls.rst:140
+#: ../../calls.rst:143
 msgid "chiamare il primo partecipante tramite chiamata \"normale\""
 msgstr "call the first participant by \"normal\" call"
 
-#: ../../calls.rst:141
+#: ../../calls.rst:144
 msgid ""
 "una volta instaurata la conversazione è sufficiente cliccare il relativo "
 "pulsante presente nel box di gestione chiamata"
@@ -409,7 +421,7 @@ msgstr ""
 "once the conversation is established, simply click on the relevant button in "
 "the call management box"
 
-#: ../../calls.rst:142
+#: ../../calls.rst:145
 msgid ""
 "a questo punto una nuova conferenza è stata creata e vi appartiene solamente "
 "il destinatario della chiamata"
@@ -417,18 +429,18 @@ msgstr ""
 "at this point a new conference has been created and only the recipient of "
 "the call belongs to it"
 
-#: ../../calls.rst:143
+#: ../../calls.rst:146
 msgid "un nuovo box grafico compare per poter gestire la conferenza stessa"
 msgstr "a new graphic box appears to manage the conference itself"
 
-#: ../../calls.rst:144
+#: ../../calls.rst:147
 msgid ""
 "ripetere il punto 1 e 2 per aggiungere il secondo partecipante e così via "
 "per altri"
 msgstr ""
 "repeat step 1 and 2 to add the second participant and so on for others"
 
-#: ../../calls.rst:145
+#: ../../calls.rst:148
 msgid ""
 "quando tutti gli utenti sono stati aggiunti, il moderatore può entrare nella "
 "sua conferenza tramite il pulsante \"Entra\""
@@ -436,6 +448,6 @@ msgstr ""
 "when all the users have been added, the moderator can enter his conference "
 "via the \"Enter\" button"
 
-#: ../../calls.rst:146
+#: ../../calls.rst:149
 msgid "a questo punto tutti possono parlare liberamente"
 msgstr "at this point everyone can speak freely"

@@ -2,6 +2,29 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.14.0 - (12 GIU 2019)
+================================================
+
+**Nuove funzionalità e miglioramenti**
+
+- `Aggiunte le statistiche agenti e code nella nuova Dashboard del servizio QManager (Supervisore delle Code) con grafici e classifiche <https://github.com/nethesis/dev/issues/5610>`_
+- `Aggiunta la funzionalità di "Condivisione Desktop" durante una conversazione (Firefox e Chrome supportati) <https://github.com/nethesis/dev/issues/5607>`_
+- `Aggiunta data e ora agli allarmi visualizzati all'interno della Dashboard del servizio QManager <https://github.com/nethesis/dev/issues/5635>`_
+- `La lista ultime chiamate ora mostra anche l'azienda (se presente) nelle informazioni delle chiamate in ingresso <https://github.com/nethesis/dev/issues/5563>`_
+
+**Bug fixes**
+
+- `Eliminato un errore di log frequente nel server nel caso di streaming video non più raggiungibile <https://github.com/nethesis/dev/issues/5637>`_
+- `Eliminato un errore di log nel server nel caso di presenza di interno anonimo <https://github.com/nethesis/dev/issues/5636>`_
+- `Risolto un problema che ritornava dati non consentiti nell'uso della rest api qmanager_astats <https://github.com/nethesis/dev/issues/5634>`_
+- `Risolto il problema con l'utilizzo dei telefoni Fanvill della visualizzazione di una chiamata persa in corrispondenza di ogni chiamata in uscita <https://github.com/nethesis/dev/issues/5526>`_
+- `Risolto il problema che non consentiva l'utilizzo di codice javascript e css all'interno delle customer card personalizzate <https://github.com/nethesis/dev/issues/5643>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.14.0-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.14.0-1.ns7.x86_64.rpm``
+
 Cambiamenti principali - v3.13.0 - (28 MAG 2019)
 ================================================
 
