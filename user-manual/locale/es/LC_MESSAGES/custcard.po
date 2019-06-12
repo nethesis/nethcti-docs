@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-27 11:00+0200\n"
+"POT-Creation-Date: 2019-06-12 15:31+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,11 +14,11 @@ msgstr ""
 "X-Generator: Zanata 4.6.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../../custcard.rst:7
+#: ../../custcard.rst:3
 msgid "Customer Card"
 msgstr "Tarjeta Cliente"
 
-#: ../../custcard.rst:9
+#: ../../custcard.rst:5
 msgid ""
 "Mostra la scheda cliente relativa a un numero telefonico. È possibile "
 "visualizzarla in due modi:"
@@ -26,7 +26,7 @@ msgstr ""
 "Muestra la tarjeta cliente relativa a un número telefónico. Es posible "
 "visualizarla en dos modos:"
 
-#: ../../custcard.rst:11
+#: ../../custcard.rst:7
 msgid ""
 "cliccando l'apposito pulsante presente su un risultato della ricerca in "
 "rubrica"
@@ -34,11 +34,11 @@ msgstr ""
 "haciendo clic en el botón apropiado presente en un resultado de la búsqueda "
 "en la libreta de contactos"
 
-#: ../../custcard.rst:12
+#: ../../custcard.rst:8
 msgid "utilizzando il programma Nethifier"
 msgstr "usando el programa Nethifier"
 
-#: ../../custcard.rst:14
+#: ../../custcard.rst:10
 msgid ""
 "Nel primo caso i dati della scheda cliente vengono recuperati in base al "
 "numero telefonico di lavoro del contatto. Nel secondo caso le informazioni "
