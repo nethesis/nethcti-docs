@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-12 15:31+0200\n"
+"POT-Creation-Date: 2018-09-27 11:00+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,11 +14,11 @@ msgstr ""
 "X-Generator: Zanata 4.6.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../../settings.rst:3
+#: ../../settings.rst:7
 msgid "Impostazioni"
 msgstr "Configuración"
 
-#: ../../settings.rst:5
+#: ../../settings.rst:9
 msgid ""
 "La sezione impostazioni consente di cambiare l'immagine del profilo, "
 "visualizzare/nascondere le notifiche su desktop e scegliere le preferenze "
@@ -28,39 +28,39 @@ msgstr ""
 "ocultar las notificaciones de escritorio y elegir las preferencias para las "
 "tarjetas cliente."
 
-#: ../../settings.rst:9
+#: ../../settings.rst:13
 msgid "Come accedere alla sezione impostazioni"
 msgstr "Como acceder a la sección de configuración"
 
-#: ../../settings.rst:11
+#: ../../settings.rst:15
 msgid "Cliccare sul nome in alto nel bordo destro dell'applicazione"
 msgstr "Hacer clic en el nombre arriba en el borde derecho de la aplicación"
 
-#: ../../settings.rst:12
+#: ../../settings.rst:16
 msgid "Cliccare su \"Impostazioni\""
 msgstr "Hacer clic en \"Configuración\""
 
-#: ../../settings.rst:15
+#: ../../settings.rst:19
 msgid "Cambiare l'immagine del profilo"
 msgstr "Cambiar la imagen de perfil"
 
-#: ../../settings.rst:17
+#: ../../settings.rst:21
 msgid "Per cambiare l'immagine del profilo:"
 msgstr "Para cambiar la imagen de perfil:"
 
-#: ../../settings.rst:19
+#: ../../settings.rst:23
 msgid "Cliccare sul cerchio sotto \"Immagine profilo\""
 msgstr "Hacer clic en el circulo de abajo \"Imagen perfil\""
 
-#: ../../settings.rst:20
+#: ../../settings.rst:24
 msgid "Selezionare l'immagine dal disco"
 msgstr "Seleccionar la imagen desde el disco"
 
-#: ../../settings.rst:23
+#: ../../settings.rst:27
 msgid "Mostrare/Nascondere le notifiche desktop"
 msgstr "Mostrar/Ocultar las notificaciones de escritorio"
 
-#: ../../settings.rst:25
+#: ../../settings.rst:29
 msgid ""
 "Spuntare la checkbox sotto \"Notifiche Desktop\" per mostrare le notifiche "
 "desktop, togliere la spunta per nasconderle."
@@ -68,53 +68,53 @@ msgstr ""
 "Desmarcar la casilla debajo de \"Notificaciones Escritorio\" para mostrar "
 "las notificaciones de escritorio, quitar el tic para ocultarlas."
 
-#: ../../settings.rst:29
+#: ../../settings.rst:33
 msgid "DND ON/OFF automatico"
 msgstr ""
 
-#: ../../settings.rst:31
+#: ../../settings.rst:35
 msgid ""
 "L'utente ha la possibilità di configurare lo stato del DND (disabilitato/"
 "abilitato) automatico in corrispondenza del login/logout dal |product|."
 msgstr ""
 
-#: ../../settings.rst:38
+#: ../../settings.rst:42
 msgid "URL parametrizzato"
 msgstr ""
 
-#: ../../settings.rst:40
+#: ../../settings.rst:44
 msgid ""
 "Se l'utente ha il permesso, può scegliere di aprire un URL parametrizzato "
 "coi dati del chiamante in uno dei seguenti scenari:"
 msgstr ""
 
-#: ../../settings.rst:43
+#: ../../settings.rst:47
 msgid "mai"
 msgstr ""
 
-#: ../../settings.rst:44
+#: ../../settings.rst:48
 msgid "quando la chiamata in arrivo sta squillando"
 msgstr ""
 
-#: ../../settings.rst:45
+#: ../../settings.rst:49
 msgid "quando la chiamata in arrivo è stato risposta"
 msgstr ""
 
-#: ../../settings.rst:46
+#: ../../settings.rst:50
 msgid "tramite un pulsante specifico presente nel box di gestione chiamata"
 msgstr ""
 
-#: ../../settings.rst:48
+#: ../../settings.rst:52
 msgid ""
 "Affinché l'URL possa essere invocato è necessario che l'utente abbia "
 "abilitato la visualizzazione dei popups nel proprio browser !"
 msgstr ""
 
-#: ../../settings.rst:51
+#: ../../settings.rst:55
 msgid "Preferenze Schede Cliente"
 msgstr "Preferencias Tarjetas Cliente"
 
-#: ../../settings.rst:53
+#: ../../settings.rst:57
 msgid ""
 "Sotto questa sezione è possibile impostare l'apertura automatica delle "
 "schede cliente con l'arrivo di una chiamata e scegliere il loro ordine."
@@ -122,11 +122,11 @@ msgstr ""
 "Debajo de esta sección es posible configurar la apertura automática de las "
 "tarjetas de cliente con la llegada de una llamada y elegir su orden."
 
-#: ../../settings.rst:57
+#: ../../settings.rst:61
 msgid "Aprire una scheda cliente con l'arrivo di una chiamata"
 msgstr "Abrir una tarjeta de cliente con la llegada de una llamada"
 
-#: ../../settings.rst:59
+#: ../../settings.rst:63
 msgid ""
 "Spuntare la checkbox sotto \"Apri scheda cliente con le chiamate in "
 "ingresso\" per mostrare le schede cliente con l'arrivo di una chiamata, "
@@ -136,11 +136,11 @@ msgstr ""
 "en entrada\" para mostrar las tarjetas de cliente con la llegada de una "
 "llamada, quitar el tic para ocultarlas."
 
-#: ../../settings.rst:63
+#: ../../settings.rst:67
 msgid "Ordinamento schede cliente"
 msgstr "Orden tarjetas de cliente"
 
-#: ../../settings.rst:65
+#: ../../settings.rst:69
 msgid ""
 "Sotto la sezione \"Ordine schede cliente\" è possibile trascinare verso il "
 "basso o verso l'alto le schede cliente per modificare il loro ordine."
@@ -148,52 +148,52 @@ msgstr ""
 "Debajo de la sección \"Orden tarjetas cliente\" es posible arrastrar hacia "
 "abajo o hacia arriba las tarjetas de cliente para modificar su orden."
 
-#: ../../settings.rst:69
+#: ../../settings.rst:73
 msgid "Preferenze Code"
 msgstr ""
 
-#: ../../settings.rst:71
+#: ../../settings.rst:75
 msgid ""
 "Sotto questa sezione è possibile personalizzare alcune configurazioni "
 "relative alle code."
 msgstr ""
 
-#: ../../settings.rst:74
+#: ../../settings.rst:78
 msgid "Esci da coda automaticamente"
 msgstr ""
 
-#: ../../settings.rst:76
+#: ../../settings.rst:80
 msgid ""
 "Consente l'uscita automatica da tutte le proprie code quando si effettua il "
 "logout da |product|."
 msgstr ""
 
-#: ../../settings.rst:79
+#: ../../settings.rst:83
 msgid "Entra in coda automaticamente"
 msgstr ""
 
-#: ../../settings.rst:81
+#: ../../settings.rst:85
 msgid ""
 "Consente l'ingresso automatico su tutte le proprie code quando si effettua "
 "il login a |product|."
 msgstr ""
 
-#: ../../settings.rst:84
+#: ../../settings.rst:88
 msgid "Aggiorna chiamate perse in coda ogni"
 msgstr ""
 
-#: ../../settings.rst:86
+#: ../../settings.rst:90
 msgid ""
 "L'utente può personalizzare l'intervallo di aggiornamento della lista delle "
 "chiamate perse in coda visibile all'interno del servizio \"Code\". "
 "L'intervallo va da 10 a 60 secondi."
 msgstr ""
 
-#: ../../settings.rst:90
+#: ../../settings.rst:94
 msgid "Intervallo d'aggiornamento chiamate perse in coda"
 msgstr ""
 
-#: ../../settings.rst:92
+#: ../../settings.rst:96
 msgid ""
 "È l'intervallo temporale preso in considerazione per la costruzione delle "
 "chiamate perse in coda visibile all'interno del servizio \"Code\". "
