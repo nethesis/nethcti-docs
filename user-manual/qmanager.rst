@@ -3,7 +3,7 @@ QManager: Supervisore delle code
 ================================
 
 QManager (QM) è l’applicazione sviluppata per il "Supervisore delle Code" e consente una gestione
-completa di tutte le code del sistema in tempo reale e non.
+completa di tutte le code abilitate.
 
 Dashboard
 =========
@@ -32,7 +32,7 @@ Appena viene rilevato un'allarme viene visualizzata:
 - il messaggio nella sezione Allarmi della Dashboard
 - il messaggio tra gli allarmi relativi alla specifica installazione su my.nethesis.it
 
-.. note:: I messaggi d'allarme sia su My che nella Dashboard restano fino alla risoluzione della criticità.
+.. note:: I messaggi d'allarme sia su my.nethesis.it che nella Dashboard vengono visualizzati fino alla risoluzione della criticità.
 
 Sezione #2: Grafici
 -----------------------------------
@@ -47,8 +47,8 @@ Delle sezione Grafici fanno parte, partendo dalla parte alta della pagina:
 4) chiamate invalide
 
 - il grafico della distribuzione oraria delle chiamate entrate divise per coda
-- il grafico delle distribuzione oraria delle chiamate entrate chiamate risposte divise per coda
-- il grafico delle distribuzione oraria delle chiamate entrate chiamate non risposte divise per coda
+- il grafico della distribuzione oraria delle chiamate risposte divise per coda
+- il grafico della distribuzione oraria delle chiamate non risposte divise per coda
 
 Nei grafici vengono mostrati i dati a partire da 30 minuti prima della prima chiamata in entrata.
 
@@ -85,9 +85,9 @@ In corrispondenza e sottostanti al grafico della distribuzione delle chiamate ri
 - chiamate invalide (classifica delle code per chiamate invalide)
 - motivazioni di chiamata non risposta (classifica delle code per motivazioni di chiamata non risposta)
 
-Diversamente dalle classifiche degli agenti le posizioni delle classifiche per code non sono limitate ciò significa che verranno mostrati i dati di tutte le code abilitate per il QM.
+Diversamente dalle classifiche degli agenti il numero delle code non viene limitato in nessun modo, mostrando i dati di tutte le code abilitate per il QM.
 
-I dati mostrati nelle classifiche delle code vengono aggiornati ogni 30 secondi come nelle classifiche per agenti oppure al caricamento della pagina e sono in tempo reale.
+I dati mostrati nelle classifiche delle code vengono aggiornati ogni 30 secondi come nelle classifiche per agenti oppure al caricamento della pagina e vengono aggiornate in tempo reale.
 
 ------------
 
