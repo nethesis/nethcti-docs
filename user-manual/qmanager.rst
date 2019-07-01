@@ -159,6 +159,30 @@ Per ogni agente è anche possibile vedere sempre lo stato dell’interno telefon
 
 Per ogni chiamata verrà mostrato anche l’identificativo dell’interlocutore e la direzione.
 
+Chiamate perse
+==============
+
+Il tab *"Chiamate perse"* mostra informazioni sulle chiamate perse nelle code appartenenti al QM. Per ogni chiamata è anche possibile eseguire alcune azioni.
+
+Nella parte superiore del tab sono presenti le informazioni relative all'intervallo di aggiornamento delle informazioni sulle chiamate perse.
+L'intervallo di aggiornamento è anche un link alla pagina delle impostazioni dell'agente da dove è possibile cambiare l'intervallo di aggiornamento delle chiamate 
+perse sia per la pagina "Code" che per la pagina "Chiamate perse" del QM.
+
+Sottostante all'intervallo di aggiornamento è presente un pulsante tramite il quale è possibile esportare in formato CSV tutte le chiamate perse.
+
+Le informazioni relative alle chiamate perse vengono mostrate in formato tabellare e si dividono in "Non gestite", "Gestite" e "Tutte".
+Ogni tabella è composta dalle seguenti colonne:
+
+- Ora: data e ora in cui è avvenuta la chiamata
+- Coda: il nome e il numero della coda nella quale è entrata la chiamata
+- Azienda: se presente il nome dell'azienda
+- Nome: se presente il nome del contatto in rubrica
+- Chiamante: il numero del chiamante
+- Info: pulsante che permette di visualizzare il percorso completo compiuto dalla chiamata tramite una seconda tabella
+- Stato: se si tratta di una chiamata in uscita oppure in entrata
+- Esito: se la chiamata è stata gestita oppure non gestita
+- Azioni: se la chiamata non è stata gestita è presente un pulsante che permette di selezionare un agente della coda connesso in chat e inviare un messaggio automatico con informazioni utili per richiamare il contatto
+
 Realtime
 ========
 
