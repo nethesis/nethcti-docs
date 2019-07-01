@@ -30,9 +30,8 @@ Appena viene rilevato un'allarme viene visualizzata:
 
 - una notifica desktop con il messaggio dell'allarme
 - il messaggio nella sezione Allarmi della Dashboard
-- il messaggio tra gli allarmi relativi alla specifica installazione su my.nethesis.it
 
-.. note:: I messaggi d'allarme sia su my.nethesis.it che nella Dashboard vengono visualizzati fino alla risoluzione della criticità.
+.. note:: I messaggi d'allarme vengono visualizzati fino alla risoluzione della criticità.
 
 Sezione #2: Grafici
 -----------------------------------
