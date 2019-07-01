@@ -93,3 +93,12 @@ La lista può essere personalizzata selezionando:
 L’utente può richiamare un numero telefonico semplicemente cliccando l’entry relativa della tabella. In tal caso, se un altro utente si è già messo in comunicazione con la destinazione, verrà mostrato un avviso con cui decidere se rinunciare o forzare la chiamata.
 
 Per vedere i dettagli di una chiamata è sufficiente cliccare l’icona «i» della colonna «Info».
+
+Statistiche
+===========
+
+È possibile visualizzare alcuni dati statistici relativi al proprio utente in coda, dati relativi a:
+
+- login/logout
+- numero e tempistiche sulle chiamate
+- statistiche specifice sulle singole code di appartenenza
