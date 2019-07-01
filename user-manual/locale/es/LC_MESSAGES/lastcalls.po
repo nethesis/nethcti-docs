@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-27 11:00+0200\n"
+"POT-Creation-Date: 2019-07-01 12:26+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,11 +14,11 @@ msgstr ""
 "X-Generator: Zanata 4.6.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../../lastcalls.rst:7
+#: ../../lastcalls.rst:3
 msgid "Ultime chiamate"
 msgstr "Últimas llamadas"
 
-#: ../../lastcalls.rst:9
+#: ../../lastcalls.rst:5
 msgid ""
 "Il riquadro ultime chiamate mostra le chiamate effettuate in ordine "
 "cronologico. Da qui è possibile richiamare un numero o aggiungerlo in "
@@ -28,29 +28,29 @@ msgstr ""
 "cronológico. Desde aquí es posible llamar a un número o añadirlo a la "
 "libreta de direcciones."
 
-#: ../../lastcalls.rst:12
+#: ../../lastcalls.rst:8
 msgid "Chiamare un contatto da \"Ultime chiamate\""
 msgstr "Llamar a un contacto desde \"Últimas llamadas\""
 
-#: ../../lastcalls.rst:14
-#: ../../lastcalls.rst:20
+#: ../../lastcalls.rst:10
+#: ../../lastcalls.rst:16
 msgid "Individuare il riquadro \"Ultime chiamate\" in basso a destra"
 msgstr "Identificar el recuadro \"Últimas llamadas\" abajo a la derecha"
 
-#: ../../lastcalls.rst:15
+#: ../../lastcalls.rst:11
 msgid "Cliccare sul nome del contatto che si vuole chiamare di nuovo"
 msgstr "Hacer clic en el nombre del contacto al que se quiere llamar de nuevo"
 
-#: ../../lastcalls.rst:18
+#: ../../lastcalls.rst:14
 msgid "Aggiungere un contatto da \"Ultime chiamate\""
 msgstr "Añadir un contacto desde \"Últimas llamadas\""
 
-#: ../../lastcalls.rst:21
+#: ../../lastcalls.rst:17
 msgid "Cliccare sull'icona aggiungi contatto a destra del nome del contatto"
 msgstr ""
 "Hacer clic en el icono añadir contacto situado a la derecha del nombre del "
 "contacto"
 
-#: ../../lastcalls.rst:22
+#: ../../lastcalls.rst:18
 msgid "Completare le informazioni sul contatto e salvare"
 msgstr "Completar la información del contacto y guardar"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-27 11:00+0200\n"
+"POT-Creation-Date: 2019-07-01 12:26+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,11 +14,11 @@ msgstr ""
 "X-Generator: Zanata 4.6.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../../nethifier.rst:7
+#: ../../nethifier.rst:3
 msgid "|product_nethifier|"
 msgstr "|product_nethifier|"
 
-#: ../../nethifier.rst:9
+#: ../../nethifier.rst:5
 msgid ""
 "|product_nethifier| Windows Integration è l'applicazione per Microsoft "
 "Windows che consente l'integrazione di |product| con il desktop Windows. In "
@@ -31,11 +31,11 @@ msgstr ""
 "In particular, it allows the display of notification popups on the desktop "
 "in front of incoming calls directed to any telephone extension of the user."
 
-#: ../../nethifier.rst:12
+#: ../../nethifier.rst:8
 msgid "Descrizione"
 msgstr "Description"
 
-#: ../../nethifier.rst:14
+#: ../../nethifier.rst:10
 msgid ""
 "|product_nethifier| è sempre visibile tramite l'icona presente nella system "
 "tray di Windows cliccando la quale appare un menù con varie opzioni."
@@ -43,7 +43,7 @@ msgstr ""
 "|product_nethifier| is always visible through the icon in the Windows system "
 "tray, clicking on which a menu appears with various options."
 
-#: ../../nethifier.rst:17
+#: ../../nethifier.rst:13
 msgid ""
 "All'arrivo di una chiamata a uno degli interni telefonici associati "
 "all'utente, viene visualizzato un popup nel desktop che riporta informazioni "
@@ -53,25 +53,25 @@ msgstr ""
 "user, a pop-up appears on the desktop that shows information about the "
 "caller."
 
-#: ../../nethifier.rst:20
+#: ../../nethifier.rst:16
 msgid "Esistono due tipi di popup:"
 msgstr "There are two types of popups:"
 
-#: ../../nethifier.rst:22
+#: ../../nethifier.rst:18
 msgid "**generico** con informazioni sul chiamante"
 msgstr "**generic** with caller data"
 
-#: ../../nethifier.rst:23
+#: ../../nethifier.rst:19
 msgid "**di streaming** quando qualcuno suona al videocitofono"
 msgstr "**streaming** when someone call the video intercom"
 
-#: ../../nethifier.rst:25
+#: ../../nethifier.rst:21
 msgid ""
 "Il secondo tipo mostra l'immagine della persona che sta suonando il "
 "videocitofono."
 msgstr "The second type shows the image of the person at video intercom."
 
-#: ../../nethifier.rst:27
+#: ../../nethifier.rst:23
 msgid ""
 "È possibile interagire coi popup in diversi modi, ad esempio visualizzando "
 "la customer card del chiamante oppure comandando l'apertura della porta "
@@ -81,7 +81,7 @@ msgstr ""
 "viewing the caller's customer card or by open the door associated with the "
 "video intercom."
 
-#: ../../nethifier.rst:29
+#: ../../nethifier.rst:25
 msgid ""
 "I popup sono estremamente personalizzabili, sia *nell'interfaccia grafica*, "
 "sia soprattutto nel *contenuto*. È infatti possibile aggiungere un qualsiasi "
@@ -96,7 +96,7 @@ msgstr ""
 "invocation of an http URL, as well as the execution of a Java application. "
 "In general it is possible to run any Windows application."
 
-#: ../../nethifier.rst:31
+#: ../../nethifier.rst:27
 msgid ""
 "Il colore dell'icona del programma presente nella system tray indica lo "
 "stato di connessione col server cti. Il blu indica che |product_nethifier| è "
@@ -114,11 +114,11 @@ msgstr ""
 "minutes). In any case it is possible to force the reconnection by using "
 "contextual menu."
 
-#: ../../nethifier.rst:34
+#: ../../nethifier.rst:30
 msgid "Eseguire una telefonata"
 msgstr "Make a phone call"
 
-#: ../../nethifier.rst:36
+#: ../../nethifier.rst:32
 msgid ""
 "Per **effettuare una telefonata** è sufficiente selezionare un numero "
 "telefonico da una qualsiasi applicazione di Windows e premere la "
@@ -127,23 +127,23 @@ msgstr ""
 "To **make a phone call** simply select a phone number from any Windows "
 "application and press the chosen key combination (default: **CTRL + F11**)."
 
-#: ../../nethifier.rst:42
+#: ../../nethifier.rst:38
 msgid "Configurazione"
 msgstr "Configuration"
 
-#: ../../nethifier.rst:44
+#: ../../nethifier.rst:40
 msgid "È necessaria solamente la prima volta. I dati da inserire sono:"
 msgstr "It is only needed the first time. The data to be inserted are:"
 
-#: ../../nethifier.rst:46
+#: ../../nethifier.rst:42
 msgid "indirizzo del server (nome o IP)"
 msgstr "server address (name or IP)"
 
-#: ../../nethifier.rst:47
+#: ../../nethifier.rst:43
 msgid "credenziali dell'utente"
 msgstr "user credentials"
 
-#: ../../nethifier.rst:49
+#: ../../nethifier.rst:45
 msgid ""
 "È necessario salvare i dati cliccando il pulsante apposito in maniera tale "
 "da non doverli più reinserire agli avvii successivi. È anche possibile "
@@ -154,11 +154,11 @@ msgstr ""
 "avoid having to re-enter it at the next start-up. You can also activate the "
 "automatic execution of |product_nethifier| on Windows starts."
 
-#: ../../nethifier.rst:54
+#: ../../nethifier.rst:50
 msgid "Combinazione tasti chiamata"
 msgstr "Call key combination"
 
-#: ../../nethifier.rst:56
+#: ../../nethifier.rst:52
 msgid ""
 "È possibile personalizzare la combinazione di tasti usati per effettuare una "
 "chiamata o per ricomporre l'ultimo numero, tramite la scheda \"Dialer "

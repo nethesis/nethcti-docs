@@ -1,25 +1,26 @@
 # Polidori Alessandro <alessandro.polidori@gmail.com>, 2017. #zanata
 # Polidori Alessandro <alessandro.polidori@gmail.com>, 2018. #zanata
+# Polidori Alessandro <alessandro.polidori@gmail.com>, 2019. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-27 11:00+0200\n"
+"POT-Creation-Date: 2019-07-01 12:26+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-04-05 06:50+0000\n"
+"PO-Revision-Date: 2019-07-01 08:17+0000\n"
 "Last-Translator: Polidori Alessandro <alessandro.polidori@gmail.com>\n"
 "Language-Team: English (United States)\n"
 "Language: en_US\n"
 "X-Generator: Zanata 4.6.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../../queues.rst:7
+#: ../../queues.rst:3
 msgid "Code"
 msgstr "Queue"
 
-#: ../../queues.rst:9
+#: ../../queues.rst:5
 msgid ""
 "Nella sezione \"Code\" è possibile vedere in realtime le code configurate "
 "nel centralino assieme alle chiamate in attesa su ogni singola coda. E' "
@@ -27,16 +28,17 @@ msgid ""
 "agenti e lo stato della coda. E' possibile anche iscriversi/disiscriversi "
 "come agente della coda o mettersi in pausa/riprendersi da tutte le code."
 msgstr ""
-"In the \"Code\" section you can see in realtime the queues configured in the "
-"switchboard together with the queued calls on each queue. It is possible to "
-"search for a queue, see waiting and running calls, agents, and queue status. "
-"You can also login/logout as queue agent or pause/resume from all queues"
+"In the \"Queue\" section you can see in realtime the queues configured in "
+"the switchboard together with the queued calls on each queue. It is possible "
+"to search for a queue, see waiting and running calls, agents, and queue "
+"status. You can also login/logout as queue agent or pause/resume from all "
+"queues"
 
-#: ../../queues.rst:17
+#: ../../queues.rst:13
 msgid "La vista della coda"
 msgstr "The queue view"
 
-#: ../../queues.rst:19
+#: ../../queues.rst:15
 msgid ""
 "Nella scheda della coda è possibile vedere il nome della coda e il suo "
 "numero assieme ad altre informazioni sulla stessa."
@@ -44,36 +46,36 @@ msgstr ""
 "On the queue tab, you can see the queue name and its number together with "
 "other information on the queue itself."
 
-#: ../../queues.rst:23
+#: ../../queues.rst:19
 msgid "Contatori della coda"
 msgstr "Counters of the queue"
 
-#: ../../queues.rst:25
+#: ../../queues.rst:21
 msgid ""
 "Sul lato in alto a destra è possibile vedere alcuni contatori relativi a:"
 msgstr "On the top right side you can see some counters relating to:"
 
-#: ../../queues.rst:27
+#: ../../queues.rst:23
 msgid "totale delle chiamate passate attraverso la coda"
 msgstr "total of calls passed through the queue"
 
-#: ../../queues.rst:28
+#: ../../queues.rst:24
 msgid "totale delle chiamate correntemente in attesa"
 msgstr "total number of calls currently waiting"
 
-#: ../../queues.rst:29
+#: ../../queues.rst:25
 msgid "totale delle chiamate in corso"
 msgstr "total of ongoing calls"
 
-#: ../../queues.rst:30
+#: ../../queues.rst:26
 msgid "totale degli agenti attivi"
 msgstr "total of active agents"
 
-#: ../../queues.rst:33
+#: ../../queues.rst:29
 msgid "Attese"
 msgstr "Waitings"
 
-#: ../../queues.rst:35
+#: ../../queues.rst:31
 msgid ""
 "Sotto il nome della coda sono riportati i valori di attesa massima e minima "
 "relativi alle chiamate."
@@ -81,11 +83,11 @@ msgstr ""
 "Under the queue name, you can see the maximum and minimum waiting values for "
 "calls are reported"
 
-#: ../../queues.rst:39
+#: ../../queues.rst:35
 msgid "Chiamate"
 msgstr "Calls"
 
-#: ../../queues.rst:41
+#: ../../queues.rst:37
 msgid ""
 "Al centro del riquadro è possibile vedere: 1) le chiamate in attesa in tempo "
 "reale, con il chiamante, la posizione e l'attesa 2) le chiamate in corso in "
@@ -95,11 +97,11 @@ msgstr ""
 "caller, the position and the waiting time 2) the ongoing calls in real time "
 "with the caller, the agent and the duration"
 
-#: ../../queues.rst:46
+#: ../../queues.rst:42
 msgid "Agenti"
 msgstr "Agents"
 
-#: ../../queues.rst:48
+#: ../../queues.rst:44
 msgid ""
 "In basso nel riquadro della coda sono elencati tutti gli agenti, sia statici "
 "che dinamici. Gli agenti dinamici sono elencati assieme al loro stato di "
@@ -108,43 +110,43 @@ msgstr ""
 "Below all the static and dynamic agents are listed in the queue box. Dynamic "
 "agents are listed along with their queue status."
 
-#: ../../queues.rst:52
+#: ../../queues.rst:48
 msgid "Cercare una coda"
 msgstr "Search a queue"
 
-#: ../../queues.rst:54
-#: ../../queues.rst:60
-#: ../../queues.rst:66
-#: ../../queues.rst:72
-#: ../../queues.rst:78
+#: ../../queues.rst:50
+#: ../../queues.rst:56
+#: ../../queues.rst:62
+#: ../../queues.rst:68
+#: ../../queues.rst:74
 msgid "Selezionare la sezione \"Code\""
 msgstr "Select \"Queue\" section"
 
-#: ../../queues.rst:55
+#: ../../queues.rst:51
 msgid "Digitare il nome della coda nella casella di testo e premere invio"
 msgstr "Type the queue name in the text box and press enter"
 
-#: ../../queues.rst:58
+#: ../../queues.rst:54
 msgid "Login tutte le code"
 msgstr "Login on all queues"
 
-#: ../../queues.rst:61
+#: ../../queues.rst:57
 msgid "Cliccare sul buttone \"Login tutte le code\""
 msgstr "Click on \"Login on all queues\" button"
 
-#: ../../queues.rst:64
+#: ../../queues.rst:60
 msgid "Logout tutte le code"
 msgstr "Logout from all queues"
 
-#: ../../queues.rst:67
+#: ../../queues.rst:63
 msgid "Cliccare sul bottone \"Logout tutte le code\""
 msgstr "Click on \"Logout from all queues\" button"
 
-#: ../../queues.rst:70
+#: ../../queues.rst:66
 msgid "Pausa tutte le code"
 msgstr "Pause on all queues"
 
-#: ../../queues.rst:73
+#: ../../queues.rst:69
 msgid ""
 "Cliccare sul bottone \"Pausa tutte le code\" o cliccare sulla freccia per "
 "scegliere un motivo"
@@ -152,19 +154,19 @@ msgstr ""
 "Click on the \"Pause all queues\" button or click the arrow to choose a "
 "reason"
 
-#: ../../queues.rst:76
+#: ../../queues.rst:72
 msgid "Stop pause tutte le code"
 msgstr "Stop pause from all queues"
 
-#: ../../queues.rst:79
+#: ../../queues.rst:75
 msgid "Cliccare sul bottone \"Stop pause tutte le code\""
 msgstr "Click on the \"Stop pause from all queues\" button"
 
-#: ../../queues.rst:82
+#: ../../queues.rst:78
 msgid "Chiamate perse in coda"
 msgstr "Missed calls in the queue"
 
-#: ../../queues.rst:84
+#: ../../queues.rst:80
 msgid ""
 "Abilitando il permesso nel profilo, l'utente potrà visualizzare la lista "
 "delle chiamate perse in coda. Queste sono raggruppate in tre gruppi in base "
@@ -174,11 +176,11 @@ msgstr ""
 "missed calls in the queue. These are grouped into three groups based on the "
 "final outcome of the call:"
 
-#: ../../queues.rst:87
+#: ../../queues.rst:83
 msgid "*gestite*: sono le chiamate terminate con esito positivo"
 msgstr "*managed*: the calls are terminated successfully"
 
-#: ../../queues.rst:88
+#: ../../queues.rst:84
 msgid ""
 "*non gestite*: sono le chiamate che per qualche motivo non hanno ricevuto "
 "risposta da parte dell'agente in coda"
@@ -186,26 +188,26 @@ msgstr ""
 "*not managed*: are the calls that for some reason have not received a "
 "response from a queue agent"
 
-#: ../../queues.rst:89
+#: ../../queues.rst:85
 msgid "*tutte*"
 msgstr "*all*"
 
-#: ../../queues.rst:91
+#: ../../queues.rst:87
 msgid "La lista può essere personalizzata selezionando:"
 msgstr "The list can be customized by selecting:"
 
-#: ../../queues.rst:93
+#: ../../queues.rst:89
 msgid "le code a cui l'utente appartiene"
 msgstr "the queues to which the user belongs"
 
-#: ../../queues.rst:94
+#: ../../queues.rst:90
 msgid ""
 "l'intervallo d'aggiornamento dei dati (da 10 a 60 secondi: il default è ogni "
 "10)."
 msgstr ""
 "the data update interval (from 10 to 60 seconds: the default is every 10)."
 
-#: ../../queues.rst:95
+#: ../../queues.rst:91
 msgid ""
 "l'intervallo orario su cui effettuare la ricerca (da 1 a 12 ore antecedenti "
 "l'ora attuale: il default ricerca sulle ultime 8 ore)"
@@ -213,7 +215,7 @@ msgstr ""
 "the time interval on which to search (from 1 to 12 hours before the current "
 "time: the default search on the last 8 hours)"
 
-#: ../../queues.rst:97
+#: ../../queues.rst:93
 msgid ""
 "L’utente può richiamare un numero telefonico semplicemente cliccando l’entry "
 "relativa della tabella. In tal caso, se un altro utente si è già messo in "
@@ -225,10 +227,32 @@ msgstr ""
 "conversation with the destination, a warning message will be shown to to "
 "decide whether to renounce or force the call."
 
-#: ../../queues.rst:99
+#: ../../queues.rst:95
 msgid ""
 "Per vedere i dettagli di una chiamata è sufficiente cliccare l’icona «i» "
 "della colonna «Info»."
 msgstr ""
 "To see the details of a call simply click on the «i» icon in the «Info» "
 "column."
+
+#: ../../queues.rst:98
+msgid "Statistiche"
+msgstr ""
+
+#: ../../queues.rst:100
+msgid ""
+"È possibile visualizzare alcuni dati statistici relativi al proprio utente "
+"in coda, dati relativi a:"
+msgstr ""
+
+#: ../../queues.rst:102
+msgid "login/logout"
+msgstr ""
+
+#: ../../queues.rst:103
+msgid "numero e tempistiche sulle chiamate"
+msgstr ""
+
+#: ../../queues.rst:104
+msgid "statistiche specifice sulle singole code di appartenenza"
+msgstr ""

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-27 11:00+0200\n"
+"POT-Creation-Date: 2019-07-01 12:26+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Generator: Zanata 4.6.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../../streaming.rst:7
+#: ../../streaming.rst:3
 msgid "Sorgenti video"
 msgstr "Video fuentes"
 
-#: ../../streaming.rst:9
+#: ../../streaming.rst:5
 msgid ""
 "La sezione sorgenti video permette di visualizzare lo stream delle "
 "telecamere IP configurate con la possibilità di effettuare diverse azioni."
@@ -27,29 +27,29 @@ msgstr ""
 "La sección fuentes de vídeo permite visualizar el stream de las tele-cámaras "
 "IP configuradas con la posibilidad de efectuar diversas acciones."
 
-#: ../../streaming.rst:12
+#: ../../streaming.rst:8
 msgid "Visualizzare le sorgenti video"
 msgstr "Visualizar las fuentes de vídeo"
 
-#: ../../streaming.rst:14
+#: ../../streaming.rst:10
 msgid "Cliccare l'icona della videocamera nella sezione in alto a sinistra"
 msgstr ""
 "Hacer clic en el icono de la video cámara en la sección de arriba a la "
 "izquierda"
 
-#: ../../streaming.rst:15
+#: ../../streaming.rst:11
 msgid "Vengono mostrate le diverse sorgenti video configurate"
 msgstr "Vienen mostradas las diversas fuentes de vídeo configuradas"
 
-#: ../../streaming.rst:16
+#: ../../streaming.rst:12
 msgid "Per ogni sorgente è possibile:"
 msgstr "Para cada fuente es posible:"
 
-#: ../../streaming.rst:18
+#: ../../streaming.rst:14
 msgid "Fare uno screenshot dell'immagine corrente"
 msgstr "Hacer una captura de pantalla de la imagen actual"
 
-#: ../../streaming.rst:19
+#: ../../streaming.rst:15
 msgid ""
 "Inviare un comando di apertura porta, se la telecamera supporta tale "
 "funzionalità"
@@ -57,6 +57,6 @@ msgstr ""
 "Enviar un comando de apertura de puerta, si la tele-cámara soporta dicha "
 "funcionalidad"
 
-#: ../../streaming.rst:20
+#: ../../streaming.rst:16
 msgid "Parlare attraverso l'altoparlante della camera"
 msgstr "Hablar a través del altavoz de la cámara"
