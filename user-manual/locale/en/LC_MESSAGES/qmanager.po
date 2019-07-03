@@ -5,11 +5,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-13 11:53+0200\n"
+"POT-Creation-Date: 2019-07-03 09:25+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-06-13 10:21+0000\n"
+"PO-Revision-Date: 2019-07-01 10:25+0000\n"
 "Last-Translator: Sebastian Marius Besel <sebastian.besel@nethesis.it>\n"
 "Language-Team: English (United States)\n"
 "Language: en_US\n"
@@ -147,12 +147,12 @@ msgid "chiamate totali"
 msgstr "total calls"
 
 #: ../../qmanager.rst:45
-#: ../../qmanager.rst:246
+#: ../../qmanager.rst:270
 msgid "chiamate risposte"
 msgstr "answered calls"
 
 #: ../../qmanager.rst:46
-#: ../../qmanager.rst:248
+#: ../../qmanager.rst:272
 msgid "chiamate non risposte"
 msgstr "not answered calls"
 
@@ -544,10 +544,103 @@ msgstr ""
 "also be shown."
 
 #: ../../qmanager.rst:163
+msgid "Chiamate perse"
+msgstr "Lost calls"
+
+#: ../../qmanager.rst:165
+msgid ""
+"Il tab *\"Chiamate perse\"* mostra informazioni sulle chiamate perse nelle "
+"code appartenenti al QM. Per ogni chiamata è anche possibile eseguire alcune "
+"azioni."
+msgstr ""
+"The tab \"Missed calls\" * shows information on missed calls in the queues "
+"belonging to the QM. For each call it is also possible to perform some "
+"actions."
+
+#: ../../qmanager.rst:167
+msgid ""
+"Nella parte superiore del tab sono presenti le informazioni relative "
+"all'intervallo di aggiornamento delle informazioni sulle chiamate perse. "
+"L'intervallo di aggiornamento è anche un link alla pagina delle impostazioni "
+"dell'agente da dove è possibile cambiare l'intervallo di aggiornamento delle "
+"chiamate perse sia per la pagina \"Code\" che per la pagina \"Chiamate "
+"perse\" del QM."
+msgstr ""
+"The upper part of the tab contains information on the interval for updating "
+"information on missed calls. The update interval is also a link to the agent "
+"settings page where it is possible to change the interval for updating "
+"missed calls both for the \"Code\" page and for the \"Missed calls\" page of "
+"the QM."
+
+#: ../../qmanager.rst:171
+msgid ""
+"Sottostante all'intervallo di aggiornamento è presente un pulsante tramite "
+"il quale è possibile esportare in formato CSV tutte le chiamate perse."
+msgstr ""
+"Underlying the update interval there is a button through which it is "
+"possible to export all missed calls in CSV format."
+
+#: ../../qmanager.rst:173
+msgid ""
+"Le informazioni relative alle chiamate perse vengono mostrate in formato "
+"tabellare e si dividono in \"Non gestite\", \"Gestite\" e \"Tutte\". Ogni "
+"tabella è composta dalle seguenti colonne:"
+msgstr ""
+"Information on missed calls is shown in tabular format and is divided into "
+"\"Unmanaged\", \"Managed\" and \"All\". Each table consists of the following "
+"columns:"
+
+#: ../../qmanager.rst:176
+msgid "Ora: data e ora in cui è avvenuta la chiamata"
+msgstr "Time: date and time the call took place"
+
+#: ../../qmanager.rst:177
+msgid "Coda: il nome e il numero della coda nella quale è entrata la chiamata"
+msgstr "Queue: the name and number of the queue in which the call entered"
+
+#: ../../qmanager.rst:178
+msgid "Azienda: se presente il nome dell'azienda"
+msgstr "Company: if the name of the company is present"
+
+#: ../../qmanager.rst:179
+msgid "Nome: se presente il nome del contatto in rubrica"
+msgstr "Name: if the name of the contact is present in the phonebook"
+
+#: ../../qmanager.rst:180
+msgid "Chiamante: il numero del chiamante"
+msgstr "Caller: the caller's number"
+
+#: ../../qmanager.rst:181
+msgid ""
+"Info: pulsante che permette di visualizzare il percorso completo compiuto "
+"dalla chiamata tramite una seconda tabella"
+msgstr ""
+"Info: button that allows you to view the complete route taken by the call "
+"through a second table"
+
+#: ../../qmanager.rst:182
+msgid "Stato: se si tratta di una chiamata in uscita oppure in entrata"
+msgstr "Status: if it is outgoing or incoming call"
+
+#: ../../qmanager.rst:183
+msgid "Esito: se la chiamata è stata gestita oppure non gestita"
+msgstr "Outcome: if the call was managed or not managed"
+
+#: ../../qmanager.rst:184
+msgid ""
+"Azioni: se la chiamata non è stata gestita è presente un pulsante che "
+"permette di selezionare un agente della coda connesso in chat e inviare un "
+"messaggio automatico con informazioni utili per richiamare il contatto"
+msgstr ""
+"Actions: if the call has not been managed there is a button that allows you "
+"to select an agent of the queue connected in chat and send an automatic "
+"message with useful information to recall the contact"
+
+#: ../../qmanager.rst:187
 msgid "Realtime"
 msgstr "Realtime"
 
-#: ../../qmanager.rst:165
+#: ../../qmanager.rst:189
 msgid ""
 "Il tab *\"Realtime\"* mostra informazioni in tempo reale su tutte le code e "
 "agenti. È anche possibile eseguire determinate azioni."
@@ -555,11 +648,11 @@ msgstr ""
 "The *\"Realtime\"* tab shows real-time information on all queues and agents. "
 "It is also possible to perform certain actions"
 
-#: ../../qmanager.rst:168
+#: ../../qmanager.rst:192
 msgid "Contatori"
 msgstr "Counters"
 
-#: ../../qmanager.rst:170
+#: ../../qmanager.rst:194
 msgid ""
 "Un insieme di contatori mostra un riepilogo di informazioni sulle chiamate e "
 "agenti di tutte le code:"
@@ -567,40 +660,40 @@ msgstr ""
 "A set of counters shows a summary of information about the calls and agents "
 "of all the queues:"
 
-#: ../../qmanager.rst:172
+#: ../../qmanager.rst:196
 msgid "totale chiamate (in attesa e connesse)"
 msgstr "total calls (on hold and connected)"
 
-#: ../../qmanager.rst:173
+#: ../../qmanager.rst:197
 msgid "chiamate in attesa"
 msgstr "waiting call"
 
-#: ../../qmanager.rst:174
+#: ../../qmanager.rst:198
 msgid "chiamate correntemente in gestione"
 msgstr "calls currently being managed"
 
-#: ../../qmanager.rst:175
+#: ../../qmanager.rst:199
 msgid "agenti in coda / fuori coda"
 msgstr "logged agents / logged out agents"
 
-#: ../../qmanager.rst:176
+#: ../../qmanager.rst:200
 msgid "agenti in pausa"
 msgstr "paused agents"
 
-#: ../../qmanager.rst:177
+#: ../../qmanager.rst:201
 msgid "agenti occupati"
 msgstr "busy agents"
 
-#: ../../qmanager.rst:178
+#: ../../qmanager.rst:202
 msgid "agenti pronti a ricevere una chiamata"
 msgstr "agents ready to receive a call"
 
-#: ../../qmanager.rst:181
-#: ../../qmanager.rst:213
+#: ../../qmanager.rst:205
+#: ../../qmanager.rst:237
 msgid "Statistiche code"
 msgstr "Queues Statistics"
 
-#: ../../qmanager.rst:183
+#: ../../qmanager.rst:207
 msgid ""
 "Per ogni coda sono presenti due grafici, uno che mostra informazioni "
 "relative alle chiamate (numero chiamate totali/in attesa/in gestione) e un "
@@ -611,12 +704,12 @@ msgstr ""
 "(total / waiting / managed calls) and another about the agents (queued / out "
 "of queue / paused / busy / ready to receive calls)."
 
-#: ../../qmanager.rst:188
-#: ../../qmanager.rst:232
+#: ../../qmanager.rst:212
+#: ../../qmanager.rst:256
 msgid "Statistiche agenti"
 msgstr "Agents Statistics"
 
-#: ../../qmanager.rst:190
+#: ../../qmanager.rst:214
 msgid ""
 "Questa sezione visualizza informazioni relative agli agenti di tutte le code."
 " Per ognuno di essi viene visualizzato:"
@@ -624,47 +717,47 @@ msgstr ""
 "This section displays information about the agents of all the queues. For "
 "each of them is displayed:"
 
-#: ../../qmanager.rst:192
+#: ../../qmanager.rst:216
 msgid "stato dell'interno telefonico"
 msgstr "telephone extension status"
 
-#: ../../qmanager.rst:193
+#: ../../qmanager.rst:217
 msgid "stato dell'agente in coda"
 msgstr "status of the agent in the queue"
 
-#: ../../qmanager.rst:194
+#: ../../qmanager.rst:218
 msgid "orario dell'ultimo login in coda"
 msgstr "time of last login in queue"
 
-#: ../../qmanager.rst:195
+#: ../../qmanager.rst:219
 msgid "orario dell'ultimo logout dalla coda"
 msgstr "time of last logout from the queue"
 
-#: ../../qmanager.rst:196
+#: ../../qmanager.rst:220
 msgid "orario dell'ultimo ingresso in pausa"
 msgstr "time of the beginning of the last paused"
 
-#: ../../qmanager.rst:197
+#: ../../qmanager.rst:221
 msgid "orario di uscita dall'ultima pausa"
 msgstr "time of the end of the last pause"
 
-#: ../../qmanager.rst:198
+#: ../../qmanager.rst:222
 msgid "durata dell'ultimo intervallo di pausa eseguito"
 msgstr "duration of the last pause interval performed"
 
-#: ../../qmanager.rst:199
+#: ../../qmanager.rst:223
 msgid "numero di chiamate gestite"
 msgstr "number of calls handled"
 
-#: ../../qmanager.rst:200
+#: ../../qmanager.rst:224
 msgid "orario dell'ultima chiamata gestita"
 msgstr "time of the last call handled"
 
-#: ../../qmanager.rst:201
+#: ../../qmanager.rst:225
 msgid "tempo intercorso dall'ultima chiamata gestita"
 msgstr "time since the last managed call"
 
-#: ../../qmanager.rst:203
+#: ../../qmanager.rst:227
 msgid ""
 "Inoltre per ogni agente è possibile eseguire delle azioni cliccando il menù "
 "contestuale relativo."
@@ -672,11 +765,11 @@ msgstr ""
 "Furthermore, for each agent, it is possible to perform actions by clicking "
 "the relative context menu."
 
-#: ../../qmanager.rst:206
+#: ../../qmanager.rst:230
 msgid "Summary"
 msgstr "Summary"
 
-#: ../../qmanager.rst:208
+#: ../../qmanager.rst:232
 msgid ""
 "Il tab *\"Summary\"* mostra informazioni su tutte le code e agenti "
 "attraverso grafici interattivi e tabelle. I dati all'interno del tab vengono "
@@ -688,7 +781,7 @@ msgstr ""
 "minutes if you stay on the page and each time the card is reloaded or the "
 "tab is changed."
 
-#: ../../qmanager.rst:215
+#: ../../qmanager.rst:239
 msgid ""
 "Nella parte superiore della pagina sono presenti 8 grafici all'interno dei "
 "quali vengono messe a confronto le code con la possibilità di disabilitarle "
@@ -703,11 +796,11 @@ msgstr ""
 "graphs. For each chart, there is an icon which shows the explanation of the "
 "graph."
 
-#: ../../qmanager.rst:220
+#: ../../qmanager.rst:244
 msgid "I dati rappresentati nel grafico sono:"
 msgstr "The data represented in the graph are:"
 
-#: ../../qmanager.rst:222
+#: ../../qmanager.rst:246
 msgid ""
 "chiamate totali: numero di chiamate entrate per ogni coda e percentuale "
 "sulle chiamate totali del giorno"
@@ -715,7 +808,7 @@ msgstr ""
 "total calls: number of calls entered for each queue and percentage of total "
 "calls of the day"
 
-#: ../../qmanager.rst:223
+#: ../../qmanager.rst:247
 msgid ""
 "chiamate processate: numero di chiamate processate per ogni coda e "
 "percentuale sulle chiamate totali entrate in coda"
@@ -723,7 +816,7 @@ msgstr ""
 "processed calls: number of calls processed for each queue and percentage of "
 "total calls queued"
 
-#: ../../qmanager.rst:224
+#: ../../qmanager.rst:248
 msgid ""
 "chiamate processate prima del livello di servizio: numero di chiamate "
 "processate prima del livello di servizio per ogni coda e percentuale sulle "
@@ -732,7 +825,7 @@ msgstr ""
 "calls processed before service level: number of calls processed before "
 "service level for each queue and percentage of total calls queued"
 
-#: ../../qmanager.rst:225
+#: ../../qmanager.rst:249
 msgid ""
 "chiamate fallite: numero di chiamate non riuscite per ogni coda e "
 "percentuale sulle chiamate totali entrate in coda"
@@ -740,7 +833,7 @@ msgstr ""
 "missed calls: number of failed calls for each queue and percentage of total "
 "calls queued"
 
-#: ../../qmanager.rst:226
+#: ../../qmanager.rst:250
 msgid ""
 "chiamate invalide: numero di chiamate non valide per ogni coda e percentuale "
 "sulle chiamate totali entrate in coda"
@@ -748,7 +841,7 @@ msgstr ""
 "invalid calls: number of invalid calls for each queue and percentage of "
 "total calls queued"
 
-#: ../../qmanager.rst:227
+#: ../../qmanager.rst:251
 msgid ""
 "ragioni chiamate fallite: chiamate non riuscite per i seguenti motivi: "
 "abbandono, code piena, timeout, nessuno all'ingresso in coda, nessun agente "
@@ -758,7 +851,7 @@ msgstr ""
 "full queue, timeout, none at queue, no agent in queue, and ivr for each "
 "queue"
 
-#: ../../qmanager.rst:228
+#: ../../qmanager.rst:252
 msgid ""
 "chiamate in attesa: durata minima, media e massima delle chiamate in attesa "
 "per ogni coda"
@@ -766,12 +859,12 @@ msgstr ""
 "call waiting: minimum, average and maximum duration of calls waiting for "
 "each queue"
 
-#: ../../qmanager.rst:229
+#: ../../qmanager.rst:253
 msgid "durata chiamate: durata chiamate minima, media e massima per ogni coda"
 msgstr ""
 "call duration: minimum, average and maximum call duration for each queue"
 
-#: ../../qmanager.rst:234
+#: ../../qmanager.rst:258
 msgid ""
 "Nella sezione inferiore della pagina sono presenti i dati relativi agli "
 "agenti e alle code per ogni agente oltre allo stato dell'agente e "
@@ -782,7 +875,7 @@ msgstr ""
 "each agent in addition to the status of the agent and agent in each queue. "
 "Agents can be filtered and sorted by name and extension."
 
-#: ../../qmanager.rst:237
+#: ../../qmanager.rst:261
 msgid ""
 "Le tabelle contenenti i dati di ogni agente sono divise in macroaree secondo "
 "il seguente schema:"
@@ -790,59 +883,59 @@ msgstr ""
 "The tables containing the data of each agent are divided into macro-areas "
 "according to the following scheme:"
 
-#: ../../qmanager.rst:239
+#: ../../qmanager.rst:263
 msgid "Login:"
 msgstr "Login:"
 
-#: ../../qmanager.rst:241
+#: ../../qmanager.rst:265
 msgid "ultimo login"
 msgstr "last login"
 
-#: ../../qmanager.rst:242
+#: ../../qmanager.rst:266
 msgid "ultimo logout"
 msgstr "last logout"
 
-#: ../../qmanager.rst:244
+#: ../../qmanager.rst:268
 msgid "Chiamate:"
 msgstr "Calls:"
 
-#: ../../qmanager.rst:247
+#: ../../qmanager.rst:271
 msgid "chiamate in uscita"
 msgstr "outgoing calls"
 
-#: ../../qmanager.rst:249
+#: ../../qmanager.rst:273
 msgid "da ultima chiamata (tempo trascorso dall'ultima chiamata)"
 msgstr "from last call (time elapsed since last call)"
 
-#: ../../qmanager.rst:250
+#: ../../qmanager.rst:274
 msgid "tempo al telefono (tempo totale trascorso al telefono)"
 msgstr "time on the phone (total time spent on the phone)"
 
-#: ../../qmanager.rst:252
+#: ../../qmanager.rst:276
 msgid "Lunghezza chiamate:"
 msgstr "Call duration:"
 
-#: ../../qmanager.rst:254
+#: ../../qmanager.rst:278
 msgid "min (durata minima delle chiamate)"
 msgstr "min (minimum call duration)"
 
-#: ../../qmanager.rst:255
+#: ../../qmanager.rst:279
 msgid "max (durata massima delle chiamate)"
 msgstr "max (maximum call duration)"
 
-#: ../../qmanager.rst:256
+#: ../../qmanager.rst:280
 msgid "media (durata media delle chiamate)"
 msgstr "average (average call duration)"
 
-#: ../../qmanager.rst:257
+#: ../../qmanager.rst:281
 msgid "totale in ingresso (durata totale delle chiamate in ingresso)"
 msgstr "total incoming (total duration of incoming calls)"
 
-#: ../../qmanager.rst:258
+#: ../../qmanager.rst:282
 msgid "totate in uscita (durata totale delle chiamate in uscita)"
 msgstr "outgoing totals (total duration of outgoing calls)"
 
-#: ../../qmanager.rst:260
+#: ../../qmanager.rst:284
 msgid ""
 "Sotto le tabelle che mostrano le informazioni degli agenti si trova la lista "
 "delle code alle quali l'agente appartiene con le relative tabelle contenenti "
@@ -852,29 +945,29 @@ msgstr ""
 "which the agent belongs with the relevant tables containing the agent "
 "information referring to the queue."
 
-#: ../../qmanager.rst:263
+#: ../../qmanager.rst:287
 msgid "I dati visualizzati per ogni coda sono:"
 msgstr "The data displayed for each queue are:"
 
-#: ../../qmanager.rst:265
+#: ../../qmanager.rst:289
 msgid "in coda (tempo trascorso in coda)"
 msgstr "queued (time spent in the queue)"
 
-#: ../../qmanager.rst:266
+#: ../../qmanager.rst:290
 msgid "tempo in pausa"
 msgstr "pause time"
 
-#: ../../qmanager.rst:267
+#: ../../qmanager.rst:291
 msgid ""
 "pausa su logon (percentuale del tempo in pausa rispetto al tempo trascorso "
 "in coda)"
 msgstr "pause on logon (percentage of time paused of time spent in queue)"
 
-#: ../../qmanager.rst:268
+#: ../../qmanager.rst:292
 msgid "tempo al telefono"
 msgstr "time on the phone"
 
-#: ../../qmanager.rst:270
+#: ../../qmanager.rst:294
 msgid ""
 "Accanto al nome di ogni coda è presente lo stato dell'agente in coda e alla "
 "sinistra di ogni avatar nella parte alta della card è presente lo stato "
@@ -884,18 +977,18 @@ msgstr ""
 "and to the left of each avatar on the top of the card is the telephone "
 "status"
 
-#: ../../qmanager.rst:273
+#: ../../qmanager.rst:297
 msgid "Monitor"
 msgstr "Monitor"
 
-#: ../../qmanager.rst:275
+#: ../../qmanager.rst:299
 msgid ""
 "Il tab «Monitor» mostra in tempo reale le chiamate in attesa nelle code "
 "abilitate."
 msgstr ""
 "The «Monitor» tab shows real-time waiting calls in the enabled queues."
 
-#: ../../qmanager.rst:277
+#: ../../qmanager.rst:301
 msgid ""
 "Nella sezione superiore è presente la lista delle code con la possibilità di "
 "abilitarle oppure disabilitarle e una select che permette di selezionare il "
@@ -905,14 +998,14 @@ msgstr ""
 "enable or disable them and a select that allows you to select the number of "
 "calls to show."
 
-#: ../../qmanager.rst:279
+#: ../../qmanager.rst:303
 msgid ""
 "Le chiamate in attesa vengono mostrate in formato tabellare mostrando le "
 "seguenti informazioni:"
 msgstr ""
 "Calls on hold are shown in tabular format showing the following information:"
 
-#: ../../qmanager.rst:281
+#: ../../qmanager.rst:305
 msgid ""
 "nella prima colonna è presente un cerchio colorato in base alla presenza "
 "oppure no di una chiamata in attesa nella medesima posizione (verde se la "
@@ -922,20 +1015,20 @@ msgstr ""
 "of a call on hold in the same position (green if the position is free, red "
 "if the position is occupied)"
 
-#: ../../qmanager.rst:282
+#: ../../qmanager.rst:306
 msgid "nella seconda colonna viene mostrato il chiamante"
 msgstr "in the second column is shown the caller"
 
-#: ../../qmanager.rst:283
+#: ../../qmanager.rst:307
 msgid "nella terza colonna viene mostrata la posizione della chiamata"
 msgstr "in the third column is shown the position"
 
-#: ../../qmanager.rst:284
+#: ../../qmanager.rst:308
 msgid ""
 "nella quarta colonna viene mostrato da quanto tempo la chiamata è in attesa"
 msgstr "in the fourth column is shown how long the call has been waiting"
 
-#: ../../qmanager.rst:286
+#: ../../qmanager.rst:310
 msgid ""
 "Nella parte superiore destra di ogni tabella è presente un'icona che "
 "permette di invertire i colori nella tabella in base alla preferenze."

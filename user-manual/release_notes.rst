@@ -2,6 +2,33 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.15.0 - (2 LUG 2019)
+===============================================
+
+**Nuove funzionalità e miglioramenti**
+
+- `Nuova funzionalità all'interno del tab "Code" per visualizzare dati statistici relativi al proprio utente <https://github.com/nethesis/dev/issues/5656>`_
+- `Aggiunta l'indicazione dell'interno telefonico all'interno dei box utente nel pannello operatore <https://github.com/nethesis/dev/issues/5652>`_
+- `Aggiunto il nuoto servizio "Chiamate perse" all'interno del QManager (Supervisore delle code) <https://github.com/nethesis/dev/issues/5646>`_
+- `Aggiornata la libreria WebRTC Janus <https://github.com/nethesis/dev/issues/5645>`_
+
+**Bug fixes**
+
+- `All'iterno del tab "Code" la lista delle chiamate connesse non si aggiorna correttamente al termine delle chiamate <https://github.com/nethesis/dev/issues/5653>`_
+- `Risolti alcuni problemi di login al cti dopo il boot della macchina <https://github.com/nethesis/dev/issues/5650>`_
+- `Risolto il problema di login se il modulo nethcti-queuemanager non era installato <https://github.com/nethesis/dev/issues/5647>`_
+- `I box utente all'interno del tab "Code" del servizio QManager non mostravano lo stato di Hold <https://github.com/nethesis/dev/issues/5658>`_
+- `All'interno della Dashboard del Wizard di NethVoice lo stato degli interni era errato quando l'interno era in conversazione <https://github.com/nethesis/dev/issues/5659>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.15.0-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.15.0-1.ns7.x86_64.rpm``
+- ``nethserver-janus-1.0.13-1.ns7.noarch.rpm``
+- ``janus-gateway-0.7.2.0-1.ns7.x86_64.rpm``
+- ``nethvoice-wizard-ui-14.3.2-1.ns7.noarch.rpm``
+- ``nethserver-nethvoice14-14.3.0-1.ns7.noarch.rpm``
+
 Cambiamenti principali - v3.14.0 - (12 GIU 2019)
 ================================================
 

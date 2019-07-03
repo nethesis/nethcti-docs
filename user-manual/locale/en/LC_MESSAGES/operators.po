@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-27 11:00+0200\n"
+"POT-Creation-Date: 2019-06-12 15:31+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,27 +14,27 @@ msgstr ""
 "X-Generator: Zanata 4.6.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
+#: ../../operators.rst:3
 #: ../../operators.rst:7
-#: ../../operators.rst:11
-#: ../../operators.rst:16
+#: ../../operators.rst:12
 msgid "Operatori"
 msgstr "Operators"
 
-#: ../../operators.rst:9
+#: ../../operators.rst:5
 msgid "Il servizio \"Operatori\" contiene tre sotto-sezioni:"
 msgstr "The \"Operators\" tab contains three sub-sections:"
 
-#: ../../operators.rst:12
-#: ../../operators.rst:34
+#: ../../operators.rst:8
+#: ../../operators.rst:30
 msgid "Linee"
 msgstr "Lines"
 
-#: ../../operators.rst:13
-#: ../../operators.rst:58
+#: ../../operators.rst:9
+#: ../../operators.rst:54
 msgid "Parcheggi"
 msgstr "Parking lots"
 
-#: ../../operators.rst:18
+#: ../../operators.rst:14
 msgid ""
 "È possibile visualizzare gli utenti del sistema suddivisi in base ai gruppi "
 "creati dall'amministratore e per i quali si possiede il permesso."
@@ -42,23 +42,23 @@ msgstr ""
 "You can view system users divided into groups created by the administrator "
 "and for whom you have permission."
 
-#: ../../operators.rst:21
+#: ../../operators.rst:17
 msgid "Per ogni utente viene mostrato:"
 msgstr "For each user is shown:"
 
-#: ../../operators.rst:23
+#: ../../operators.rst:19
 msgid "lo stato di presence"
 msgstr "the presence state"
 
-#: ../../operators.rst:24
+#: ../../operators.rst:20
 msgid "lo stato dell'interno telefonico utilizzato"
 msgstr "the telephone extension status used"
 
-#: ../../operators.rst:25
+#: ../../operators.rst:21
 msgid "eventuali chiamate in corso con i relativi dettagli"
 msgstr "any calls in progress with the related details"
 
-#: ../../operators.rst:27
+#: ../../operators.rst:23
 msgid ""
 "È inoltre possibile eseguire delle operazioni tramite il menù contestuale "
 "che offre diverse opzioni in base allo stato dell'utente."
@@ -66,7 +66,7 @@ msgstr ""
 "It is also possible to perform operations using the context menu which "
 "offers different options based on the user's status."
 
-#: ../../operators.rst:30
+#: ../../operators.rst:26
 msgid ""
 "Nel caso in cui gli utenti presenti siano molto numerosi, è possibile "
 "filtrarli inserendo il nome nella casella di ricerca: verranno mostrati "
@@ -76,7 +76,7 @@ msgstr ""
 "the search box: will be shown only users whose name matches the text entered."
 ""
 
-#: ../../operators.rst:36
+#: ../../operators.rst:32
 msgid ""
 "Nella sezione \"Linee\" è possibile visualizzare lo stato attuale dei fasci, "
 "il numero delle linee libere e le informazioni sulle chiamate delle linee "
@@ -88,11 +88,11 @@ msgstr ""
 "busy lines. You can get a general overview of the trunks and expand for more "
 "information."
 
-#: ../../operators.rst:41
+#: ../../operators.rst:37
 msgid "Vista delle linee"
 msgstr "Lines view"
 
-#: ../../operators.rst:43
+#: ../../operators.rst:39
 msgid ""
 "Nella scheda di ogni fascio è possibile visualizzare il nome del fascio, il "
 "tipo (sip, pjsip, iax), la barra di avanzamento per indicare il numero di "
@@ -102,11 +102,11 @@ msgstr ""
 "the type (sip, pjsip, iax), the progress bar to indicate the number of lines "
 "occupied and the button to expand the view and display the lines."
 
-#: ../../operators.rst:48
+#: ../../operators.rst:44
 msgid "Linee dei fasci"
 msgstr "Trunk lines"
 
-#: ../../operators.rst:50
+#: ../../operators.rst:46
 msgid ""
 "Espandendo la vista del fascio si possono vedere le informazioni sulle "
 "chiamate delle linee occupate:"
@@ -114,19 +114,19 @@ msgstr ""
 "Expanding the trunk \\view you can see the information on the calls of the "
 "busy lines:"
 
-#: ../../operators.rst:53
+#: ../../operators.rst:49
 msgid "numero telefonico interno"
 msgstr "internal phone number"
 
-#: ../../operators.rst:54
+#: ../../operators.rst:50
 msgid "direzione chiamata"
 msgstr "call direction"
 
-#: ../../operators.rst:55
+#: ../../operators.rst:51
 msgid "numero telefonico esterno"
 msgstr "external phone number"
 
-#: ../../operators.rst:60
+#: ../../operators.rst:56
 msgid ""
 "La sezione \"Parcheggi\" mostra lo stato attuale di tutti i parcheggi del "
 "sistema. Ciasuna casella rappresenta un singolo parcheggio e nel caso una "
