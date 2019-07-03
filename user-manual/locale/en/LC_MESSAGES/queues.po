@@ -5,11 +5,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-01 12:13+0200\n"
+"POT-Creation-Date: 2019-07-03 09:25+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-07-01 08:17+0000\n"
+"PO-Revision-Date: 2019-07-03 07:27+0000\n"
 "Last-Translator: Polidori Alessandro <alessandro.polidori@gmail.com>\n"
 "Language-Team: English (United States)\n"
 "Language: en_US\n"
@@ -156,7 +156,7 @@ msgstr ""
 
 #: ../../queues.rst:72
 msgid "Stop pause tutte le code"
-msgstr "Stop pause from all queues"
+msgstr "Stop pause from all queues "
 
 #: ../../queues.rst:75
 msgid "Cliccare sul bottone \"Stop pause tutte le code\""
@@ -237,22 +237,24 @@ msgstr ""
 
 #: ../../queues.rst:98
 msgid "Statistiche"
-msgstr ""
+msgstr "Statistics"
 
 #: ../../queues.rst:100
 msgid ""
 "È possibile visualizzare alcuni dati statistici relativi al proprio utente "
 "in coda, dati relativi a:"
 msgstr ""
+"It is possible to view some statistic data relating to your user in the "
+"queue, data relating to:"
 
 #: ../../queues.rst:102
 msgid "login/logout"
-msgstr ""
+msgstr "login/logout"
 
 #: ../../queues.rst:103
 msgid "numero e tempistiche sulle chiamate"
-msgstr ""
+msgstr "number and timing of calls"
 
 #: ../../queues.rst:104
 msgid "statistiche specifice sulle singole code di appartenenza"
-msgstr ""
+msgstr "specific statistics on the individual queues to which they belong"
