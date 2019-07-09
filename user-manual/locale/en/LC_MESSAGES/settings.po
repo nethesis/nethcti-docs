@@ -1,16 +1,17 @@
 # Giacomo Sanchietti <giacomo.sanchietti@gmail.com>, 2017. #zanata
 # Polidori Alessandro <alessandro.polidori@gmail.com>, 2017. #zanata
 # Polidori Alessandro <alessandro.polidori@gmail.com>, 2018. #zanata
+# Sebastian Marius Besel <sebastian.besel@nethesis.it>, 2019. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-12 15:31+0200\n"
+"POT-Creation-Date: 2019-07-09 17:45+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-06-05 02:24+0000\n"
-"Last-Translator: Polidori Alessandro <alessandro.polidori@gmail.com>\n"
+"PO-Revision-Date: 2019-07-09 03:57+0000\n"
+"Last-Translator: Sebastian Marius Besel <sebastian.besel@nethesis.it>\n"
 "Language-Team: English (United States)\n"
 "Language: en_US\n"
 "X-Generator: Zanata 4.6.2\n"
@@ -22,46 +23,75 @@ msgstr "Settings"
 
 #: ../../settings.rst:5
 msgid ""
-"La sezione impostazioni consente di cambiare l'immagine del profilo, "
-"visualizzare/nascondere le notifiche su desktop e scegliere le preferenze "
-"per le schede cliente."
+"La pagina impostazioni si divide in 5 sezioni in base ai permessi assegnati "
+"all'agente."
 msgstr ""
-"Settings section allows you to change the profile image, show/hide desktop "
-"notifications and choose customer card preferences"
+"The settings page is divided into 5 sections based on the permissions "
+"assigned to the agent."
+
+#: ../../settings.rst:7
+msgid "Come accedere alla sezione impostazioni:"
+msgstr "How to access the settings section:"
 
 #: ../../settings.rst:9
-msgid "Come accedere alla sezione impostazioni"
-msgstr "How to access the settings section"
-
-#: ../../settings.rst:11
 msgid "Cliccare sul nome in alto nel bordo destro dell'applicazione"
 msgstr "Click on the top name at the right edge of the application"
 
-#: ../../settings.rst:12
+#: ../../settings.rst:10
 msgid "Cliccare su \"Impostazioni\""
 msgstr "Click on \"Settings\""
 
-#: ../../settings.rst:15
+#: ../../settings.rst:11
+msgid ""
+"È possibile spostarsi nelle varie sezioni delle impostazioni tramite il menu "
+"di sinistra"
+msgstr "You can move to the various settings sections via the left menu"
+
+#: ../../settings.rst:16
+msgid "Profilo"
+msgstr "Profile"
+
+#: ../../settings.rst:18
+msgid "All'interno di questa sezione è possibile:"
+msgstr "Within this section it is possible:"
+
+#: ../../settings.rst:20
+msgid "Cambiare immagine del profilo"
+msgstr "Change profile picture"
+
+#: ../../settings.rst:21
+msgid "Attivare e disattivare le notifiche desktop"
+msgstr "Enable and disable desktop notifications"
+
+#: ../../settings.rst:22
+msgid "Attivare e disattivare la suoneria della chiamata"
+msgstr "Activate and deactivate the call ringtone"
+
+#: ../../settings.rst:23
+msgid "Attivare e disattivare il DND ON automatico"
+msgstr "Activate and deactivate the automatic DND ON"
+
+#: ../../settings.rst:24
+msgid "Attivare e disattivare il DND OFF automatico"
+msgstr "Activate and deactivate the automatic DND OFF"
+
+#: ../../settings.rst:27
 msgid "Cambiare l'immagine del profilo"
 msgstr "Change profile image"
 
-#: ../../settings.rst:17
-msgid "Per cambiare l'immagine del profilo:"
-msgstr "To change the profile image:"
-
-#: ../../settings.rst:19
+#: ../../settings.rst:29
 msgid "Cliccare sul cerchio sotto \"Immagine profilo\""
 msgstr "Click on the circle under \"Profile image\""
 
-#: ../../settings.rst:20
+#: ../../settings.rst:30
 msgid "Selezionare l'immagine dal disco"
 msgstr "Select the image from the disk"
 
-#: ../../settings.rst:23
+#: ../../settings.rst:33
 msgid "Mostrare/Nascondere le notifiche desktop"
 msgstr "Show/Hide desktop notifications"
 
-#: ../../settings.rst:25
+#: ../../settings.rst:35
 msgid ""
 "Spuntare la checkbox sotto \"Notifiche Desktop\" per mostrare le notifiche "
 "desktop, togliere la spunta per nasconderle."
@@ -69,11 +99,23 @@ msgstr ""
 "Select the checkbox under \"Desktop notifications\" to show desktop "
 "notifications, uncheck it to hide them"
 
-#: ../../settings.rst:29
+#: ../../settings.rst:39
+msgid "Attivare/Disattivare suoneria della chiamata"
+msgstr "Activate / Deactivate call ringtone"
+
+#: ../../settings.rst:41
+msgid ""
+"Spuntare la checkbox sotto \"Suoneria chiamata\" per attivare la suoneria "
+"durante la chiamata, togliere la spunta per disattivarla."
+msgstr ""
+"Check the checkbox under \"Call ringtone\" to activate the ringtone during "
+"the call, uncheck it to deactivate it."
+
+#: ../../settings.rst:45
 msgid "DND ON/OFF automatico"
 msgstr "automatic DND ON/OFF"
 
-#: ../../settings.rst:31
+#: ../../settings.rst:47
 msgid ""
 "L'utente ha la possibilità di configurare lo stato del DND (disabilitato/"
 "abilitato) automatico in corrispondenza del login/logout dal |product|."
@@ -81,131 +123,61 @@ msgstr ""
 "The user can configure the status (disabled/enabled) of the automatic DND at "
 "login/logout from the |product|."
 
-#: ../../settings.rst:38
-msgid "URL parametrizzato"
-msgstr "Parameterized URL"
-
-#: ../../settings.rst:40
-msgid ""
-"Se l'utente ha il permesso, può scegliere di aprire un URL parametrizzato "
-"coi dati del chiamante in uno dei seguenti scenari:"
-msgstr ""
-"If the user has permission, he can choose to open a parameterized URL with "
-"the caller's data in one of the following scenarios:"
-
-#: ../../settings.rst:43
-msgid "mai"
-msgstr "never"
-
-#: ../../settings.rst:44
-msgid "quando la chiamata in arrivo sta squillando"
-msgstr "when the incoming call is ringing"
-
-#: ../../settings.rst:45
-msgid "quando la chiamata in arrivo è stato risposta"
-msgstr "when the incoming call has been answered"
-
-#: ../../settings.rst:46
-msgid "tramite un pulsante specifico presente nel box di gestione chiamata"
-msgstr "through a specific button in the call management box"
-
-#: ../../settings.rst:48
-msgid ""
-"Affinché l'URL possa essere invocato è necessario che l'utente abbia "
-"abilitato la visualizzazione dei popups nel proprio browser !"
-msgstr ""
-"In order to be able to invoke the URL it is necessary that the user has "
-"enabled the display of popups in his browser!"
-
-#: ../../settings.rst:51
-msgid "Preferenze Schede Cliente"
-msgstr "Customer Card settings"
-
-#: ../../settings.rst:53
-msgid ""
-"Sotto questa sezione è possibile impostare l'apertura automatica delle "
-"schede cliente con l'arrivo di una chiamata e scegliere il loro ordine."
-msgstr ""
-"Under this section you can set the automatic opening of the customer cards "
-"with the incoming call and choose their order"
-
-#: ../../settings.rst:57
-msgid "Aprire una scheda cliente con l'arrivo di una chiamata"
-msgstr "Open customer card on incoming call"
-
-#: ../../settings.rst:59
-msgid ""
-"Spuntare la checkbox sotto \"Apri scheda cliente con le chiamate in "
-"ingresso\" per mostrare le schede cliente con l'arrivo di una chiamata, "
-"togliere la spunta per nasconderle."
-msgstr ""
-"Select the checkbox under \"Open customer card on incoming calls\" to show "
-"the customer cards with the arrival of a call, remove the check to hide them"
-
-#: ../../settings.rst:63
-msgid "Ordinamento schede cliente"
-msgstr "Customer card sorting"
-
-#: ../../settings.rst:65
-msgid ""
-"Sotto la sezione \"Ordine schede cliente\" è possibile trascinare verso il "
-"basso o verso l'alto le schede cliente per modificare il loro ordine."
-msgstr ""
-"Under the \"Customer card order\" section you can drag down or up the "
-"customer cards to change their order."
-
-#: ../../settings.rst:69
+#: ../../settings.rst:54
 msgid "Preferenze Code"
 msgstr "Queues settings"
 
-#: ../../settings.rst:71
+#: ../../settings.rst:56
 msgid ""
-"Sotto questa sezione è possibile personalizzare alcune configurazioni "
-"relative alle code."
+"In questa sezione è possibile personalizzare alcune configurazioni relative "
+"alle code."
 msgstr ""
-"In this section you can customize some configurations related to the queues."
+"Check the checkbox under \"Call ringtone\" to activate the ringtone during "
+"the call, uncheck it to deactivate it."
 
-#: ../../settings.rst:74
+#: ../../settings.rst:59
 msgid "Esci da coda automaticamente"
 msgstr "Automatically logout from queue"
 
-#: ../../settings.rst:76
+#: ../../settings.rst:61
 msgid ""
 "Consente l'uscita automatica da tutte le proprie code quando si effettua il "
 "logout da |product|."
 msgstr ""
 "Allows automatic exit from all of its queues when logout from |product|."
 
-#: ../../settings.rst:79
+#: ../../settings.rst:64
 msgid "Entra in coda automaticamente"
 msgstr "Automatically login into the queue"
 
-#: ../../settings.rst:81
+#: ../../settings.rst:66
 msgid ""
 "Consente l'ingresso automatico su tutte le proprie code quando si effettua "
 "il login a |product|."
 msgstr ""
 "Allows automatic login on all of its queues when logging in to |product|."
 
-#: ../../settings.rst:84
+#: ../../settings.rst:69
 msgid "Aggiorna chiamate perse in coda ogni"
 msgstr "Update missed queue calls each"
 
-#: ../../settings.rst:86
+#: ../../settings.rst:71
 msgid ""
 "L'utente può personalizzare l'intervallo di aggiornamento della lista delle "
 "chiamate perse in coda visibile all'interno del servizio \"Code\". "
-"L'intervallo va da 10 a 60 secondi."
+"L'intervallo va da 10 a 60 secondi e vale anche per l'aggiornamento delle "
+"chiamate perse in coda all'interno del QManager."
 msgstr ""
 "The user can customize the update interval of the list of missed calls in "
-"the queue showed within the \"Queue\" service. The interval span from 10 to "
-"60 seconds."
+"the visible queue within the \"Code\" service. The interval goes from 10 to "
+"60 seconds and is also valid for updating calls lost in the queue within the "
+"QManager."
 
-#: ../../settings.rst:90
+#: ../../settings.rst:76
 msgid "Intervallo d'aggiornamento chiamate perse in coda"
 msgstr "Update interval of queue missed calls"
 
-#: ../../settings.rst:92
+#: ../../settings.rst:78
 msgid ""
 "È l'intervallo temporale preso in considerazione per la costruzione delle "
 "chiamate perse in coda visibile all'interno del servizio \"Code\". "
@@ -215,3 +187,122 @@ msgstr ""
 "It is the interval time taken into account for the construction of the lost "
 "calls in the queue showed within the \"Queue\" service. The interval takes "
 "into account calls from the last hour until the last 12."
+
+#: ../../settings.rst:83
+msgid "Preferenze Schede Cliente"
+msgstr "Customer Card settings"
+
+#: ../../settings.rst:85
+msgid ""
+"All'interno di questa sezione è possibile impostare l'apertura automatica "
+"delle schede cliente con l'arrivo di una chiamata e scegliere il loro ordine."
+""
+msgstr ""
+"In this section it is possible to set the automatic opening of the customer "
+"cards with the arrival of a call and choose their order."
+
+#: ../../settings.rst:89
+msgid "Aprire una scheda cliente con l'arrivo di una chiamata"
+msgstr "Open customer card on incoming call"
+
+#: ../../settings.rst:91
+msgid ""
+"Spuntare la checkbox sotto \"Apri scheda cliente con le chiamate in "
+"ingresso\" per mostrare le schede cliente con l'arrivo di una chiamata, "
+"togliere la spunta per nasconderle."
+msgstr ""
+"Select the checkbox under \"Open customer card on incoming calls\" to show "
+"the customer cards with the arrival of a call, remove the check to hide them"
+
+#: ../../settings.rst:95
+msgid "Ordinamento schede cliente"
+msgstr "Customer card sorting"
+
+#: ../../settings.rst:97
+msgid ""
+"Sotto la sezione \"Ordine schede cliente\" è possibile trascinare verso il "
+"basso o verso l'alto le schede cliente per modificare il loro ordine."
+msgstr ""
+"Under the \"Customer card order\" section you can drag down or up the "
+"customer cards to change their order."
+
+#: ../../settings.rst:101
+msgid "URL parametrizzato"
+msgstr "Parameterized URL"
+
+#: ../../settings.rst:103
+msgid ""
+"Se l'utente ha il permesso, può scegliere di aprire un URL parametrizzato "
+"coi dati del chiamante in uno dei seguenti scenari:"
+msgstr ""
+"If the user has permission, he can choose to open a parameterized URL with "
+"the caller's data in one of the following scenarios:"
+
+#: ../../settings.rst:106
+msgid "mai"
+msgstr "never"
+
+#: ../../settings.rst:107
+msgid "quando la chiamata in arrivo sta squillando"
+msgstr "when the incoming call is ringing"
+
+#: ../../settings.rst:108
+msgid "quando la chiamata in arrivo è stato risposta"
+msgstr "when the incoming call has been answered"
+
+#: ../../settings.rst:109
+msgid "tramite un pulsante specifico presente nel box di gestione chiamata"
+msgstr "through a specific button in the call management box"
+
+#: ../../settings.rst:111
+msgid ""
+"Affinché l'URL possa essere invocato è necessario che l'utente abbia "
+"abilitato la visualizzazione dei popups nel proprio browser !"
+msgstr ""
+"In order to be able to invoke the URL it is necessary that the user has "
+"enabled the display of popups in his browser!"
+
+#: ../../settings.rst:114
+msgid "Dispositivi"
+msgstr "Devices"
+
+#: ../../settings.rst:116
+msgid ""
+"In questa sezione è presente la lista di tutti i dispositivi fisici "
+"configurati ed è possibile impostare un PIN al dispositivo per le chiamate "
+"in uscita."
+msgstr ""
+"In this section there is a list of all the configured physical devices and "
+"it is possible to set a PIN for the device for outgoing calls."
+
+#: ../../settings.rst:119
+msgid "Per ogni dispositivo è mostrata:"
+msgstr "For each device is shown:"
+
+#: ../../settings.rst:121
+msgid "la descrizione del dispositivo"
+msgstr "the description of the device"
+
+#: ../../settings.rst:122
+msgid "l'interno ad esso associato"
+msgstr "the interior associated with it"
+
+#: ../../settings.rst:123
+msgid "un input testuale dove inserire il PIN"
+msgstr "a text input to enter the PIN"
+
+#: ../../settings.rst:124
+msgid "il pulsante salva per salvare il PIN inserito"
+msgstr "the save button to save the PIN entered"
+
+#: ../../settings.rst:125
+msgid "un'icona per mostrare/nascondere il PIN"
+msgstr "an icon to show / hide the PIN"
+
+#: ../../settings.rst:126
+msgid "un'icona per abilitare/disabilitare il PIN"
+msgstr "an icon to enable / disable the PIN"
+
+#: ../../settings.rst:127
+msgid "un'icona per generare automaticamente un PIN random"
+msgstr "an icon to automatically generate a random PIN"
