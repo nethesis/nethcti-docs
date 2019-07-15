@@ -1,6 +1,6 @@
-=============
+============
 Impostazioni
-=============
+============
 
 La pagina impostazioni si divide in 5 sezioni in base ai permessi assegnati all'agente.
 
@@ -13,7 +13,7 @@ Come accedere alla sezione impostazioni:
 -------------------------
 
 Profilo
-=========
+=======
 
 All'interno di questa sezione è possibile:
 
@@ -24,25 +24,25 @@ All'interno di questa sezione è possibile:
 - Attivare e disattivare il DND OFF automatico
 
 Cambiare l'immagine del profilo
-------------------------------------
+-------------------------------
 
 1) Cliccare sul cerchio sotto "Immagine profilo"
 2) Selezionare l'immagine dal disco
 
 Mostrare/Nascondere le notifiche desktop
-------------------------------------------
+----------------------------------------
 
 Spuntare la checkbox sotto "Notifiche Desktop" per mostrare le notifiche desktop, togliere
 la spunta per nasconderle.
 
 Attivare/Disattivare suoneria della chiamata
-------------------------------------
+--------------------------------------------
 
 Spuntare la checkbox sotto "Suoneria chiamata" per attivare la suoneria durante la chiamata, togliere
 la spunta per disattivarla.
 
 DND ON/OFF automatico
------------------------
+---------------------
 
 L'utente ha la possibilità di configurare lo stato del DND (disabilitato/abilitato) automatico
 in corrispondenza del login/logout dal |product|.
@@ -80,19 +80,19 @@ all'interno del servizio "Code". L'intervallo prendere in considerazione le chia
 fino alle ultime 12.
 
 Preferenze Schede Cliente
-===========================
+=========================
 
 All'interno di questa sezione è possibile impostare l'apertura automatica delle schede cliente
 con l'arrivo di una chiamata e scegliere il loro ordine.
 
 Aprire una scheda cliente con l'arrivo di una chiamata
--------------------------------------------------------
+------------------------------------------------------
 
 Spuntare la checkbox sotto "Apri scheda cliente con le chiamate in ingresso" per mostrare
 le schede cliente con l'arrivo di una chiamata, togliere la spunta per nasconderle.
 
 Ordinamento schede cliente
----------------------------
+--------------------------
 
 Sotto la sezione "Ordine schede cliente" è possibile trascinare verso il basso o verso l'alto
 le schede cliente per modificare il loro ordine.
@@ -111,7 +111,7 @@ in uno dei seguenti scenari:
 .. note:: Affinché l'URL possa essere invocato è necessario che l'utente abbia abilitato la visualizzazione dei popups nel proprio browser !
 
 Dispositivi
-============
+===========
 
 In questa sezione è presente la lista di tutti i dispositivi fisici configurati ed è possibile impostare
 un PIN al dispositivo per le chiamate in uscita.
