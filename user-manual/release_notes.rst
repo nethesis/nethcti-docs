@@ -2,6 +2,30 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.16.0 - (15 LUG 2019)
+================================================
+
+**Nuove funzionalità e miglioramenti**
+
+- `È stata estesa la possibilità di filtrare e ordinare per interno gli utenti del pannello operatore e delle code <https://github.com/nethesis/dev/issues/5672>`_
+- `Nuova struttura a tab per la pagina delle impostazioni utente <https://github.com/nethesis/dev/issues/5670>`_
+- `Aggiunta la possibilità di configurare un codice PIN per l'utilizzo del proprio telefono per le chiamate in uscita <https://github.com/nethesis/dev/issues/5668>`_
+- `Miglior ordinamento degli agenti all'interno del QManager nei tab "Realtime" e "Summary" <https://github.com/nethesis/dev/issues/5666>`_
+- `All'interno dei box del pannello operatore è stata aggiunta la possibilità di chiamare il cellulare associato all'utente (se è stato associato tramite wizard) <https://github.com/nethesis/dev/issues/5661>`_
+- `Quando l'utente prova ad effettuare una telefonata tramite telefono softphone WebRTC integrato e il microfono non è presente, viene visualizzato un messaggio d'allerta <https://github.com/nethesis/dev/issues/5660>`_
+
+**Bug fixes**
+
+- `Sistemato un problema grafico all'interno dei box del pannello operatore che compariva durante alcune telefonate <https://github.com/nethesis/dev/issues/5677>`_
+- `In alcune circostanze il click sul tab delle chiamate perse all'interno del servizio QManager non funzionava <https://github.com/nethesis/dev/issues/5676>`_
+- `Risolto il problema di raggruppamento degli utenti all'interno del pannello operatore quando il nome del gruppo conteneva il carattere "-" <https://github.com/nethesis/dev/issues/5675>`_
+- `Durante una conferenza audio, quando il manager della stessa chiamava un altro utente per aggiungerlo, non veniva più mostrato il dialog di avviso <https://github.com/nethesis/dev/issues/5669>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.16.0-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.16.0-1.ns7.x86_64.rpm``
+
 Cambiamenti principali - v3.15.0 - (2 LUG 2019)
 ===============================================
 
