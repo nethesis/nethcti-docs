@@ -18,7 +18,7 @@ Cambiamenti principali - v3.16.0 - (15 LUG 2019)
 
 - `Sistemato un problema grafico all'interno dei box del pannello operatore che compariva durante alcune telefonate <https://github.com/nethesis/dev/issues/5677>`_
 - `In alcune circostanze il click sul tab delle chiamate perse all'interno del servizio QManager non funzionava <https://github.com/nethesis/dev/issues/5676>`_
-- `Risolto il problema di raggruppamento degli utenti all'interno del pannello operatore quando il nome del gruppo conteneva il carattere "-" <https://github.com/nethesis/dev/issues/5675>`_
+- `Risolto il problema di raggruppamento degli utenti all'interno del pannello operatore quando il nome del gruppo conteneva il carattere '-' <https://github.com/nethesis/dev/issues/5675>`_
 - `Durante una conferenza audio, quando il manager della stessa chiamava un altro utente per aggiungerlo, non veniva più mostrato il dialog di avviso <https://github.com/nethesis/dev/issues/5669>`_
 
 **Pacchetti coinvolti**
