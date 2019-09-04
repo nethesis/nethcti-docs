@@ -2,6 +2,26 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.16.1 - (4 SET 2019)
+================================================
+
+**Nuove funzionalità e miglioramenti**
+
+- `Aggiornata la libreria WebRTC Janus <https://github.com/nethesis/dev/issues/5679>`_
+
+**Bug fixes**
+
+- `In particolari condizioni operative (per es. con un numero elevato di chiamate contemporanee) il login non funziona <https://github.com/nethesis/dev/issues/5682>`_
+- `La gestione del PIN del dispositivo telefonico viene nascosto quando non può essere attivato su nessuna rotta del centralino <https://github.com/nethesis/dev/issues/5681>`_
+- `Il contatore della durata della chiamata si fermava quando veniva premuto il pulsante di hold <https://github.com/nethesis/dev/issues/5687>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.16.1-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.16.1-1.ns7.x86_64.rpm``
+- ``nethserver-janus-1.0.14-1.ns7.noarch.rpm``
+- ``janus-gateway-0.7.3.0-1.ns7.x86_64.rpm``
+
 Cambiamenti principali - v3.16.0 - (15 LUG 2019)
 ================================================
 
