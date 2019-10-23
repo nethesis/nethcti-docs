@@ -2,6 +2,33 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.17.0 - (23 OTT 2019)
+================================================
+
+**Nuove funzionalità e miglioramenti**
+
+- Migliorate le performance del QManager (Supervisore delle code)
+
+  - `issue 5719 <https://github.com/nethesis/dev/issues/5719>`_
+  - `issue 5711 <https://github.com/nethesis/dev/issues/5711>`_
+  - `issue 5710 <https://github.com/nethesis/dev/issues/5710>`_
+  - `issue 5709 <https://github.com/nethesis/dev/issues/5709>`_
+  - `issue 5708 <https://github.com/nethesis/dev/issues/5708>`_
+
+- `Migliorate le performance dello storico chiamate <https://github.com/nethesis/dev/issues/5717>`_
+- `Migliorate le performance della rest api "extensions" usata per il pannello operatore <https://github.com/nethesis/dev/issues/5700>`_
+- `Aggiunta la possibilità di disabilitare la funzione di "rimozione echo" dalla pagina delle configurazioni utente, per quanto riguarda l'audio delle chiamate. È Utile nel caso in cui si utilizzino delle cuffie audio con soppressione del rumore incorporato, che va quindi in competizione con quello del browser. Il problema si evidenzia con dell'audio disturbato durante i primi secondi di una telefonata <https://github.com/nethesis/dev/issues/5704>`_
+
+**Bug fixes**
+
+- `In alcuni scenari con particolari configurazioni, dopo il reboot della macchina potevano verificarsi dei problemi al login del cti <https://github.com/nethesis/dev/issues/5724>`_
+- `In alcune circostanze, dopo aver applicato delle modifiche tramite wizard, si potevano verificare problemi di login nel cti nell'arco temporale di 1 minuto <https://github.com/nethesis/dev/issues/5707>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.17.0-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.17.0-1.ns7.x86_64.rpm``
+
 Cambiamenti principali - v3.16.1 - (4 SET 2019)
 ================================================
 
