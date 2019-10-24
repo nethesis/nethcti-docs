@@ -5,11 +5,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NethCTI 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-04 14:45+0200\n"
+"POT-Creation-Date: 2019-10-24 14:31+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-09-04 12:49+0000\n"
+"PO-Revision-Date: 2019-10-24 12:37+0000\n"
 "Last-Translator: Polidori Alessandro <alessandro.polidori@gmail.com>\n"
 "Language-Team: English (United States)\n"
 "Language: en_US\n"
@@ -21,25 +21,154 @@ msgid "Note di rilascio"
 msgstr "Release notes"
 
 #: ../../release_notes.rst:6
-msgid "Cambiamenti principali - v3.16.1 - (4 SET 2019)"
-msgstr "Major changes - v3.16.1 - (4 SEP 2019)"
+msgid "Cambiamenti principali - v3.17.0 - (23 OTT 2019)"
+msgstr "Major changes - v3.17.0 - (23 OCT 2019)"
 
 #: ../../release_notes.rst:8
-#: ../../release_notes.rst:28
-#: ../../release_notes.rst:52
+#: ../../release_notes.rst:35
+#: ../../release_notes.rst:55
 #: ../../release_notes.rst:79
-#: ../../release_notes.rst:102
-#: ../../release_notes.rst:135
-#: ../../release_notes.rst:155
-#: ../../release_notes.rst:187
-#: ../../release_notes.rst:209
-#: ../../release_notes.rst:228
-#: ../../release_notes.rst:246
-#: ../../release_notes.rst:266
+#: ../../release_notes.rst:106
+#: ../../release_notes.rst:129
+#: ../../release_notes.rst:162
+#: ../../release_notes.rst:182
+#: ../../release_notes.rst:214
+#: ../../release_notes.rst:236
+#: ../../release_notes.rst:255
+#: ../../release_notes.rst:273
+#: ../../release_notes.rst:293
 msgid "**Nuove funzionalità e miglioramenti**"
 msgstr "**New features and improvements**"
 
 #: ../../release_notes.rst:10
+msgid "Migliorate le performance del QManager (Supervisore delle code)"
+msgstr "Improved performance of the QManager (Queue Supervisor)"
+
+#: ../../release_notes.rst:12
+msgid "`issue 5719 <https://github.com/nethesis/dev/issues/5719>`_"
+msgstr "`issue 5719 <https://github.com/nethesis/dev/issues/5719>`_"
+
+#: ../../release_notes.rst:13
+msgid "`issue 5711 <https://github.com/nethesis/dev/issues/5711>`_"
+msgstr "`issue 5711 <https://github.com/nethesis/dev/issues/5711>`_"
+
+#: ../../release_notes.rst:14
+msgid "`issue 5710 <https://github.com/nethesis/dev/issues/5710>`_"
+msgstr "`issue 5710 <https://github.com/nethesis/dev/issues/5710>`_"
+
+#: ../../release_notes.rst:15
+msgid "`issue 5709 <https://github.com/nethesis/dev/issues/5709>`_"
+msgstr "`issue 5709 <https://github.com/nethesis/dev/issues/5709>`_"
+
+#: ../../release_notes.rst:16
+msgid "`issue 5708 <https://github.com/nethesis/dev/issues/5708>`_"
+msgstr "`issue 5708 <https://github.com/nethesis/dev/issues/5708>`_"
+
+#: ../../release_notes.rst:18
+msgid ""
+"`Migliorate le performance dello storico chiamate <https://github.com/"
+"nethesis/dev/issues/5717>`_"
+msgstr ""
+"`Improved performance of history calls <https://github.com/nethesis/dev/"
+"issues/5717>`_"
+
+#: ../../release_notes.rst:19
+msgid ""
+"`Migliorate le performance della rest api \"extensions\" usata per il "
+"pannello operatore <https://github.com/nethesis/dev/issues/5700>`_"
+msgstr ""
+"`Improved performance of the rest api \"extensions\" used for the operator "
+"panel <https://github.com/nethesis/dev/issues/5700>`_"
+
+#: ../../release_notes.rst:20
+msgid ""
+"`Aggiunta la possibilità di disabilitare la funzione di \"rimozione echo\" "
+"dalla pagina delle configurazioni utente, per quanto riguarda l'audio delle "
+"chiamate. È Utile nel caso in cui si utilizzino delle cuffie audio con "
+"soppressione del rumore incorporato, che va quindi in competizione con "
+"quello del browser. Il problema si evidenzia con dell'audio disturbato "
+"durante i primi secondi di una telefonata <https://github.com/nethesis/dev/"
+"issues/5704>`_"
+msgstr ""
+"`Added the ability to disable the \"echo removal\" function from the user "
+"configurations page, for call audio. It is useful if you use audio "
+"headphones with built-in noise suppression, which therefore competes with "
+"that of the browser. The problem is highlighted by the disturbed sound "
+"during the first few seconds of a phone call <https://github.com/nethesis/"
+"dev/issues/5704>`_"
+
+#: ../../release_notes.rst:22
+#: ../../release_notes.rst:39
+#: ../../release_notes.rst:64
+#: ../../release_notes.rst:86
+#: ../../release_notes.rst:113
+#: ../../release_notes.rst:145
+#: ../../release_notes.rst:166
+#: ../../release_notes.rst:187
+#: ../../release_notes.rst:201
+#: ../../release_notes.rst:220
+#: ../../release_notes.rst:240
+#: ../../release_notes.rst:259
+#: ../../release_notes.rst:280
+#: ../../release_notes.rst:304
+#: ../../release_notes.rst:333
+#: ../../release_notes.rst:362
+#: ../../release_notes.rst:376
+#: ../../release_notes.rst:388
+msgid "**Bug fixes**"
+msgstr "**Bug fixes**"
+
+#: ../../release_notes.rst:24
+msgid ""
+"`In alcuni scenari con particolari configurazioni, dopo il reboot della "
+"macchina potevano verificarsi dei problemi al login del cti <https://github."
+"com/nethesis/dev/issues/5724>`_"
+msgstr ""
+"`In some scenarios with particular configurations, after the reboot of the "
+"machine some problems could occur at the cti login <https://github.com/"
+"nethesis/dev/issues/5724>`_"
+
+#: ../../release_notes.rst:25
+msgid ""
+"`In alcune circostanze, dopo aver applicato delle modifiche tramite wizard, "
+"si potevano verificare problemi di login nel cti nell'arco temporale di 1 "
+"minuto <https://github.com/nethesis/dev/issues/5707>`_"
+msgstr ""
+"`In some circumstances, after applying changes through the wizard, there "
+"could be problems logging into the cti in the time frame of 1 minute <https:/"
+"/github.com/nethesis/dev/issues/5707>`_"
+
+#: ../../release_notes.rst:27
+#: ../../release_notes.rst:45
+#: ../../release_notes.rst:71
+#: ../../release_notes.rst:94
+#: ../../release_notes.rst:121
+#: ../../release_notes.rst:151
+#: ../../release_notes.rst:174
+#: ../../release_notes.rst:191
+#: ../../release_notes.rst:206
+#: ../../release_notes.rst:226
+#: ../../release_notes.rst:244
+#: ../../release_notes.rst:266
+#: ../../release_notes.rst:285
+#: ../../release_notes.rst:314
+#: ../../release_notes.rst:347
+msgid "**Pacchetti coinvolti**"
+msgstr "**Involved packages**"
+
+#: ../../release_notes.rst:29
+msgid "``nethcti3-3.17.0-1.ns7.noarch.rpm``"
+msgstr "``nethcti3-3.17.0-1.ns7.noarch.rpm``"
+
+#: ../../release_notes.rst:30
+msgid "``nethcti-server3-3.17.0-1.ns7.x86_64.rpm``"
+msgstr "``nethcti-server3-3.17.0-1.ns7.x86_64.rpm``"
+
+#: ../../release_notes.rst:33
+msgid "Cambiamenti principali - v3.16.1 - (4 SET 2019)"
+msgstr "Major changes - v3.16.1 - (4 SEP 2019)"
+
+#: ../../release_notes.rst:37
 msgid ""
 "`Aggiornata la libreria WebRTC Janus <https://github.com/nethesis/dev/issues/"
 "5679>`_"
@@ -47,27 +176,7 @@ msgstr ""
 "`Updated the WebRTC Janus library <https://github.com/nethesis/dev/issues/"
 "5679>`_"
 
-#: ../../release_notes.rst:12
-#: ../../release_notes.rst:37
-#: ../../release_notes.rst:59
-#: ../../release_notes.rst:86
-#: ../../release_notes.rst:118
-#: ../../release_notes.rst:139
-#: ../../release_notes.rst:160
-#: ../../release_notes.rst:174
-#: ../../release_notes.rst:193
-#: ../../release_notes.rst:213
-#: ../../release_notes.rst:232
-#: ../../release_notes.rst:253
-#: ../../release_notes.rst:277
-#: ../../release_notes.rst:306
-#: ../../release_notes.rst:335
-#: ../../release_notes.rst:349
-#: ../../release_notes.rst:361
-msgid "**Bug fixes**"
-msgstr "**Bug fixes**"
-
-#: ../../release_notes.rst:14
+#: ../../release_notes.rst:41
 msgid ""
 "`In particolari condizioni operative (per es. con un numero elevato di "
 "chiamate contemporanee) il login non funziona <https://github.com/nethesis/"
@@ -77,7 +186,7 @@ msgstr ""
 "simultaneous calls) the login does not work <https://github.com/nethesis/dev/"
 "issues/5682>`_"
 
-#: ../../release_notes.rst:15
+#: ../../release_notes.rst:42
 msgid ""
 "`La gestione del PIN del dispositivo telefonico viene nascosto quando non "
 "può essere attivato su nessuna rotta del centralino <https://github.com/"
@@ -87,7 +196,7 @@ msgstr ""
 "activated on any switchboard route <https://github.com/nethesis/dev/issues/"
 "5681>`_"
 
-#: ../../release_notes.rst:16
+#: ../../release_notes.rst:43
 msgid ""
 "`Il contatore della durata della chiamata si fermava quando veniva premuto "
 "il pulsante di hold <https://github.com/nethesis/dev/issues/5687>`_"
@@ -95,44 +204,27 @@ msgstr ""
 "`The call duration counter stopped when the hold button was pressed <https://"
 "github.com/nethesis/dev/issues/5687>`_"
 
-#: ../../release_notes.rst:18
-#: ../../release_notes.rst:44
-#: ../../release_notes.rst:67
-#: ../../release_notes.rst:94
-#: ../../release_notes.rst:124
-#: ../../release_notes.rst:147
-#: ../../release_notes.rst:164
-#: ../../release_notes.rst:179
-#: ../../release_notes.rst:199
-#: ../../release_notes.rst:217
-#: ../../release_notes.rst:239
-#: ../../release_notes.rst:258
-#: ../../release_notes.rst:287
-#: ../../release_notes.rst:320
-msgid "**Pacchetti coinvolti**"
-msgstr "**Involved packages**"
-
-#: ../../release_notes.rst:20
+#: ../../release_notes.rst:47
 msgid "``nethcti3-3.16.1-1.ns7.noarch.rpm``"
 msgstr "``nethcti3-3.16.1-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:21
+#: ../../release_notes.rst:48
 msgid "``nethcti-server3-3.16.1-1.ns7.x86_64.rpm``"
 msgstr "``nethcti-server3-3.16.1-1.ns7.x86_64.rpm``"
 
-#: ../../release_notes.rst:22
+#: ../../release_notes.rst:49
 msgid "``nethserver-janus-1.0.14-1.ns7.noarch.rpm``"
 msgstr "``nethserver-janus-1.0.14-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:23
+#: ../../release_notes.rst:50
 msgid "``janus-gateway-0.7.3.0-1.ns7.x86_64.rpm``"
 msgstr "``janus-gateway-0.7.3.0-1.ns7.x86_64.rpm``"
 
-#: ../../release_notes.rst:26
+#: ../../release_notes.rst:53
 msgid "Cambiamenti principali - v3.16.0 - (15 LUG 2019)"
 msgstr "Major changes - v3.16.0 - (15 JUL 2019)"
 
-#: ../../release_notes.rst:30
+#: ../../release_notes.rst:57
 msgid ""
 "`È stata estesa la possibilità di filtrare e ordinare per interno gli utenti "
 "del pannello operatore e delle code <https://github.com/nethesis/dev/issues/"
@@ -141,7 +233,7 @@ msgstr ""
 "`Added the possibility of filtering and sorting users of the operator panel "
 "and queues <https://github.com/nethesis/dev/issues/5672>`_"
 
-#: ../../release_notes.rst:31
+#: ../../release_notes.rst:58
 msgid ""
 "`Nuova struttura a tab per la pagina delle impostazioni utente <https://"
 "github.com/nethesis/dev/issues/5670>`_"
@@ -149,7 +241,7 @@ msgstr ""
 "`New tab structure for user settings page <https://github.com/nethesis/dev/"
 "issues/5670>`_"
 
-#: ../../release_notes.rst:32
+#: ../../release_notes.rst:59
 msgid ""
 "`Aggiunta la possibilità di configurare un codice PIN per l'utilizzo del "
 "proprio telefono per le chiamate in uscita <https://github.com/nethesis/dev/"
@@ -158,7 +250,7 @@ msgstr ""
 "`Added the possibility to configure a PIN code to use your phone for "
 "outgoing calls <https://github.com/nethesis/dev/issues/5668>`_"
 
-#: ../../release_notes.rst:33
+#: ../../release_notes.rst:60
 msgid ""
 "`Miglior ordinamento degli agenti all'interno del QManager nei tab "
 "\"Realtime\" e \"Summary\" <https://github.com/nethesis/dev/issues/5666>`_"
@@ -166,7 +258,7 @@ msgstr ""
 "`Better agents sorting in \"Realtime\" and \"Summary\" tabs of the QManager "
 "<https://github.com/nethesis/dev/issues/5666>`_"
 
-#: ../../release_notes.rst:34
+#: ../../release_notes.rst:61
 msgid ""
 "`All'interno dei box del pannello operatore è stata aggiunta la possibilità "
 "di chiamare il cellulare associato all'utente (se è stato associato tramite "
@@ -176,7 +268,7 @@ msgstr ""
 "phone associated with the user has been added (if it has been associated via "
 "wizard) <https://github.com/nethesis/dev/issues/5661>`_"
 
-#: ../../release_notes.rst:35
+#: ../../release_notes.rst:62
 msgid ""
 "`Quando l'utente prova ad effettuare una telefonata tramite telefono "
 "softphone WebRTC integrato e il microfono non è presente, viene visualizzato "
@@ -186,7 +278,7 @@ msgstr ""
 "softphone and the microphone is not present, an alert message is showed "
 "<https://github.com/nethesis/dev/issues/5660>`_"
 
-#: ../../release_notes.rst:39
+#: ../../release_notes.rst:66
 msgid ""
 "`Sistemato un problema grafico all'interno dei box del pannello operatore "
 "che compariva durante alcune telefonate <https://github.com/nethesis/dev/"
@@ -195,7 +287,7 @@ msgstr ""
 "`Fixed a graphic glitch into operator panel boxes that appeared during some "
 "phone calls <https://github.com/nethesis/dev/issues/5677>`_"
 
-#: ../../release_notes.rst:40
+#: ../../release_notes.rst:67
 msgid ""
 "`In alcune circostanze il click sul tab delle chiamate perse all'interno del "
 "servizio QManager non funzionava <https://github.com/nethesis/dev/issues/"
@@ -204,7 +296,7 @@ msgstr ""
 "`In some scenarios the click on the tab of missed calls within the QManager "
 "service did not work <https://github.com/nethesis/dev/issues/5676>`_"
 
-#: ../../release_notes.rst:41
+#: ../../release_notes.rst:68
 msgid ""
 "`Risolto il problema di raggruppamento degli utenti all'interno del pannello "
 "operatore quando il nome del gruppo conteneva il carattere '-' <https://"
@@ -214,7 +306,7 @@ msgstr ""
 "group name contained the '-' character <https://github.com/nethesis/dev/"
 "issues/5675>`_"
 
-#: ../../release_notes.rst:42
+#: ../../release_notes.rst:69
 msgid ""
 "`Durante una conferenza audio, quando il manager della stessa chiamava un "
 "altro utente per aggiungerlo, non veniva più mostrato il dialog di avviso "
@@ -224,19 +316,19 @@ msgstr ""
 "the warning dialog <https://github.com/nethesis/dev/issues/5669>`_ was no "
 "longer shown"
 
-#: ../../release_notes.rst:46
+#: ../../release_notes.rst:73
 msgid "``nethcti3-3.16.0-1.ns7.noarch.rpm``"
 msgstr "``nethcti3-3.16.0-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:47
+#: ../../release_notes.rst:74
 msgid "``nethcti-server3-3.16.0-1.ns7.x86_64.rpm``"
 msgstr "``nethcti-server3-3.16.0-1.ns7.x86_64.rpm``"
 
-#: ../../release_notes.rst:50
+#: ../../release_notes.rst:77
 msgid "Cambiamenti principali - v3.15.0 - (2 LUG 2019)"
 msgstr "Major changes - v3.15.0 - (2 JUL 2019)"
 
-#: ../../release_notes.rst:54
+#: ../../release_notes.rst:81
 msgid ""
 "`Nuova funzionalità all'interno del tab \"Code\" per visualizzare dati "
 "statistici relativi al proprio utente <https://github.com/nethesis/dev/"
@@ -245,7 +337,7 @@ msgstr ""
 "`New function into the \"Queue\" tab to show statistics about your user "
 "<https://github.com/nethesis/dev/issues/5656>`_"
 
-#: ../../release_notes.rst:55
+#: ../../release_notes.rst:82
 msgid ""
 "`Aggiunta l'indicazione dell'interno telefonico all'interno dei box utente "
 "nel pannello operatore <https://github.com/nethesis/dev/issues/5652>`_"
@@ -253,7 +345,7 @@ msgstr ""
 "`Added the telephone extension identifier into the user boxes of the "
 "operator panel <https://github.com/nethesis/dev/issues/5652>`_"
 
-#: ../../release_notes.rst:56
+#: ../../release_notes.rst:83
 msgid ""
 "`Aggiunto il nuoto servizio \"Chiamate perse\" all'interno del QManager "
 "(Supervisore delle code) <https://github.com/nethesis/dev/issues/5646>`_"
@@ -261,7 +353,7 @@ msgstr ""
 "`Added \"Missed calls\" service into the QManager (Queue supervisor) <https:/"
 "/github.com/nethesis/dev/issues/5646>`_"
 
-#: ../../release_notes.rst:57
+#: ../../release_notes.rst:84
 msgid ""
 "`Aggiornata la libreria WebRTC Janus <https://github.com/nethesis/dev/issues/"
 "5645>`_"
@@ -269,7 +361,7 @@ msgstr ""
 "`Updated the WebRTC Janus library <https://github.com/nethesis/dev/issues/"
 "5645>`_"
 
-#: ../../release_notes.rst:61
+#: ../../release_notes.rst:88
 msgid ""
 "`All'iterno del tab \"Code\" la lista delle chiamate connesse non si "
 "aggiorna correttamente al termine delle chiamate <https://github.com/"
@@ -279,7 +371,7 @@ msgstr ""
 "correctly at the end of the calls <https://github.com/nethesis/dev/issues/"
 "5653>`_"
 
-#: ../../release_notes.rst:62
+#: ../../release_notes.rst:89
 msgid ""
 "`Risolti alcuni problemi di login al cti dopo il boot della macchina <https:/"
 "/github.com/nethesis/dev/issues/5650>`_"
@@ -287,7 +379,7 @@ msgstr ""
 "`Fixed some cti login problems after booting <https://github.com/nethesis/"
 "dev/issues/5650>`_"
 
-#: ../../release_notes.rst:63
+#: ../../release_notes.rst:90
 msgid ""
 "`Risolto il problema di login se il modulo nethcti-queuemanager non era "
 "installato <https://github.com/nethesis/dev/issues/5647>`_"
@@ -295,7 +387,7 @@ msgstr ""
 "`Fixed login problem when nethcti-queuemanager module was not installed "
 "<https://github.com/nethesis/dev/issues/5647>`_"
 
-#: ../../release_notes.rst:64
+#: ../../release_notes.rst:91
 msgid ""
 "`I box utente all'interno del tab \"Code\" del servizio QManager non "
 "mostravano lo stato di Hold <https://github.com/nethesis/dev/issues/5658>`_"
@@ -303,7 +395,7 @@ msgstr ""
 "`The user boxes in the \"Queue\" tab of the QManager service did not show "
 "the Hold status <https://github.com/nethesis/dev/issues/5658>` _"
 
-#: ../../release_notes.rst:65
+#: ../../release_notes.rst:92
 msgid ""
 "`All'interno della Dashboard del Wizard di NethVoice lo stato degli interni "
 "era errato quando l'interno era in conversazione <https://github.com/"
@@ -313,35 +405,35 @@ msgstr ""
 "wrong when the extension was in conversation <https://github.com/nethesis/"
 "dev/issues/5659>`_"
 
-#: ../../release_notes.rst:69
+#: ../../release_notes.rst:96
 msgid "``nethcti3-3.15.0-1.ns7.noarch.rpm``"
 msgstr "``nethcti3-3.15.0-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:70
+#: ../../release_notes.rst:97
 msgid "``nethcti-server3-3.15.0-1.ns7.x86_64.rpm``"
 msgstr "``nethcti-server3-3.15.0-1.ns7.x86_64.rpm``"
 
-#: ../../release_notes.rst:71
+#: ../../release_notes.rst:98
 msgid "``nethserver-janus-1.0.13-1.ns7.noarch.rpm``"
 msgstr "``nethserver-janus-1.0.13-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:72
+#: ../../release_notes.rst:99
 msgid "``janus-gateway-0.7.2.0-1.ns7.x86_64.rpm``"
 msgstr "``janus-gateway-0.7.2.0-1.ns7.x86_64.rpm``"
 
-#: ../../release_notes.rst:73
+#: ../../release_notes.rst:100
 msgid "``nethvoice-wizard-ui-14.3.2-1.ns7.noarch.rpm``"
 msgstr "``nethvoice-wizard-ui-14.3.2-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:74
+#: ../../release_notes.rst:101
 msgid "``nethserver-nethvoice14-14.3.0-1.ns7.noarch.rpm``"
 msgstr "``nethserver-nethvoice14-14.3.0-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:77
+#: ../../release_notes.rst:104
 msgid "Cambiamenti principali - v3.14.0 - (12 GIU 2019)"
 msgstr "Major changes - v3.14.0 - (12 JUN 2019)"
 
-#: ../../release_notes.rst:81
+#: ../../release_notes.rst:108
 msgid ""
 "`Aggiunte le statistiche agenti e code nella nuova Dashboard del servizio "
 "QManager (Supervisore delle Code) con grafici e classifiche <https://github."
@@ -351,7 +443,7 @@ msgstr ""
 "(Code Supervisor) with charts and rankings <https://github.com/nethesis/dev/"
 "issues/5610>`_"
 
-#: ../../release_notes.rst:82
+#: ../../release_notes.rst:109
 msgid ""
 "`Aggiunta la funzionalità di \"Condivisione Desktop\" durante una "
 "conversazione (Firefox e Chrome supportati) <https://github.com/nethesis/dev/"
@@ -360,7 +452,7 @@ msgstr ""
 "`Added \"Desktop Sharing\" functionality during a conversation (Firefox and "
 "Chrome supported) <https://github.com/nethesis/dev/issues/5607>`_"
 
-#: ../../release_notes.rst:83
+#: ../../release_notes.rst:110
 msgid ""
 "`Aggiunta data e ora agli allarmi visualizzati all'interno della Dashboard "
 "del servizio QManager <https://github.com/nethesis/dev/issues/5635>`_"
@@ -368,7 +460,7 @@ msgstr ""
 "`Added date and time to the alarms displayed in the QManager service "
 "Dashboard <https://github.com/nethesis/dev/issues/5635>`_"
 
-#: ../../release_notes.rst:84
+#: ../../release_notes.rst:111
 msgid ""
 "`La lista ultime chiamate ora mostra anche l'azienda (se presente) nelle "
 "informazioni delle chiamate in ingresso <https://github.com/nethesis/dev/"
@@ -377,7 +469,7 @@ msgstr ""
 "`The last call list now also shows the company (if present) in the incoming "
 "call information <https://github.com/nethesis/dev/issues/5563>`_"
 
-#: ../../release_notes.rst:88
+#: ../../release_notes.rst:115
 msgid ""
 "`Eliminato un errore di log frequente nel server nel caso di streaming video "
 "non più raggiungibile <https://github.com/nethesis/dev/issues/5637>`_"
@@ -385,7 +477,7 @@ msgstr ""
 "`Fixed a frequent log error on the server in case of video streaming no "
 "longer reachable <https://github.com/nethesis/dev/issues/5637>`_"
 
-#: ../../release_notes.rst:89
+#: ../../release_notes.rst:116
 msgid ""
 "`Eliminato un errore di log nel server nel caso di presenza di interno "
 "anonimo <https://github.com/nethesis/dev/issues/5636>`_"
@@ -393,7 +485,7 @@ msgstr ""
 "`A log error in the server was eliminated in the event of an anonymous "
 "extension <https://github.com/nethesis/dev/issues/5636>`_"
 
-#: ../../release_notes.rst:90
+#: ../../release_notes.rst:117
 msgid ""
 "`Risolto un problema che ritornava dati non consentiti nell'uso della rest "
 "api qmanager_astats <https://github.com/nethesis/dev/issues/5634>`_"
@@ -401,7 +493,7 @@ msgstr ""
 "`Fixed an issue that returned data not allowed when using the rest api "
 "qmanager_astats <https://github.com/nethesis/dev/issues/5634>`_"
 
-#: ../../release_notes.rst:91
+#: ../../release_notes.rst:118
 msgid ""
 "`Risolto il problema con l'utilizzo dei telefoni Fanvill della "
 "visualizzazione di una chiamata persa in corrispondenza di ogni chiamata in "
@@ -410,7 +502,7 @@ msgstr ""
 "`Fixed problem using Fanvill phones that display a missed call for each "
 "outgoing call <https://github.com/nethesis/dev/issues/5526>`_"
 
-#: ../../release_notes.rst:92
+#: ../../release_notes.rst:119
 msgid ""
 "`Risolto il problema che non consentiva l'utilizzo di codice javascript e "
 "css all'interno delle customer card personalizzate <https://github.com/"
@@ -419,19 +511,19 @@ msgstr ""
 "`Fixed an issue that did not allow the use of javascript and css code in the "
 "customer cards <https://github.com/nethesis/dev/issues/5643>`_"
 
-#: ../../release_notes.rst:96
+#: ../../release_notes.rst:123
 msgid "``nethcti3-3.14.0-1.ns7.noarch.rpm``"
 msgstr "``nethcti3-3.14.0-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:97
+#: ../../release_notes.rst:124
 msgid "``nethcti-server3-3.14.0-1.ns7.x86_64.rpm``"
 msgstr "``nethcti-server3-3.14.0-1.ns7.x86_64.rpm``"
 
-#: ../../release_notes.rst:100
+#: ../../release_notes.rst:127
 msgid "Cambiamenti principali - v3.13.0 - (28 MAG 2019)"
 msgstr "Major changes - v3.13.0 - (28 MAG 2019)"
 
-#: ../../release_notes.rst:104
+#: ../../release_notes.rst:131
 msgid ""
 "Inserita una nuova dashboard all'interno del servizio QManager (Supervisore "
 "delle code). Il servizio consente una visualizzazione di differenti tipi di "
@@ -440,7 +532,7 @@ msgstr ""
 "New dashboard into the QManager service (Queue Supervisor). The service "
 "allows the display of different types of alarms concerning the queues"
 
-#: ../../release_notes.rst:106
+#: ../../release_notes.rst:133
 msgid ""
 "`documentazione <https://nethcti.docs.nethesis.it/it/v3/qmanager."
 "html#dashboard>`_"
@@ -448,21 +540,21 @@ msgstr ""
 "`documentation <https://nethcti.docs.nethesis.it/en/v3/qmanager."
 "html#dashboard>`_"
 
-#: ../../release_notes.rst:107
+#: ../../release_notes.rst:134
 msgid "`issue 5631 <https://github.com/nethesis/dev/issues/5631>`_"
 msgstr "`issue 5631 <https://github.com/nethesis/dev/issues/5631>`_"
 
-#: ../../release_notes.rst:108
+#: ../../release_notes.rst:135
 msgid "`issue 5621 <https://github.com/nethesis/dev/issues/5621>`_"
 msgstr "`issue 5621 <https://github.com/nethesis/dev/issues/5621>`_"
 
-#: ../../release_notes.rst:110
+#: ../../release_notes.rst:137
 msgid ""
 "Aggiunta la possibilità di eseguire uno script lato server al termine di una "
 "chiamata"
 msgstr "Added a feature to execute a server-side script at the end of a call"
 
-#: ../../release_notes.rst:112
+#: ../../release_notes.rst:139
 msgid ""
 "`documentazione <https://nethvoice.docs.nethesis.it/it/v14/howto."
 "html#product-cti-eseguire-uno-script-al-termine-di-una-chiamata>`_"
@@ -470,11 +562,11 @@ msgstr ""
 "`documentation <https://nethvoice.docs.nethesis.it/it/v14/howto.html#product-"
 "cti-eseguire-uno-script-al-termine-di-una-chiamata>`_"
 
-#: ../../release_notes.rst:113
+#: ../../release_notes.rst:140
 msgid "`issue 5613 <https://github.com/nethesis/dev/issues/5613>`_"
 msgstr "`issue 5613 <https://github.com/nethesis/dev/issues/5613>`_"
 
-#: ../../release_notes.rst:115
+#: ../../release_notes.rst:142
 msgid ""
 "`Migliori performance operative del pannello operatore in presenza di un "
 "elevato numero di gruppi utente <https://github.com/nethesis/dev/issues/"
@@ -483,7 +575,7 @@ msgstr ""
 "`Improved performance of the operator panel in the presence of a large "
 "number of user groups <https://github.com/nethesis/dev/issues/5624>`_"
 
-#: ../../release_notes.rst:116
+#: ../../release_notes.rst:143
 msgid ""
 "`Aggiornamento della libreria janus (alle ultime modifiche upstream) "
 "utilizzata per il telefono WebRTC <https://github.com/nethesis/dev/issues/"
@@ -492,7 +584,7 @@ msgstr ""
 "`Update of the janus library (to the latest upstream changes) used for the "
 "WebRTC phone <https://github.com/nethesis/dev/issues/5633>`_"
 
-#: ../../release_notes.rst:120
+#: ../../release_notes.rst:147
 msgid ""
 "`Risolto il problema dell'errata direzione delle chiamate in ringing "
 "mostrate nel pannello operatore <https://github.com/nethesis/dev/issues/"
@@ -501,7 +593,7 @@ msgstr ""
 "`Fixed wrong direction of ringing calls shown on the operator panel <https://"
 "github.com/nethesis/dev/issues/5629>`_"
 
-#: ../../release_notes.rst:121
+#: ../../release_notes.rst:148
 msgid ""
 "`Risolto il problema del reset dello stato di prensence in un particolare "
 "scenario operativo <https://github.com/nethesis/dev/issues/5628>`_"
@@ -509,7 +601,7 @@ msgstr ""
 "`Fixed prensence state reset problem in particular  scenario <https://github."
 "com/nethesis/dev/issues/5628>`_"
 
-#: ../../release_notes.rst:122
+#: ../../release_notes.rst:149
 msgid ""
 "`Risolto il problema della non risposta a una chiamata usando il telefono "
 "WebRTC in particolari scenari operativi <https://github.com/nethesis/dev/"
@@ -519,31 +611,31 @@ msgstr ""
 "particular operational scenarios <https://github.com/nethesis/dev/issues/"
 "5633>`_"
 
-#: ../../release_notes.rst:126
+#: ../../release_notes.rst:153
 msgid "``nethserver-nethvoice14-14.2.8-1.ns7.noarch.rpm``"
 msgstr "``nethserver-nethvoice14-14.2.8-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:127
+#: ../../release_notes.rst:154
 msgid "``janus-gateway-0.7.0.7-1.ns7.x86_64.rpm``"
 msgstr "``janus-gateway-0.7.0.7-1.ns7.x86_64.rpm``"
 
-#: ../../release_notes.rst:128
+#: ../../release_notes.rst:155
 msgid "``nethserver-janus-1.0.12-1.ns7.noarch.rpm``"
 msgstr "``nethserver-janus-1.0.12-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:129
+#: ../../release_notes.rst:156
 msgid "``nethcti3-3.13.0-1.ns7.noarch.rpm``"
 msgstr "``nethcti3-3.13.0-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:130
+#: ../../release_notes.rst:157
 msgid "``nethcti-server3-3.13.0-1.ns7.x86_64.rpm``"
 msgstr "``nethcti-server3-3.13.0-1.ns7.x86_64.rpm``"
 
-#: ../../release_notes.rst:133
+#: ../../release_notes.rst:160
 msgid "Cambiamenti principali - v3.12.0 - (17 APR 2019)"
 msgstr "Major changes - v3.12.0 - (17 APR 2019)"
 
-#: ../../release_notes.rst:137
+#: ../../release_notes.rst:164
 msgid ""
 "`Nuovo servizio \"Monitor\" all'interno del QManager: consente di tenere "
 "sotto controllo in tempo reale le chiamate in attesa nelle code abilitate "
@@ -553,7 +645,7 @@ msgstr ""
 "waiting in the enabled queues in real time <https://github.com/nethesis/dev/"
 "issues/5602>`_"
 
-#: ../../release_notes.rst:141
+#: ../../release_notes.rst:168
 msgid ""
 "`Risolto il problema della registrazione delle chiamate <https://github.com/"
 "nethesis/dev/issues/5615>`_"
@@ -561,7 +653,7 @@ msgstr ""
 "`Fixed call recording problem <https://github.com/nethesis/dev/issues/"
 "5615>`_"
 
-#: ../../release_notes.rst:142
+#: ../../release_notes.rst:169
 msgid ""
 "`Risolto il problema che in alcuni casi non mostrato il box di gestione "
 "chiamata durante lo spy di una conversazione <https://github.com/nethesis/"
@@ -571,7 +663,7 @@ msgstr ""
 "shown during a spy conversation <https://github.com/nethesis/dev/issues/"
 "5612>`_"
 
-#: ../../release_notes.rst:143
+#: ../../release_notes.rst:170
 msgid ""
 "`A volte l'invocazione della rest api astproxy/qmanager_astats generava un "
 "errore nel file di log <https://github.com/nethesis/dev/issues/5611>`_"
@@ -579,7 +671,7 @@ msgstr ""
 "`Sometimes the rest api astproxy/qmanager_astats generated an error in the "
 "log file <https://github.com/nethesis/dev/issues/5611>`_"
 
-#: ../../release_notes.rst:144
+#: ../../release_notes.rst:171
 msgid ""
 "`La rest api astproxy/extension/:id restituiva solamente il proprio interno "
 "telefonico <https://github.com/nethesis/dev/issues/5609>`_"
@@ -587,7 +679,7 @@ msgstr ""
 "`The rest api astproxy/extension/:id only returned its own telephone "
 "extension <https://github.com/nethesis/dev/issues/5609>`_"
 
-#: ../../release_notes.rst:145
+#: ../../release_notes.rst:172
 msgid ""
 "`La rest api history/interval non funzionava correttamente usando il valore "
 "\"user\" come parametro \"type\" <https://github.com/nethesis/dev/issues/"
@@ -597,19 +689,19 @@ msgstr ""
 "value as the \"type\" parameter <https://github.com/nethesis/dev/issues/"
 "5608>`_"
 
-#: ../../release_notes.rst:149
+#: ../../release_notes.rst:176
 msgid "``nethcti3-3.12.0-1.ns7.noarch.rpm``"
 msgstr "``nethcti3-3.12.0-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:150
+#: ../../release_notes.rst:177
 msgid "``nethcti-server3-3.12.0-1.ns7.x86_64.rpm``"
 msgstr "``nethcti-server3-3.12.0-1.ns7.x86_64.rpm``"
 
-#: ../../release_notes.rst:153
+#: ../../release_notes.rst:180
 msgid "Cambiamenti principali - v3.11.0 - (1 APR 2019)"
 msgstr "Major changes - v3.11.1 - (1 APR 2019)"
 
-#: ../../release_notes.rst:157
+#: ../../release_notes.rst:184
 msgid ""
 "`Per gli sviluppatori: i dati contenuti all'interno dell'oggetto JSON "
 "\"Conversations\" restituito attraverso la REST API \"astproxy/extensions\" "
@@ -624,7 +716,7 @@ msgstr ""
 "in the history database of calls \"asteriskcdrdb.cdr\" at the end of the "
 "call <https://github.com/nethesis/dev/issues/5605>`_"
 
-#: ../../release_notes.rst:158
+#: ../../release_notes.rst:185
 msgid ""
 "`Aggiornamento della libreria Janus usata per il softphone WebRTC alla "
 "versione 0.6.3 <https://github.com/nethesis/dev/issues/5601>`_"
@@ -632,7 +724,7 @@ msgstr ""
 "`Update of the Janus library used for the WebRTC softphone to version 0.6.3 "
 "<https://github.com/nethesis/dev/issues/5601>`_"
 
-#: ../../release_notes.rst:162
+#: ../../release_notes.rst:189
 msgid ""
 "`Risolto il problema che causava il riavvio di NethCTI in corrispondenza di "
 "modifiche apportate alla configurazione tramite wizard <https://github.com/"
@@ -641,27 +733,27 @@ msgstr ""
 "`Fixed issue that caused NethCTI to reboot for configuration changes via the "
 "wizard <https://github.com/nethesis/dev/issues/5600>`_"
 
-#: ../../release_notes.rst:166
+#: ../../release_notes.rst:193
 msgid "``nethcti3-3.11.0-1.ns7.noarch.rpm``"
 msgstr "``nethcti3-3.11.0-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:167
+#: ../../release_notes.rst:194
 msgid "``nethcti-server3-3.11.0-1.ns7.x86_64.rpm``"
 msgstr "``nethcti-server3-3.11.0-1.ns7.x86_64.rpm``"
 
-#: ../../release_notes.rst:168
+#: ../../release_notes.rst:195
 msgid "``janus-gateway-0.6.3-1.ns7.x86_64.rpm``"
 msgstr "``janus-gateway-0.6.3-1.ns7.x86_64.rpm``"
 
-#: ../../release_notes.rst:169
+#: ../../release_notes.rst:196
 msgid "``nethserver-janus-1.0.10-1.ns7.noarch.rpm``"
 msgstr "``nethserver-janus-1.0.10-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:172
+#: ../../release_notes.rst:199
 msgid "Cambiamenti principali - v3.10.1 - (22 MAR 2019)"
 msgstr "Major changes - v3.10.1 - (22 MAR 2019)"
 
-#: ../../release_notes.rst:176
+#: ../../release_notes.rst:203
 msgid ""
 "`Risolto un problema di compatibilità con la prossima versione di Asterisk "
 "13.23+ <https://github.com/nethesis/dev/issues/5597>`_"
@@ -669,7 +761,7 @@ msgstr ""
 "`Fixed a compatibility issue with the next version of Asterisk 13.23+ <https:"
 "//github.com/nethesis/dev/issues/5597>`_"
 
-#: ../../release_notes.rst:177
+#: ../../release_notes.rst:204
 msgid ""
 "`Eseguendo una telefonata verso una destinazione in stato di occupato, non "
 "si sentiva il tono di occupato <https://github.com/nethesis/dev/issues/"
@@ -678,19 +770,19 @@ msgstr ""
 "`By making a call to a busy destination, the busy tone was not heard <https:/"
 "/github.com/nethesis/dev/issues/5593>`_"
 
-#: ../../release_notes.rst:181
+#: ../../release_notes.rst:208
 msgid "``nethcti3-3.10.1-1.ns7.noarch.rpm``"
 msgstr "``nethcti3-3.10.1-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:182
+#: ../../release_notes.rst:209
 msgid "``nethcti-server3-3.10.1-1.ns7.x86_64.rpm``"
 msgstr "``nethcti-server3-3.10.1-1.ns7.x86_64.rpm``"
 
-#: ../../release_notes.rst:185
+#: ../../release_notes.rst:212
 msgid "Cambiamenti principali - v3.10.0 - (15 MAR 2019)"
 msgstr "Major changes - v3.10.0 - (15 MAR 2019)"
 
-#: ../../release_notes.rst:189
+#: ../../release_notes.rst:216
 msgid ""
 "`Aggiornamento della libreria Janus alla versione 0.6.2 <https://github.com/"
 "nethesis/dev/issues/5590>`_"
@@ -698,14 +790,14 @@ msgstr ""
 "`Update of Janus library to version 0.6.2 <https://github.com/nethesis/dev/"
 "issues/5590>`_"
 
-#: ../../release_notes.rst:190
+#: ../../release_notes.rst:217
 msgid ""
 "`Aggiornamento di NodeJS alla versione 10 <https://github.com/nethesis/dev/"
 "issues/5588>`_"
 msgstr ""
 "`NodeJS update to version 10 <https://github.com/nethesis/dev/issues/5588>`_"
 
-#: ../../release_notes.rst:191
+#: ../../release_notes.rst:218
 msgid ""
 "`Possibilità di personalizzare il messaggio di warning in corrispondenza del "
 "login da parte di un utente non configurato <https://github.com/nethesis/dev/"
@@ -714,7 +806,7 @@ msgstr ""
 "`Ability to customize the warning message when logging in by a not "
 "configured user <https://github.com/nethesis/dev/issues/5585>`_"
 
-#: ../../release_notes.rst:195
+#: ../../release_notes.rst:222
 msgid ""
 "`Aggiornamento di sicurezza di alcune librerie <https://github.com/nethesis/"
 "dev/issues/5587>`_"
@@ -722,7 +814,7 @@ msgstr ""
 "`Security update of some libraries <https://github.com/nethesis/dev/issues/"
 "5587>`_"
 
-#: ../../release_notes.rst:196
+#: ../../release_notes.rst:223
 msgid ""
 "`Risolto un problema sulla rest api \"historycall/interval\" <https://github."
 "com/nethesis/dev/issues/5584>`_"
@@ -730,7 +822,7 @@ msgstr ""
 "`Fixed an issue with the rest api \"historycall/interval\" <https://github."
 "com/nethesis/dev/issues/5584>`_"
 
-#: ../../release_notes.rst:197
+#: ../../release_notes.rst:224
 msgid ""
 "`Risolto il problema del login/logout automatico dalle code quando si è "
 "utilizzato il proprio interno telefonico come username per il login <https://"
@@ -739,27 +831,27 @@ msgstr ""
 "`Fixed automatic login/logout from queues when using your phone extension as "
 "the login username <https://github.com/nethesis/dev/issues/5581>`_"
 
-#: ../../release_notes.rst:201
+#: ../../release_notes.rst:228
 msgid "``nethcti3-3.10.0-1.ns7.noarch.rpm``"
 msgstr "``nethcti3-3.10.0-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:202
+#: ../../release_notes.rst:229
 msgid "``nethcti-server3-3.10.0-1.ns7.x86_64.rpm``"
 msgstr "``nethcti-server3-3.10.0-1.ns7.x86_64.rpm``"
 
-#: ../../release_notes.rst:203
+#: ../../release_notes.rst:230
 msgid "``nethserver-janus-1.0.9-1.ns7.noarch.rpm``"
 msgstr "``nethserver-janus-1.0.9-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:204
+#: ../../release_notes.rst:231
 msgid "``janus-gateway-0.6.2-1.el7.x86_64.rpm``"
 msgstr "``janus-gateway-0.6.2-1.el7.x86_64.rpm``"
 
-#: ../../release_notes.rst:207
+#: ../../release_notes.rst:234
 msgid "Cambiamenti principali - v3.9.0 - (8 FEB 2019)"
 msgstr "Major changes - v3.9.0 - (8 FEB 2019)"
 
-#: ../../release_notes.rst:211
+#: ../../release_notes.rst:238
 msgid ""
 "`Nuova app \"Post Operatore Avanzato\" integrato all'interno di NethCTI "
 "<https://github.com/nethesis/dev/issues/5549>`_"
@@ -767,7 +859,7 @@ msgstr ""
 "`New app \"Advanced Operator Panel\" integrated within NethCTI <https://"
 "github.com/nethesis/dev/issues/5549>`_"
 
-#: ../../release_notes.rst:215
+#: ../../release_notes.rst:242
 msgid ""
 "`Entrando nelle code da NethCTI la \"penalità\" degli agenti delle code non "
 "veniva rispettata <https://github.com/nethesis/dev/issues/5575>`_"
@@ -775,31 +867,31 @@ msgstr ""
 "`Entering the queues from NethCTI the queue agent \"penalty\" was not "
 "respected <https://github.com/nethesis/dev/issues/5575>`_"
 
-#: ../../release_notes.rst:219
+#: ../../release_notes.rst:246
 msgid "``nethcti3-3.9.0-1.ns7.noarch.rpm``"
 msgstr "``nethcti3-3.9.0-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:220
+#: ../../release_notes.rst:247
 msgid "``nethcti-server3-3.8.0-1.ns7.x86_64.rpm``"
 msgstr "``nethcti-server3-3.8.0-1.ns7.x86_64.rpm``"
 
-#: ../../release_notes.rst:221
+#: ../../release_notes.rst:248
 msgid "``nethserver-nethvoice14-14.2.2-1.ns7.noarch.rpm``"
 msgstr "``nethserver-nethvoice14-14.2.2-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:222
+#: ../../release_notes.rst:249
 msgid "``nethvoice-wizard-restapi-14.2.1-1.ns7.noarch.rpm``"
 msgstr "``nethvoice-wizard-restapi-14.2.1-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:223
+#: ../../release_notes.rst:250
 msgid "``nethvoice-wizard-ui-14.2.1-1.ns7.noarch.rpm``"
 msgstr "``nethvoice-wizard-ui-14.2.1-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:226
+#: ../../release_notes.rst:253
 msgid "Cambiamenti principali - v3.8.0 - (24 GEN 2019)"
 msgstr "Major changes - v3.8.0 - (24 JAN 2019)"
 
-#: ../../release_notes.rst:230
+#: ../../release_notes.rst:257
 msgid ""
 "`La dimensione dei dati trasferiti dal server è stata ridotta del 73% <https:"
 "//github.com/nethesis/dev/issues/5568>`_"
@@ -807,7 +899,7 @@ msgstr ""
 "`The size of transferred data from the server has been reduced by 73% <https:"
 "//github.com/nethesis/dev/issues/5568>`_"
 
-#: ../../release_notes.rst:234
+#: ../../release_notes.rst:261
 msgid ""
 "`Durante la creazione di un contatto speeddial, alcune label per scegliere "
 "il \"Numero preferito\" erano errate <https://github.com/nethesis/dev/issues/"
@@ -817,7 +909,7 @@ msgstr ""
 "\"Favorite number\" were incorrect <https://github.com/nethesis/dev/issues/"
 "5570>`_"
 
-#: ../../release_notes.rst:235
+#: ../../release_notes.rst:262
 msgid ""
 "`Il pannello operatore, in presenza di molti gruppi, ne nascondeva alcuni. "
 "Ora è possibile vederli tutti grazie alla presenza di una scrollbar "
@@ -827,7 +919,7 @@ msgstr ""
 "can see them all thanks to the an horizontal scrollbar <https://github.com/"
 "nethesis/dev/issues/5570>`_"
 
-#: ../../release_notes.rst:236
+#: ../../release_notes.rst:263
 msgid ""
 "Il pulsante \"Pausa\" presente nel box di gestione chiamata, non funzionava "
 "correttamente quando la chiamata non era tra due interni. Questo bug è stato "
@@ -841,15 +933,15 @@ msgstr ""
 "<https://github.com/nethesis/dev/issues/5562>`_) - `issue 5569 <https://"
 "github.com/nethesis/dev/issues/5569>`_"
 
-#: ../../release_notes.rst:241
+#: ../../release_notes.rst:268
 msgid "``nethcti3-3.8.0-1.ns7.noarch.rpm``"
 msgstr "``nethcti3-3.8.0-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:244
+#: ../../release_notes.rst:271
 msgid "Cambiamenti principali - v3.7.0 - (21 GEN 2019)"
 msgstr "Major changes - v3.7.0 - (21 JAN 2019)"
 
-#: ../../release_notes.rst:248
+#: ../../release_notes.rst:275
 msgid ""
 "`Muovendo il mouse sopra un risultato di una ricerca in rubrica, più "
 "specificatamente sull'icona che rappresenta la sorgente dati, appare un "
@@ -861,7 +953,7 @@ msgstr ""
 "explicit by showing the specific data source (if it is present) <https://"
 "github.com/nethesis/dev/issues/5566>`_"
 
-#: ../../release_notes.rst:249
+#: ../../release_notes.rst:276
 msgid ""
 "`La rimozione di un messaggio audio del servizio \"Fuori Orario\" viene ora "
 "loggato nel server come messaggio di warning <https://github.com/nethesis/"
@@ -871,7 +963,7 @@ msgstr ""
 "into the server as a warning message <https://github.com/nethesis/dev/issues/"
 "5565>`_"
 
-#: ../../release_notes.rst:250
+#: ../../release_notes.rst:277
 msgid ""
 "`Ciascun box utente all'interno del \"Pannello operatore\", mostra ora anche "
 "il numero di cellulare da poter chiamare (se è stato preventivamente "
@@ -882,7 +974,7 @@ msgstr ""
 "number to call (if it has been previously associated via the configuration "
 "wizard) <https://github.com/nethesis/dev/issues/5564>`_"
 
-#: ../../release_notes.rst:251
+#: ../../release_notes.rst:278
 msgid ""
 "`Nella lista delle ultime chiamate, è stata aggiunta la visualizzazione del "
 "campo \"azienda\" per le chiamate in uscita <https://github.com/nethesis/dev/"
@@ -891,7 +983,7 @@ msgstr ""
 "`From the last calls list, the display of the \"company\" field for outgoing "
 "calls has been added <https://github.com/nethesis/dev/issues/5558>`_"
 
-#: ../../release_notes.rst:255
+#: ../../release_notes.rst:282
 msgid ""
 "`Il pulsante \"Pausa\" all'interno del box di gestione chiamata non veniva "
 "aggiornato quando si utilizzava il telefono per entrare nello stato di "
@@ -901,7 +993,7 @@ msgstr ""
 "physical phone button was used <https://github.com/nethesis/dev/issues/"
 "5562>`_"
 
-#: ../../release_notes.rst:256
+#: ../../release_notes.rst:283
 msgid ""
 "`Il trasferimeno di chiamata eseguito inserendo manualmente un numero "
 "telefonico non funzionava <https://github.com/nethesis/dev/issues/5559>`_"
@@ -909,19 +1001,19 @@ msgstr ""
 "`Call transfer performed by manually entering a telephone number did not "
 "work <https://github.com/nethesis/dev/issues/5559>`_"
 
-#: ../../release_notes.rst:260
+#: ../../release_notes.rst:287
 msgid "``nethcti3-3.7.0-1.ns7.noarch.rpm``"
 msgstr "``nethcti3-3.7.0-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:261
+#: ../../release_notes.rst:288
 msgid "``nethcti-server3-3.7.0-1.ns7.x86_64.rpm``"
 msgstr "``nethcti-server3-3.7.0-1.ns7.x86_64.rpm``"
 
-#: ../../release_notes.rst:264
+#: ../../release_notes.rst:291
 msgid "Cambiamenti principali - v3.6.0 - (11 GEN 2019)"
 msgstr "Major changes - v3.6.0 - (11 JAN 2019)"
 
-#: ../../release_notes.rst:268
+#: ../../release_notes.rst:295
 msgid ""
 "`QManager Supervisore delle code: è stata rilasciata la versione finale "
 "<https://github.com/nethesis/dev/issues/5547>`_"
@@ -929,7 +1021,7 @@ msgstr ""
 "`QManager Queue Supervisor: final version has been released <https://github."
 "com/nethesis/dev/issues/5547>`_"
 
-#: ../../release_notes.rst:269
+#: ../../release_notes.rst:296
 msgid ""
 "`È stata aggiunta una scroolbar nella lista delle chiamate in attesa e "
 "connesse all'interno del Supervisore delle code per facilitarne la "
@@ -939,22 +1031,22 @@ msgstr ""
 "within the Queue Supervisor for easy viewing <https://github.com/nethesis/"
 "dev/issues/5539>`_"
 
-#: ../../release_notes.rst:270
+#: ../../release_notes.rst:297
 msgid ""
 "Possibilità di aggiungere nuovi campi durante la creazione di nuovi contatti "
 "in rubrica"
 msgstr ""
 "Ability to add new fields when creating new contacts into the phonebook"
 
-#: ../../release_notes.rst:272
+#: ../../release_notes.rst:299
 msgid "`issue 5536 <https://github.com/nethesis/dev/issues/5536>`_"
 msgstr "`issue 5536 <https://github.com/nethesis/dev/issues/5536>`_"
 
-#: ../../release_notes.rst:273
+#: ../../release_notes.rst:300
 msgid "`issue 5537 <https://github.com/nethesis/dev/issues/5537>`_"
 msgstr "`issue 5537 <https://github.com/nethesis/dev/issues/5537>`_"
 
-#: ../../release_notes.rst:275
+#: ../../release_notes.rst:302
 msgid ""
 "`Possibilità di effettuare chiamate video anche tra telefoni fisici (codec "
 "supportati: VP8 e H.264) e Softphone WebRTC (in dipendenza del browser "
@@ -965,7 +1057,7 @@ msgstr ""
 "are VP8 and H.264) and Softphone WebRTC (depending on the used browser: "
 "recommended Google Chrome) <https://github.com/nethesis/dev/issues/5546>`_"
 
-#: ../../release_notes.rst:279
+#: ../../release_notes.rst:306
 msgid ""
 "`L'utente non vede più i servizi per i quali non possiede il relativo "
 "permesso <https://github.com/nethesis/dev/issues/5542>`_"
@@ -973,7 +1065,7 @@ msgstr ""
 "`You no longer see the services for which you do not have permission <https:/"
 "/github.com/nethesis/dev/issues/5542>`_"
 
-#: ../../release_notes.rst:280
+#: ../../release_notes.rst:307
 msgid ""
 "`Quando l'utente cambiava il dispositivo di default da Softphone WebRTC ad "
 "altro, il softphone non si deregistrava continuando ad essere operativo "
@@ -983,7 +1075,7 @@ msgstr ""
 "the softphone would not de-register itself and continue to be active <https:/"
 "/github.com/nethesis/dev/issues/5541>`_"
 
-#: ../../release_notes.rst:281
+#: ../../release_notes.rst:308
 msgid ""
 "`Le chiamate in uscita elencate nella lista delle ultime dieci chiamate non "
 "mostrava il nome quando presente, ma solo il numero <https://github.com/"
@@ -992,7 +1084,7 @@ msgstr ""
 "`Outgoing calls listed in the last ten calls list did not show the name when "
 "present, but only the number <https://github.com/nethesis/dev/issues/5538>`_"
 
-#: ../../release_notes.rst:282
+#: ../../release_notes.rst:309
 msgid ""
 "`Durante la modifica di un contatto in rubrica, la privacy veniva mostrata "
 "in maniera errata <https://github.com/nethesis/dev/issues/5535>`_"
@@ -1000,7 +1092,7 @@ msgstr ""
 "`When editing a phonebook contact, privacy was shown incorrectly <https://"
 "github.com/nethesis/dev/issues/5535>`_"
 
-#: ../../release_notes.rst:283
+#: ../../release_notes.rst:310
 msgid ""
 "`Risolto il problema della non visualizzazione del pulsante per modificare i "
 "contatti in rubrica in corrispondenza di alcuni scenari <https://github.com/"
@@ -1009,7 +1101,7 @@ msgstr ""
 "`Fixed the problem of not displaying the button to edit contacts in the "
 "phonebook in some scenarios <https://github.com/nethesis/dev/issues/5533>`_"
 
-#: ../../release_notes.rst:284
+#: ../../release_notes.rst:311
 msgid ""
 "`Risolto il problema della duplicazione delle richieste eseguite verso il "
 "server in alcuni scenari durante le ricerche in rubrica <https://github.com/"
@@ -1018,7 +1110,7 @@ msgstr ""
 "`Fixed the problem of duplicating requests to the server in some scenarios "
 "during directory searches <https://github.com/nethesis/dev/issues/5533>`_"
 
-#: ../../release_notes.rst:285
+#: ../../release_notes.rst:312
 msgid ""
 "`Dopo aver eseguito delle modifiche tramite il wizard di configurazione, "
 "sporadicamente l'utente non era più in grado di accedere a NethCTI <https://"
@@ -1028,24 +1120,24 @@ msgstr ""
 "temporarily unable to access NethCTI <https://github.com/nethesis/dev/issues/"
 "5451>`_"
 
-#: ../../release_notes.rst:289
+#: ../../release_notes.rst:316
 msgid "``nethcti3-3.6.0-1.ns7.noarch.rpm``"
 msgstr "``nethcti3-3.6.0-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:290
+#: ../../release_notes.rst:317
 msgid "``nethcti-server3-3.6.0-1.ns7.x86_64.rpm``"
 msgstr "``nethcti-server3-3.6.0-1.ns7.x86_64.rpm``"
 
-#: ../../release_notes.rst:293
+#: ../../release_notes.rst:320
 msgid "Cambiamenti principali - v3.5.0 - (18 DIC 2018)"
 msgstr "Major changes - v3.5.0 - (18 DEC 2018)"
 
-#: ../../release_notes.rst:295
-#: ../../release_notes.rst:331
+#: ../../release_notes.rst:322
+#: ../../release_notes.rst:358
 msgid "**Nuove funzionalità**"
 msgstr "**New features**"
 
-#: ../../release_notes.rst:297
+#: ../../release_notes.rst:324
 msgid ""
 "`Sono state aggiunte 3 nuove azioni al trasferimento consultativo: <https://"
 "github.com/nethesis/dev/issues/5528>`_"
@@ -1053,12 +1145,12 @@ msgstr ""
 "3 new actions have been added to the attended transfer: <https://github.com/"
 "nethesis/dev/issues/5528>`_"
 
-#: ../../release_notes.rst:299
+#: ../../release_notes.rst:326
 msgid ""
 "\"*Interrompi trasferimento*\": possibilità di interrompere il trasferimento"
 msgstr "\"*Stop transfer*\": enable the stop of the transfer"
 
-#: ../../release_notes.rst:300
+#: ../../release_notes.rst:327
 msgid ""
 "\"*Inizia conferenza*\": possibilità di parlare con tutti e tre i "
 "partecipanti contemporaneamente"
@@ -1066,7 +1158,7 @@ msgstr ""
 "*Start conference* \": enable to speak with all three participants at the "
 "same time"
 
-#: ../../release_notes.rst:301
+#: ../../release_notes.rst:328
 msgid ""
 "\"*Cambia interlocutore*\": possibilità di \"switchare\" la conversazione da "
 "un partecipante all'altro più volte"
@@ -1074,7 +1166,7 @@ msgstr ""
 "\"*Switch speaker*\": enable to \"switch\" the conversation from one "
 "participant to another several times"
 
-#: ../../release_notes.rst:303
+#: ../../release_notes.rst:330
 msgid ""
 "`Migliorata la stabilità del telefono WebRTC integrato in NethCTI grazie "
 "all'aggiornamento del componente Janus-Gateway alla versione 0.5.0 <https://"
@@ -1084,7 +1176,7 @@ msgstr ""
 "the Janus-Gateway component to version 0.5.0 <https://github.com/nethesis/"
 "dev/issues/5519>`_"
 
-#: ../../release_notes.rst:304
+#: ../../release_notes.rst:331
 msgid ""
 "`Migliorata la gestione degli eventi di Asterisk da parte del CTI Server, "
 "del numero di queries eseguite e del numero di eventi inviati ai clients "
@@ -1094,7 +1186,7 @@ msgstr ""
 "queries performed and the number of events sent to the clients <https://"
 "github.com/nethesis/dev/issues/5513>`_"
 
-#: ../../release_notes.rst:308
+#: ../../release_notes.rst:335
 msgid ""
 "`Risolto il problema della visualizzazione ritardata del box di gestione "
 "chiamata per conversazioni verso l'esterno <https://github.com/nethesis/dev/"
@@ -1104,7 +1196,7 @@ msgstr ""
 "outgoing external conversations <https://github.com/nethesis/dev/issues/"
 "5525>`_"
 
-#: ../../release_notes.rst:309
+#: ../../release_notes.rst:336
 msgid ""
 "`Risolto il problema della scomparsa delle statistiche degli agenti del "
 "QManager <https://github.com/nethesis/dev/issues/5524>`_"
@@ -1112,7 +1204,7 @@ msgstr ""
 "`Fixed the issue of missing QManager agent statistics <https://github.com/"
 "nethesis/dev/issues/5524>`_"
 
-#: ../../release_notes.rst:310
+#: ../../release_notes.rst:337
 msgid ""
 "`Le conferenze audio non funzionavano correttamente quando l'utente "
 "utilizzava un telefono fisico <https://github.com/nethesis/dev/issues/"
@@ -1121,7 +1213,7 @@ msgstr ""
 "`Audio conferences did not work properly when the user was using a physical "
 "phone <https://github.com/nethesis/dev/issues/5520>`_"
 
-#: ../../release_notes.rst:311
+#: ../../release_notes.rst:338
 msgid ""
 "`Rimosse alcune REST api inutilizzate e presenti dalla versione 2.0 <https://"
 "github.com/nethesis/dev/issues/5518>`_"
@@ -1129,27 +1221,27 @@ msgstr ""
 "`Removed some unused REST api that was present from version 2.0 <https://"
 "github.com/nethesis/dev/issues/5518>`_"
 
-#: ../../release_notes.rst:312
+#: ../../release_notes.rst:339
 msgid ""
 "`Risolti alcuni problemi di: <https://github.com/nethesis/dev/issues/5517>`_"
 msgstr ""
 "`Fixed some issues of: <https://github.com/nethesis/dev/issues/5517>`_"
 
-#: ../../release_notes.rst:314
+#: ../../release_notes.rst:341
 msgid "ricerca nello storico chiamate"
 msgstr "search in the call history"
 
-#: ../../release_notes.rst:315
+#: ../../release_notes.rst:342
 msgid ""
 "visualizzazione delle date durante la modifica di un rotta nel servizio "
 "Fuori Orario"
 msgstr "displaying dates when editing a route in the Offhour service"
 
-#: ../../release_notes.rst:316
+#: ../../release_notes.rst:343
 msgid "ricerca nella rubrica: aggiunto un terzo campo per filtrare la ricerca"
 msgstr "phonebook search: added a third field to filter the search"
 
-#: ../../release_notes.rst:318
+#: ../../release_notes.rst:345
 msgid ""
 "`Con il livello di log a \"info\" le queries eseguite dal CTI Server "
 "venivano scritto sul file \"messages\" <https://github.com/nethesis/dev/"
@@ -1159,27 +1251,27 @@ msgstr ""
 "written to the \"messages\" file <https://github.com/nethesis/dev/issues/"
 "5508>`_"
 
-#: ../../release_notes.rst:322
+#: ../../release_notes.rst:349
 msgid "``nethcti3-3.5.0-1.ns7.noarch.rpm``"
 msgstr "``nethcti3-3.5.0-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:323
+#: ../../release_notes.rst:350
 msgid "``nethcti-server3-3.5.0-1.ns7.x86_64.rpm``"
 msgstr "``nethcti-server3-3.5.0-1.ns7.x86_64.rpm``"
 
-#: ../../release_notes.rst:324
+#: ../../release_notes.rst:351
 msgid "``janus-gateway-0.5.0-1.ns7.x86_64.rpm``"
 msgstr "``janus-gateway-0.5.0-1.ns7.x86_64.rpm``"
 
-#: ../../release_notes.rst:325
+#: ../../release_notes.rst:352
 msgid "``nethserver-janus-1.0.6-1.ns7.noarch.rpm``"
 msgstr "``nethserver-janus-1.0.6-1.ns7.noarch.rpm``"
 
-#: ../../release_notes.rst:329
+#: ../../release_notes.rst:356
 msgid "Cambiamenti principali - v3.4.0 - (12 NOV 2018)"
 msgstr "Major changes - v3.4.0 - (12 NOV 2018)"
 
-#: ../../release_notes.rst:333
+#: ../../release_notes.rst:360
 msgid ""
 "`Possibilità di effettuare chiamate in maniera non autenticata: <https://"
 "nethvoice.docs.nethesis.it/it/v14/howto.html#product-cti-effettuare-chiamate-"
@@ -1197,7 +1289,7 @@ msgstr ""
 "default** and can be selectively activated for **specific range of IP "
 "addresses.**"
 
-#: ../../release_notes.rst:337
+#: ../../release_notes.rst:364
 msgid ""
 "Risolto il problema della scomparsa del pulsante \"Cambia dispositivo\": "
 "durante una chiamata è possibile \"passare\" la conversazione su un altro "
@@ -1207,19 +1299,19 @@ msgstr ""
 "call you can \"switch\" the conversation to another device associated with "
 "your user"
 
-#: ../../release_notes.rst:339
+#: ../../release_notes.rst:366
 msgid "https://github.com/nethesis/dev/issues/5510"
 msgstr "https://github.com/nethesis/dev/issues/5510"
 
-#: ../../release_notes.rst:340
+#: ../../release_notes.rst:367
 msgid "https://github.com/nethesis/dev/issues/5511"
 msgstr "https://github.com/nethesis/dev/issues/5511"
 
-#: ../../release_notes.rst:347
+#: ../../release_notes.rst:374
 msgid "Cambiamenti principali - v3.3.3 - (5 NOV 2018)"
 msgstr "Major changes - v3.3.3 - (5 NOV 2018)"
 
-#: ../../release_notes.rst:351
+#: ../../release_notes.rst:378
 msgid ""
 "`Sistemato il \"freeze\" del client quando si eseguiva il reload del server "
 "in presenza di centinaia di utenti configurati <https://github.com/nethesis/"
@@ -1228,7 +1320,7 @@ msgstr ""
 "`Fixed the \"freeze\" of the client on server reloaded when hundreds of  "
 "users has been configured <https://github.com/nethesis/dev/issues/5504>`_"
 
-#: ../../release_notes.rst:352
+#: ../../release_notes.rst:379
 msgid ""
 "`La rest api \"astproxy/extension\" restituiva il risultato anche in assenza "
 "dell'header HTTP Authorization <https://github.com/nethesis/dev/issues/"
@@ -1238,7 +1330,7 @@ msgstr ""
 "the HTTP Authorization header <https://github.com/nethesis/dev/issues/"
 "5501>`_"
 
-#: ../../release_notes.rst:353
+#: ../../release_notes.rst:380
 msgid ""
 "`Rimossa la doppia richiesta del client per ottenere la lista delle chiamate "
 "perse in coda: avveniva dopo un reload del server <https://github.com/"
@@ -1248,7 +1340,7 @@ msgstr ""
 "queue: it happened after a server reload <https://github.com/nethesis/dev/"
 "issues/5500>`_"
 
-#: ../../release_notes.rst:354
+#: ../../release_notes.rst:381
 msgid ""
 "`Dopo un reload del server e in caso di \"DND on/off automatico\" "
 "dell'utente scelto dal client, il log del server riportava degli errori a "
@@ -1259,11 +1351,11 @@ msgstr ""
 "chosen by the client, the server log reported errors due to the execution of "
 "duplicate operations <https://github.com/nethesis/dev/issues/5495>`_"
 
-#: ../../release_notes.rst:359
+#: ../../release_notes.rst:386
 msgid "Cambiamenti principali - v3.3.2 - (31 OTT 2018)"
 msgstr "Major changes - v3.3.2 - (31 OTT 2018)"
 
-#: ../../release_notes.rst:363
+#: ../../release_notes.rst:390
 msgid ""
 "`Sistemata la registrazione dei messaggi audio nel servizio \"Fuori Orario\" "
 "<https://github.com/nethesis/dev/issues/5492>`_"
@@ -1271,30 +1363,30 @@ msgstr ""
 "`Fixed the recording of audio messages in the \"Offhour\" service <https://"
 "github.com/nethesis/dev/issues/5492>`_"
 
-#: ../../release_notes.rst:364
+#: ../../release_notes.rst:391
 msgid "`Rubrica: <https://github.com/nethesis/dev/issues/5485>`_"
 msgstr "`Phonebook: <https://github.com/nethesis/dev/issues/5485>`_"
 
-#: ../../release_notes.rst:366
+#: ../../release_notes.rst:393
 msgid ""
 "rimosso il pulsante \"modifica\" sui contatti provenienti dalla rubrica "
 "centralizzata"
 msgstr ""
 "removed the \"edit\" button on contacts from the centralized address book"
 
-#: ../../release_notes.rst:367
+#: ../../release_notes.rst:394
 msgid ""
 "sistemata la ricerca alfabetica quando si utilizza la visualizzazione per "
 "\"azienda\""
 msgstr "alphabetic sort of search when using the \"company\" visualization"
 
-#: ../../release_notes.rst:368
+#: ../../release_notes.rst:395
 msgid ""
 "rimosso il pulsante \"speeddial\" durante la modifica di un contatto non "
 "proprio"
 msgstr "removed the \"speeddial\" button on editing a not owned contact"
 
-#: ../../release_notes.rst:369
+#: ../../release_notes.rst:396
 msgid ""
 "`Il click sul popup di arrivo chiamata non portava in primo piano il tab "
 "NethCTI <https://github.com/nethesis/dev/issues/5484>`_"
@@ -1302,7 +1394,7 @@ msgstr ""
 "`The click on the incoming call popup did not bring up the NethCTI tab "
 "<https://github.com/nethesis/dev/issues/5484>`_"
 
-#: ../../release_notes.rst:370
+#: ../../release_notes.rst:397
 msgid ""
 "`Le pagine dei servizi senza permesso erano raggiungibili anche se vuote "
 "<https://github.com/nethesis/dev/issues/5484>`_"
@@ -1310,11 +1402,11 @@ msgstr ""
 "`The pages of the services without permission were reachable even if empty "
 "<https://github.com/nethesis/dev/issues/5484>`_"
 
-#: ../../release_notes.rst:373
+#: ../../release_notes.rst:400
 msgid "Nuova versione |version|"
 msgstr "New version |version|"
 
-#: ../../release_notes.rst:375
+#: ../../release_notes.rst:402
 msgid ""
 "|product| versione |version| introduce una nuova grafica, completamente "
 "rinnovata e semplificata per l'utente finale."
@@ -1322,48 +1414,48 @@ msgstr ""
 "|Product| version |version| introduces a new graphic, completely renewed and "
 "simplified for the final user."
 
-#: ../../release_notes.rst:377
+#: ../../release_notes.rst:404
 msgid "Funzionalità principali:"
 msgstr "Main features:"
 
-#: ../../release_notes.rst:379
+#: ../../release_notes.rst:406
 msgid "Configurazione semplificata attraverso il wizard di |parent_product|"
 msgstr "Simplified configuration using the |parent_product| wizard"
 
-#: ../../release_notes.rst:380
+#: ../../release_notes.rst:407
 msgid "Salvataggio centralizzato sul server di tutte le preferenze utente"
 msgstr "Centralized saving on the server of all user preferences"
 
-#: ../../release_notes.rst:381
+#: ../../release_notes.rst:408
 msgid ""
 "Customer card più semplici da configurare e con una veste grafica "
 "completamente rivista"
 msgstr ""
 "Customer card simpler to configure and with a completely revised graphics"
 
-#: ../../release_notes.rst:382
+#: ../../release_notes.rst:409
 msgid "Gestione device multipli associati ad un singolo utente"
 msgstr "Multiple device management associated with a single user"
 
-#: ../../release_notes.rst:383
+#: ../../release_notes.rst:410
 msgid ""
 "Possibilità di impostare la presence in modo unificato su tutti i "
 "dispositivi"
 msgstr "Possibility to set the presence in a unified way on all the devices"
 
-#: ../../release_notes.rst:384
+#: ../../release_notes.rst:411
 msgid "Personalizzazione avatar"
 msgstr "Avatar customization"
 
-#: ../../release_notes.rst:385
+#: ../../release_notes.rst:412
 msgid "Nuova chat (XMPP)"
 msgstr "New chat (XMPP)"
 
-#: ../../release_notes.rst:386
+#: ../../release_notes.rst:413
 msgid "Restyling grafico e funzionale del pannello operatore"
 msgstr "Graphic and functional restyling of the panel"
 
-#: ../../release_notes.rst:387
+#: ../../release_notes.rst:414
 msgid ""
 "Possibilità di raggruppare i risultati della ricerca in rubrica per persona "
 "o per azienda"
@@ -1371,7 +1463,7 @@ msgstr ""
 "Possibility to group the results of the search in the phonebook by person or "
 "by company"
 
-#: ../../release_notes.rst:388
+#: ../../release_notes.rst:415
 msgid ""
 "Nuovo softphone WebRTC con supporto alle videochiamate (solo fra interni "
 "WebRTC)"
@@ -1379,69 +1471,69 @@ msgstr ""
 "New WebRTC softphone with video call support (only between WebRTC "
 "extensions)"
 
-#: ../../release_notes.rst:389
+#: ../../release_notes.rst:416
 msgid "Visualizzazione sorgenti video anche dall'esterno della LAN"
 msgstr "Display video sources even from outside the LAN"
 
-#: ../../release_notes.rst:390
+#: ../../release_notes.rst:417
 msgid "Conferenze audio"
 msgstr "Audio conference"
 
-#: ../../release_notes.rst:391
+#: ../../release_notes.rst:418
 msgid "Configurazione servizio notte"
 msgstr "Offhour service configuration"
 
-#: ../../release_notes.rst:392
+#: ../../release_notes.rst:419
 msgid "Code: chiamate perse, login e logout automatico"
 msgstr "Queues: lost calls, automatic login and logout"
 
-#: ../../release_notes.rst:393
+#: ../../release_notes.rst:420
 msgid "Visualizzazione stato dei fasci"
 msgstr "Trunks visualization"
 
-#: ../../release_notes.rst:394
+#: ../../release_notes.rst:421
 msgid ""
 "Apertura di un url parametrizzato in corrispondenza della ricezione di una "
 "chiamata"
 msgstr "Parametrized URL opening on incoming call arrival"
 
-#: ../../release_notes.rst:395
+#: ../../release_notes.rst:422
 msgid "Nethifier"
 msgstr "Nethifier"
 
-#: ../../release_notes.rst:396
+#: ../../release_notes.rst:423
 msgid "Supervisore Code"
 msgstr "Queue supervisor"
 
-#: ../../release_notes.rst:398
+#: ../../release_notes.rst:425
 msgid "Le seguenti funzioni non sono disponibili:"
 msgstr "The following features are not available:"
 
-#: ../../release_notes.rst:400
+#: ../../release_notes.rst:427
 msgid "Post-it e note chiamate"
 msgstr "Post-it and call notes"
 
-#: ../../release_notes.rst:401
+#: ../../release_notes.rst:428
 msgid "Sedi remote"
 msgstr "Remote sites"
 
-#: ../../release_notes.rst:402
+#: ../../release_notes.rst:429
 msgid "Integrazione SMS e notifiche offline (mail e SMS)"
 msgstr "SMS integration and offline notifications (mail and SMS)"
 
-#: ../../release_notes.rst:403
+#: ../../release_notes.rst:430
 msgid ""
 "Inoltro della chiamata a numero o voicemail, su non disponibile/occupato"
 msgstr "Forward call to number or voicemail, not available/busy"
 
-#: ../../release_notes.rst:404
+#: ../../release_notes.rst:431
 msgid "Script personalizzati per la gestione chiamate"
 msgstr "Custom scripts for call management"
 
-#: ../../release_notes.rst:405
+#: ../../release_notes.rst:432
 msgid "Posto Operatore"
 msgstr "Operator panel"
 
-#: ../../release_notes.rst:407
+#: ../../release_notes.rst:434
 msgid "|product| |version| necessita di |parent_product| 14"
 msgstr "|product| |version| needs |parent_product| 14"
