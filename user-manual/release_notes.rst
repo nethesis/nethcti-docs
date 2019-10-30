@@ -2,6 +2,22 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.17.1 - (30 OTT 2019)
+================================================
+
+**Nuove funzionalità e miglioramenti**
+
+- Aggiornamento della libreria WebRTC janus per il telefono softphone integrato
+
+  - `issue 5726 <https://github.com/nethesis/dev/issues/5726>`_
+  - `issue 5887 <https://github.com/NethServer/dev/issues/5887>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.17.1-1.ns7.noarch.rpm``
+- ``janus-gateway-0.7.4.0-1.ns7.x86_64.rpm``
+- ``nethserver-janus-1.0.15-1.ns7.noarch.rpm``
+
 Cambiamenti principali - v3.17.0 - (23 OTT 2019)
 ================================================
 
