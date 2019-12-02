@@ -2,6 +2,18 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.17.3 - (2 DIC 2019)
+================================================
+
+**Bug fixes**
+
+- `In alcuni scenari le modifiche attuate attraverso il wizard di NethVoice causavano rallentamenti nell'interfaccia di NethCTI <https://github.com/nethesis/dev/issues/5742>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.17.3-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.17.3-1.ns7.x86_64.rpm``
+
 Cambiamenti principali - v3.17.1 - (30 OTT 2019)
 ================================================
 
