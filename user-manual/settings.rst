@@ -10,7 +10,6 @@ Come accedere alla sezione impostazioni:
 2) Cliccare su "Impostazioni"
 3) È possibile spostarsi nelle varie sezioni delle impostazioni tramite il menu di sinistra
 
--------------------------
 
 Profilo
 =======
@@ -113,15 +112,15 @@ in uno dei seguenti scenari:
 Dispositivi
 ===========
 
-In questa sezione è presente la lista di tutti i dispositivi fisici configurati ed è possibile impostare
-un PIN al dispositivo per le chiamate in uscita.
+In questa sezione è presente la lista di tutti i telefoni dell'utente ed è possibile .
 
-Per ogni dispositivo è mostrata:
+Per ogni telefono viene mostrato:
 
 - la descrizione del dispositivo
-- l'interno ad esso associato
-- un input testuale dove inserire il PIN
-- il pulsante salva per salvare il PIN inserito
-- un'icona per mostrare/nascondere il PIN
-- un'icona per abilitare/disabilitare il PIN
-- un'icona per generare automaticamente un PIN random
+- configurazione di un PIN per le chiamate in uscita (se abilitato)
+  - un input testuale dove poter impostare un PIN per le chiamate in uscita
+  - il pulsante salva per salvare il PIN inserito
+  - un'icona per mostrare/nascondere il PIN
+  - un'icona per abilitare/disabilitare il PIN
+  - un'icona per generare automaticamente un PIN random
+- personalizzazione dei tasti fisici del telefono (se abilitato)
