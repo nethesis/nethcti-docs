@@ -2,6 +2,19 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.18.0 - (2 APR 2020)
+===============================================
+
+**Nuove funzionalità e miglioramenti**
+
+- `Dalla pagina delle Impostazioni -> Dispositivi è ora possibile visualizzare il QR-Code con cui fare login dalla App Mobile NethCTI <https://github.com/nethesis/dev/issues/5732>`_
+
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.18.0-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.18.0-1.ns7.x86_64.rpm``
+
 Cambiamenti principali - v3.17.3 - (2 DIC 2019)
 ================================================
 
