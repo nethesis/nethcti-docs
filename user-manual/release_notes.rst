@@ -2,6 +2,29 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.18.1 - (6 APR 2020)
+===============================================
+
+**Nuove funzionalità e miglioramenti**
+
+- `Migliorato il feedback sullo stato di registrazione del Web Phone: un loader mostra l'avanzamento della registrazione del telefono software, un popup di avviso avverte l'utente di eventuali problemi assieme al cambiamento della favicon ed una notifica desktop avvisa l'utente nel caso in cui l'app cti fosse in background <https://github.com/nethesis/dev/issues/5764>`_.
+
+**Bug fixes**
+
+- Risolti alcuni problemi di gestione delle chiamate eseguite col Web Phone durante il reload del server, innescato da modifiche alla configurazione apportate attraverso il wizard web
+
+  - `issue 5758 <https://github.com/nethesis/dev/issues/5758>`_
+  - `issue 5760 <https://github.com/nethesis/dev/issues/5760>`_
+
+- `Il telefono Web Phone non si registrava in corrispondenza di un'operazione di logout/login, se non dopo un refresh della pagina <https://github.com/nethesis/dev/issues/5761>`_
+- `In alcuni scenari con un elevato numero di interni, dopo il login il pannnello operatore poteva apparire vuoto o con gli stati degli operatori non aggiornati <https://github.com/nethesis/dev/issues/5762>`_
+
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.18.1-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.18.1-1.ns7.x86_64.rpm``
+
 Cambiamenti principali - v3.18.0 - (2 APR 2020)
 ===============================================
 
