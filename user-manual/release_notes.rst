@@ -2,6 +2,28 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.18.3 - (15 APR 2020)
+===============================================
+
+**Nuove funzionalità e miglioramenti**
+
+- Durante un trasferimento o conferenza è possibile scegliere un destinatario con le seguenti tre modalità:
+
+  - inserimento numero diretto
+  - ricerca in rubrica
+  - ricerca tra gli utenti presenti nel sistema
+  - `issue 5721 <https://github.com/nethesis/dev/issues/5721>`_
+  - `issue 5771 <https://github.com/nethesis/dev/issues/5771>`_
+
+**Bug fixes**
+
+- `Durante un trasferimento o conferenza, cercando un utente destinatario venivano mostrati tutti gli interni associati all'utente, anche i secondari: ora viene mostrato solo l'interno principale <https://github.com/nethesis/dev/issues/5673>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.18.3-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.18.3-1.ns7.x86_64.rpm``
+
 Cambiamenti principali - v3.18.1 - (6 APR 2020)
 ===============================================
 
