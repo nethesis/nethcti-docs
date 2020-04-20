@@ -2,6 +2,17 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.18.4 - (20 APR 2020)
+================================================
+
+**Bug fixes**
+
+- `Dopo lo stand-by del pc il telefono WebPhone e lo stato degli interni del cti potevano trovarsi in uno stato inconsistente, tale per cui l'utente non riusciva a ricevere telefonate per un certo intervallo temporale <https://github.com/nethesis/dev/issues/5774>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.18.4-1.ns7.noarch.rpm``
+
 Cambiamenti principali - v3.18.3 - (15 APR 2020)
 ===============================================
 
