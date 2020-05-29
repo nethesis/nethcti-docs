@@ -2,6 +2,42 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.19.0 - (29 MAG 2020)
+================================================
+
+**Nuove funzionalità e miglioramenti**
+
+- `Nuova api "astproxy/incall_audio" per inserire un file audio in una conversazione <https://github.com/nethesis/dev/issues/5808>`_
+- `La rest api "astproxy/call" ora restituisce lo "uniqueid" della chiamata, ma solo nel caso di telefoni non supportati o nel caso in cui il centralino sia configurato per funzionare in modalità click2call manuale <https://github.com/nethesis/dev/issues/5806>`_
+- `Nuova funzionalità per eseguire uno script lato server in corrispondenza di ogni chiamata in ingresso su un fascio  <https://github.com/nethesis/dev/issues/5805>`_
+- `Aggiornata la versione del componente Janus-Gateway per il corretto funzionamento del WebPhone <https://github.com/nethesis/dev/issues/5780>`_
+- `È stato aggiunto un nuovo parametro "$UNIQUEID" al funzionamento dell'URL parametrizzato <https://github.com/nethesis/dev/issues/5803>`_
+- Aggiunti nuovi dati JSON all'interno dell'evento "extenConvConnected" inviato attraverso la connessione WebSocket, più in particolare sono stati aggiungi i seguenti dati:
+
+  - throughTrunk: ( true | false ) true se la chiamata proviene da un fascio
+  - uniqueid: identificativo univoco della chiamata
+  - direction: ( "in" | "out" ) direzione della chiamata rispetto al proprio interno telefonico
+  - `issue 5804 <https://github.com/nethesis/dev/issues/5804>`_
+
+**Bug fixes**
+
+- `Dopo lo stand-by del pc appariva sempre il messaggio di warning che il WebPhone si era disconnesso. Ora appare solo se effettivamente fallisce il primo tentativo di connessione al server <https://github.com/nethesis/dev/issues/5810>`_
+- `Non era possibile chiamare un numero telefonico contenente il carattere "#" <https://github.com/nethesis/dev/issues/5807>`_
+- `Corretto un problema per cui l'invocazione della rest api "astproxy/call" ritornava codice 200 anche in presenza di un telefono webrtc in stato "offline" <https://github.com/nethesis/dev/issues/5801>`_
+- `Risolto un problema per cui lo stato di pausa degli agenti in coda presente sul database risultava duplicato <https://github.com/nethesis/dev/issues/5793>`_
+- `All'interno del servizio "Code" l'agente poteva selezionare il motivo della pausa anche nel momento che era già in tale stato e il pulsante attivo era "Stop pause tutte le code" <https://github.com/nethesis/dev/issues/5792>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.19.0-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.19.0-1.ns7.x86_64.rpm``
+- ``nethserver-nethvoice14-14.6.6-1.ns7.noarch.rpm``
+- ``libnice-0.1.16-1.2.gb5b93dc.ns7.x86_64.rpm``
+- ``libmicrohttpd-0.9.59-1.ns7.x86_64.rpm``
+- ``janus-gateway-0.9.4-1.ns7.x86_64.rpm``
+- ``nethserver-janus-1.1.1-1.ns7.noarch.rpm``
+- ``nethvoice-wizard-ui``
+
 Cambiamenti principali - v3.18.4 - (20 APR 2020)
 ================================================
 
