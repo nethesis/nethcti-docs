@@ -2,6 +2,29 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.19.1 - (7 LUG 2020)
+===============================================
+
+**Nuove funzionalità e miglioramenti**
+
+- `Aggiunta la nuova informazione linkedid all'evento extenConvConnected inviato via WebSocket <https://github.com/nethesis/dev/issues/5823>`_
+- `Aggiornata la versione del componente Janus-Gateway per il corretto funzionamento del WebPhone <https://github.com/nethesis/dev/issues/5824>`_
+
+**Bug fixes**
+
+- `Risolto il problema della risposta alle chiamate in ingresso: alle volte non funzionava <https://github.com/nethesis/dev/issues/5813>`_
+- `Corretta l'errata visualizzazione del nome del modello di telefono usato, visibile all'interno della pagina Impostazioni -> Dispositivi <https://github.com/nethesis/dev/issues/5838>`_
+- `Corrette alcune traduzioni <https://github.com/nethesis/dev/issues/5829>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.19.1-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.19.1-1.ns7.x86_64.rpm``
+- ``janus-gateway-0.10.2-1.ns7.x86_64.rpm``
+- ``janus-gateway-debuginfo-0.10.2-1.ns7.x86_64.rpm``
+- ``nethserver-janus-1.2.0-1.ns7.noarch.rpm``
+- ``sofia-sip-1.12.11-19.ns7.x86_64.rpm``
+
 Cambiamenti principali - v3.19.0 - (29 MAG 2020)
 ================================================
 
