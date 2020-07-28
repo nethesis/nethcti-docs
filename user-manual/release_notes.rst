@@ -2,6 +2,19 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.19.2 - (27 LUG 2020)
+================================================
+
+**Bug fixes**
+
+- `Risolto il problema che non consentiva il caricamento di file audio mp3 all'interno del servizio Fuori Orario <https://github.com/nethesis/dev/issues/5817>`_
+- `Risolta l'errata visualizzazione dello stato telefonico all'interno della pagina Impostazioni -> Dispositivi durante una chiamata <https://github.com/nethesis/dev/issues/5769>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.19.2-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.19.2-1.ns7.x86_64.rpm``
+
 Cambiamenti principali - v3.19.1 - (7 LUG 2020)
 ===============================================
 
