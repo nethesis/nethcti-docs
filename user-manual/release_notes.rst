@@ -2,6 +2,27 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.20.0 - (9 SET 2020)
+===============================================
+
+**Nuove funzionalità e miglioramenti**
+
+- `Nuova funzionalità per notificare la presenza di una nuova versione dell'applicazione client <https://github.com/nethesis/dev/issues/5725>`_
+
+**Bug fixes**
+
+- `Risolto il problema sporadico dei login falliti che si verificava in corrispondenza del riavvio del server <https://github.com/nethesis/dev/issues/5855>`_
+- `Alcuni parametri del QRCode generato per la mobile app, causava problemi alle notifiche <https://github.com/nethesis/dev/issues/5816>`_
+- `Dopo lo stand-by del pc, se la connessione veniva ristabilita in ritardo rispetto al tentativo di connessione del Web Phone, veniva subito visualizzato il popup di warning: ora si attendono 10 secondi <https://github.com/nethesis/dev/issues/5858>`_
+- `Il componente asterisk proxy del server è diventato open source e rilasciato tramite modulo node.js NPM <https://github.com/nethesis/dev/issues/5849>`_
+- `Risolto il problema degli ascoltatori multipli di eventi che si manifestava durante la navigazione tra più servizi degradando le performance <https://github.com/nethesis/dev/issues/5851>`_
+- `Il rebranding non agiva sulla pagina mostrata dall'App Launcher <https://github.com/nethesis/dev/issues/5853>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.20.0-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.20.0-1.ns7.x86_64.rpm``
+
 Cambiamenti principali - v3.19.2 - (27 LUG 2020)
 ================================================
 
@@ -86,7 +107,7 @@ Cambiamenti principali - v3.18.4 - (20 APR 2020)
 - ``nethcti3-3.18.4-1.ns7.noarch.rpm``
 
 Cambiamenti principali - v3.18.3 - (15 APR 2020)
-===============================================
+================================================
 
 **Nuove funzionalità e miglioramenti**
 
