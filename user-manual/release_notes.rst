@@ -2,6 +2,24 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.21.0 - (15 SET 2020)
+================================================
+
+**Nuove funzionalità e miglioramenti**
+
+- `Tra le impostazioni utente, nella sezione Code, é stata aggiunta la possibilità di configurare la pausa automatica su tutte le code in corrispondenza della selezione di alcuni stati di presence <https://github.com/nethesis/dev/issues/5860>`_
+
+**Bug fixes**
+
+- Fissato un problema per cui quando si eseguiva la pausa dell'agente su tutte le sue code, sul database venivano creati eventi errati
+
+  - `issue 5861 <https://github.com/nethesis/dev/issues/5861>`_
+  - `issue 5860 <https://github.com/nethesis/dev/issues/5860>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.21.0-1.ns7.noarch.rpm``
+
 Cambiamenti principali - v3.20.0 - (9 SET 2020)
 ===============================================
 
