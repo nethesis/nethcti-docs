@@ -78,6 +78,11 @@ Intervallo d'aggiornamento chiamate perse in coda
 all'interno del servizio "Code". L'intervallo prendere in considerazione le chiamate dall'ultima ora
 fino alle ultime 12.
 
+PAUSA automatica su selezione delle seguenti presence
+-----------------------------------------------------
+
+È possibile scegliere gli stati di presence in corrispondenza dei quali mettersi automaticamente in pausa su tutte le proprie code. Ovviamente quando vengono selezionati gli stati rimanenti, la pausa verrà rimossa da tutte le proprie code.
+
 Preferenze Schede Cliente
 =========================
 
