@@ -2,6 +2,21 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.21.1 - (18 SET 2020)
+================================================
+
+**Bug fixes**
+
+- Dai risultati di una ricerca in rubrica, è possibile visualizzare le customer cards dei contatti. Tale pulsante è stato modificato, splittandolo su più pulsanti ciascuno accanto al relativo numero telefonico. Inoltre in alcuni scenari particolari, le customer cards di default (Anagrafica e Ultime chiamate) non mostravano dati utili, in base all'identificativo numerico con il quale si ricevevano le chiamante:
+
+  - `issue 5870 <https://github.com/nethesis/dev/issues/5870>`_
+  - `issue 5868 <https://github.com/nethesis/dev/issues/5868>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.21.1-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.20.2-1.ns7.x86_64.rpm``
+
 Cambiamenti principali - v3.21.0 - (15 SET 2020)
 ================================================
 
