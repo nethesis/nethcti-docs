@@ -186,7 +186,7 @@ if os.path.exists('rst_prolog'):
 # Define context default values for HTML templates
 #
 context = {
-    'alt_languages': 'it,en,es',
+    'alt_languages': 'it',
     'alt_versions': 'v3,v2,dev',
     'current_version': 'def',
     'user_analytics_code': 'UA-37499928-5',
