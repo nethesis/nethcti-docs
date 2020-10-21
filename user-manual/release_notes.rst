@@ -2,6 +2,21 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.21.2 - (21 OTT 2020)
+================================================
+
+**Bug fixes**
+
+- `La rimozione di un gruppo del pannello operatore tramite il wizard di NethVoice, poteva causare qualche problema nella visualizzazione del pannello operatore <https://github.com/nethesis/dev/issues/5886>`_
+- `In alcuni scenari, in corrispondenza del refresh della pagina sul servizio Pannello Operatore, gli interni risultavano tutti offline <https://github.com/nethesis/dev/issues/5888>`_
+- `La rimozione di un utente attraverso il server manager di NethServer non aggiornava le corrispondenti informazioni all'interno del cti <https://github.com/nethesis/dev/issues/5884>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.21.2-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.20.3-1.ns7.x86_64.rpm``
+- ``nethserver-nethvoice14-14.7.2-1.ns7.noarch.rpm``
+
 Cambiamenti principali - v3.21.1 - (18 SET 2020)
 ================================================
 
