@@ -2,6 +2,28 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.21.3 - (7 NOV 2020)
+===============================================
+
+**Bug fixes**
+
+- `La data delle chiamate perse delle code era errata a causa di una regression <https://github.com/nethesis/dev/issues/5902>`_
+- `Dopo un periodo d'inattività di otto ore, il QManager non mostrava alcune informazioni <https://github.com/nethesis/dev/issues/5900>`_
+- `Risolto un problema che duplicava le connessioni col database in corrispondenza della reload del server  <https://github.com/nethesis/dev/issues/5898>`_
+- `Nel box di gestione chiamata non veniva mostrata l'azienda realtiva del contatto, se presente <https://github.com/nethesis/dev/issues/5897>`_
+- `Bug fix e miglioramenti al telefono WebRTC <https://github.com/nethesis/dev/issues/5894>`_
+- `Miglioramento delle prestazioni per recuperare la lista delle chiamate perse in coda <https://github.com/nethesis/dev/issues/5889>`_
+- `Durante una chiamata video tramite il telefono softphone WebRTC, il video non veniva rimosso dalla connessione sottostante. Ora è possibile abilitarlo/disabilitarlo concretamente. Disabilitato di default <https://github.com/nethesis/dev/issues/5871>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.21.3-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.20.5-1.ns7.x86_64.rpm``
+- ``nethserver-nethvoice14-14.7.3-1.ns7.noarch.rpm``
+- ``janus-gateway-0.10.6-1.ns7.x86_64.rpm``
+- ``janus-gateway-debuginfo-0.10.6-1.ns7.x86_64.rpm``
+- ``nethserver-janus-1.2.1-1.ns7.noarch.rpm``
+
 Cambiamenti principali - v3.21.2 - (21 OTT 2020)
 ================================================
 
