@@ -2,6 +2,28 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.21.4 - (27 NOV 2020)
+================================================
+
+**Nuove funzionalità e miglioramenti**
+
+- `È stata aggiunta la possibilità di creare un nuovo contatto in rubrica direttamente dallo storico delle chiamate <https://github.com/nethesis/dev/issues/5918>`_
+- `L'ordinamento delle schede (tabs) all'interno dello storico chiamate è stato modificato per dare risalto alle informazioni ricercate più frequentemente <https://github.com/nethesis/dev/issues/5913>`_
+- `Nello storico delle chiamate è possibile visualizzare l'elenco delle chiamate perse ricevute, tramite una nuova scheda apposita (tab) <https://github.com/nethesis/dev/issues/5912>`_
+- `All'interno del pannello operatore, per ciascun utente che abbia abilitato la redirezione automatica, viene visualizzato il numero destinatario <https://github.com/nethesis/dev/issues/5908>`_
+
+**Bug fixes**
+
+- `Un contatto speed-dial può rappresentare un interno telefonico della propria azienda. In alcune circostanze, l'icona colorata che ne rappresenta la presence telefonica, non indicava la situazione reale <https://github.com/nethesis/dev/issues/5922>`_
+- `All'interno del pannello operatore ci sono le tre icone per visualizzare gli operatori, fasci e parcheggi: la loro posizione è ora fissa <https://github.com/nethesis/dev/issues/5920>`_
+- `Quando si aggiungeva un nuovo contatto attraverso i pulsanti presenti nella lista delle ultime chiamate, veniva sempre visualizzato il servizio Rubrica. Ora viene visualizzato il dialog per inserire i dati rimanendo nel servizio correntemente utilizzato <https://github.com/nethesis/dev/issues/5919>`_
+- `L'elenco dei dispositivi visualizzato in alto a destra, mostrava solamente l'indicazione di "Telefono fisico" (oltre a WebPhone). Ora mostra la marca e modello del telefono <https://github.com/nethesis/dev/issues/5910>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.21.4-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.20.6-1.ns7.x86_64.rpm``
+
 Cambiamenti principali - v3.21.3 - (7 NOV 2020)
 ===============================================
 
