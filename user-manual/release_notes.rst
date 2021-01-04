@@ -2,6 +2,25 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.21.5 - (4 GEN 2021)
+===============================================
+
+**Bug fixes**
+
+- `Nel pannello operatore sparivano le icone dei servizi se l'utente non aveva il permesso per visualizzare i fasci <https://github.com/nethesis/dev/issues/5944>`_
+- `La porta usata dal proxy flexisip veniva esposta anche se il proxy era disabilitato <https://github.com/nethesis/dev/issues/5943>`_
+- `Lo storico delle chiamate non veniva visualizzato correttamente se l'utente non avevo associato nessun interno telefonico <https://github.com/nethesis/dev/issues/5938>`_
+- `Alcuni numeri telefonici venivano mostrati in chiaro all'interno del pannello operatore se l'utente effettuava il login tramite l'interno telefonico al posto del proprio nome utente <https://github.com/nethesis/dev/issues/5936>`_
+- `Risolto un problema sporadico sui login: si poteva verificare dopo una settimana come dopo un mese in particolari scenari operativi <https://github.com/nethesis/dev/issues/5933>`_
+- `Dopo aver effettuato il logout, l'appliczione client continuava a richiedere al server le informazioni sulle chiamate perse in coda <https://github.com/nethesis/dev/issues/5929>`_
+- `L'url parametrizzato si apriva anche nelle chiamate tra interni: ora solo per chiamate esterne <https://github.com/nethesis/dev/issues/5927>`_
+- `La ricerca in rubrica ora effettua la ricerca anche sul campo "notes" del database <https://github.com/nethesis/dev/issues/5925>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.21.5-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.20.7-1.ns7.x86_64.rpm``
+
 Cambiamenti principali - v3.21.4 - (27 NOV 2020)
 ================================================
 
