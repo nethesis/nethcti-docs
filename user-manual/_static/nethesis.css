@@ -371,10 +371,13 @@ footer .pull-right a:hover {
 }
 .rst-content .sidebar .sidebar-title {
     border-radius: 15px !important;
-   }
+    }
 .wy-nav-top {
     background: #343131 !important;
-}
+    }
 .wy-menu-vertical li.current {
     background: #c9c9c9 !important;
-}
+    }
+.wy-side-nav-search {
+    background-color:#343131 !important;
+    }

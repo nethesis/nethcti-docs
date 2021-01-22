@@ -84,7 +84,7 @@ todo_include_todos = False
 
 html_title = "%s %s" % (project, release)
 html_theme = "sphinx_rtd_theme"
-html_logo = '_static/favico_neth.png'
+html_logo = '_static/nethcti.png'
 html_favicon = '_static/favicon.ico' 
 html_css_files = ['nethesis.css']
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
@@ -94,7 +94,7 @@ html_theme_options = {
     'collapse_navigation': True,
     'navigation_depth': -1,
     'logo_only': True,
-    'style_nav_header_background': '#343131',
+    #'style_nav_header_background': '#343131',
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
