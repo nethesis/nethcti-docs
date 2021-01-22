@@ -8,7 +8,7 @@ CTI |release|
 
 .. sidebar:: Vedi anche
 
-  * `Cti 2  <https://nethcti.docs.nethesis.it/it/v2/index.html>`_
+  * `CTI 2  <https://nethcti.docs.nethesis.it/it/v2/index.html>`_
 
 .. toctree::
    :caption: Generale
