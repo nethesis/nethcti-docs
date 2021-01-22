@@ -17,7 +17,7 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
-import sphinx_bootstrap_theme
+import sphinx_rtd_theme
 
 # -- General configuration ------------------------------------------------
 
@@ -81,38 +81,21 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'bootstrap'
-html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
-html_theme_options = {
-        'navbar_title': 'NethCTI',
-        'navbar_pagenav': True,
-        'navbar_sidebarrel': False,
-        'navbar_pagenav_name': 'Contents',
-        'navbar_class': "navbar",
-        'navbar_fixed_top': "false",
-        'source_link_position': "none",
-        'bootswatch_theme': "cerulean",
-        'bootstrap_version': "3",
-        'nosidebar': "1",
-}
 
-html_favicon = '_static/favicon.ico' 
-
-# The name for this set of Sphinx documents.  If None, it defaults to
-# "<project> v<release> documentation".
 html_title = "%s %s" % (project, release)
+html_theme = "sphinx_rtd_theme"
+html_logo = '_static/nethcti.png'
+html_favicon = '_static/favicon.ico' 
+html_css_files = ['nethesis.css']
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
-# A shorter title for the navigation bar.  Default is the same as html_title.
-#html_short_title = None
-
-# The name of an image file (relative to this directory) to place at the top
-# of the sidebar.
-html_logo = '_static/favico_neth.png'
-
-# The name of an image file (within the static path) to use as favicon of the
-# docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
-# pixels large.
-html_favicon = '_static/favicon.ico'
+html_theme_options = {
+    'nosidebar': "1",
+    'collapse_navigation': True,
+    'navigation_depth': -1,
+    'logo_only': True,
+    #'style_nav_header_background': '#343131',
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
