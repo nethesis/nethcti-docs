@@ -6,10 +6,12 @@
 CTI |release|
 =============
 
-Generale
---------
+.. sidebar:: Vedi anche
+
+  * `CTI 2  <https://nethcti.docs.nethesis.it/it/v2/index.html>`_
 
 .. toctree::
+   :caption: Generale
    :maxdepth: 1
 
    introduction
@@ -19,29 +21,23 @@ Generale
    notifications
    help
 
-Chiamate
---------
-
 .. toctree::
+   :caption: Chiamate
    :maxdepth: 2
 
    calls
    lastcalls
    history
 
-Contatti
---------
-
 .. toctree::
+   :caption: Contatti
    :maxdepth: 2
 
    phonebook
    speeddials
 
-Moduli
-------
-
 .. toctree::
+   :caption: Moduli
    :maxdepth: 2
 
    operators
@@ -52,10 +48,8 @@ Moduli
    qmanager
    oppanel
 
-
-Nethifier
----------
 .. toctree::
+   :caption:Nethifier
    :maxdepth: 2
 
    nethifier
