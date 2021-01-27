@@ -2,6 +2,23 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.22.0 - (27 GEN 2021)
+================================================
+
+**Nuove funzionalità e miglioramenti**
+
+- `È stata aggiunta la possibilità di configurare i tasti fisici aggiuntivi dei propri telefoni fisici tramite la pagina delle "Impostazioni utente" <https://github.com/nethesis/dev/issues/5939>`_
+
+**Bug fixes**
+
+- `Risolto un problema relativo alla privacy dei numeri che si verificava quando l'utente eseguiva il login tramite username@dominio <https://github.com/nethesis/dev/issues/5946>`_
+- È stato risolto un problema relativo alla configurazione della porta utilizzata dal proxy flexisip per l'utilizzo della mobile app <URL>
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.22.0-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.20.8-1.ns7.x86_64.rpm``
+
 Cambiamenti principali - v3.21.5 - (4 GEN 2021)
 ===============================================
 
