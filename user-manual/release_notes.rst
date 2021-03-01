@@ -2,6 +2,24 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.22.1 - (1 MAR 2021)
+================================================
+
+**Bug fixes**
+
+- `Bug fix e miglioramenti al telefono WebRTC <https://github.com/nethesis/dev/issues/5955>`_
+- Risolti alcuni problemi di visualizzazione del Post Operatore Avanzato:
+
+  - `issue 5954 <https://github.com/nethesis/dev/issues/5954>`_
+  - `issue 5958 <https://github.com/nethesis/dev/issues/5958>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.22.1-1.ns7.noarch.rpm``
+- ``janus-gateway-0.10.10-1.ns7.x86_64.rpm``
+- ``janus-gateway-debuginfo-0.10.10-1.ns7.x86_64.rpm``
+- ``nethserver-janus-1.2.2-1.ns7.noarch.rpm``
+
 Cambiamenti principali - v3.22.0 - (27 GEN 2021)
 ================================================
 
