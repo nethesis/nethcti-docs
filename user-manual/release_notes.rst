@@ -2,6 +2,27 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.23.0 - (10 MAR 2021)
+================================================
+
+**Nuove funzionalità e miglioramenti**
+
+- `È cambiato il posizionamento dell'icona per le impostazioni utente per un accesso semplificato <https://github.com/nethesis/dev/issues/5967>`_
+- `Aggiunti i temi grafici per cambiare l'aspetto dell'interfaccia <https://github.com/nethesis/dev/issues/5965>`_
+- `Aggiunta nuova REST api per ricercare dei contatti in rubrica e ottenere i risultati in ordine alfabetico <https://github.com/nethesis/dev/issues/5964>`_
+- `Aggiunto il supporto per poter attivare/disattivare il log dell'applicazione nativa Nethifier <https://github.com/nethesis/dev/issues/5948>`_
+- `Aggiunto il supporto al click 2 cloud attraverso l'uso dell'applicaziona nativa Nethifier <https://github.com/nethesis/dev/issues/5916>`_
+- `Aggiunto il supporto alla persistenza dei token di autenticazione <https://github.com/nethesis/dev/issues/5962>`_
+
+**Bug fixes**
+
+- `Risolto un problema per cui la conferenza audio non funzionava correttamente <https://github.com/nethesis/dev/issues/5957>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.23.0-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.23.0-1.ns7.x86_64.rpm``
+
 Cambiamenti principali - v3.22.1 - (1 MAR 2021)
 ================================================
 
