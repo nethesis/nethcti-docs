@@ -47,6 +47,7 @@ CTI |release|
    custcard
    qmanager
    oppanel
+   videoconf
 
 .. toctree::
    :caption:Nethifier
