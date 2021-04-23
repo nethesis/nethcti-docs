@@ -2,6 +2,30 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.24.0 - (22 APR 2021)
+================================================
+
+**Nuove funzionalità e miglioramenti**
+
+- `La posizione del popup che appare all'interno del servizio "Storico Chiamate" quando si sofferma il mouse sul nome di un contatto è stato spostato in posizione centrale <https://github.com/nethesis/dev/issues/5978>`_
+- `Il cambiamento di stato della presence all'interno del CTI viene riportato sui propri telefoni fisici supportato dal provisioning <https://github.com/nethesis/dev/issues/5960>`_
+- `È stato aggiunto il nuovo servizio di videoconferenza tramite l'integrazione con la piattaforma Jitsi <https://github.com/nethesis/dev/issues/5966>`_
+
+**Bug fixes**
+
+- `Il pannello operatore mostrava in chiaro i numeri destinatari dei "call forward" degli utenti anche in caso di privacy abilitata <https://github.com/nethesis/dev/issues/5990>`_
+- `All'interno del pannello operatore, soffermando il mouse sul numero di una chiamata, appare un tooltip con informazioni aggiuntive: il nome dell'azienda (se presente) non veniva mostrato <https://github.com/nethesis/dev/issues/5986>`_
+- `Il log del server mostrava erroneamente dei login falliti <https://github.com/nethesis/dev/issues/5983>`_
+- `La connessione WebSocket tra server e client alle volte falliva a causa di un ping timeout nel meccanismo di heartbeat. Questo causava una riconnessione automatica causando problemi lato client nel caso di login/logout automatico nelle code <https://github.com/nethesis/dev/issues/5977>`_
+- `Le traduzioni dei permessi all'interno della sezione "Profili" all'interno del wizard di configurazione di NethVoice sono state corrette <https://github.com/nethesis/dev/issues/5974>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.24.0-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.24.0-1.ns7.x86_64.rpm``
+- ``nethvoice-wizard-ui-14.10.0-1.ns7.noarch.rpm``
+- ``nethvoice-wizard-restapi-14.10.0-1.ns7.noarch.rpm``
+
 Cambiamenti principali - v3.23.0 - (10 MAR 2021)
 ================================================
 
