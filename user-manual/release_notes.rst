@@ -2,6 +2,23 @@
 Note di rilascio
 ================
 
+Cambiamenti principali - v3.24.1 - (28 APR 2021)
+================================================
+
+**Bug fixes**
+
+- `All'interno della sezione Code del QManager venivano mostrati erroneamente dei Call Forward" sugli utenti, quando la privacy era abilitata <https://github.com/nethesis/dev/issues/6000>`_
+- `All'interno della dashboard del Wizard di configurazione, cliccando il pulsante "Info" relativo a un interno, il numero destinatario di un call forward veniva mostrato in maniera offuscata <https://github.com/nethesis/dev/issues/5999>`_
+- `Applicando molte modifiche all'interno del Wizard di configurazione (circa 200), non era più possibile accedere all'interfaccia web di FreePBX a causa di troppe connessioni stabilite col database <https://github.com/nethesis/dev/issues/5996>`_
+- `Usando il WebPhone all'interno di NethCTI, l'invio di toni DTMF era duplicato utilizzando Firefox <https://github.com/nethesis/dev/issues/5995>`_
+- `La lista delle ultime chiamate prensete nella parte inferiore destra di NethCTI non veniva aggiornato con utilizzo di un telefono fisico <https://github.com/nethesis/dev/issues/5994>`_
+- `All'interno di NethCTI era possibile chiamare anche in presenza di telefono offline o non presente <https://github.com/nethesis/dev/issues/5988>`_
+
+**Pacchetti coinvolti**
+
+- ``nethcti3-3.24.1-1.ns7.noarch.rpm``
+- ``nethcti-server3-3.24.1-1.ns7.x86_64.rpm``
+
 Cambiamenti principali - v3.24.0 - (22 APR 2021)
 ================================================
 
